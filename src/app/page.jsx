@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <div className="p-4 md:p-8">
-      {/* <FilterBar filters={filters} setFilters={setFilters} /> */}
+      <FilterBar filters={filters} setFilters={setFilters} />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {filtered.map((course) => (
