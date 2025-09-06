@@ -21,6 +21,11 @@
       "Certificat médical obligatoire",
       "Âge minimum 18 ans"
     ],
+    "colors": {
+      "background_color": "#263912",
+      "secondary_color": "#5a2622",
+      "accent_color": "#83996b"
+    },
     "prix_gagnants": {
       "premier": [],
       "deuxieme": [],
@@ -44,12 +49,17 @@
     "contact_numero": "+213555654321",
     "contact_email": "info@semimarathonalger.dz",
     "site_web": "http://semimarathonalger.dz",
-    "image": "",
+    "image": "/images/cama2025.jpg",
     "prix_inscription": "2500 ",
     "conditions": [
       "Certificat médical obligatoire",
       "Âge minimum 16 ans"
     ],
+    "colors": {
+      "background_color": "#1a1a2e",
+      "secondary_color": "#16213e",
+      "accent_color": "#e94560"
+    },
     "prix_gagnants": {
       "premier": [],
       "deuxieme": [],
@@ -59,7 +69,7 @@
   },
   {
     "id": 3,
-    "slug": "run-annaba-2025",
+    "slug": "semi-marathon-annaba-2025",
     "nom": "2e édition Semi-Marathon Annaba",
     "description": "Course populaire pour tous niveaux au bord de la mer.",
     "date": "2025-12-08T09:00:00",
@@ -73,12 +83,17 @@
     "contact_numero": "+213555987654",
     "contact_email": "contact@runannaba.dz",
     "site_web": "http://runannaba.dz",
-    "image": "",
+    "image": "semi_bejaia_2024.jpg",
     "prix_inscription": "1500 ",
     "conditions": [
       "Ouvert à tous",
       "Âge minimum 12 ans"
     ],
+    "colors": {
+      "background_color": "#0f3460",
+      "secondary_color": "#53354a",
+      "accent_color": "#f1c40f"
+    },
     "prix_gagnants": {
       "premier": [],
       "deuxieme": [],
@@ -108,6 +123,11 @@
       "Certificat médical obligatoire",
       "Âge minimum 18 ans"
     ],
+    "colors": {
+      "background_color": "#2d132c",
+      "secondary_color": "#801336",
+      "accent_color": "#c72c41"
+    },
     "prix_gagnants": {
       "premier": [],
       "deuxieme": [],
@@ -117,31 +137,201 @@
   },
   {
     "id": 5,
-    "slug": "marathon-oran-2024",
-    "nom": "Marathon d'Oran 2024",
-    "description": "Marathon officiel avec parcours urbain et piste côtière.",
-    "date": "2024-12-01T09:00:00",
-    "type": ["marathon", "route"],
-    "distance": 42.2,
-    "denivele_plus": 100,
-    "wilaya": "Oran",
+    "slug": "10km-constantine-2025",
+    "nom": "10 km International de Constantine",
+    "description": "Course rapide et urbaine au cœur des ponts suspendus de Constantine.",
+    "date": "2025-05-18T09:00:00",
+    "type": ["route"],
+    "distance": 10,
+    "denivele_plus": 80,
+    "wilaya": "Constantine",
     "commune": "",
     "pays": "Algérie",
-    "organisateur_nom": "Association Marathon Oran",
-    "contact_numero": "+213555111222",
-    "contact_email": "info@marathonoran.dz",
-    "site_web": "http://marathonoran.dz",
+    "organisateur_nom": "Club Constantine Athlétisme",
+    "contact_numero": "+213555222333",
+    "contact_email": "contact@runconstantine.dz",
+    "site_web": "http://runconstantine.dz",
     "image": "",
-    "prix_inscription": "3000 ",
+    "prix_inscription": "0",
     "conditions": [
-      "Certificat médical obligatoire",
-      "Âge minimum 18 ans"
+      "Ouvert à tous",
+      "Pas de certificat obligatoire"
     ],
+    "colors": {
+      "background_color": "#142850",
+      "secondary_color": "#27496d",
+      "accent_color": "#00909e"
+    },
     "prix_gagnants": {
       "premier": [],
       "deuxieme": [],
       "troisieme": [],
       "finishers": []
+    }
+  },
+    {
+    "id": 6,
+    "slug": "ultra-trail-djurdjura-2025",
+    "nom": "Ultra Trail Djurdjura",
+    "description": "Course extrême dans le massif du Djurdjura avec des paysages spectaculaires.",
+    "date": "2025-09-15T06:00:00",
+    "type": ["ultra-trail", "montagne"],
+    "distance": 80,
+    "denivele_plus": 3500,
+    "wilaya": "Tizi Ouzou",
+    "commune": "Tikjda",
+    "pays": "Algérie",
+    "organisateur_nom": "Association Montagne Djurdjura",
+    "contact_numero": "+213555222333",
+    "contact_email": "info@ultradjurdjura.dz",
+    "site_web": "http://ultradjurdjura.dz",
+    "image": "djurdjura2025.jpg",
+    "prix_inscription": "6000 ",
+    "conditions": [
+      "Certificat médical obligatoire",
+      "Expérience course > 50 km",
+      "Âge minimum 20 ans"
+    ],
+    "colors": {
+      "background_color": "#1e293b",
+      "secondary_color": "#be123c",
+      "accent_color": "#facc15"
+    },
+    "prix_gagnants": {
+      "premier": ["100000 DA"],
+      "deuxieme": ["70000 DA"],
+      "troisieme": ["50000 DA"],
+      "finishers": ["Médaille finisher", "T-shirt officiel"]
+    }
+  },
+  {
+    "id": 7,
+    "slug": "course-nuit-tamanrasset-2025",
+    "nom": "Course de Nuit Tamanrasset",
+    "description": "Course festive dans le désert de nuit, sous les étoiles du Sahara.",
+    "date": "2025-10-05T21:00:00",
+    "type": ["course-festive", "route"],
+    "distance": 10,
+    "denivele_plus": 50,
+    "wilaya": "Tamanrasset",
+    "commune": "",
+    "pays": "Algérie",
+    "organisateur_nom": "Association Culture et Sport Sahara",
+    "contact_numero": "+213555777888",
+    "contact_email": "contact@coursenuit.dz",
+    "site_web": "http://coursenuit.dz",
+    "image": "",
+    "prix_inscription": "1000 ",
+    "conditions": [
+      "Lampe frontale obligatoire",
+      "Âge minimum 14 ans"
+    ],
+    "colors": {
+      "background_color": "#0f172a",
+      "secondary_color": "#334155",
+      "accent_color": "#22d3ee"
+    },
+    "prix_gagnants": {
+      "premier": ["Cadeaux locaux"],
+      "deuxieme": ["Cadeaux locaux"],
+      "troisieme": ["Cadeaux locaux"],
+      "finishers": ["Médaille phosphorescente"]
+    }
+  },
+  {
+    "id": 8,
+    "slug": "fun-run-constantine-2025",
+    "nom": "Fun Run Constantine",
+    "description": "Course populaire et accessible pour toute la famille à Constantine.",
+    "date": "2025-05-01T10:00:00",
+    "type": ["course-populaire"],
+    "distance": 5,
+    "denivele_plus": 20,
+    "wilaya": "Constantine",
+    "commune": "",
+    "pays": "Algérie",
+    "organisateur_nom": "Jeunesse Sport Constantine",
+    "contact_numero": "+213555444555",
+    "contact_email": "info@funrunconstantine.dz",
+    "site_web": "http://funrunconstantine.dz",
+    "image": "",
+    "prix_inscription": "0 ",
+    "conditions": ["Ouvert à tous", "Mineurs accompagnés d’un adulte"],
+    "colors": {
+      "background_color": "#14532d",
+      "secondary_color": "#22c55e",
+      "accent_color": "#fde047"
+    },
+    "prix_gagnants": {
+      "premier": [],
+      "deuxieme": [],
+      "troisieme": [],
+      "finishers": ["T-shirt souvenir", "Collation gratuite"]
+    }
+  },
+  {
+    "id": 9,
+    "slug": "semi-marathon-tlemcen-2025",
+    "nom": "Semi-Marathon International de Tlemcen",
+    "description": "Épreuve urbaine reliant les monuments historiques de Tlemcen.",
+    "date": "2025-11-10T08:00:00",
+    "type": ["semi-marathon", "route"],
+    "distance": 21.1,
+    "denivele_plus": 200,
+    "wilaya": "Tlemcen",
+    "commune": "",
+    "pays": "Algérie",
+    "organisateur_nom": "Marathon Club Tlemcen",
+    "contact_numero": "+213555112233",
+    "contact_email": "contact@semimarathontlemcen.dz",
+    "site_web": "http://semimarathontlemcen.dz",
+    "image": "",
+    "prix_inscription": "2000 ",
+    "conditions": [
+      "Certificat médical obligatoire",
+      "Âge minimum 16 ans"
+    ],
+    "colors": {
+      "background_color": "#3f1d38",
+      "secondary_color": "#9d174d",
+      "accent_color": "#f472b6"
+    },
+    "prix_gagnants": {
+      "premier": ["Voyage sportif offert"],
+      "deuxieme": ["Matériel de sport"],
+      "troisieme": ["Matériel de sport"],
+      "finishers": ["Médaille", "Diplôme finisher"]
+    }
+  },
+  {
+    "id": 10,
+    "slug": "trail-ghardaia-2025",
+    "nom": "Trail des Oasis Ghardaïa",
+    "description": "Course nature dans les palmeraies et dunes de Ghardaïa.",
+    "date": "2025-03-18T07:30:00",
+    "type": ["trail", "désert"],
+    "distance": 30,
+    "denivele_plus": 600,
+    "wilaya": "Ghardaïa",
+    "commune": "",
+    "pays": "Algérie",
+    "organisateur_nom": "Association Sportive Mzab",
+    "contact_numero": "+213555998877",
+    "contact_email": "trail@ghardaia.dz",
+    "site_web": "http://trailghardaia.dz",
+    "image": "",
+    "prix_inscription": "2500 ",
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
+    "colors": {
+      "background_color": "#422006",
+      "secondary_color": "#713f12",
+      "accent_color": "#f59e0b"
+    },
+    "prix_gagnants": {
+      "premier": ["50000 DA"],
+      "deuxieme": ["30000 DA"],
+      "troisieme": ["15000 DA"],
+      "finishers": ["T-shirt", "Médaille"]
     }
   }
 ]
