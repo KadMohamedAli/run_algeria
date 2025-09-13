@@ -7,8 +7,10 @@ export default function MultiSelect({ label, options, value = [], onChange }) {
   const dropdownRef = useRef(null);
 
   const toggle = (opt) => {
-    if (value.includes(opt)) {
-      onChange(value.filter((v) => v !== opt));
+    // check if the option is already selected (compare by id)
+    const exists = value.some((v) => v.id === opt.id);
+    if (exists) {
+      onChange(value.filter((v) => v.id !== opt.id));
     } else {
       onChange([...value, opt]);
     }
@@ -25,6 +27,9 @@ export default function MultiSelect({ label, options, value = [], onChange }) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // Sort options by id
+  const sortedOptions = [...options].sort((a, b) => a.id - b.id);
+
   return (
     <div className="relative w-full sm:w-[200px]" ref={dropdownRef}>
       {/* Button */}
@@ -34,7 +39,9 @@ export default function MultiSelect({ label, options, value = [], onChange }) {
         className="w-full border border-gray-600 bg-gray-800 rounded px-3 py-2 text-left text-sm text-white flex justify-between items-center"
       >
         <span>
-          {value.length > 0 ? `${label}: ${value.join(", ")}` : `${label}`}
+          {value.length > 0
+            ? `${label}: ${value.map((v) => v.name).join(", ")}`
+            : label}
         </span>
         <svg
           className={`w-4 h-4 ml-2 transition-transform ${
@@ -56,20 +63,23 @@ export default function MultiSelect({ label, options, value = [], onChange }) {
       {/* Dropdown panel */}
       {open && (
         <div className="absolute z-20 mt-1 w-full border border-gray-600 bg-gray-800 rounded shadow-lg max-h-48 overflow-y-auto p-2 text-sm text-white">
-          {options.map((opt) => (
-            <label
-              key={opt}
-              className="flex items-center gap-2 mb-1 cursor-pointer"
-            >
-              <input
-                type="checkbox"
-                checked={value.includes(opt)}
-                onChange={() => toggle(opt)}
-                className="accent-blue-500"
-              />
-              {opt}
-            </label>
-          ))}
+          {sortedOptions.map((opt) => {
+            const isChecked = value.some((v) => v.id === opt.id);
+            return (
+              <label
+                key={opt.id}
+                className="flex items-center gap-2 mb-1 cursor-pointer"
+              >
+                <input
+                  type="checkbox"
+                  checked={isChecked}
+                  onChange={() => toggle(opt)}
+                  className="accent-blue-500"
+                />
+                {opt.name}
+              </label>
+            );
+          })}
         </div>
       )}
     </div>

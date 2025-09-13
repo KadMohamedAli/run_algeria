@@ -25,7 +25,13 @@ export function normalizeDistance(distance) {
  * - else keep numeric value
  */
 export function normalizeElevation(distanceKm, deniveleM) {
-  if (!distanceKm || !deniveleM) return null;
+  // If deniveleM is not a number, return it as-is
+  if (deniveleM === null || deniveleM === undefined || isNaN(Number(deniveleM))) {
+    return deniveleM;
+  }
+
+  // If distance is missing, just return deniveleM
+  if (!distanceKm) return deniveleM;
 
   const d = parseFloat(String(distanceKm).trim().toLowerCase().replace(/km|m/g, "").trim());
   const e = parseFloat(String(deniveleM).trim().toLowerCase().replace(/km|m/g, "").trim());
@@ -38,6 +44,7 @@ export function normalizeElevation(distanceKm, deniveleM) {
 
   return `${e}`;
 }
+
 
 /**
  * Normalize price:

@@ -5,12 +5,10 @@
     "nom": "5e édition Trail Chréa",
     "description": "Course nature dans les montagnes de Blida.",
     "date": "2025-11-22T09:00:00",
-    "type": [
-      "trail"
-    ],
+    "type": [2],
     "distance": 24,
     "denivele_plus": 500,
-    "wilaya": "Blida",
+    "wilaya": 9,
     "commune": "",
     "pays": "Algérie",
     "organisateur_nom": "Club Sportif Blida",
@@ -19,10 +17,7 @@
     "site_web": "http://trailblida.dz",
     "image": "/images/blidaTrail.jpg",
     "prix_inscription": "2000 ",
-    "conditions": [
-      "Certificat médical obligatoire",
-      "Âge minimum 18 ans"
-    ],
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
     "colors": {
       "background_color": "#263912",
       "secondary_color": "#5a2622",
@@ -41,9 +36,7 @@
     "nom": "10km de Kouba",
     "description": "un magnifique trail urbain de kouba.",
     "date": "2025-05-20T09:00:00",
-    "type": [
-      "route"
-    ],
+    "type": ["route"],
     "distance": 10,
     "denivele_plus": 350,
     "wilaya": "Alger",
@@ -55,10 +48,7 @@
     "site_web": "http://semimarathonalger.dz",
     "image": "/images/cama2025.jpg",
     "prix_inscription": "1500 ",
-    "conditions": [
-      "Certificat médical obligatoire",
-      "Âge minimum 16 ans"
-    ],
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 16 ans"],
     "colors": {
       "background_color": "#1a1a2e",
       "secondary_color": "#16213e",
@@ -77,10 +67,7 @@
     "nom": "2e édition Semi-Marathon Annaba",
     "description": "Course populaire pour tous niveaux au bord de la mer.",
     "date": "2025-12-08T09:00:00",
-    "type": [
-      "semi-marathon",
-      "route"
-    ],
+    "type": ["semi-marathon", "route"],
     "distance": 21.1,
     "denivele_plus": 50,
     "wilaya": "Annaba",
@@ -92,10 +79,7 @@
     "site_web": "http://runannaba.dz",
     "image": "/images/semi_bejaia_2024.jpg",
     "prix_inscription": "1500 ",
-    "conditions": [
-      "Ouvert à tous",
-      "Âge minimum 12 ans"
-    ],
+    "conditions": ["Ouvert à tous", "Âge minimum 12 ans"],
     "colors": {
       "background_color": "#0f3460",
       "secondary_color": "#53354a",
@@ -114,13 +98,10 @@
     "nom": "Marathon d'Oran 2025",
     "description": "Marathon officiel avec parcours urbain et piste côtière.",
     "date": "2025-12-01T09:00:00",
-    "type": [
-      "marathon",
-      "route"
-    ],
+    "type": ["marathon", "route"],
     "distance": 42.2,
     "denivele_plus": 100,
-    "wilaya": "Oran",
+    "wilaya": 31,
     "commune": "",
     "pays": "Algérie",
     "organisateur_nom": "Association Marathon Oran",
@@ -129,10 +110,7 @@
     "site_web": "http://marathonoran.dz",
     "image": "/images/",
     "prix_inscription": "3000 ",
-    "conditions": [
-      "Certificat médical obligatoire",
-      "Âge minimum 18 ans"
-    ],
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
     "colors": {
       "background_color": "#2d132c",
       "secondary_color": "#801336",
@@ -151,9 +129,7 @@
     "nom": "10 km International de Constantine",
     "description": "Course rapide et urbaine au cœur des ponts suspendus de Constantine.",
     "date": "2025-05-18T09:00:00",
-    "type": [
-      "route"
-    ],
+    "type": ["route"],
     "distance": 10,
     "denivele_plus": 80,
     "wilaya": "Constantine",
@@ -165,10 +141,7 @@
     "site_web": "http://runconstantine.dz",
     "image": "/images/",
     "prix_inscription": "0",
-    "conditions": [
-      "Ouvert à tous",
-      "Pas de certificat obligatoire"
-    ],
+    "conditions": ["Ouvert à tous", "Pas de certificat obligatoire"],
     "colors": {
       "background_color": "#142850",
       "secondary_color": "#27496d",
@@ -187,13 +160,10 @@
     "nom": "Ultra Trail Djurdjura",
     "description": "Course extrême dans le massif du Djurdjura avec des paysages spectaculaires.",
     "date": "2025-09-15T06:00:00",
-    "type": [
-      "ultra-trail",
-      "montagne"
-    ],
+    "type": ["ultra-trail", "montagne"],
     "distance": 80,
     "denivele_plus": 3500,
-    "wilaya": "Tizi Ouzou",
+    "wilaya": 15,
     "commune": "Tikjda",
     "pays": "Algérie",
     "organisateur_nom": "Association Montagne Djurdjura",
@@ -213,19 +183,10 @@
       "accent_color": "#facc15"
     },
     "prix_gagnants": {
-      "premier": [
-        "100000 DA"
-      ],
-      "deuxieme": [
-        "70000 DA"
-      ],
-      "troisieme": [
-        "50000 DA"
-      ],
-      "finishers": [
-        "Médaille finisher",
-        "T-shirt officiel"
-      ]
+      "premier": ["100000 DA"],
+      "deuxieme": ["70000 DA"],
+      "troisieme": ["50000 DA"],
+      "finishers": ["Médaille finisher", "T-shirt officiel"]
     }
   },
   {
@@ -234,10 +195,7 @@
     "nom": "Course de Nuit Tamanrasset",
     "description": "Course festive dans le désert de nuit, sous les étoiles du Sahara.",
     "date": "2025-10-05T21:00:00",
-    "type": [
-      "course-festive",
-      "route"
-    ],
+    "type": ["course-festive", "route"],
     "distance": 10,
     "denivele_plus": 50,
     "wilaya": "Tamanrasset",
@@ -249,28 +207,17 @@
     "site_web": "http://coursenuit.dz",
     "image": "/images/",
     "prix_inscription": "1000 ",
-    "conditions": [
-      "Lampe frontale obligatoire",
-      "Âge minimum 14 ans"
-    ],
+    "conditions": ["Lampe frontale obligatoire", "Âge minimum 14 ans"],
     "colors": {
       "background_color": "#0f172a",
       "secondary_color": "#334155",
       "accent_color": "#22d3ee"
     },
     "prix_gagnants": {
-      "premier": [
-        "Cadeaux locaux"
-      ],
-      "deuxieme": [
-        "Cadeaux locaux"
-      ],
-      "troisieme": [
-        "Cadeaux locaux"
-      ],
-      "finishers": [
-        "Médaille phosphorescente"
-      ]
+      "premier": ["Cadeaux locaux"],
+      "deuxieme": ["Cadeaux locaux"],
+      "troisieme": ["Cadeaux locaux"],
+      "finishers": ["Médaille phosphorescente"]
     }
   },
   {
@@ -279,12 +226,10 @@
     "nom": "Fun Run Constantine",
     "description": "Course populaire et accessible pour toute la famille à Constantine.",
     "date": "2025-05-01T10:00:00",
-    "type": [
-      "course-populaire"
-    ],
+    "type": ["course-populaire"],
     "distance": 5,
     "denivele_plus": 20,
-    "wilaya": "Constantine",
+    "wilaya": 25,
     "commune": "",
     "pays": "Algérie",
     "organisateur_nom": "Jeunesse Sport Constantine",
@@ -293,10 +238,7 @@
     "site_web": "http://funrunconstantine.dz",
     "image": "/images/",
     "prix_inscription": "0 ",
-    "conditions": [
-      "Ouvert à tous",
-      "Mineurs accompagnés d’un adulte"
-    ],
+    "conditions": ["Ouvert à tous", "Mineurs accompagnés d’un adulte"],
     "colors": {
       "background_color": "#14532d",
       "secondary_color": "#22c55e",
@@ -306,10 +248,7 @@
       "premier": [],
       "deuxieme": [],
       "troisieme": [],
-      "finishers": [
-        "T-shirt souvenir",
-        "Collation gratuite"
-      ]
+      "finishers": ["T-shirt souvenir", "Collation gratuite"]
     }
   },
   {
@@ -318,13 +257,10 @@
     "nom": "Semi-Marathon International de Tlemcen",
     "description": "Épreuve urbaine reliant les monuments historiques de Tlemcen.",
     "date": "2025-11-10T08:00:00",
-    "type": [
-      "semi-marathon",
-      "route"
-    ],
+    "type": ["semi-marathon", "route"],
     "distance": 21.1,
     "denivele_plus": 200,
-    "wilaya": "Tlemcen",
+    "wilaya": 13,
     "commune": "",
     "pays": "Algérie",
     "organisateur_nom": "Marathon Club Tlemcen",
@@ -333,29 +269,17 @@
     "site_web": "http://semimarathontlemcen.dz",
     "image": "/images/",
     "prix_inscription": "2000 ",
-    "conditions": [
-      "Certificat médical obligatoire",
-      "Âge minimum 16 ans"
-    ],
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 16 ans"],
     "colors": {
       "background_color": "#3f1d38",
       "secondary_color": "#9d174d",
       "accent_color": "#f472b6"
     },
     "prix_gagnants": {
-      "premier": [
-        "Voyage sportif offert"
-      ],
-      "deuxieme": [
-        "Matériel de sport"
-      ],
-      "troisieme": [
-        "Matériel de sport"
-      ],
-      "finishers": [
-        "Médaille",
-        "Diplôme finisher"
-      ]
+      "premier": ["Voyage sportif offert"],
+      "deuxieme": ["Matériel de sport"],
+      "troisieme": ["Matériel de sport"],
+      "finishers": ["Médaille", "Diplôme finisher"]
     }
   },
   {
@@ -364,13 +288,10 @@
     "nom": "Trail des Oasis Ghardaïa",
     "description": "Course nature dans les palmeraies et dunes de Ghardaïa.",
     "date": "2025-03-18T07:30:00",
-    "type": [
-      "trail",
-      "désert"
-    ],
+    "type": ["trail", "désert"],
     "distance": 30,
     "denivele_plus": 600,
-    "wilaya": "Ghardaïa",
+    "wilaya": 47,
     "commune": "",
     "pays": "Algérie",
     "organisateur_nom": "Association Sportive Mzab",
@@ -379,29 +300,17 @@
     "site_web": "http://trailghardaia.dz",
     "image": "/images/",
     "prix_inscription": "2500 ",
-    "conditions": [
-      "Certificat médical obligatoire",
-      "Âge minimum 18 ans"
-    ],
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
     "colors": {
       "background_color": "#422006",
       "secondary_color": "#713f12",
       "accent_color": "#f59e0b"
     },
     "prix_gagnants": {
-      "premier": [
-        "50000 DA"
-      ],
-      "deuxieme": [
-        "30000 DA"
-      ],
-      "troisieme": [
-        "15000 DA"
-      ],
-      "finishers": [
-        "T-shirt",
-        "Médaille"
-      ]
+      "premier": ["50000 DA"],
+      "deuxieme": ["30000 DA"],
+      "troisieme": ["15000 DA"],
+      "finishers": ["T-shirt", "Médaille"]
     }
   },
   {
@@ -410,13 +319,10 @@
     "nom": "Semi-Marathon d'Alger",
     "description": "Course urbaine sur les belles avenues d'Alger.",
     "date": "2025-07-20T09:00:00",
-    "type": [
-      "semi-marathon",
-      "route"
-    ],
+    "type": ["semi-marathon", "route"],
     "distance": 21.1,
     "denivele_plus": 150,
-    "wilaya": "Alger",
+    "wilaya": 16,
     "commune": "Alger-Centre",
     "pays": "Algérie",
     "organisateur_nom": "Association Marathon Alger",
@@ -425,10 +331,7 @@
     "site_web": "http://semimarathonalger.dz",
     "image": "/images/cama2025.jpg",
     "prix_inscription": "2500 ",
-    "conditions": [
-      "Certificat médical obligatoire",
-      "Âge minimum 16 ans"
-    ],
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 16 ans"],
     "colors": {
       "background_color": "#1a1a2e",
       "secondary_color": "#16213e",
@@ -447,12 +350,10 @@
     "nom": "10km de soummam",
     "description": "Course urbaine sur les belles avenues d'Alger.",
     "date": "2025-07-20T09:00:00",
-    "type": [
-      "route"
-    ],
+    "type": ["route"],
     "distance": 10,
     "denivele_plus": 150,
-    "wilaya": "Alger",
+    "wilaya": 16,
     "commune": "Alger-Centre",
     "pays": "Algérie",
     "organisateur_nom": "Association Marathon Alger",
@@ -461,14 +362,42 @@
     "site_web": "http://semimarathonalger.dz",
     "image": "/images/",
     "prix_inscription": "2500 ",
-    "conditions": [
-      "Certificat médical obligatoire",
-      "Âge minimum 16 ans"
-    ],
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 16 ans"],
     "colors": {
       "background_color": "#1a1a2e",
       "secondary_color": "#16213e",
       "accent_color": "#e94560"
+    },
+    "prix_gagnants": {
+      "premier": [],
+      "deuxieme": [],
+      "troisieme": [],
+      "finishers": []
+    }
+  },
+  {
+    "id": 13,
+    "slug": "chrono-blida-2025",
+    "nom": "Course Chrono Blida",
+    "description": "Course nature dans les montagnes de Blida.",
+    "date": "2025-12-06T09:00:00",
+    "type": [25, 2],
+    "chrono": 36000,
+    "denivele_plus": "Dénivlé important",
+    "wilaya": 9,
+    "commune": "",
+    "pays": "Algérie",
+    "organisateur_nom": "Club Sportif Blida",
+    "contact_numero": "+213555123456",
+    "contact_email": "contact@trailblida.dz",
+    "site_web": "http://trailblida.dz",
+    "image": "/images/blidaTrail.jpg",
+    "prix_inscription": "2000",
+    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
+    "colors": {
+      "background_color": "#263912",
+      "secondary_color": "#5a2622",
+      "accent_color": "#83996b"
     },
     "prix_gagnants": {
       "premier": [],

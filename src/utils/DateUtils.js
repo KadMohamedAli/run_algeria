@@ -32,3 +32,22 @@ export const formatCourseDate = (dateString) => {
     return new Intl.DateTimeFormat("fr-FR", options).format(date);
   }
 };
+
+export function formatChrono(seconds) {
+  if (!seconds || seconds <= 0) return "—";
+
+  const days = Math.floor(seconds / 86400);
+  seconds %= 86400;
+  const hours = Math.floor(seconds / 3600);
+  seconds %= 3600;
+  const minutes = Math.floor(seconds / 60);
+  seconds = Math.floor(seconds % 60);
+
+  let parts = [];
+  if (days) parts.push(`${days}j`);
+  if (hours) parts.push(`${hours}h`);
+  if (minutes) parts.push(`${minutes}m`);
+  if (!days && !hours && seconds) parts.push(`${seconds}s`);
+
+  return parts.join(" ");
+}

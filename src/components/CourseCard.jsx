@@ -4,12 +4,28 @@ import { ClockIcon } from "@heroicons/react/24/outline";
 import CourseTitle from "./CourseTitle";
 import CourseInfoItem from "./CourseInfoItem";
 import SubtleBackground from "./Background";
-import { formatCourseDate } from "../utils/DateUtils";
+import { formatCourseDate, formatChrono } from "../utils/DateUtils";
 import {
   normalizeDistance,
   normalizePrice,
   normalizeElevation,
 } from "../utils/CourseUtils";
+import wilayas from "@/data/wilaya.json"; // adjust path
+
+const getWilayaName = (wilaya) => {
+  if (wilaya === null || wilaya === undefined) return "—";
+
+  // Convert wilaya to string for uniform matching
+  const code = String(wilaya).trim();
+
+  // Only continue if code is purely numeric
+  if (/^\d+$/.test(code)) {
+    const found = wilayas.find((w) => w.code === code || w.id === code);
+    if (found) return found.name;
+  }
+
+  return wilaya; // return as-is if not numeric
+};
 
 export default function CourseCard({ course }) {
   const isPast = new Date(course.date) < new Date();
@@ -49,19 +65,27 @@ export default function CourseCard({ course }) {
           {/* Title */}
           <CourseTitle text={course.nom} seed={course.id} />
 
-          {/* Info Items */}
+          {/* Distance or Chrono */}
           <div className="w-full px-1 flex justify-around text-white text-sm md:text-base items-center">
-            {/* Distance */}
-            {(() => {
-              const normDist = normalizeDistance(course.distance);
-              const isNumeric = /^[0-9.]+$/.test(normDist.replace(" km", ""));
-              return (
-                <CourseInfoItem
-                  value={normDist}
-                  suffix={isNumeric ? "KM" : null}
-                />
-              );
-            })()}
+            {course.distance ? (
+              (() => {
+                const normDist = normalizeDistance(course.distance);
+                const isNumeric = /^[0-9.]+$/.test(normDist.replace(" km", ""));
+                return (
+                  <CourseInfoItem
+                    value={normDist}
+                    suffix={isNumeric ? "KM" : null}
+                  />
+                );
+              })()
+            ) : course.chrono ? (
+              (() => {
+                const chronoStr = formatChrono(course.chrono);
+                return <CourseInfoItem value={chronoStr} suffix={null} />;
+              })()
+            ) : (
+              <CourseInfoItem value="—" suffix={null} />
+            )}
 
             {/* Elevation */}
             {(() => {
@@ -69,7 +93,7 @@ export default function CourseCard({ course }) {
                 course.distance,
                 course.denivele_plus
               );
-              const isNumeric = /^[0-9.]+/.test(normElev);
+              const isNumeric = /^[0-9.]+$/.test(normElev);
               return (
                 <CourseInfoItem
                   value={normElev}
@@ -83,7 +107,7 @@ export default function CourseCard({ course }) {
           {course.date && (
             <p className="flex px-1 items-center justify-start gap-1 text-white text-xl">
               <ClockIcon className="h-5 w-5 text-white" />
-              {formatCourseDate(course.date)} à {course.wilaya}
+              {formatCourseDate(course.date)} à {getWilayaName(course.wilaya)}
             </p>
           )}
         </div>

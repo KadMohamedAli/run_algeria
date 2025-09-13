@@ -1,0 +1,132 @@
+[
+  {
+    "code": 0,
+    "type": "Course sur route",
+    "description": "Courses organisées sur routes goudronnées, ouvertes au grand public."
+  },
+  {
+    "code": 1,
+    "type": "Trail",
+    "description": "Courses sur sentiers naturels, souvent en forêt ou en montagne."
+  },
+  {
+    "code": 2,
+    "type": "Ultra-trail",
+    "description": "Trails de très longue distance, souvent supérieurs à 50 km."
+  },
+  {
+    "code": 3,
+    "type": "Marathon",
+    "description": "Course sur route de 42,195 km, ouverte aux amateurs et professionnels."
+  },
+  {
+    "code": 4,
+    "type": "Semi-marathon",
+    "description": "Course sur route de 21,1 km, populaire pour les coureurs de moyenne distance."
+  },
+  {
+    "code": 5,
+    "type": "10 km",
+    "description": "Course sur route de 10 kilomètres, accessible à tous."
+  },
+  {
+    "code": 6,
+    "type": "5 km",
+    "description": "Course courte sur route, souvent organisée comme course de loisir ou caritative."
+  },
+  {
+    "code": 7,
+    "type": "Course d'endurance",
+    "description": "Courses longues visant à tester la résistance et l’endurance des participants."
+  },
+  {
+    "code": 8,
+    "type": "Course à étapes",
+    "description": "Courses réparties sur plusieurs jours avec différentes étapes."
+  },
+  {
+    "code": 9,
+    "type": "Relais marathon",
+    "description": "Marathon divisé en segments parcourus par plusieurs coureurs en relais."
+  },
+  {
+    "code": 10,
+    "type": "Relais cross",
+    "description": "Course en relais sur terrain varié ou cross-country."
+  },
+  {
+    "code": 11,
+    "type": "Cross-country",
+    "description": "Course sur terrain naturel varié, souvent en campagne ou forêt."
+  },
+  {
+    "code": 12,
+    "type": "Sky running",
+    "description": "Courses en haute montagne avec dénivelé important et terrain technique."
+  },
+  {
+    "code": 13,
+    "type": "Course en montagne",
+    "description": "Courses sur sentiers et pistes de montagne, avec forts dénivelés."
+  },
+  {
+    "code": 14,
+    "type": "Course dans le désert",
+    "description": "Courses organisées sur terrains désertiques, souvent longues et difficiles."
+  },
+  {
+    "code": 15,
+    "type": "Course hivernale",
+    "description": "Courses sur neige ou en conditions hivernales."
+  },
+  {
+    "code": 16,
+    "type": "Course nocturne",
+    "description": "Courses se déroulant principalement la nuit."
+  },
+  {
+    "code": 17,
+    "type": "Course caritative",
+    "description": "Courses organisées pour collecter des fonds pour des causes sociales."
+  },
+  {
+    "code": 18,
+    "type": "Course virtuelle",
+    "description": "Courses réalisées individuellement avec suivi en ligne, souvent sur route ou trail."
+  },
+  {
+    "code": 19,
+    "type": "Color run",
+    "description": "Course ludique où les participants sont colorés à différents points du parcours."
+  },
+  {
+    "code": 20,
+    "type": "Mud run",
+    "description": "Course à obstacles avec boue et terrains difficiles."
+  },
+  {
+    "code": 21,
+    "type": "Course éco-responsable",
+    "description": "Course organisée en limitant l’impact écologique et en sensibilisant les participants."
+  },
+  {
+    "code": 22,
+    "type": "Course d'aventure",
+    "description": "Courses mêlant course, orientation et parfois obstacles naturels."
+  },
+  {
+    "code": 23,
+    "type": "Trail loisir",
+    "description": "Trail court ou modéré destiné aux coureurs amateurs ou loisirs."
+  },
+  {
+    "code": 24,
+    "type": "Trail caritatif",
+    "description": "Trail organisé pour collecter des fonds pour une cause."
+  },
+  {
+    "code": 25,
+    "type": "Course chronométrée longue distance (1h, 12h, 24h)",
+    "description": "Courses où l’objectif est de courir la plus grande distance possible sur une durée définie."
+  }
+]
