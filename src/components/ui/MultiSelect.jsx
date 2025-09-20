@@ -1,18 +1,17 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import LabelWithCount from "./LabelWithCount"; // import
 
 export default function MultiSelect({ label, options, value = [], onChange }) {
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef(null);
 
-  const toggle = (opt) => {
-    // check if the option is already selected (compare by id)
-    const exists = value.some((v) => v.id === opt.id);
-    if (exists) {
-      onChange(value.filter((v) => v.id !== opt.id));
+  const toggle = (optId) => {
+    if (value.includes(optId)) {
+      onChange(value.filter((v) => v !== optId));
     } else {
-      onChange([...value, opt]);
+      onChange([...value, optId]);
     }
   };
 
@@ -31,18 +30,14 @@ export default function MultiSelect({ label, options, value = [], onChange }) {
   const sortedOptions = [...options].sort((a, b) => a.id - b.id);
 
   return (
-    <div className="relative w-full sm:w-[200px]" ref={dropdownRef}>
+    <div className="relative w-[200px]" ref={dropdownRef}>
       {/* Button */}
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className="w-full border border-gray-600 bg-gray-800 rounded px-3 py-2 text-left text-sm text-white flex justify-between items-center"
+        className="w-full h-10 border border-gray-600 bg-gray-800 rounded px-3 text-left text-sm text-white flex justify-between items-center truncate"
       >
-        <span>
-          {value.length > 0
-            ? `${label}: ${value.map((v) => v.name).join(", ")}`
-            : label}
-        </span>
+        <LabelWithCount label={label} count={value.length} />
         <svg
           className={`w-4 h-4 ml-2 transition-transform ${
             open ? "rotate-180" : ""
@@ -64,7 +59,7 @@ export default function MultiSelect({ label, options, value = [], onChange }) {
       {open && (
         <div className="absolute z-20 mt-1 w-full border border-gray-600 bg-gray-800 rounded shadow-lg max-h-48 overflow-y-auto p-2 text-sm text-white">
           {sortedOptions.map((opt) => {
-            const isChecked = value.some((v) => v.id === opt.id);
+            const isChecked = value.includes(opt.id);
             return (
               <label
                 key={opt.id}
@@ -73,8 +68,8 @@ export default function MultiSelect({ label, options, value = [], onChange }) {
                 <input
                   type="checkbox"
                   checked={isChecked}
-                  onChange={() => toggle(opt)}
-                  className="accent-blue-500"
+                  onChange={() => toggle(opt.id)}
+                  className="accent-orange-600"
                 />
                 {opt.name}
               </label>

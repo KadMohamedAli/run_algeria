@@ -1,12 +1,14 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
+import { XMarkIcon } from "@heroicons/react/24/solid";
+import LabelWithCount from "./LabelWithCount"; // import
 
 export default function RangeFilter({
   label,
   min,
   max,
   value = [min, max],
-  unit = "", // unit prompt, e.g., "kg", "€"
+  unit = "",
   onChange,
 }) {
   const [open, setOpen] = useState(false);
@@ -23,7 +25,10 @@ export default function RangeFilter({
     if (val >= minVal && val <= max) onChange([minVal, val]);
   };
 
-  // Close dropdown if clicking outside
+  const clearMin = () => onChange([min, maxVal]);
+  const clearMax = () => onChange([minVal, max]);
+
+  // Fermer si clic en dehors
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (containerRef.current && !containerRef.current.contains(e.target)) {
@@ -34,17 +39,17 @@ export default function RangeFilter({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  const activeCount = (minVal !== min ? 1 : 0) + (maxVal !== max ? 1 : 0);
+
   return (
     <div className="relative w-full sm:w-[200px]" ref={containerRef}>
-      {/* Button display */}
+      {/* Bouton principal */}
       <button
         type="button"
         onClick={() => setOpen(!open)}
         className="w-full border border-gray-600 bg-gray-800 rounded px-3 py-2 text-left text-sm text-white flex justify-between items-center whitespace-nowrap overflow-hidden"
       >
-        <span className="truncate">
-          {label}: {minVal} → {maxVal} {unit}
-        </span>
+        <LabelWithCount label={label} count={activeCount} />
         <svg
           className={`w-4 h-4 ml-2 transition-transform ${
             open ? "rotate-180" : ""
@@ -62,38 +67,59 @@ export default function RangeFilter({
         </svg>
       </button>
 
-      {/* Dropdown inputs */}
+      {/* Dropdown */}
       {open && (
         <div className="absolute z-20 mt-1 w-full border border-gray-600 bg-gray-800 rounded shadow-lg p-3 flex flex-col gap-3 text-sm text-white">
-          {/* Dropdown label */}
           <div className="text-sm font-medium text-gray-200">{label}</div>
 
           {/* Min input */}
           <div className="flex flex-col gap-1">
             <label className="text-xs text-gray-300">Min ({unit})</label>
-            <input
-              type="number"
-              value={minVal}
-              onChange={handleMin}
-              min={min}
-              max={maxVal}
-              className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center"
-              placeholder={`Min ${unit}`}
-            />
+            <div className="flex items-center gap-2 transition-all duration-300">
+              <input
+                type="number"
+                value={minVal}
+                onChange={handleMin}
+                min={min}
+                max={maxVal}
+                className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
+                placeholder={`Min ${unit}`}
+              />
+              {minVal !== min && (
+                <button
+                  type="button"
+                  onClick={clearMin}
+                  className="text-orange-400 hover:text-orange-300 flex-shrink-0 transition-all duration-300"
+                >
+                  <XMarkIcon className="w-4 h-4" />
+                </button>
+              )}
+            </div>
           </div>
 
           {/* Max input */}
           <div className="flex flex-col gap-1">
             <label className="text-xs text-gray-300">Max ({unit})</label>
-            <input
-              type="number"
-              value={maxVal}
-              onChange={handleMax}
-              min={minVal}
-              max={max}
-              className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center"
-              placeholder={`Max ${unit}`}
-            />
+            <div className="flex items-center gap-2 transition-all duration-300">
+              <input
+                type="number"
+                value={maxVal}
+                onChange={handleMax}
+                min={minVal}
+                max={max}
+                className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
+                placeholder={`Max ${unit}`}
+              />
+              {maxVal !== max && (
+                <button
+                  type="button"
+                  onClick={clearMax}
+                  className="text-orange-400 hover:text-orange-300 flex-shrink-0 transition-all duration-300"
+                >
+                  <XMarkIcon className="w-4 h-4" />
+                </button>
+              )}
+            </div>
           </div>
         </div>
       )}

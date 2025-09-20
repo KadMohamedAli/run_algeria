@@ -146,7 +146,7 @@ export default function CourseCard({ course }) {
 
         {/* FINI badge */}
         {isPast && (
-          <div className="absolute top-0 right-0 bg-red-600 text-white text-xs font-black px-2 py-1 rounded-bl-lg z-20">
+          <div className="absolute top-0 right-0 bg-red-600 text-white text-xs font-black px-2 py-1 rounded-bl-lg z-12">
             FINI
           </div>
         )}
@@ -158,7 +158,7 @@ export default function CourseCard({ course }) {
             const isNumeric = /^[0-9.]+/.test(normPrice);
             return (
               <div
-                className="absolute bottom-0 right-0 text-white text-xs font-black px-2 py-1 rounded-tl-lg z-20"
+                className="absolute bottom-0 right-0 text-white text-xs font-black px-2 py-1 rounded-tl-lg z-12"
                 style={{ backgroundColor: colors.secondary }}
               >
                 <CourseInfoItem
