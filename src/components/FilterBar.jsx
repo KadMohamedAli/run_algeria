@@ -4,6 +4,7 @@ import { useState } from "react";
 import MultiSelect from "./ui/MultiSelect";
 import RangeFilter from "./ui/RangeFilter";
 import DateRangeFilter from "./ui/DateFilter";
+import OrderBy from "./ui/OrderBy";
 import wilayas from "@/data/wilaya.json";
 import runType from "@/data/type.json";
 
@@ -15,31 +16,38 @@ export default function FilterBar({ filters, setFilters }) {
 
   return (
     <div className="mb-6 relative">
-      {/* Subtle toggle button (mobile only) */}
-      <button
-        onClick={() => setMobileOpen(!mobileOpen)}
-        className="sm:hidden absolute right-0 top-0 translate-y-[-120%] 
-                   px-3 py-1.5 text-xs rounded-full 
-                   bg-gray-700 text-gray-200 border border-gray-600 
-                   shadow-sm hover:bg-gray-600 transition-all duration-200 flex items-center gap-1"
-      >
-        {mobileOpen ? "Masquer" : "Filtres"}
-        <svg
-          className={`w-4 h-4 transition-transform duration-300 ${
-            mobileOpen ? "rotate-180" : ""
-          }`}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
+      <div className="sm:hidden absolute right-0 top-0 translate-y-[-120%] w-full flex items-center justify-between px-1 z-20">
+        {/* OrderBy on the left */}
+        <OrderBy
+          value={filters.orderBy}
+          onChange={(val) => setFilters({ ...filters, orderBy: val })}
+        />
+
+        {/* Filtres toggle on the right */}
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="px-3 py-1.5 text-xs rounded-full 
+         bg-gray-700 text-gray-200 border border-gray-600 
+         shadow-sm hover:bg-gray-600 transition-all duration-200 flex items-center gap-1"
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M19 9l-7 7-7-7"
-          />
-        </svg>
-      </button>
+          {mobileOpen ? "Masquer" : "Filtres"}
+          <svg
+            className={`w-4 h-4 transition-transform duration-300 ${
+              mobileOpen ? "rotate-180" : ""
+            }`}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </button>
+      </div>
 
       {/* Filters container */}
       <div
@@ -109,6 +117,12 @@ export default function FilterBar({ filters, setFilters }) {
               value={filters.denivele}
               onChange={(val) => setFilters({ ...filters, denivele: val })}
             />
+            <div className="hidden sm:block">
+              <OrderBy
+                value={filters.orderBy}
+                onChange={(val) => setFilters({ ...filters, orderBy: val })}
+              />
+            </div>
           </div>
         </div>
       </div>
