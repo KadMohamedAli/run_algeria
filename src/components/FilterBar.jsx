@@ -103,7 +103,7 @@ export default function FilterBar({ filters, setFilters }) {
               label="Distance"
               unit="KM"
               min={0}
-              max={500}
+              max={5000}
               step={1}
               value={filters.distance}
               onChange={(val) => setFilters({ ...filters, distance: val })}

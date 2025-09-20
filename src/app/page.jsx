@@ -9,9 +9,9 @@ export default function Home() {
     wilaya: [], // array of ids (numbers or strings)
     type: [], // array of ids
     date: { start: null, end: null },
-    price: [0, 5000], // [min, max]
-    distance: [0, 50],
-    denivele: [0, 2000],
+    price: [0, 100000], // [min, max]
+    distance: [0, 5000],
+    denivele: [0, 10000],
     orderBy: "date_asc", // default sort
     search: "", // free text search
   });
