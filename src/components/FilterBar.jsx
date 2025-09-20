@@ -16,7 +16,7 @@ export default function FilterBar({ filters, setFilters }) {
 
   return (
     <div className="mb-6 relative">
-      <div className="sm:hidden absolute right-0 top-0 translate-y-[-120%] w-full flex items-center justify-between px-1 z-20">
+      <div className="sm:hidden absolute right-0 top-0 translate-y-[-120%] w-full flex items-center justify-between px-1 z-50">
         {/* OrderBy on the left */}
         <OrderBy
           value={filters.orderBy}

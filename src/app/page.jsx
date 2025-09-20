@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import coursesData from "../data/courses.json";
 import CourseCard from "../components/CourseCard";
 import FilterBar from "../components/FilterBar";
+import ActiveFilters from "@/components/ui/ActiveFilters";
 
 export default function Home() {
   const [filters, setFilters] = useState({
@@ -122,8 +123,9 @@ export default function Home() {
   return (
     <div className="p-4 md:p-8">
       <FilterBar filters={filters} setFilters={setFilters} />
+      <ActiveFilters filters={filters} setFilters={setFilters} />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-2">
         {filtered.map((course) => (
           <CourseCard key={course.id} course={course} />
         ))}

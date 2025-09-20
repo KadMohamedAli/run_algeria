@@ -129,3 +129,21 @@ body {
 input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(1) brightness(2);
 }
+
+.scrollbar-hide {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  height: 6px; /* or width: 6px for vertical */
+}
+
+.scrollbar-hide::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}

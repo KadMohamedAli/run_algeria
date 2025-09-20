@@ -1,7 +1,16 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
-import LabelWithCount from "./LabelWithCount"; // import
+import LabelWithCount from "./LabelWithCount";
+
+// petit utilitaire debounce
+function debounce(fn, delay) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn(...args), delay);
+  };
+}
 
 export default function RangeFilter({
   label,
@@ -12,21 +21,63 @@ export default function RangeFilter({
   onChange,
 }) {
   const [open, setOpen] = useState(false);
-  const [minVal, maxVal] = value;
+  const [minVal, setMinVal] = useState(value[0]);
+  const [maxVal, setMaxVal] = useState(value[1]);
   const containerRef = useRef(null);
+
+  // réorganiser min/max après saisie avec debounce
+  const normalizeValues = debounce((low, high) => {
+    if (low > high) {
+      onChange([high, low]);
+      setMinVal(high);
+      setMaxVal(low);
+    } else {
+      onChange([low, high]);
+    }
+  }, 400);
 
   const handleMin = (e) => {
     const val = Number(e.target.value);
-    if (val <= maxVal && val >= min) onChange([val, maxVal]);
+    setMinVal(val);
+    normalizeValues(val, maxVal);
   };
 
   const handleMax = (e) => {
     const val = Number(e.target.value);
-    if (val >= minVal && val <= max) onChange([minVal, val]);
+    setMaxVal(val);
+    normalizeValues(minVal, val);
   };
 
-  const clearMin = () => onChange([min, maxVal]);
-  const clearMax = () => onChange([minVal, max]);
+  const clearMin = () => {
+    setMinVal(min);
+    onChange([min, maxVal]);
+  };
+  const clearMax = () => {
+    setMaxVal(max);
+    onChange([minVal, max]);
+  };
+
+  // Bloquer caractères non numériques
+  const blockInvalidChars = (e) => {
+    if (["e", "E", "+", "-", "."].includes(e.key)) {
+      e.preventDefault();
+    }
+  };
+
+  // Empêcher coller ou input invalides
+  const sanitizeInput = (e) => {
+    let clean = e.target.value.replace(/[^0-9]/g, ""); // garder que digits
+    if (clean !== e.target.value) {
+      e.target.value = clean;
+    }
+  };
+
+  const handlePaste = (e) => {
+    const paste = e.clipboardData.getData("text");
+    if (!/^\d+$/.test(paste)) {
+      e.preventDefault();
+    }
+  };
 
   // Fermer si clic en dehors
   useEffect(() => {
@@ -77,11 +128,13 @@ export default function RangeFilter({
             <label className="text-xs text-gray-300">Min ({unit})</label>
             <div className="flex items-center gap-2 transition-all duration-300">
               <input
-                type="number"
+                type="text"
+                inputMode="numeric"
                 value={minVal}
                 onChange={handleMin}
-                min={min}
-                max={maxVal}
+                onKeyDown={blockInvalidChars}
+                onInput={sanitizeInput}
+                onPaste={handlePaste}
                 className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
                 placeholder={`Min ${unit}`}
               />
@@ -102,11 +155,13 @@ export default function RangeFilter({
             <label className="text-xs text-gray-300">Max ({unit})</label>
             <div className="flex items-center gap-2 transition-all duration-300">
               <input
-                type="number"
+                type="text"
+                inputMode="numeric"
                 value={maxVal}
                 onChange={handleMax}
-                min={minVal}
-                max={max}
+                onKeyDown={blockInvalidChars}
+                onInput={sanitizeInput}
+                onPaste={handlePaste}
                 className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
                 placeholder={`Max ${unit}`}
               />

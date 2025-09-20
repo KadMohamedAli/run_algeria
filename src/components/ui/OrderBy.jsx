@@ -20,19 +20,28 @@ export default function OrderBy({ value, onChange }) {
 
   const current = options.find((o) => o.value === value);
 
+  // Align dropdown depending on button position
   useEffect(() => {
     if (!open || !btnRef.current) return;
 
     const rect = btnRef.current.getBoundingClientRect();
     const viewportWidth = window.innerWidth;
 
-    // if the button is more to the right half of the screen, align dropdown right
-    if (rect.left > viewportWidth / 2) {
-      setAlignRight(true);
-    } else {
-      setAlignRight(false);
-    }
+    setAlignRight(rect.left > viewportWidth / 2);
   }, [open]);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (btnRef.current && !btnRef.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="relative inline-block text-left" ref={btnRef}>
@@ -83,7 +92,7 @@ export default function OrderBy({ value, onChange }) {
 
       {open && (
         <div
-          className={`absolute mt-1 w-52 bg-gray-800 border border-gray-600 rounded-md shadow-lg z-50 
+          className={`absolute mt-1 w-52 bg-gray-800 border border-gray-600 rounded-md shadow-lg 
                       ${alignRight ? "right-0" : "left-0"}`}
         >
           {options.map((opt) => (
