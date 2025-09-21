@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Courses à pied Algérie",
@@ -68,8 +69,7 @@ export default function RootLayout({ children }) {
           color: "#e2e8f0", // not pure white
         }}
       >
-        {" "}
-        <Navbar />
+        <SpeedInsights /> <Navbar />
         <main className="container mx-auto">{children}</main>
       </body>
     </html>
