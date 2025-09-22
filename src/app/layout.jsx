@@ -20,12 +20,12 @@ export const metadata = {
   openGraph: {
     title: "Courses à pied Algérie",
     description: "Recensement complet et à jour des courses à pied en Algérie.",
-    url: "https://coursesapied.dz", // replace with your domain
+    url: "https://coursesapied.dz",
     siteName: "Courses à pied Algérie",
     type: "website",
     images: [
       {
-        url: "https://coursesapied.dz/og-image.jpg", // replace with your OG image
+        url: "https://coursesapied.dz/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Courses à pied Algérie",
@@ -36,11 +36,10 @@ export const metadata = {
     card: "summary_large_image",
     title: "Courses à pied Algérie",
     description: "Recensement complet et à jour des courses à pied en Algérie.",
-    site: "@YourTwitterHandle", // optional
+    site: "@YourTwitterHandle",
     creator: "@YourTwitterHandle",
     images: ["https://coursesapied.dz/og-image.jpg"],
   },
-  viewport: "width=device-width, initial-scale=1.0",
   robots: {
     index: true,
     follow: true,
@@ -59,6 +58,12 @@ export const metadata = {
   },
 };
 
+// ✅ viewport séparé
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="fr" suppressHydrationWarning>
@@ -69,7 +74,8 @@ export default function RootLayout({ children }) {
           color: "#e2e8f0", // not pure white
         }}
       >
-        <SpeedInsights /> <Navbar />
+        <SpeedInsights />
+        <Navbar />
         <main className="container mx-auto">{children}</main>
       </body>
     </html>

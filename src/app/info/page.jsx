@@ -17,7 +17,7 @@ export default function InfoPage() {
       </h2>
       <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
         Si vous êtes un organisateur de course, vous pouvez nous contacter directement par email pour
-        que nous ajoutions votre événement. Nous collectons toutes les informations nécessaires
+        que nous ajoutions ou on modifier votre événement. Nous collectons toutes les informations nécessaires
         afin de présenter vos courses correctement et avec votre accord.
       </p>
 
