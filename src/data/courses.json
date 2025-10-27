@@ -16,7 +16,7 @@
     "contact_email": "contact@trailblida.dz",
     "site_web": "http://trailblida.dz",
     "image": "/images/blidaTrail.jpg",
-    "prix_inscription": "2000 ",
+    "prix_inscription": "2000",
     "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
     "colors": {
       "background_color": "#263912",
@@ -86,10 +86,10 @@
       "accent_color": "#f1c40f"
     },
     "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": []
+      "premier": ["100000 DA"],
+      "deuxieme": ["70000 DA"],
+      "troisieme": ["Cadeaux locaux"],
+      "finishers": ["Diplôme finisher"]
     }
   },
   {
