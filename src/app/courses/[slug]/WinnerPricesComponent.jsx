@@ -3,18 +3,28 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useRef } from "react";
 
 export default function WinnerPricesComponent({ prix_gagnants }) {
-  if (!prix_gagnants || Object.keys(prix_gagnants).length === 0) return null;
+  if (
+    !prix_gagnants ||
+    typeof prix_gagnants !== "object" ||
+    Object.keys(prix_gagnants).length === 0
+  )
+    return null;
+
+  // Filter out empty categories
+  const validCategories = Object.entries(prix_gagnants).filter(
+    ([, rewards]) =>
+      rewards && typeof rewards === "object" && Object.keys(rewards).length > 0
+  );
+
+  if (validCategories.length === 0) return null;
 
   const scrollRef = useRef(null);
 
-  // Scroll by one "page" (one card width)
   const scroll = (dir) => {
     if (!scrollRef.current) return;
-
     const container = scrollRef.current;
-    const cardWidth = container.offsetWidth; // only the visible width
+    const cardWidth = container.offsetWidth;
     const scrollAmount = dir === "left" ? -cardWidth : cardWidth;
-
     container.scrollBy({ left: scrollAmount, behavior: "smooth" });
   };
 
@@ -43,7 +53,7 @@ export default function WinnerPricesComponent({ prix_gagnants }) {
         ref={scrollRef}
         className="flex overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide scroll-smooth"
       >
-        {Object.entries(prix_gagnants).map(([category, rewards], idx) => (
+        {validCategories.map(([category, rewards]) => (
           <div
             key={category}
             className="snap-center flex-shrink-0 w-full px-4 sm:px-8"
@@ -53,20 +63,12 @@ export default function WinnerPricesComponent({ prix_gagnants }) {
                 {category}
               </h3>
 
+              {/* --- Show Podium only if at least one exists --- */}
               {rewards["1er"] || rewards["2e"] || rewards["3e"] ? (
                 <Podium rewards={rewards} />
-              ) : (
-                <ul className="list-disc list-inside text-gray-300 text-sm space-y-1">
-                  {Object.entries(rewards).map(([pos, values]) => (
-                    <li key={pos}>
-                      <span className="font-semibold capitalize text-white">
-                        {pos}
-                      </span>
-                      : {values.join(", ")}
-                    </li>
-                  ))}
-                </ul>
-              )}
+              ) : rewards.finishers ? (
+                <Finishers rewards={rewards} />
+              ) : null}
             </div>
           </div>
         ))}
@@ -75,12 +77,13 @@ export default function WinnerPricesComponent({ prix_gagnants }) {
   );
 }
 
+/* ====== HELPERS ====== */
 const formatPrice = (value) => {
   if (typeof value === "number" || /^\d+(\s?DA)?$/.test(value)) {
     const num = parseInt(value.toString().replace(/\D/g, ""), 10);
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " DA";
   }
-  return value;
+  return String(value);
 };
 
 const formatPlace = (place) => {
@@ -96,7 +99,12 @@ const formatPlace = (place) => {
   );
 };
 
+/* ====== PODIUM ====== */
 function Podium({ rewards }) {
+  const hasPodium =
+    rewards["1er"] || rewards["2e"] || rewards["3e"] ? true : false;
+  if (!hasPodium) return null;
+
   const podium = [
     {
       place: "2e",
@@ -122,13 +130,16 @@ function Podium({ rewards }) {
     ([k]) => !["1er", "2e", "3e", "finishers"].includes(k)
   );
 
+  const hasOthers = others.length > 0;
+
   return (
     <div className="flex flex-col items-center text-center w-full">
       {/* --- Podium --- */}
       <div className="relative flex justify-center items-end w-full max-w-md mx-auto mb-10 gap-0">
         {podium.map(
           (p) =>
-            rewards[p.place] && (
+            Array.isArray(rewards[p.place]) &&
+            rewards[p.place].length > 0 && (
               <div
                 key={p.place}
                 className={`flex flex-col justify-end items-center w-28 sm:w-32 ${p.height} relative ${p.rounding} ${p.base} shadow-[0_0_15px_rgba(255,255,255,0.05)] text-white transition-transform duration-300 hover:scale-[1.03]`}
@@ -148,7 +159,7 @@ function Podium({ rewards }) {
       </div>
 
       {/* --- Other positions --- */}
-      {others.length > 0 && (
+      {hasOthers && (
         <div className="text-gray-300 text-sm mb-4 w-full max-w-md">
           <ul className="space-y-1">
             {others.map(([pos, values]) => (
@@ -156,7 +167,10 @@ function Podium({ rewards }) {
                 <span className="font-semibold text-white">
                   {formatPlace(pos)}
                 </span>{" "}
-                : {values.map((v, i) => formatPrice(v)).join(", ")}
+                :{" "}
+                {Array.isArray(values)
+                  ? values.map((v) => formatPrice(v)).join(", ")
+                  : formatPrice(values)}
               </li>
             ))}
           </ul>
@@ -164,18 +178,30 @@ function Podium({ rewards }) {
       )}
 
       {/* --- Finishers --- */}
-      {rewards.finishers && (
-        <div className="bg-[#ffffff0d] rounded-lg px-4 py-3 text-gray-100 font-semibold text-center mt-4 w-full max-w-md">
-          <div className="text-lg mb-1 text-white uppercase font-bold underline">
-            Finishers
-          </div>
-          <ul className="text-sm space-y-1">
-            {rewards.finishers.map((f, i) => (
-              <li key={i}>{formatPrice(f)}</li>
-            ))}
-          </ul>
-        </div>
-      )}
+      {rewards.finishers && <Finishers rewards={rewards} />}
+    </div>
+  );
+}
+
+/* ====== FINISHERS ====== */
+function Finishers({ rewards }) {
+  if (
+    !rewards ||
+    !Array.isArray(rewards.finishers) ||
+    rewards.finishers.length === 0
+  )
+    return null;
+
+  return (
+    <div className="bg-[#ffffff0d] rounded-lg px-4 py-3 text-gray-100 font-semibold text-center mt-4 w-full max-w-md">
+      <div className="text-lg mb-1 text-white uppercase font-bold underline">
+        Finishers
+      </div>
+      <ul className="text-sm space-y-1">
+        {rewards.finishers.map((f, i) => (
+          <li key={i}>{formatPrice(f)}</li>
+        ))}
+      </ul>
     </div>
   );
 }
