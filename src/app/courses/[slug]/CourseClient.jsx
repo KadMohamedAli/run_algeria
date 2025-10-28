@@ -12,6 +12,7 @@ import ImageAndInfos from "./ImageAndInfos";
 import DescriptionComponent from "./Description";
 import ConditionsComponent from "./Conditions";
 import WinnerPricesComponent from "./WinnerPricesComponent";
+import CourseTags from "./CourseTags";
 import {
   BuildingOffice2Icon,
   PhoneIcon,
@@ -40,11 +41,17 @@ export default function CoursePageClient({ course }) {
     () => [course.commune, wilaya, pays].filter(Boolean).join(" • "),
     [course.commune, wilaya, pays]
   );
+  // --- Identify types
+  const typeCodes = Array.isArray(course.type)
+    ? course.type
+    : course.type
+    ? [course.type]
+    : [];
 
   return (
     <div className="min-h-screen text-white flex flex-col">
       {/* === HEADER === */}
-      <header className="py-10 px-6 md:px-12 text-center border-b border-white/10">
+      <header className="pt-10 pb-4 px-6 md:px-12 text-center border-b border-white/10">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-3">
           {course.nom}
         </h1>
@@ -57,6 +64,7 @@ export default function CoursePageClient({ course }) {
             </>
           )}
         </p>
+        {typeCodes && <CourseTags typeCodes={typeCodes} />}
       </header>
 
       {/* === MAIN CONTENT === */}
