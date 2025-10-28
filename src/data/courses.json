@@ -65,7 +65,7 @@
     "id": 3,
     "slug": "semi-marathon-annaba-2025",
     "nom": "2e édition Semi-Marathon Annaba",
-    "description": "Course populaire pour tous niveaux au bord de la mer.",
+    "description": "Le Semi-Marathon d’Annaba revient pour une deuxième édition spectaculaire au bord de la mer.\nCet événement emblématique attire des coureurs de toute l’Algérie et d’ailleurs, offrant un parcours plat et rapide traversant les plus beaux sites de la ville, entre front de mer, collines verdoyantes et zones urbaines animées.\n\nLes participants pourront profiter d’une ambiance festive, d’un ravitaillement complet à chaque 5 km, et d’une organisation professionnelle assurée par le Club Athlétique Annaba.\n\nCette édition mettra également en avant la sensibilisation au sport pour tous et le respect de l’environnement.\n\nPréparez-vous à battre vos records personnels tout en profitant d’un cadre unique et d’un public chaleureux !",
     "date": "2025-12-08T09:00:00",
     "type": [0, 4],
     "distance": 21.1,
@@ -77,19 +77,53 @@
     "contact_numero": "+213555987654",
     "contact_email": "contact@runannaba.dz",
     "site_web": "http://runannaba.dz",
+    "inscription_link": "http://runannaba.dz/apply",
     "image": "/images/semi_bejaia_2024.jpg",
-    "prix_inscription": "1500 ",
-    "conditions": ["Ouvert à tous", "Âge minimum 12 ans"],
+    "prix_inscription": "1500",
+    "conditions": [
+      "Licence d’athlétisme ou certificat médical de bonne santé obligatoire",
+      "Âge minimum 16 ans le jour de la course",
+      "Respect du règlement officiel de la compétition"
+    ],
     "colors": {
       "background_color": "#0f3460",
       "secondary_color": "#53354a",
       "accent_color": "#f1c40f"
     },
     "prix_gagnants": {
-      "premier": ["100000 DA"],
-      "deuxieme": ["70000 DA"],
-      "troisieme": ["Cadeaux locaux"],
-      "finishers": ["Diplôme finisher"]
+      "Senior Homme (19-40 ans)": {
+        "1er": ["150000 DA", "TV"],
+        "2e": ["120000 DA"],
+        "3e": ["90000 DA"],
+        "4e": ["70000 DA"],
+        "5e": ["50000 DA"],
+        "6e": ["40000 DA"],
+        "7e": ["35000 DA"],
+        "8e": ["30000 DA"],
+        "9e": ["25000 DA"],
+        "10e": ["20000 DA"],
+        "finishers": ["Médaille finisher", "Diplôme numérique"]
+      },
+      "Senior Femme (19-40 ans)": {
+        "1er": ["130000 DA"],
+        "2e": ["100000 DA"],
+        "3e": ["80000 DA"],
+        "4e": ["60000 DA"],
+        "5e": ["40000 DA"],
+        "finishers": ["Médaille finisher", "Bon d’achat sportif"]
+      },
+      "Junior (16-19 ans)": {
+        "1er": ["60000 DA"],
+        "2e": ["40000 DA"],
+        "3e": ["25000 DA"],
+        "finishers": ["Cadeaux des sponsors"]
+      },
+      "Masters (+40 ans)": {
+        "1er": ["80000 DA"],
+        "2e": ["60000 DA"],
+        "3e": ["40000 DA"],
+        "finishers": ["Trophée souvenir"]
+      }
     }
   },
   {
@@ -390,6 +424,7 @@
     "organisateur_nom": "Club Sportif Blida",
     "contact_numero": "+213555123456",
     "contact_email": "contact@trailblida.dz",
+    "inscription_link": "http://trailblida.dz/inscription",
     "site_web": "http://trailblida.dz",
     "image": "/images/blidaTrail.jpg",
     "prix_inscription": "2000",

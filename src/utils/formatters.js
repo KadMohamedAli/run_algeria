@@ -88,3 +88,26 @@ export function formatPrice(value) {
   return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "\u202f"); // petit espace
 }
 
+export function formatPhoneNumber(phone) {
+  if (!phone || typeof phone !== "string") return phone;
+
+  // Only handle Algerian numbers starting with +213
+  if (phone.startsWith("+213")) {
+    // Remove +213 and keep the rest
+    const localPart = phone.replace("+213", "0").replace(/\s+/g, "");
+
+    // Try grouping digits: 0X XX XX XX XX
+    return localPart.replace(
+      /^(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})$/,
+      "$1 $2 $3 $4 $5"
+    );
+  }
+
+  return phone; // no change for others
+}
+
+// --- Format URLs: remove protocol for cleaner display
+export function formatWebsite(url) {
+  if (!url || typeof url !== "string") return url;
+  return url.replace(/^https?:\/\//, "").replace(/\/$/, ""); // remove http(s):// and trailing slash
+}

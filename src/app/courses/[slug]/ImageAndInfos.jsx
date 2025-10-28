@@ -93,12 +93,15 @@ export default function ImageAndInfos({ course }) {
           <InfoLine icon={ChartBarIcon} label="Dénivelé" value={denivele} />
         )}
 
+        {/* make some space */}
+        <div></div>
+
         {price && (
           <InfoLine
             icon={CurrencyDollarIcon}
             label="Prix"
             value={price}
-            bgColor={course.colors.secondary_color}
+            bgColor={"#ab3300"}
           />
         )}
       </div>
