@@ -3,6 +3,7 @@ import { formatDateRange, formatPrice } from "@/utils/formatters"; // helpers
 import { motion, AnimatePresence } from "framer-motion";
 import wilayas from "@/data/wilaya.json";
 import types from "@/data/type.json";
+import { defaultFilters } from "@/hooks/useFilters";
 
 // Helpers internes
 const getWilayaName = (wilaya) => {
@@ -155,18 +156,7 @@ export default function ActiveFilters({ filters, setFilters }) {
 
       {/* Bouton Réinitialiser */}
       <button
-        onClick={() =>
-          setFilters({
-            wilaya: [],
-            type: [],
-            date: { start: null, end: null },
-            price: [0, 100000],
-            distance: [0, 5000],
-            denivele: [0, 10000],
-            orderBy: "date_asc",
-            search: "",
-          })
-        }
+        onClick={() => setFilters(defaultFilters)}
         className="px-4 py-2 text-sm font-semibold bg-gray-700 text-white rounded-full hover:bg-gray-600 transition-colors flex items-center justify-center shrink-0 w-full sm:w-auto sm:mb-0 mb-2"
       >
         Réinitialiser

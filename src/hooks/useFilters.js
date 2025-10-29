@@ -6,7 +6,7 @@ import LZString from "lz-string";
 const today = new Date();
 const yyyyMMdd = today.toISOString().slice(0, 10);
 
-const defaultFilters = {
+export const defaultFilters = {
   wilaya: [],
   type: [],
   date: { start: `${yyyyMMdd}T00:01:00`, end: null },
