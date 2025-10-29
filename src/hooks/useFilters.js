@@ -17,8 +17,6 @@ export const defaultFilters = {
   search: "",
 };
 
-console.log(defaultFilters.date.start);
-
 // --- Helpers ---
 function encodeFilters(filters) {
   try {

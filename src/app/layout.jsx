@@ -1,45 +1,63 @@
-import Navbar from "../components/Navbar";
 import "./globals.css";
+import Navbar from "../components/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
+// ✅ Base URL from env
+const baseUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app";
+
 export const metadata = {
-  title: "Courses à pied Algérie",
+  title: {
+    default: "Courses Algérie",
+    template: "%s – Courses Algérie",
+  },
   description:
-    "Recensement complet et à jour des courses à pied en Algérie, calendriers, résultats et informations pratiques.",
+    "Courses Algérie est une plateforme gratuite créée par des passionnés pour les coureurs et organisateurs de courses à pied en Algérie. Découvrez, ajoutez ou mettez à jour vos événements facilement.",
   keywords: [
     "courses à pied",
     "Algérie",
-    "marathons",
-    "semi-marathons",
+    "marathon",
+    "semi-marathon",
     "trail",
-    "course locale",
+    "running",
+    "événements sportifs",
+    "calendrier running",
   ],
-  authors: [{ name: "Mohamed Ali Kaddour" }],
-  creator: "Mohamed Ali Kaddour",
-  publisher: "Courses à pied Algérie",
+  authors: [{ name: "Kaddour Mohamed Ali" }, { name: "Amer El Khedoud Amir" }],
+  creator: "Kaddour Mohamed Ali & Amer El Khedoud Amir",
+  publisher: "Courses Algérie (projet communautaire)",
+  category: "Sport / Communauté",
+
+  // ✅ OpenGraph metadata
   openGraph: {
-    title: "Courses à pied Algérie",
-    description: "Recensement complet et à jour des courses à pied en Algérie.",
-    url: "https://coursesapied.dz",
-    siteName: "Courses à pied Algérie",
+    title: "Courses Algérie",
+    description:
+      "Découvrez le calendrier complet des courses à pied en Algérie : marathons, semi-marathons, trails et plus encore.",
+    url: baseUrl,
+    siteName: "Courses Algérie",
     type: "website",
+    locale: "fr_DZ",
     images: [
       {
-        url: "https://coursesapied.dz/og-image.jpg",
+        url: `${baseUrl}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "Courses à pied Algérie",
+        alt: "Courses Algérie – Courses à pied en Algérie",
       },
     ],
   },
+
+  // ✅ Twitter metadata
   twitter: {
     card: "summary_large_image",
-    title: "Courses à pied Algérie",
-    description: "Recensement complet et à jour des courses à pied en Algérie.",
-    site: "@YourTwitterHandle",
-    creator: "@YourTwitterHandle",
-    images: ["https://coursesapied.dz/og-image.jpg"],
+    title: "Courses Algérie",
+    description:
+      "Courses Algérie — plateforme gratuite pour découvrir et partager les courses à pied en Algérie.",
+    images: [`${baseUrl}/og-image.jpg`],
+    creator: "@CoursesAlgerie", // optional if you ever create an account
   },
+
+  // ✅ Robots & Googlebot config
   robots: {
     index: true,
     follow: true,
@@ -51,17 +69,23 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
+
+  // ✅ Icons
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
+
+  // ✅ Canonical + base
+  metadataBase: new URL(baseUrl),
 };
 
-// ✅ viewport séparé
 export const viewport = {
   width: "device-width",
   initialScale: 1,
+  maximumScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }) {
@@ -70,8 +94,8 @@ export default function RootLayout({ children }) {
       <body
         className="bg-slate-800 text-slate-200 min-h-screen"
         style={{
-          backgroundColor: "#1e293b", // softer dark
-          color: "#e2e8f0", // not pure white
+          backgroundColor: "#1e293b",
+          color: "#e2e8f0",
         }}
       >
         <SpeedInsights />

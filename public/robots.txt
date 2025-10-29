@@ -1,0 +1,10 @@
+# robots.txt for Courses Algérie
+User-agent: *
+Allow: /
+
+# Point to sitemap
+Sitemap: https://run-algeria.vercel.app/sitemap.xml
+
+# Contact and site info
+Host: https://run-algeria.vercel.app
+# Created by KADDOUR Mohamed Ali & AMER EL KHEDOUD AMIR

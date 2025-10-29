@@ -1,9 +1,10 @@
 {
-  "name": "run_algeria",
-  "version": "0.1.0",
+  "name": "courses_algerie",
+  "version": "0.9.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "prebuild": "node scripts/generate-sitemap.js",
     "build": "next build --turbopack",
     "start": "next start"
   },
