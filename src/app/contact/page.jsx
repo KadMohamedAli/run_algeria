@@ -1,31 +1,50 @@
 export default function InfoPage() {
   return (
-    <div className="max-w-4xl mx-auto p-4 md:p-8 space-y-6">
-      <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-gray-100">
+    <div className="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto py-6 md:py-10 space-y-6">
+      <h1 className="text-3xl sm:text-4xl font-extrabold text-white text-center sm:text-left">
         À propos de Courses à pied Algérie
       </h1>
 
-      <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
-        Ce site a été créé pour recenser toutes les courses à pied en Algérie, afin de faciliter leur
-        découverte par les coureurs. Nous essayons de rester en contact avec les organisateurs et
-        d’obtenir leur approbation avant de publier leurs événements. Cela permet aux coureurs
-        algériens de savoir facilement quand et où courir, tout en bénéficiant d’informations précises.
+      <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
+        <strong>Courses Algérie</strong> est un petit projet personnel, créé par
+        des passionnés de course à pied, dans un esprit entièrement{" "}
+        <strong>non lucratif</strong>. Notre objectif est simple&nbsp;: offrir
+        aux coureurs algériens une plateforme claire et pratique pour découvrir
+        les courses organisées à travers tout le pays.
       </p>
 
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100">
+      <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
+        Le site est totalement <strong>gratuit</strong> pour les organisateurs
+        et les coureurs. Nous essayons toujours de{" "}
+        <strong>contacter les organisateurs</strong> avant de publier un
+        événement, afin d’obtenir leur accord et de confirmer les informations.
+        Même si la publication est gratuite et sans contrainte, nous tenons à ce
+        que tout soit validé par les personnes concernées.
+      </p>
+
+      <h2 className="text-2xl sm:text-3xl font-bold text-white mt-8">
         Pour les organisateurs
       </h2>
-      <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-        Si vous êtes un organisateur de course, vous pouvez nous contacter directement par email pour
-        que nous ajoutions ou on modifier votre événement. Nous collectons toutes les informations nécessaires
-        afin de présenter vos courses correctement et avec votre accord.
+
+      <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
+        Si vous organisez une course, vous pouvez nous contacter pour{" "}
+        <strong>ajouter</strong> ou <strong>modifier</strong> votre événement
+        sur le site. Nous rassemblons toutes les informations nécessaires pour
+        présenter correctement votre course, avec votre accord.
       </p>
 
-      <p className="text-gray-700 dark:text-gray-300">
-        Envoyez un email à <strong>contact@coursesalgerie.com</strong> avec les informations suivantes :
+      <p className="text-gray-200 text-base sm:text-lg">
+        Vous pouvez nous écrire directement à{" "}
+        <a
+          href="mailto:coursesalgerie@gmail.com"
+          className="text-orange-400 hover:text-orange-300 underline break-all"
+        >
+          coursesalgerie@gmail.com
+        </a>{" "}
+        en indiquant les informations suivantes :
       </p>
 
-      <ul className="list-disc ml-6 space-y-1 text-gray-700 dark:text-gray-300">
+      <ul className="list-disc ml-5 sm:ml-6 space-y-1 text-gray-200 text-base">
         <li>Nom de la course</li>
         <li>Date et lieu (wilaya)</li>
         <li>Distance et type de course</li>
@@ -37,14 +56,28 @@ export default function InfoPage() {
         <li>Optionnel : preuve d’identité de l’organisateur</li>
       </ul>
 
-      <p className="text-gray-700 dark:text-gray-300">
-        La publication de l’événement se fera manuellement par l’administrateur, afin de garantir
-        la fiabilité des informations.
+      <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
+        Chaque ajout est vérifié manuellement pour garantir la fiabilité des
+        informations publiées. En cas de doute ou de problème, vous pouvez nous
+        contacter à tout moment pour confirmer ou corriger les données.
       </p>
 
-      <p className="text-gray-600 dark:text-gray-400 italic">
-        Nous nous efforçons de rendre ce site le plus précis et utile possible pour tous les coureurs
-        algériens.
+      <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
+        Si vous constatez une erreur, souhaitez retirer ou mettre à jour une
+        course, ou simplement poser une question, n’hésitez pas à nous contacter
+        à{" "}
+        <a
+          href="mailto:coursesalgerie@gmail.com"
+          className="text-orange-400 hover:text-orange-300 underline break-all"
+        >
+          coursesalgerie@gmail.com
+        </a>
+        .
+      </p>
+
+      <p className="text-gray-400 italic text-center text-sm sm:text-base pt-4">
+        Merci à tous les coureurs, clubs et bénévoles qui participent à faire
+        vivre la course à pied en Algérie 🏃‍♂️🇩🇿
       </p>
     </div>
   );
