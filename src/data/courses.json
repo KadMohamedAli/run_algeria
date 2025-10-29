@@ -119,9 +119,6 @@
         "finishers": ["Cadeaux des sponsors"]
       },
       "Masters (+40 ans)": {
-        "1er": ["80000 DA"],
-        "2e": ["60000 DA"],
-        "3e": ["40000 DA"],
         "finishers": ["Trophée souvenir"]
       }
     }

@@ -58,7 +58,7 @@ export default function WinnerPricesComponent({ prix_gagnants }) {
             key={category}
             className="snap-center flex-shrink-0 w-full px-4 sm:px-8"
           >
-            <div className="rounded-xl p-8 h-full flex flex-col items-center space-y-8 bg-transparent">
+            <div className="rounded-xl p-4 md:p-8 h-full flex flex-col items-center space-y-8 bg-transparent">
               <h3 className="text-2xl font-bold text-white text-center">
                 {category}
               </h3>

@@ -1,12 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
-import { formatCourseDate } from "@/utils/DateUtils";
-import {
-  normalizeDistance,
-  normalizeElevation,
-  normalizePrice,
-} from "@/utils/CourseUtils";
+import { useEffect, useState, useRef } from "react";
 import wilayas from "@/data/wilaya.json";
 import ImageAndInfos from "./ImageAndInfos";
 import DescriptionComponent from "./Description";
@@ -42,18 +36,43 @@ export default function CoursePageClient({ course }) {
       })
     : null;
 
-  // --- Build location string ---
   const wilaya = course.wilaya || null;
   const pays = course.pays || "Algérie";
   const commune = course.commune?.trim() || "";
-
   const locationParts = [commune, wilaya, pays].filter(Boolean).join(", ");
-  // --- Identify types
   const typeCodes = Array.isArray(course.type)
     ? course.type
     : course.type
     ? [course.type]
     : [];
+
+  /* ===== Sticky button show/hide logic ===== */
+  const [visible, setVisible] = useState(false);
+  const lastScrollY = useRef(0);
+  const ticking = useRef(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!ticking.current) {
+        window.requestAnimationFrame(() => {
+          const currentY = window.scrollY;
+          const diff = currentY - lastScrollY.current;
+
+          if (Math.abs(diff) > 10) {
+            // if scrolling down → show button, if up → hide
+            setVisible(diff > 0 && currentY > 100);
+            lastScrollY.current = currentY;
+          }
+
+          ticking.current = false;
+        });
+        ticking.current = true;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className="min-h-screen text-white flex flex-col">
@@ -75,7 +94,7 @@ export default function CoursePageClient({ course }) {
       </header>
 
       {/* === MAIN CONTENT === */}
-      <main className="mx-auto w-full px-2 md:px-2 py-10 grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <main className="mx-auto w-full px-2 md:px-2 py-10 grid grid-cols-1 lg:grid-cols-3 gap-10 mb-12 md:mb-0">
         {/* LEFT PANEL */}
         <LeftPanel course={course} />
 
@@ -84,6 +103,28 @@ export default function CoursePageClient({ course }) {
           <RightPanel course={course} />
         </div>
       </main>
+
+      {/* === Sticky Inscription Button (mobile only) === */}
+      {course.inscription_link && (
+        <div
+          className={`fixed bottom-0 left-0 right-0 z-50 sm:hidden transition-all duration-700 ease-[cubic-bezier(0.25,1,0.3,1)] ${
+            visible
+              ? "translate-y-0 opacity-100"
+              : "translate-y-full opacity-0 pointer-events-none"
+          }`}
+        >
+          <div className="bg-gray-900/95 border-t border-white/10 px-4 py-3 backdrop-blur-sm shadow-[0_-2px_15px_rgba(0,0,0,0.4)]">
+            <a
+              href={course.inscription_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-center w-full bg-[#ab3300] text-white uppercase text-lg font-black py-3 rounded-lg shadow-md hover:bg-[#c33b00] transition-all duration-300 ease-in-out"
+            >
+              S’inscrire
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
