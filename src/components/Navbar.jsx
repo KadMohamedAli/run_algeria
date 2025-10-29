@@ -25,7 +25,7 @@ export default function Navbar() {
                 Accueil
               </Link>
               <Link
-                href="/info"
+                href="/contact"
                 className="text-white hover:text-gray-300 transition-colors duration-200"
               >
                 Contact
@@ -76,7 +76,7 @@ export default function Navbar() {
             Accueil
           </Link>
           <Link
-            href="/info"
+            href="/contact"
             className="text-white px-3 py-2 rounded-md hover:bg-gray-700 transition-colors"
             onClick={() => setIsOpen(false)}
           >
