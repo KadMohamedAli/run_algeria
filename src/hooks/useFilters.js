@@ -3,16 +3,21 @@ import { useState, useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import LZString from "lz-string";
 
+const today = new Date();
+const yyyyMMdd = today.toISOString().slice(0, 10);
+
 const defaultFilters = {
   wilaya: [],
   type: [],
-  date: { start: Date(), end: null },
+  date: { start: `${yyyyMMdd}T00:01:00`, end: null },
   price: [0, 100000],
   distance: [0, 5000],
   denivele: [0, 10000],
   orderBy: "date_asc",
   search: "",
 };
+
+console.log(defaultFilters.date.start);
 
 // --- Helpers ---
 function encodeFilters(filters) {

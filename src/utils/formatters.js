@@ -25,61 +25,53 @@ export function formatDateRange(start, end) {
   const s = start ? new Date(start) : null;
   const e = end ? new Date(end) : null;
 
-  // Cas : une seule date
+  // === Cas : une seule date (début ou fin) ===
   if (s && !e) {
-    if (isToday(s)) return "Aujourd’hui";
-    if (isTomorrow(s)) return "Demain";
-    if (isYesterday(s)) return "Hier";
-    return `Après le ${formatShort(s)}`;
+    if (isToday(s)) return "À partir d’aujourd’hui";
+    if (isTomorrow(s)) return "À partir de demain";
+    if (isYesterday(s)) return "À partir d’hier";
+    return `À partir du ${formatShort(s)}`;
   }
 
   if (!s && e) {
     if (isToday(e)) return "Jusqu’à aujourd’hui";
-    if (isTomorrow(e)) return "Avant demain";
-    if (isYesterday(e)) return "Avant hier";
-    return `Avant le ${formatShort(e)}`;
+    if (isTomorrow(e)) return "Jusqu’à demain";
+    if (isYesterday(e)) return "Jusqu’à hier";
+    return `Jusqu’au ${formatShort(e)}`;
   }
 
-  // Cas : deux dates
+  // === Cas : deux dates ===
   if (s && e) {
     if (isToday(s) && isToday(e)) return "Aujourd’hui";
     if (isYesterday(s) && isYesterday(e)) return "Hier";
     if (isTomorrow(s) && isTomorrow(e)) return "Demain";
 
-    // Différences
     const daysDiff = differenceInDays(e, s);
     const weeksDiff = differenceInWeeks(e, s);
     const monthsDiff = differenceInMonths(e, s);
 
-    // Prochains jours
-    if (isToday(s) && daysDiff > 1 && daysDiff <= 6) {
-      return `${daysDiff + 1} prochains jours`;
+    // Périodes à partir d’aujourd’hui
+    if (isToday(s)) {
+      if (daysDiff > 0 && daysDiff <= 6) {
+        return `Les ${daysDiff + 1} prochains jours`;
+      }
+      if (weeksDiff === 1) return "La semaine prochaine";
+      if (weeksDiff > 1 && weeksDiff <= 4)
+        return `Les ${weeksDiff} prochaines semaines`;
+      if (monthsDiff === 1) return "Le mois prochain";
+      if (monthsDiff > 1 && monthsDiff <= 11)
+        return `Les ${monthsDiff} prochains mois`;
+      if (e <= endOfYear(new Date())) return "Cette année";
+
+      return `À partir d’aujourd’hui jusqu’au ${formatShort(e)}`;
     }
 
-    // Prochaines semaines
-    if (isToday(s) && weeksDiff === 1) return "Prochaine semaine";
-    if (isToday(s) && weeksDiff > 1 && weeksDiff <= 4) {
-      return `${weeksDiff} prochaines semaines`;
-    }
-
-    // Prochains mois
-    if (isToday(s) && monthsDiff === 1) return "Prochain mois";
-    if (isToday(s) && monthsDiff > 1 && monthsDiff <= 11) {
-      return `${monthsDiff} prochains mois`;
-    }
-
-    // Cette année
-    if (isToday(s) && e <= endOfYear(new Date())) {
-      return "Cette année";
-    }
-
-    // Par défaut
-    return `${formatShort(s)} → ${formatShort(e)}`;
+    // Cas général
+    return `Du ${formatShort(s)} au ${formatShort(e)}`;
   }
 
   return "";
 }
-
 /**
  * Formatte un prix avec espace fine insécable
  */
