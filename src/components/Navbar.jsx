@@ -51,7 +51,7 @@ export default function Navbar() {
 
       {/* Mobile sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-gray-800 shadow-lg transform transition-transform duration-600 ease-in-out z-200 ${
+        className={`fixed top-0 right-0 h-full w-64 bg-gray-800 shadow-lg transform transition-transform duration-400 ease-in-out z-200 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -88,7 +88,7 @@ export default function Navbar() {
       {/* Overlay for sidebar */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-30"
+          className="fixed inset-0 bg-black/80 z-51"
           onClick={() => setIsOpen(false)}
         ></div>
       )}
