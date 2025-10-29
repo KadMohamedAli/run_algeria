@@ -6,7 +6,7 @@ import LZString from "lz-string";
 const defaultFilters = {
   wilaya: [],
   type: [],
-  date: { start: null, end: null },
+  date: { start: Date(), end: null },
   price: [0, 100000],
   distance: [0, 5000],
   denivele: [0, 10000],
