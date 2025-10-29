@@ -29,9 +29,9 @@ export const metadata = {
       {
         url: `${
           process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app"
-        }/og-image.jpg`,
-        width: 1200,
-        height: 630,
+        }/ca_logo.jpg`,
+        width: 1080,
+        height: 1080,
         alt: "Courses Algérie – À propos et contact",
       },
     ],

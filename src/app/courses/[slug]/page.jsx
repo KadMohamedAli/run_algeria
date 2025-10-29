@@ -14,7 +14,7 @@ export function generateStaticParams() {
 
 // ✅ Generate metadata dynamically per course
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   const course = coursesData.find((c) => c.slug === slug);
   if (!course) return { title: "Course non trouvée" };
 
@@ -60,8 +60,6 @@ export async function generateMetadata({ params }) {
       images: [
         {
           url: imageUrl,
-          width: 1200,
-          height: 630,
           alt: `${course.nom} – ${wilayaName}`,
         },
       ],
@@ -73,7 +71,7 @@ export async function generateMetadata({ params }) {
 
 // ✅ Page component
 export default async function CoursePage({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   const course = coursesData.find((c) => c.slug === slug);
 
   if (!course) {

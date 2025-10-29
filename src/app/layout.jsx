@@ -39,9 +39,9 @@ export const metadata = {
     locale: "fr_DZ",
     images: [
       {
-        url: `${baseUrl}/og-image.jpg`,
-        width: 1200,
-        height: 630,
+        url: `${baseUrl}/ca_logo.jpg`,
+        width: 1080,
+        height: 1080,
         alt: "Courses Algérie – Courses à pied en Algérie",
       },
     ],
@@ -53,7 +53,7 @@ export const metadata = {
     title: "Courses Algérie",
     description:
       "Courses Algérie — plateforme gratuite pour découvrir et partager les courses à pied en Algérie.",
-    images: [`${baseUrl}/og-image.jpg`],
+    images: [`${baseUrl}/ca_logo.jpg`],
     creator: "@CoursesAlgerie", // optional if you ever create an account
   },
 
@@ -73,8 +73,8 @@ export const metadata = {
   // ✅ Icons
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    shortcut: "/ca_logo_32.png",
+    apple: "/ca_logo.jpg",
   },
 
   // ✅ Canonical + base
