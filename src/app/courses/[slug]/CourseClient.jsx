@@ -46,6 +46,8 @@ export default function CoursePageClient({ course }) {
     ? [course.type]
     : [];
 
+  const isPastEvent = course.date ? new Date(course.date) < new Date() : false;
+
   /* ===== Sticky button show/hide logic ===== */
   const [visible, setVisible] = useState(false);
   const lastScrollY = useRef(0);
@@ -105,7 +107,7 @@ export default function CoursePageClient({ course }) {
       </main>
 
       {/* === Sticky Inscription Button (mobile only) === */}
-      {course.inscription_link && (
+      {course.inscription_link && !isPastEvent && (
         <div
           className={`fixed bottom-0 left-0 right-0 z-50 sm:hidden transition-all duration-700 ease-[cubic-bezier(0.25,1,0.3,1)] ${
             visible

@@ -23,6 +23,8 @@ function RightPanel({ course }) {
   const hasConditions =
     Array.isArray(course.conditions) && course.conditions.length > 0;
 
+  const isPastEvent = course.date ? new Date(course.date) < new Date() : false;
+
   if (!org) return null;
 
   return (
@@ -76,7 +78,7 @@ function RightPanel({ course }) {
         )}
 
         {/* --- Inscription button --- */}
-        {hasValidInscriptionLink && (
+        {hasValidInscriptionLink && !isPastEvent && (
           <div className="pt-4 hidden sm:block">
             <a
               href={course.inscription_link}
