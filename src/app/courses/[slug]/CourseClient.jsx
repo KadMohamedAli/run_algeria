@@ -80,19 +80,45 @@ export default function CoursePageClient({ course }) {
   return (
     <div className="min-h-screen text-white flex flex-col">
       {/* === HEADER === */}
-      <header className="pt-10 pb-4 px-6 md:px-12 text-center border-b border-white/10">
+      <header className="pt-4 md:pt-10 pb-4 px-6 md:px-12 text-center border-b border-white/10">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-3">
           {course.nom}
         </h1>
         <p className="text-gray-300 text-lg">
           {formattedDate && (
+            <span className="block sm:inline">
+              {isPastEvent ? (
+                <>
+                  <span className="line-through">{`Le ${formattedDate}`}</span>
+                  {formattedTime && (
+                    <span className="line-through">{` à ${formattedTime}`}</span>
+                  )}
+                  <span className="block sm:inline ml-0 sm:ml-2 text-orange-600 font-semibold">
+                    (Course terminée)
+                  </span>
+                </>
+              ) : (
+                <>
+                  Le {formattedDate}
+                  {formattedTime && <> à {formattedTime}</>}
+                </>
+              )}
+            </span>
+          )}
+
+          {locationParts && (
             <>
-              Le {formattedDate}
-              {formattedTime && <> à {formattedTime}</>}
+              {/* Mobile: line break */}
+              <span className="block sm:hidden">{locationParts}</span>
+
+              {/* Desktop: bullet separator */}
+              <span className="hidden sm:inline sm:before:content-['•'] sm:before:mx-1">
+                {locationParts}
+              </span>
             </>
           )}
-          {locationParts && <> • {locationParts}</>}
         </p>
+
         {typeCodes && <CourseTags typeCodes={typeCodes} />}
       </header>
 
