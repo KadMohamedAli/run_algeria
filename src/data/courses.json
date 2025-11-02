@@ -1,33 +1,41 @@
 [
   {
     "id": 1,
-    "slug": "trail-blida-2025",
-    "nom": "5e édition Trail Chréa",
-    "description": "Course nature dans les montagnes de Blida.",
-    "date": "2025-11-22T09:00:00",
-    "type": [2],
+    "slug": "trail-chrea-2025",
+    "nom": "5e édition Trail Chréa - Courses des champions",
+    "description": "La 5ᵉ édition du Trail Chréa revient le samedi 22 novembre 2025 à 9h30 au départ du Ski Club de Chréa (Wilaya de Blida), organisée par l’Association GRAVIR à l’occasion de la commémoration du déclenchement de la guerre de libération.\n\nLe Trail Chréa est une course nature mêlant course à pied et marche sur des sentiers de montagne et de forêt, alliant performance sportive et découverte des paysages du parc national de Chréa.\n\n**Courses au programme :**\n- Course des Champions (24 km) : Ski Club – El Haoudh (le bassin) – Yemma Bahria – Les Châtaignes – Oued Blat – Le Noyer – Placette APC – Ski Club.\n- Course en binôme (2x12 km) sur le même parcours (Hommes, Femmes, Mixte).\n- Marche 5 km ouverte à tous les groupes sociaux et employés d’entreprises.\n- Course du Petit Traileur (moins de 14 ans) – participation gratuite.\n\n**Catégories :** Hommes et Femmes selon tranches d’âge (18–39, 40–49, 50–59, 60–69, 70+), binômes, personnes à besoins spécifiques, marcheurs et jeunes.\n\n**Droits d’inscription :** 2500 DA, incluant médaille finisher, dossard, tee-shirt, assurance, ravitaillement et récompenses.\n\n**Récompenses :**\n- 1er : 30.000 DA, 2e : 20.000 DA, 3e : 10.000 DA (Hommes et Femmes).\n- Prix spéciaux pour binômes, personnes à besoins spécifiques, entreprises, clubs et premiers de Blida.\n\n**Avantages spéciaux :** réductions pour les 100 premiers inscrits, hébergement gratuit pour certains participants hors wilaya, et participations offertes aux vainqueurs des éditions précédentes.\n\n**Retrait des dossards** à partir du 1er novembre 2025 (date limite : 14 novembre, Club Hippique).\n\nPour plus d’informations et inscriptions : contactez gravirblida@gmail.com ou consultez la page Facebook officielle.",
+    "date": "2025-11-22T09:30:00",
+    "type": [1, 13, 26],
     "distance": 24,
-    "denivele_plus": 500,
+    "denivele_plus": 700,
     "wilaya": 9,
-    "commune": "",
+    "commune": "Chréa",
     "pays": "Algérie",
-    "organisateur_nom": "Club Sportif Blida",
-    "contact_numero": "+213555123456",
-    "contact_email": "contact@trailblida.dz",
-    "site_web": "http://trailblida.dz",
-    "image": "/images/blidaTrail.jpg",
-    "prix_inscription": "2000",
-    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
+    "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
+    "contact_numero": "+213658430636",
+    "contact_email": "gravirblida@gmail.com",
+    "site_web": "https://www.facebook.com/TrailChrea25/",
+    "image": "/images/chreaTrail.jpg",
+    "prix_inscription": "2500",
+    "conditions": ["Âge minimum 18 ans"],
     "colors": {
-      "background_color": "#263912",
-      "secondary_color": "#5a2622",
-      "accent_color": "#83996b"
+      "background_color": "",
+      "secondary_color": "",
+      "accent_color": ""
     },
     "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": []
+      "Hommes": {
+        "1er": ["30000"],
+        "2e": ["20000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille Finisher", "Dossard", "Tee-Shirt"]
+      },
+      "Femmes": {
+        "1er": ["30000"],
+        "2e": ["20000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille Finisher", "Dossard", "Tee-Shirt"]
+      }
     }
   },
   {

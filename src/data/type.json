@@ -128,5 +128,8 @@
     "code": 25,
     "type": "Course chronométrée longue distance (1h, 12h, 24h)",
     "description": "Courses où l’objectif est de courir la plus grande distance possible sur une durée définie."
-  }
+  },
+  { "code": 26, "type": "Course National", "description": "" },
+  { "code": 27, "type": "Course International", "description": "" },
+  { "code": 28, "type": "Course Marche", "description": "" }
 ]
