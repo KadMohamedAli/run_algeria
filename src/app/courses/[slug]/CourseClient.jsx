@@ -36,7 +36,8 @@ export default function CoursePageClient({ course }) {
       })
     : null;
 
-  const wilaya = course.wilaya || null;
+  const wilayaCode = course.wilaya || null;
+  const wilaya = getWilayaName(wilayaCode);
   const pays = course.pays || "Algérie";
   const commune = course.commune?.trim() || "";
   const locationParts = [commune, wilaya, pays].filter(Boolean).join(", ");
