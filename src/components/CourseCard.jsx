@@ -70,7 +70,9 @@ export default function CourseCard({ course }) {
             {course.distance ? (
               (() => {
                 const normDist = normalizeDistance(course.distance);
-                const isNumeric = /^[0-9.]+$/.test(normDist.replace(" km", ""));
+                const isNumeric = /^[0-9.+]+$/.test(
+                  normDist.replace(" km", "")
+                );
                 return (
                   <CourseInfoItem
                     value={normDist}

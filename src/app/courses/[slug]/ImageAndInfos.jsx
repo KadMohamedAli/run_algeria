@@ -84,7 +84,11 @@ export default function ImageAndInfos({ course }) {
             <InfoLine
               icon={ChartBarIcon}
               label="Distance"
-              value={`${distance} km`}
+              value={
+                Array.isArray(distance)
+                  ? `${distance.join("+")} km`
+                  : `${distance} km`
+              }
             />
           )
         )}
@@ -94,7 +98,7 @@ export default function ImageAndInfos({ course }) {
         )}
 
         {/* make some space */}
-        <div></div>
+        {denivele && <div></div>}
 
         {price && (
           <InfoLine

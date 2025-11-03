@@ -7,8 +7,25 @@
 export function normalizeDistance(distance) {
   if (distance === null || distance === undefined) return null;
 
+  // If it's an array (e.g., [12, 12]), handle each element
+  if (Array.isArray(distance)) {
+    const normalizedParts = distance.map((d) => {
+      let str = String(d).trim().toLowerCase();
+      str = str.replace(/km|m/g, "").trim();
+      const num = parseFloat(str);
+      if (isNaN(num)) return d;
+      if (num === 21.1) return "Semi-marathon";
+      if (num === 42.2) return "Marathon";
+      return `${num}`;
+    });
+
+    // Join with "+" to show multiple segments (e.g., "12+12 km")
+    return `${normalizedParts.join("+")}`;
+  }
+
+  // Normal single-value case
   let str = String(distance).trim().toLowerCase();
-  str = str.replace(/km|m/g, "").trim(); // remove units if present
+  str = str.replace(/km|m/g, "").trim();
 
   const num = parseFloat(str);
   if (isNaN(num)) return distance;
@@ -18,6 +35,7 @@ export function normalizeDistance(distance) {
 
   return `${num}`;
 }
+
 
 /**
  * Normalize elevation relative to distance:
