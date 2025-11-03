@@ -1,5 +1,5 @@
 "use client";
-import coursesData from "../data/courses.json";
+import coursesData from "@/data/loadCourses"; // ✅ now uses correct dataset
 import CourseCard from "../components/CourseCard";
 import FilterBar from "../components/FilterBar";
 import ActiveFilters from "@/components/ui/ActiveFilters";

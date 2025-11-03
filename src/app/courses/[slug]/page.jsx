@@ -1,4 +1,4 @@
-import coursesData from "@/data/courses.json";
+import coursesData from "@/data/loadCourses";
 import coursesType from "@/data/type.json";
 import wilayas from "@/data/wilaya.json";
 import CourseClient from "./CourseClient";
