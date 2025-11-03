@@ -16,6 +16,13 @@ const getWilayaName = (wilaya) => {
   return found ? found.name : wilaya;
 };
 
+const formatOrdinals = (text) => {
+  if (!text) return "";
+  return text
+    .replace(/(\d+)\s?e(?![a-zA-Z])/g, "$1<sup>ᵉ</sup>") // 5e → 5ᵉ
+    .replace(/(\d+)\s?er(?![a-zA-Z])/g, "$1<sup>ᵉʳ</sup>"); // 1er → 1ᵉʳ
+};
+
 /* ===== MAIN PAGE ===== */
 export default function CoursePageClient({ course }) {
   if (!course) return null;
@@ -81,9 +88,10 @@ export default function CoursePageClient({ course }) {
     <div className="min-h-screen text-white flex flex-col">
       {/* === HEADER === */}
       <header className="pt-4 md:pt-10 pb-4 px-6 md:px-12 text-center border-b border-white/10">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-3">
-          {course.nom}
-        </h1>
+        <h1
+          className="text-4xl md:text-6xl font-extrabold mb-3"
+          dangerouslySetInnerHTML={{ __html: formatOrdinals(course.nom) }}
+        />
         <p className="text-gray-300 text-lg">
           {formattedDate && (
             <span className="block sm:inline">

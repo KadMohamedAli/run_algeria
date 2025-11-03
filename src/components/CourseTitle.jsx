@@ -3,6 +3,14 @@
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 
+// === Helper: format ordinals (1er → 1ᵉʳ, 5e → 5ᵉ, etc.)
+const formatOrdinals = (text) => {
+  if (!text) return "";
+  return text
+    .replace(/(\d+)\s?er(?![a-zA-Z])/g, "$1<sup>ᵉʳ</sup>") // 1er
+    .replace(/(\d+)\s?e(?![a-zA-Z])/g, "$1<sup>ᵉ</sup>"); // 2e, 5e
+};
+
 export default function CourseTitle({ text, seed = 0 }) {
   const containerRef = useRef(null);
   const textRef = useRef(null);
@@ -34,25 +42,22 @@ export default function CourseTitle({ text, seed = 0 }) {
         className="text-white text-2xl md:text-3xl font-black whitespace-nowrap"
         initial={{ x: 0 }}
         animate={
-          offset === 0
-            ? { x: 0 }
-            : { x: [0, offset, offset, 0] } // go → pause → back
+          offset === 0 ? { x: 0 } : { x: [0, offset, offset, 0] } // go → pause → back
         }
         transition={
           offset === 0
             ? { duration: 0 }
             : {
-                duration: 12, // total cycle duration
-                times: [0, 0.4, 0.6, 1], // where in timeline each keyframe happens
+                duration: 12,
+                times: [0, 0.4, 0.6, 1],
                 ease: "easeInOut",
                 repeat: Infinity,
-                repeatDelay: 4, // pause before next loop
-                delay: randomDelay, // initial delay before first run
+                repeatDelay: 4,
+                delay: randomDelay,
               }
         }
-      >
-        {text}
-      </motion.h3>
+        dangerouslySetInnerHTML={{ __html: formatOrdinals(text) }}
+      />
     </div>
   );
 }
