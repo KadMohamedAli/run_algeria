@@ -19,7 +19,7 @@
     "prix_inscription": "2500",
     "conditions": ["Âge minimum 18 ans"],
     "colors": {
-      "background_color": "",
+      "background_color": "#2b3826",
       "secondary_color": "",
       "accent_color": "#5f6359"
     },
@@ -58,7 +58,7 @@
     "prix_inscription": "2500",
     "conditions": ["Âge minimum 18 ans"],
     "colors": {
-      "background_color": "",
+      "background_color": "#2b3826",
       "secondary_color": "",
       "accent_color": "#5f6359"
     },
@@ -96,7 +96,7 @@
     "prix_inscription": "2500",
     "conditions": ["Âge minimum 17 ans"],
     "colors": {
-      "background_color": "",
+      "background_color": "#2b3826",
       "secondary_color": "",
       "accent_color": "#5f6359"
     }
@@ -125,9 +125,9 @@
       "Licence d’athlétisme ou certificat de bonne santé"
     ],
     "colors": {
-      "background_color": "",
+      "background_color": "#1e1d4a",
       "secondary_color": "",
-      "accent_color": "#5f6359"
+      "accent_color": "#1d1c6b"
     },
     "prix_gagnants": {
       "Senior Homme & Femme": {
@@ -186,9 +186,9 @@
       "Licence d’athlétisme ou certificat de bonne santé"
     ],
     "colors": {
-      "background_color": "",
+      "background_color": "#1e1d4a",
       "secondary_color": "",
-      "accent_color": "#5f6359"
+      "accent_color": "#1d1c6b"
     },
     "prix_gagnants": {
       "Senior Homme & Femme": {
