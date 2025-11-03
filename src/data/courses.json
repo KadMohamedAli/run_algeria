@@ -2,8 +2,8 @@
   {
     "id": 1,
     "slug": "trail-chrea-2025",
-    "nom": "5e édition Trail Chréa - Courses des champions",
-    "description": "La 5ᵉ édition du Trail Chréa revient le samedi 22 novembre 2025 à 9h30 au départ du Ski Club de Chréa (Wilaya de Blida), organisée par l’Association GRAVIR à l’occasion de la commémoration du déclenchement de la guerre de libération.\n\nLe Trail Chréa est une course nature mêlant course à pied et marche sur des sentiers de montagne et de forêt, alliant performance sportive et découverte des paysages du parc national de Chréa.\n\n**Courses au programme :**\n- Course des Champions (24 km) : Ski Club – El Haoudh (le bassin) – Yemma Bahria – Les Châtaignes – Oued Blat – Le Noyer – Placette APC – Ski Club.\n- Course en binôme (2x12 km) sur le même parcours (Hommes, Femmes, Mixte).\n- Marche 5 km ouverte à tous les groupes sociaux et employés d’entreprises.\n- Course du Petit Traileur (moins de 14 ans) – participation gratuite.\n\n**Catégories :** Hommes et Femmes selon tranches d’âge (18–39, 40–49, 50–59, 60–69, 70+), binômes, personnes à besoins spécifiques, marcheurs et jeunes.\n\n**Droits d’inscription :** 2500 DA, incluant médaille finisher, dossard, tee-shirt, assurance, ravitaillement et récompenses.\n\n**Récompenses :**\n- 1er : 30.000 DA, 2e : 20.000 DA, 3e : 10.000 DA (Hommes et Femmes).\n- Prix spéciaux pour binômes, personnes à besoins spécifiques, entreprises, clubs et premiers de Blida.\n\n**Avantages spéciaux :** réductions pour les 100 premiers inscrits, hébergement gratuit pour certains participants hors wilaya, et participations offertes aux vainqueurs des éditions précédentes.\n\n**Retrait des dossards** à partir du 1er novembre 2025 (date limite : 14 novembre, Club Hippique).\n\nPour plus d’informations et inscriptions : contactez gravirblida@gmail.com ou consultez la page Facebook officielle.",
+    "nom": "5e édition Trail Chréa - Course des Champions",
+    "description": "La 5ᵉ édition du **Trail Chréa** revient le **samedi 22 novembre 2025 à 9h30**, avec un départ depuis le **Ski Club de Chréa (Wilaya de Blida)**. L’événement est organisé par l’**Association GRAVIR**, à l’occasion de la commémoration du déclenchement de la guerre de libération.\n\nCette course nature unique mêle **performance sportive** et **plaisir de la découverte**, à travers les sentiers du **parc national de Chréa**. Elle offre un défi exigeant dans un cadre montagneux spectaculaire.\n\n**Au programme :**\n- **Course des Champions (24 km)** : Ski Club – El Haoudh (le bassin) – Yemma Bahria – Les Châtaignes – Oued Blat – Le Noyer – Placette APC – Ski Club.\n- **Course en binôme (2x12 km)** : même parcours, ouverte aux équipes Hommes, Femmes ou Mixtes.\n- **Marche 5 km** : ouverte à tous les groupes sociaux et entreprises.\n- **Course du Petit Traileur (moins de 14 ans)** : participation gratuite.\n\n**Catégories :** Hommes et Femmes par tranche d’âge (18–39, 40–49, 50–59, 60–69, 70+), binômes, marcheurs, jeunes et personnes à besoins spécifiques.\n\n**Inscription :** 2500 DA — comprend médaille finisher, dossard, tee-shirt, assurance, ravitaillement et récompenses.\n\n**Récompenses :**\n- 1er : 30.000 DA, 2e : 20.000 DA, 3e : 10.000 DA (Hommes et Femmes).\n- Prix spéciaux pour binômes, personnes à besoins spécifiques, entreprises, clubs et premiers de Blida.\n\n**Avantages :** réduction pour les 100 premiers inscrits, hébergement gratuit pour certains participants hors wilaya, et inscription offerte aux vainqueurs des éditions précédentes.\n\n**Retrait des dossards :** à partir du **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\n📧 Contact : gravirblida@gmail.com  \n🌐 Page officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
     "date": "2025-11-22T09:30:00",
     "type": [1, 13, 26],
     "distance": 24,
@@ -21,7 +21,7 @@
     "colors": {
       "background_color": "",
       "secondary_color": "",
-      "accent_color": ""
+      "accent_color": "#5f6359"
     },
     "prix_gagnants": {
       "Hommes": {
@@ -40,411 +40,65 @@
   },
   {
     "id": 2,
-    "slug": "kama-kouba-10km-2025",
-    "nom": "10km de Kouba",
-    "description": "un magnifique trail urbain de kouba.",
-    "date": "2025-05-20T09:00:00",
-    "type": [0],
-    "distance": 10,
-    "denivele_plus": 350,
-    "wilaya": "Alger",
-    "commune": "Kouba",
+    "slug": "trail-chrea-2025-binome",
+    "nom": "5e édition Trail Chréa - Course en Binôme",
+    "description": "Participez à la **Course en Binôme** de la 5ᵉ édition du **Trail Chréa**, le **samedi 22 novembre 2025 à 9h30**, depuis le **Ski Club de Chréa (Blida)**. Organisée par l’**Association GRAVIR**, cette course commémore le déclenchement de la guerre de libération et célèbre la solidarité sportive.\n\nLe Trail Chréa combine **course à pied, esprit d’équipe et découverte** des paysages exceptionnels du **parc national de Chréa**.\n\n**Au programme :**\n- **Course en binôme (2x12 km)** : même parcours que la course principale, ouverte aux catégories Hommes, Femmes et Mixtes.\n- **Autres épreuves :** Course des Champions (24 km), Marche 5 km, Course du Petit Traileur (moins de 14 ans – gratuite).\n\n**Catégories :** binômes, marcheurs, jeunes et personnes à besoins spécifiques.\n\n**Inscription :** 2500 DA par participant — inclut médaille finisher, dossard, tee-shirt, assurance, ravitaillement et récompenses.\n\n**Récompenses :**\n- Binôme Hommes : 1er prix 10.000 DA\n- Binôme Femmes : 1er prix 10.000 DA\n- Binôme Mixte : 1er prix 10.000 DA\n\n**Avantages :** réduction pour les 100 premiers inscrits, hébergement gratuit pour certains participants hors wilaya, et inscription offerte aux vainqueurs précédents.\n\n**Retrait des dossards :** dès le **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\n📧 Contact : gravirblida@gmail.com  \n🌐 Page officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
+    "date": "2025-11-22T09:30:00",
+    "type": [1, 13, 26, 29],
+    "distance": [12, 12],
+    "denivele_plus": 700,
+    "wilaya": 9,
+    "commune": "Chréa",
     "pays": "Algérie",
-    "organisateur_nom": "Association Cama kouba",
-    "contact_numero": "+213555654321",
-    "contact_email": "info@semimarathonalger.dz",
-    "site_web": "http://semimarathonalger.dz",
-    "image": "/images/cama2025.jpg",
-    "prix_inscription": "1500 ",
-    "conditions": ["Certificat médical obligatoire", "Âge minimum 16 ans"],
+    "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
+    "contact_numero": "+213658430636",
+    "contact_email": "gravirblida@gmail.com",
+    "site_web": "https://www.facebook.com/TrailChrea25/",
+    "image": "/images/chreaTrail.jpg",
+    "prix_inscription": "2500",
+    "conditions": ["Âge minimum 18 ans"],
     "colors": {
-      "background_color": "#1a1a2e",
-      "secondary_color": "#16213e",
-      "accent_color": "#e94560"
+      "background_color": "",
+      "secondary_color": "",
+      "accent_color": "#5f6359"
     },
     "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": []
-    }
-  },
-  {
-    "id": 3,
-    "slug": "semi-marathon-annaba-2025",
-    "nom": "2e édition Semi-Marathon Annaba",
-    "description": "Le Semi-Marathon d’Annaba revient pour une deuxième édition spectaculaire au bord de la mer.\nCet événement emblématique attire des coureurs de toute l’Algérie et d’ailleurs, offrant un parcours plat et rapide traversant les plus beaux sites de la ville, entre front de mer, collines verdoyantes et zones urbaines animées.\n\nLes participants pourront profiter d’une ambiance festive, d’un ravitaillement complet à chaque 5 km, et d’une organisation professionnelle assurée par le Club Athlétique Annaba.\n\nCette édition mettra également en avant la sensibilisation au sport pour tous et le respect de l’environnement.\n\nPréparez-vous à battre vos records personnels tout en profitant d’un cadre unique et d’un public chaleureux !",
-    "date": "2025-12-08T09:00:00",
-    "type": [0, 4],
-    "distance": 21.1,
-    "denivele_plus": 50,
-    "wilaya": "Annaba",
-    "commune": "",
-    "pays": "Algérie",
-    "organisateur_nom": "Club Athlétique Annaba",
-    "contact_numero": "+213555987654",
-    "contact_email": "contact@runannaba.dz",
-    "site_web": "http://runannaba.dz",
-    "inscription_link": "http://runannaba.dz/apply",
-    "image": "/images/semi_bejaia_2024.jpg",
-    "prix_inscription": "1500",
-    "conditions": [
-      "Licence d’athlétisme ou certificat médical de bonne santé obligatoire",
-      "Âge minimum 16 ans le jour de la course",
-      "Respect du règlement officiel de la compétition"
-    ],
-    "colors": {
-      "background_color": "#0f3460",
-      "secondary_color": "#53354a",
-      "accent_color": "#f1c40f"
-    },
-    "prix_gagnants": {
-      "Senior Homme (19-40 ans)": {
-        "1er": ["150000 DA", "TV"],
-        "2e": ["120000 DA"],
-        "3e": ["90000 DA"],
-        "4e": ["70000 DA"],
-        "5e": ["50000 DA"],
-        "6e": ["40000 DA"],
-        "7e": ["35000 DA"],
-        "8e": ["30000 DA"],
-        "9e": ["25000 DA"],
-        "10e": ["20000 DA"],
-        "finishers": ["Médaille finisher", "Diplôme numérique"]
+      "Binôme Hommes": {
+        "1er": ["10000"],
+        "finishers": ["Médaille Finisher", "Dossard", "Tee-Shirt"]
       },
-      "Senior Femme (19-40 ans)": {
-        "1er": ["130000 DA"],
-        "2e": ["100000 DA"],
-        "3e": ["80000 DA"],
-        "4e": ["60000 DA"],
-        "5e": ["40000 DA"],
-        "finishers": ["Médaille finisher", "Bon d’achat sportif"]
+      "Binôme Femmes": {
+        "1er": ["10000"],
+        "finishers": ["Médaille Finisher", "Dossard", "Tee-Shirt"]
       },
-      "Junior (16-19 ans)": {
-        "1er": ["60000 DA"],
-        "2e": ["40000 DA"],
-        "3e": ["25000 DA"],
-        "finishers": ["Cadeaux des sponsors"]
-      },
-      "Masters (+40 ans)": {
-        "finishers": ["Trophée souvenir"]
+      "Binôme Mixte": {
+        "1er": ["10000"],
+        "finishers": ["Médaille Finisher", "Dossard", "Tee-Shirt"]
       }
     }
   },
   {
-    "id": 4,
-    "slug": "marathon-oran-2025",
-    "nom": "Marathon d'Oran 2025",
-    "description": "Marathon officiel avec parcours urbain et piste côtière.",
-    "date": "2025-12-01T09:00:00",
-    "type": [3, 0],
-    "distance": 42.2,
-    "denivele_plus": 100,
-    "wilaya": 31,
-    "commune": "",
-    "pays": "Algérie",
-    "organisateur_nom": "Association Marathon Oran",
-    "contact_numero": "+213555111222",
-    "contact_email": "info@marathonoran.dz",
-    "site_web": "http://marathonoran.dz",
-    "image": "/images/",
-    "prix_inscription": "3000 ",
-    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
-    "colors": {
-      "background_color": "#2d132c",
-      "secondary_color": "#801336",
-      "accent_color": "#c72c41"
-    },
-    "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": []
-    }
-  },
-  {
-    "id": 5,
-    "slug": "10km-constantine-2025",
-    "nom": "10 km International de Constantine",
-    "description": "Course rapide et urbaine au cœur des ponts suspendus de Constantine.",
-    "date": "2025-05-18T09:00:00",
-    "type": [0],
-    "distance": 10,
-    "denivele_plus": 80,
-    "wilaya": "Constantine",
-    "commune": "",
-    "pays": "Algérie",
-    "organisateur_nom": "Club Constantine Athlétisme",
-    "contact_numero": "+213555222333",
-    "contact_email": "contact@runconstantine.dz",
-    "site_web": "http://runconstantine.dz",
-    "image": "/images/",
-    "prix_inscription": "0",
-    "conditions": ["Ouvert à tous", "Pas de certificat obligatoire"],
-    "colors": {
-      "background_color": "#142850",
-      "secondary_color": "#27496d",
-      "accent_color": "#00909e"
-    },
-    "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": []
-    }
-  },
-  {
-    "id": 6,
-    "slug": "ultra-trail-djurdjura-2025",
-    "nom": "Ultra Trail Djurdjura",
-    "description": "Course extrême dans le massif du Djurdjura avec des paysages spectaculaires.",
-    "date": "2025-09-15T06:00:00",
-    "type": [2, 20],
-    "distance": 80,
-    "denivele_plus": 3500,
-    "wilaya": 15,
-    "commune": "Tikjda",
-    "pays": "Algérie",
-    "organisateur_nom": "Association Montagne Djurdjura",
-    "contact_numero": "+213555222333",
-    "contact_email": "info@ultradjurdjura.dz",
-    "site_web": "http://ultradjurdjura.dz",
-    "image": "/images/djurdjura2025.jpg",
-    "prix_inscription": "6000",
-    "conditions": [
-      "Certificat médical obligatoire",
-      "Expérience course > 50 km",
-      "Âge minimum 20 ans"
-    ],
-    "colors": {
-      "background_color": "#1e293b",
-      "secondary_color": "#be123c",
-      "accent_color": "#facc15"
-    },
-    "prix_gagnants": {
-      "premier": ["100000 DA"],
-      "deuxieme": ["70000 DA"],
-      "troisieme": ["50000 DA"],
-      "finishers": ["Médaille finisher", "T-shirt officiel"]
-    }
-  },
-  {
-    "id": 7,
-    "slug": "course-nuit-tamanrasset-2025",
-    "nom": "Course de Nuit Tamanrasset",
-    "description": "Course festive dans le désert de nuit, sous les étoiles du Sahara.",
-    "date": "2025-10-05T21:00:00",
-    "type": [17, 0],
-    "distance": 10,
-    "denivele_plus": 50,
-    "wilaya": "Tamanrasset",
-    "commune": "",
-    "pays": "Algérie",
-    "organisateur_nom": "Association Culture et Sport Sahara",
-    "contact_numero": "+213555777888",
-    "contact_email": "contact@coursenuit.dz",
-    "site_web": "http://coursenuit.dz",
-    "image": "/images/",
-    "prix_inscription": "1000 ",
-    "conditions": ["Lampe frontale obligatoire", "Âge minimum 14 ans"],
-    "colors": {
-      "background_color": "#0f172a",
-      "secondary_color": "#334155",
-      "accent_color": "#22d3ee"
-    },
-    "prix_gagnants": {
-      "premier": ["Cadeaux locaux"],
-      "deuxieme": ["Cadeaux locaux"],
-      "troisieme": ["Cadeaux locaux"],
-      "finishers": ["Médaille phosphorescente"]
-    }
-  },
-  {
-    "id": 8,
-    "slug": "fun-run-constantine-2025",
-    "nom": "Fun Run Constantine",
-    "description": "Course populaire et accessible pour toute la famille à Constantine.",
-    "date": "2025-05-01T10:00:00",
-    "type": [17],
+    "id": 3,
+    "slug": "marche-5k-chrea-2025",
+    "nom": "5e édition Trail Chréa - Marche 5 km",
+    "description": "Dans le cadre du **Trail Chréa 2025**, venez participer à la **Marche 5 km**, une activité conviviale et accessible à tous ! Rendez-vous le **samedi 22 novembre 2025 à 9h30** au **Ski Club de Chréa (Blida)**, pour une matinée de sport, de nature et de solidarité, organisée par l’**Association GRAVIR**.\n\nCette marche ouverte aux **groupes sociaux, entreprises, clubs et particuliers** est une belle occasion de profiter des sentiers du **parc national de Chréa**, tout en soutenant l’événement sportif phare de la région.\n\n**Au programme :**\n- **Marche de 5 km** dans un cadre naturel exceptionnel.\n- Participation libre pour tous les âges à partir de 17 ans.\n- Autres épreuves : Course des Champions (24 km), Course en binôme (2x12 km), Course du Petit Traileur (moins de 14 ans – gratuite).\n\n**Inscription :** 2500 DA — inclut médaille finisher, dossard, tee-shirt, assurance et ravitaillement.\n\n**Avantages :** réduction pour les 100 premiers inscrits, hébergement gratuit pour certains participants hors wilaya, et participation gratuite pour les vainqueurs précédents.\n\n**Retrait des dossards :** à partir du **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\n📧 Contact : gravirblida@gmail.com  \n🌐 Page officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
+    "date": "2025-11-22T09:30:00",
+    "type": [1, 6, 13, 23],
     "distance": 5,
-    "denivele_plus": 20,
-    "wilaya": 25,
-    "commune": "",
-    "pays": "Algérie",
-    "organisateur_nom": "Jeunesse Sport Constantine",
-    "contact_numero": "+213555444555",
-    "contact_email": "info@funrunconstantine.dz",
-    "site_web": "http://funrunconstantine.dz",
-    "image": "/images/",
-    "prix_inscription": "0 ",
-    "conditions": ["Ouvert à tous", "Mineurs accompagnés d’un adulte"],
-    "colors": {
-      "background_color": "#14532d",
-      "secondary_color": "#22c55e",
-      "accent_color": "#fde047"
-    },
-    "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": ["T-shirt souvenir", "Collation gratuite"]
-    }
-  },
-  {
-    "id": 9,
-    "slug": "semi-marathon-tlemcen-2025",
-    "nom": "Semi-Marathon International de Tlemcen",
-    "description": "Épreuve urbaine reliant les monuments historiques de Tlemcen.",
-    "date": "2025-11-10T08:00:00",
-    "type": [3, 0],
-    "distance": 21.1,
-    "denivele_plus": 200,
-    "wilaya": 13,
-    "commune": "",
-    "pays": "Algérie",
-    "organisateur_nom": "Marathon Club Tlemcen",
-    "contact_numero": "+213555112233",
-    "contact_email": "contact@semimarathontlemcen.dz",
-    "site_web": "http://semimarathontlemcen.dz",
-    "image": "/images/",
-    "prix_inscription": "2000 ",
-    "conditions": ["Certificat médical obligatoire", "Âge minimum 16 ans"],
-    "colors": {
-      "background_color": "#3f1d38",
-      "secondary_color": "#9d174d",
-      "accent_color": "#f472b6"
-    },
-    "prix_gagnants": {
-      "premier": ["Voyage sportif offert"],
-      "deuxieme": ["Matériel de sport"],
-      "troisieme": ["Matériel de sport"],
-      "finishers": ["Médaille", "Diplôme finisher"]
-    }
-  },
-  {
-    "id": 10,
-    "slug": "trail-ghardaia-2025",
-    "nom": "Trail des Oasis Ghardaïa",
-    "description": "Course nature dans les palmeraies et dunes de Ghardaïa.",
-    "date": "2025-03-18T07:30:00",
-    "type": [14, 2, 7],
-    "distance": 30,
-    "denivele_plus": 600,
-    "wilaya": 47,
-    "commune": "",
-    "pays": "Algérie",
-    "organisateur_nom": "Association Sportive Mzab",
-    "contact_numero": "+213555998877",
-    "contact_email": "trail@ghardaia.dz",
-    "site_web": "http://trailghardaia.dz",
-    "image": "/images/",
-    "prix_inscription": "2500 ",
-    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
-    "colors": {
-      "background_color": "#422006",
-      "secondary_color": "#713f12",
-      "accent_color": "#f59e0b"
-    },
-    "prix_gagnants": {
-      "premier": ["50000 DA"],
-      "deuxieme": ["30000 DA"],
-      "troisieme": ["15000 DA"],
-      "finishers": ["T-shirt", "Médaille"]
-    }
-  },
-  {
-    "id": 11,
-    "slug": "semi-marathon-alger-2025",
-    "nom": "Semi-Marathon d'Alger",
-    "description": "Course urbaine sur les belles avenues d'Alger.",
-    "date": "2025-07-20T09:00:00",
-    "type": [4, 0],
-    "distance": 21.1,
-    "denivele_plus": 150,
-    "wilaya": 16,
-    "commune": "Alger-Centre",
-    "pays": "Algérie",
-    "organisateur_nom": "Association Marathon Alger",
-    "contact_numero": "+213555654321",
-    "contact_email": "info@semimarathonalger.dz",
-    "site_web": "http://semimarathonalger.dz",
-    "inscription_link": "https://semimarathonalger.dz/inscrioption",
-    "image": "/images/cama2025.jpg",
-    "prix_inscription": "2500 ",
-    "conditions": ["Certificat médical obligatoire", "Âge minimum 16 ans"],
-    "colors": {
-      "background_color": "#1a1a2e",
-      "secondary_color": "#16213e",
-      "accent_color": "#e94560"
-    },
-    "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": []
-    }
-  },
-  {
-    "id": 12,
-    "slug": "10km-soummam",
-    "nom": "10km de soummam",
-    "description": "Course urbaine sur les belles avenues d'Alger.",
-    "date": "2025-07-20T09:00:00",
-    "type": [0],
-    "distance": 10,
-    "denivele_plus": 150,
-    "wilaya": 16,
-    "commune": "Alger-Centre",
-    "pays": "Algérie",
-    "organisateur_nom": "Association Marathon Alger",
-    "contact_numero": "+213555654321",
-    "contact_email": "info@semimarathonalger.dz",
-    "site_web": "http://semimarathonalger.dz",
-    "image": "/images/",
-    "prix_inscription": "2500 ",
-    "conditions": ["Certificat médical obligatoire", "Âge minimum 16 ans"],
-    "colors": {
-      "background_color": "#1a1a2e",
-      "secondary_color": "#16213e",
-      "accent_color": "#e94560"
-    },
-    "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": []
-    }
-  },
-  {
-    "id": 13,
-    "slug": "chrono-blida-2025",
-    "nom": "Course Chrono Blida",
-    "description": "Course nature dans les montagnes de Blida.",
-    "date": "2025-12-06T09:00:00",
-    "type": [25, 2],
-    "chrono": 36000,
-    "denivele_plus": "Dénivlé important",
     "wilaya": 9,
-    "commune": "",
+    "commune": "Chréa",
     "pays": "Algérie",
-    "organisateur_nom": "Club Sportif Blida",
-    "contact_numero": "+213555123456",
-    "contact_email": "contact@trailblida.dz",
-    "inscription_link": "http://trailblida.dz/inscription",
-    "site_web": "http://trailblida.dz",
-    "image": "/images/blidaTrail.jpg",
-    "prix_inscription": "2000",
-    "conditions": ["Certificat médical obligatoire", "Âge minimum 18 ans"],
+    "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
+    "contact_numero": "+213658430636",
+    "contact_email": "gravirblida@gmail.com",
+    "site_web": "https://www.facebook.com/TrailChrea25/",
+    "image": "/images/chreaTrail.jpg",
+    "prix_inscription": "2500",
+    "conditions": ["Âge minimum 17 ans"],
     "colors": {
-      "background_color": "#263912",
-      "secondary_color": "#5a2622",
-      "accent_color": "#83996b"
-    },
-    "prix_gagnants": {
-      "premier": [],
-      "deuxieme": [],
-      "troisieme": [],
-      "finishers": []
+      "background_color": "",
+      "secondary_color": "",
+      "accent_color": "#5f6359"
     }
   }
 ]

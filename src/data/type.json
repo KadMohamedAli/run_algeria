@@ -131,5 +131,6 @@
   },
   { "code": 26, "type": "Course National", "description": "" },
   { "code": 27, "type": "Course International", "description": "" },
-  { "code": 28, "type": "Course Marche", "description": "" }
+  { "code": 28, "type": "Course Marche", "description": "" },
+  { "code": 29, "type": "Course Binôme", "description": "" }
 ]
