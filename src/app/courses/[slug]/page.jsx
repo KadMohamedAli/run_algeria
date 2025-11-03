@@ -6,9 +6,11 @@ import CourseClient from "./CourseClient";
 const baseUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app";
 
-// ✅ Pre-generate all slugs for static export
 export function generateStaticParams() {
-  if (!coursesData || !Array.isArray(coursesData)) return [];
+  if (!coursesData || !Array.isArray(coursesData) || coursesData.length === 0) {
+    console.warn("⚠️ No course data found — generating a placeholder page.");
+    return [{ slug: "placeholder" }];
+  }
   return coursesData.map((course) => ({ slug: course.slug }));
 }
 

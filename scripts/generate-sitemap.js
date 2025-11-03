@@ -1,36 +1,38 @@
 const fs = require("fs");
 const path = require("path");
 
-// Detect environment (Next.js sets NODE_ENV automatically)
-const env = process.env.NODE_ENV || "development";
+// ✅ Determine which JSON file to load, mimicking coursesData behavior
+const env = process.env.NEXT_PUBLIC_ENV || process.env.NODE_ENV || "production";
 
-// Choose the appropriate courses file
-let coursesFile = "courses.json"; // default (production)
+let coursesFile = "courses.json";
 if (env === "development") coursesFile = "courses.dev.json";
 else if (env === "test") coursesFile = "courses.test.json";
 
-// Resolve the file path
+// ✅ Resolve absolute path and safely read JSON
 const coursesPath = path.resolve(__dirname, `../src/data/${coursesFile}`);
 
-// Load courses safely
 let courses = [];
 try {
-  courses = require(coursesPath);
-  console.log(`📘 Using course data from: ${coursesFile}`);
+  const fileContent = fs.readFileSync(coursesPath, "utf8");
+  courses = JSON.parse(fileContent);
+  console.log(`📘 Loaded courses from ${coursesFile} (${courses.length} items)`);
 } catch (err) {
-  console.warn(`⚠️ Could not load ${coursesFile}. Falling back to courses.json`);
-  courses = require(path.resolve(__dirname, "../data/courses.json"));
+  console.warn(`⚠️ Could not load ${coursesFile}:`, err.message);
+  console.warn("⚠️ Falling back to empty course list.");
 }
 
+// ✅ Base URL (for sitemap links)
 const baseUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app";
 
+// ✅ Static and dynamic pages
 const staticPages = ["", "/contact"];
 const pages = [
   ...staticPages.map((p) => `${baseUrl}${p}`),
   ...courses.map((c) => `${baseUrl}/courses/${c.slug}`),
 ];
 
+// ✅ Generate sitemap XML
 const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages
@@ -46,6 +48,7 @@ ${pages
   .join("\n")}
 </urlset>`;
 
+// ✅ Save sitemap
 const outputPath = path.resolve(__dirname, "../public/sitemap.xml");
 fs.writeFileSync(outputPath, sitemapContent, "utf8");
 
