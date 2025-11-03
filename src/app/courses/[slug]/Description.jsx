@@ -1,17 +1,25 @@
+"use client";
+
+import { marked } from "marked";
+import DOMPurify from "isomorphic-dompurify";
+
 export default function DescriptionComponent({ text }) {
-  // Basic Markdown → HTML conversion
-  const formattedText = text
-    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>") // **bold**
-    .replace(/\*(.*?)\*/g, "<em>$1</em>") // *italic*
-    .replace(/`(.*?)`/g, "<code>$1</code>") // `inline code`
-    .replace(/\n/g, "<br />"); // line breaks
+  // Configure the markdown parser for better formatting
+  marked.setOptions({
+    breaks: true, // allow single line breaks
+    gfm: true, // GitHub-flavored markdown (tables, lists, etc.)
+  });
+
+  // Convert Markdown → sanitized HTML
+  const rawHtml = marked.parse(text || "");
+  const cleanHtml = DOMPurify.sanitize(rawHtml);
 
   return (
     <section>
       <h2 className="text-3xl font-bold mb-3 text-white">À propos</h2>
-      <p
-        className="text-gray-200 leading-relaxed"
-        dangerouslySetInnerHTML={{ __html: formattedText }}
+      <div
+        className="prose prose-invert max-w-none text-gray-200 leading-relaxed"
+        dangerouslySetInnerHTML={{ __html: cleanHtml }}
       />
     </section>
   );
