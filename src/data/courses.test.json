@@ -266,5 +266,106 @@
       "secondary_color": "",
       "accent_color": "#133b15"
     }
+  },
+  {
+    "id": 7,
+    "slug": "semi-marathon-bejaia-2025",
+    "nom": "Semi-Marathon International de Béjaïa 2025 - 19e Edition",
+    "description": "La 19ᵉ édition du Semi-Marathon International de la Ville de Béjaïa se déroulera le vendredi 17 octobre 2025, organisée par le CSA/AMCB sous le patronage du Ministère de la Jeunesse et des Sports, du Wali et de la Ligue d’Athlétisme de Béjaïa. Le parcours de 21,098 km, homologué par l’AIMS, traverse les artères de la ville dans une ambiance sportive et populaire.",
+    "date": "2025-10-17T08:45:00",
+    "type": [4, 27],
+    "distance": 21.098,
+    "denivele_plus": 180,
+
+    "wilaya": 6,
+    "commune": "Béjaïa",
+    "pays": "Algérie",
+    "organisateur_nom": "Athlétic Méditerranéen Club Béjaïa (AMCB)",
+    "contact_numero": "+21334117008",
+    "contact_email": "contact@semimarathonbejaia.com",
+    "site_web": "https://semimarathonbejaia.com/",
+    "image": "/images/semiBejaia2025.jpg",
+    "prix_inscription": "1500",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical obligatoire"
+    ],
+    "colors": {
+      "background_color": "#3b586e",
+      "secondary_color": "",
+      "accent_color": "#142c3d"
+    },
+    "prix_gagnants": {
+      "Classement Général – Hommes": {
+        "1er": ["200000"],
+        "2e": ["150000"],
+        "3e": ["100000"],
+        "4e": ["50000"],
+        "5e": ["30000"],
+        "Record Homme (1h02'46\")": ["200000"],
+        "finishers": ["Médaille Finisher", "T-shirt officiel de l’événement"]
+      },
+      "Classement Général – Femmes": {
+        "1ère": ["200000"],
+        "2e": ["150000"],
+        "3e": ["100000"],
+        "4e": ["50000"],
+        "5e": ["30000"],
+        "Record Femme (1h10'15\")": ["200000"],
+        "finishers": ["Médaille Finisher", "T-shirt officiel de l’événement"]
+      },
+      "Par Catégorie – Hommes (18-26)(27-34)(35-42)(43-50)(51-59)(+60)": {
+        "1er": ["10000"],
+        "2e": ["7000"],
+        "3e": ["5000"]
+      },
+      "Par Catégorie – Femmes (18-26)(27-34)(+35)": {
+        "1er": ["10000"],
+        "2e": ["7000"],
+        "3e": ["5000"]
+      }
+    }
+  },
+  {
+    "id": 8,
+    "slug": "course-populaire-bejaia-7km-2025",
+    "nom": "Course Populaire de Béjaïa 7 km 2025",
+    "description": "Organisée en parallèle du semi-marathon, la 19ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 17 octobre 2025 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
+    "date": "2025-10-17T08:45:00",
+    "type": [0],
+    "distance": 7,
+    "wilaya": 6,
+    "commune": "Béjaïa",
+    "pays": "Algérie",
+    "organisateur_nom": "Athlétic Méditerranéen Club Béjaïa (AMCB)",
+    "contact_numero": "+21334117008",
+    "contact_email": "contact@semimarathonbejaia.com",
+    "site_web": "https://semimarathonbejaia.com/",
+    "image": "/images/semiBejaia2025.jpg",
+    "prix_inscription": "1500",
+    "inscription_link": "https://semimarathonbejaia.com/inscription",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical requis"
+    ],
+    "colors": {
+      "background_color": "#3b586e",
+      "secondary_color": "",
+      "accent_color": "#142c3d"
+    },
+    "prix_gagnants": {
+      "Course Populaire – Hommes": {
+        "1er": ["20000"],
+        "2e": ["15000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille Finisher"]
+      },
+      "Course Populaire – Femmes": {
+        "1er": ["20000"],
+        "2e": ["15000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille Finisher"]
+      }
+    }
   }
 ]
