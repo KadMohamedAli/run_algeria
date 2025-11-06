@@ -129,8 +129,54 @@
     "type": "Course chronométrée longue distance (1h, 12h, 24h)",
     "description": "Courses où l’objectif est de courir la plus grande distance possible sur une durée définie."
   },
-  { "code": 26, "type": "Course National", "description": "" },
-  { "code": 27, "type": "Course International", "description": "" },
-  { "code": 28, "type": "Course Marche", "description": "" },
-  { "code": 29, "type": "Course Binôme", "description": "" }
+  {
+    "code": 26,
+    "type": "Course nationale",
+    "description": "Course reconnue à l’échelle nationale, inscrite au calendrier officiel d’une fédération ou d’une ligue du pays."
+  },
+  {
+    "code": 27,
+    "type": "Course internationale",
+    "description": "Course ouverte aux participants étrangers et inscrite dans le circuit international, souvent qualificative pour des compétitions mondiales."
+  },
+  {
+    "code": 28,
+    "type": "Course marche",
+    "description": "Épreuve de marche athlétique ou de marche rapide, respectant les règles techniques propres à la discipline."
+  },
+  {
+    "code": 29,
+    "type": "Course en binôme",
+    "description": "Course réalisée en duo, où les deux participants doivent parcourir ensemble tout le parcours selon un esprit d’équipe et de coopération."
+  },
+  {
+    "code": 30,
+    "type": "Backyard Ultra",
+    "description": "Format d’endurance extrême où les participants parcourent une boucle de 6,7 km chaque heure, jusqu’à ce qu’il ne reste qu’un seul coureur. Souvent considéré comme une forme d’ultra-trail à élimination."
+  },
+  {
+    "code": 31,
+    "type": "Épreuve de qualification",
+    "description": "Course servant de qualification pour un championnat national ou mondial, avec des critères de performance précis."
+  },
+  {
+    "code": 32,
+    "type": "Vertical Race",
+    "description": "Course en montagne consistant à gravir un fort dénivelé positif sur une courte distance."
+  },
+  {
+    "code": 33,
+    "type": "Course combinée",
+    "description": "Épreuve combinant plusieurs disciplines ou distances, parfois sur plusieurs jours."
+  },
+  {
+    "code": 34,
+    "type": "Course d’orientation",
+    "description": "Course où les participants doivent trouver des balises à l’aide d’une carte et d’une boussole."
+  },
+  {
+    "code": 35,
+    "type": "Last Man Standing",
+    "description": "Format de course à élimination où tous les participants doivent compléter une boucle dans un temps imparti, et seul le dernier coureur encore en course est déclaré vainqueur. Ce format est similaire à la Backyard Ultra."
+  }
 ]

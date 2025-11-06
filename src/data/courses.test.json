@@ -233,5 +233,38 @@
         ]
       }
     }
+  },
+  {
+    "id": 6,
+    "slug": "backyard-ultra-algeria-2025",
+    "nom": "Backyard Ultra Algeria 2025",
+    "description": "Sous l’égide de la Wilaya et de la DJSL d’Alger, le CSA Athletic Club Gaya (ACG), en collaboration avec la Fédération Algérienne d’Athlétisme (FAA) et la Ligue d’Athlétisme d’Alger, organise la Backyard Ultra Algeria 2025 – un événement exceptionnel inscrit dans le cadre du championnat du monde de cette discipline.\n\nLa Backyard Ultra est une course à élimination unique : chaque coureur doit parcourir une boucle de 6,706 km en une heure. À la fin de chaque heure, une nouvelle boucle débute, et ainsi de suite, jusqu’à ce qu’il ne reste qu’un seul participant en course. Ce format met à l’épreuve l’endurance, la stratégie et la résilience mentale.\n\nLieu : Marina Les Sablettes – Alger\nDate : 05 décembre 2025 – 08h00\nFrais d’inscription : 4000 DA\n\nCourse qualificative pour les Championnats du Monde Backyard Ultra 2026. Limitée à 100 participants, elle s’adresse aux coureurs expérimentés remplissant les critères de performance.\n\nFormat mixte – un seul classement (hommes et femmes confondus).\n\nRejoignez une aventure hors du commun, où chaque tour compte et où seule la volonté détermine la victoire.",
+    "date": "2025-12-05T08:00:00",
+    "type": [30, 0, 7, 31, 35],
+    "distance": 6.706,
+    "wilaya": 16,
+    "commune": "Les Sablettes",
+    "pays": "Algérie",
+    "organisateur_nom": "Athletic Club Gaya (ACG)",
+    "contact_numero": "+213554687089",
+    "contact_email": "contact@acgaya.dz",
+    "site_web": "https://acgaya.dz/backyard/",
+    "image": "/images/backyardUltra2025.jpg",
+    "prix_inscription": "4000",
+    "inscription_link": "https://acgaya.dz/Backyard-ultra-algeria/",
+    "conditions": [
+      "Pièce d’identité requise",
+      "Certificat médical (-12 mois) ou licence FAA 2025",
+      "Marathon inférieur à 4h30",
+      "Trail Azro N’Thor 23 km inférieur à 3h45",
+      "Trail Azro N’Thor 42 km inférieur à 7h30",
+      "Backyard Alger minimum 12 tours",
+      "Course horaire minimum 45 km en 6h ou 90 km en 12h"
+    ],
+    "colors": {
+      "background_color": "#2a4a2b",
+      "secondary_color": "",
+      "accent_color": "#133b15"
+    }
   }
 ]
