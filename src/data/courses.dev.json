@@ -367,5 +367,101 @@
         "finishers": ["Médaille Finisher"]
       }
     }
+  },
+  {
+    "id": 9,
+    "slug": "marathon-sahara-2026",
+    "nom": "Sahara Marathon 2026 – Marathon 42 km",
+    "description": "Le Sahara Marathon est une course d'endurance internationale organisée dans les camps de réfugiés sahraouis à Tindouf. Le marathon relie symboliquement les camps d'El Ayoun, Auserd et Smara sur un parcours de 42,195 km à travers le désert. L’événement soutient des projets humanitaires et sensibilise à la cause sahraouie.",
+    "date": "2026-02-24T10:00:00",
+    "type": [3, 14],
+    "distance": 42.195,
+    "wilaya": 37,
+    "commune": "Tindouf",
+    "pays": "Algérie",
+    "organisateur_nom": "Sahara Marathon",
+    "contact_numero": "",
+    "contact_email": "mdurli@gmail.com",
+    "site_web": "https://www.saharamarathon.org",
+    "image": "/images/saharaMarathon2026.webp",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6e5937",
+      "secondary_color": "",
+      "accent_color": "#362810"
+    }
+  },
+  {
+    "id": 10,
+    "slug": "semi-marathon-sahara-2026",
+    "nom": "Sahara Marathon 2026 – Semi-Marathon",
+    "description": "Le semi-marathon du Sahara Marathon relie le camp d’Auserd à celui de Smara sur 21,097 km de sable et de pistes. C’est l’occasion de découvrir la beauté du désert tout en soutenant la solidarité sahraouie.",
+    "date": "2026-02-24T10:30:00",
+    "type": [4, 14],
+    "distance": 21.097,
+    "wilaya": 37,
+    "commune": "Tindouf",
+    "pays": "Algérie",
+    "organisateur_nom": "Sahara Marathon",
+    "contact_numero": "",
+    "contact_email": "mdurli@gmail.com",
+    "site_web": "https://www.saharamarathon.org",
+    "image": "/images/saharaMarathon2026.webp",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6e5937",
+      "secondary_color": "",
+      "accent_color": "#362810"
+    }
+  },
+  {
+    "id": 11,
+    "slug": "10km-sahara-2026",
+    "nom": "Sahara Marathon 2026 – 10 km",
+    "description": "Course populaire de 10 km reliant Farmacia à Smara, à travers un paysage saharien unique. Accessible à tous, cette course combine sport, solidarité et découverte du désert.",
+    "date": "2026-02-24T10:00:00",
+    "type": [5, 14],
+    "distance": 10,
+    "wilaya": 37,
+    "commune": "Tindouf",
+    "pays": "Algérie",
+    "organisateur_nom": "Sahara Marathon",
+    "contact_numero": "",
+    "contact_email": "mdurli@gmail.com",
+    "site_web": "https://www.saharamarathon.org",
+    "image": "/images/saharaMarathon2026.webp",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6e5937",
+      "secondary_color": "",
+      "accent_color": "#362810"
+    }
+  },
+  {
+    "id": 12,
+    "slug": "5km-sahara-2026",
+    "nom": "Sahara Marathon 2026 – 5 km",
+    "description": "Course découverte ouverte à tous, sur 5 km entre Paco et Smara. Idéale pour vivre une expérience saharienne conviviale dans un décor exceptionnel.",
+    "date": "2026-02-24T10:00:00",
+    "type": [6, 14],
+    "distance": 5,
+    "wilaya": 37,
+    "commune": "Tindouf",
+    "pays": "Algérie",
+    "organisateur_nom": "Sahara Marathon",
+    "contact_numero": "",
+    "contact_email": "mdurli@gmail.com",
+    "site_web": "https://www.saharamarathon.org",
+    "image": "/images/saharaMarathon2026.webp",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6e5937",
+      "secondary_color": "",
+      "accent_color": "#362810"
+    }
   }
 ]
