@@ -562,5 +562,34 @@
       "secondary_color": "",
       "accent_color": "#402c11"
     }
+  },
+  {
+    "id": 16,
+    "slug": "pink-move-alger-2025-3km",
+    "nom": "Pink Run Alger 2025 – 3 km",
+    "description": "Dans le cadre d’Octobre Rose, la campagne de sensibilisation au dépistage du cancer du sein, l’événement « Pink Move » se déroule les **17 et 18 octobre 2025** à la Marina des Sablettes (Parking 3), Alger.\n Cette édition propose notamment une course de **3 km** ouverte à tous, mêlant sport, solidarité et prévention.\n Au programme : village santé, ateliers bien-être, animations familiales et course “Pink” à but caritatif.",
+    "date": "2025-10-17T09:00:00",
+    "type": [0, 17],
+    "distance": 3,
+    "denivele_plus": 3,
+    "wilaya": 16,
+    "commune": "Les Sablettes, Alger",
+    "pays": "Algérie",
+    "organisateur_nom": "Pink Move – Alger",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "https://www.instagram.com/pink_move_dz",
+    "image": "/images/pinkRun2025.jpg",
+    "prix_inscription": 0,
+    "colors": {
+      "background_color": "#7d2359",
+      "secondary_color": "",
+      "accent_color": "#541039"
+    },
+    "prix_gagnants": {
+      "Participants": {
+        "finishers": ["T-shirt de l’événement"]
+      }
+    }
   }
 ]
