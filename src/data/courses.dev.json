@@ -107,7 +107,7 @@
     "nom": "Semi-marathon international d’Alger 2025",
     "description": "Le Semi-marathon international d’Alger revient le **samedi 14 novembre 2025** dans la capitale. Organisé par la Ligue Algéroise d’Athlétisme (LAA) sous l’égide de la Wilaya d’Alger, de la Direction de la Jeunesse et des Sports et de la Fédération Algérienne d’Athlétisme. Environ **5 000 participants de 24 nationalités** sont attendus.\n\nParcours : départ dans le quartier de Bab El Oued, traversée des rues historiques d’Alger jusqu’aux rivages de la Méditerranée. Une course à la fois challengeante et panoramique, parfaite pour les coureurs amateurs et confirmés.\n\nDistances proposées : 21,097 km (semi-marathon) et 10 km.\n\nInscriptions ouvertes exclusivement sur le site officiel (fermeture prévue le 15 octobre 2025 à 23h59).\n\nInclus pour chaque inscrit : médaille finisher, tee-shirt officiel, puce de chronométrage et pack de participation. L’événement cultive l’esprit « Une course, une ville, une âme ».",
     "date": "2025-11-14T07:00:00",
-    "type": [4, 27],
+    "type": [4, 27, 0],
     "distance": "21,097",
     "denivele_plus": 120,
     "wilaya": 16,
@@ -169,7 +169,7 @@
     "nom": "10 km d’Alger 2025",
     "description": "La 10 km d’Alger est programmée le **samedi 14 novembre 2025**, en ouverture du Semi-marathon international d’Alger. Cet événement de la Ligue Algéroise d’Athlétisme (LAA) offre aux coureurs amateurs une superbe opportunité de découvrir la capitale algérienne dans une ambiance sportive et festive.\n\nParcours urbain rapide, ouvert à tous niveaux (débutants et confirmés), avec départ depuis le quartier de Bab El Oued et arrivée dans le centre d’Alger.\n\nInscription : 2000 DA — médaille finisher, tee-shirt, puce de chronométrage et pack de participation inclus.\n\nConditions : âge minimum 18 ans, licence ou certificat médical demandé. Rejoignez-nous pour vivre un moment collectif et découvrir la ville autrement.",
     "date": "2025-11-14T07:00:00",
-    "type": [5],
+    "type": [5, 0],
     "distance": 10,
     "wilaya": 16,
     "commune": "Bab El Oued",
@@ -462,6 +462,105 @@
       "background_color": "#6e5937",
       "secondary_color": "",
       "accent_color": "#362810"
+    }
+  },
+  {
+    "id": 13,
+    "slug": "treg-ultra-algeria-trail-2025",
+    "nom": "Ultra Algeria Trail 2025 – 182 km",
+    "description": "L’Ultra Algeria Trail est une épreuve de 182 km pour environ 1 000 m de dénivelé positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et à allure libre.\n Navigation exclusivement par GPS fourni par l’organisation, avec un roadbook d’accompagnement.\n Le départ sera donné le mardi 2 décembre 2025 à 09h00 à Timimoun.\n Temps maximum autorisé : 72 heures.",
+    "date": "2025-12-02T09:00:00",
+    "type": [2, 7, 8, 14, 27],
+    "distance": 182,
+    "denivele_plus": 1000,
+    "wilaya": 49,
+    "commune": "Timimoun",
+    "pays": "Algérie",
+    "organisateur_nom": "Trail Africa Organization (Le Treg)",
+    "contact_numero": "+33 609757101",
+    "contact_email": "contact@le-treg.com",
+    "site_web": "https://le-treg.com/algeria-accueil-fr",
+    "image": "/images/treg2025.jpg",
+    "prix_inscription": "90000",
+    "conditions": [
+      "Âge minimum : 18 ans (2007 ou avant)",
+      "Expérience préalable sur un trail longue distance (> 80 km) fortement conseillée",
+      "Course en autosuffisance alimentaire – minimum 6 000 calories obligatoires",
+      "Auto-navigation GPS obligatoire (GPS fourni par l’organisation)",
+      "Certificat médical de moins d’un an",
+      "Épreuve d’effort de moins de 3 ans pour les coureurs de plus de 40 ans",
+      "Visa touristique obligatoire pour les étrangers"
+    ],
+    "colors": {
+      "background_color": "#694618",
+      "secondary_color": "",
+      "accent_color": "#402c11"
+    }
+  },
+  {
+    "id": 14,
+    "slug": "treg-algeria-trail-2025",
+    "nom": "Algeria Trail 2025 – 106 km",
+    "description": "L’Algeria Trail est une épreuve de 106 km pour environ 500 m de dénivelé positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et à allure libre.\n Navigation GPS obligatoire (appareil fourni par l’organisation).\n Le départ sera donné le mardi 2 décembre 2025 à 09h00 à Timimoun.\n Temps maximum autorisé : 42 heures.",
+    "date": "2025-12-02T09:00:00",
+    "type": [2, 7, 8, 14, 27],
+    "distance": 106,
+    "denivele_plus": 500,
+    "wilaya": 49,
+    "commune": "Timimoun",
+    "pays": "Algérie",
+    "organisateur_nom": "Trail Africa Organization (Le Treg)",
+    "contact_numero": "+33 609757101",
+    "contact_email": "contact@le-treg.com",
+    "site_web": "https://le-treg.com/algeria-accueil-fr",
+    "image": "/images/treg2025.jpg",
+    "prix_inscription": "30000",
+    "conditions": [
+      "Âge minimum : 18 ans (2007 ou avant)",
+      "Expérience préalable sur trail (> 40 km) fortement conseillée",
+      "Course en autosuffisance alimentaire – minimum 3 000 calories obligatoires",
+      "Auto-navigation GPS obligatoire (GPS fourni par l’organisation)",
+      "Certificat médical de moins d’un an",
+      "Épreuve d’effort de moins de 3 ans pour les coureurs de plus de 40 ans",
+      "Visa touristique obligatoire pour les étrangers"
+    ],
+    "colors": {
+      "background_color": "#694618",
+      "secondary_color": "",
+      "accent_color": "#402c11"
+    }
+  },
+  {
+    "id": 15,
+    "slug": "treg-algeria-marathon-2025",
+    "nom": "Algeria Marathon 2025 – 50 km",
+    "description": "L’Algeria Marathon est une épreuve de 50 km pour environ 250 m de dénivelé positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et à allure libre.\n Navigation par GPS obligatoire (appareil fourni par l’organisation).\n Le départ sera donné le mardi 2 décembre 2025 à 09h00 à Timimoun.\n Temps maximum autorisé : 18 heures.",
+    "date": "2025-12-02T09:00:00",
+    "type": [2, 7, 8, 14, 27],
+    "distance": 50,
+    "denivele_plus": 250,
+    "wilaya": 49,
+    "commune": "Timimoun",
+    "pays": "Algérie",
+    "organisateur_nom": "Trail Africa Organization (Le Treg)",
+    "contact_numero": "+33 609757101",
+    "contact_email": "contact@le-treg.com",
+    "site_web": "https://le-treg.com/algeria-accueil-fr",
+    "image": "/images/treg2025.jpg",
+    "prix_inscription": "15000",
+    "conditions": [
+      "Âge minimum : 18 ans (2007 ou avant)",
+      "Expérience préalable sur course d’endurance (> 21 km) fortement conseillée",
+      "Course en autosuffisance alimentaire – minimum 1 500 calories obligatoires",
+      "Auto-navigation GPS obligatoire (GPS fourni par l’organisation)",
+      "Certificat médical de moins d’un an",
+      "ECG de moins de 2 ans pour les coureurs de moins de 40 ans ou pour les participants locaux",
+      "Visa touristique obligatoire pour les étrangers"
+    ],
+    "colors": {
+      "background_color": "#694618",
+      "secondary_color": "",
+      "accent_color": "#402c11"
     }
   }
 ]
