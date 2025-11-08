@@ -591,5 +591,53 @@
         "finishers": ["T-shirt de l’événement"]
       }
     }
+  },
+  {
+    "id": 30,
+    "slug": "semi-marathon-ouled-djellal-2025",
+    "nom": "Semi-Marathon d’Ouled Djellal 2025",
+    "description": "La prochaine édition du Semi-Marathon d’Ouled Djellal se déroulera le samedi 13 décembre 2025 sur les routes de la wilaya d’Ouled Djellal.",
+    "date": "2025-12-13T08:00:00",
+    "type": [4, 0],
+    "distance": 21.098,
+    "denivele_plus": null,
+    "wilaya": 51,
+    "commune": "Ouled Djellal",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue d’Athlétisme de la Wilaya d’Ouled Djellal",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/ouledDjalalSemi2025.jpg",
+    "prix_inscription": "Inconnue",
+    "colors": {
+      "background_color": "#33593f",
+      "secondary_color": "",
+      "accent_color": "#0e421e"
+    }
+  },
+  {
+    "id": 31,
+    "slug": "course-aasma-resp-3k-2025",
+    "nom": "A.ASMA RESP 2025 – 2ᵉ Édition",
+    "description": "La 2ᵉ édition de la course A.ASMA RESP 2025 aura lieu le vendredi 5 décembre 2025 à 09h du matin, au Complexe Omnisport Mohamed Boudiaf à Alger.\n Organisée par l’Association A.ASMA RESP en collaboration avec les Lions Clubs Algérie, cette épreuve de 3 km allie sport, solidarité et sensibilisation.",
+    "date": "2025-12-05T09:00:00",
+    "type": [0, 17],
+    "distance": 3,
+    "wilaya": 16,
+    "commune": "Alger",
+    "pays": "Algérie",
+    "organisateur_nom": "A.ASMA RESP en collaboration avec Lions Clubs Algérie",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/asmaResp2025.jpg",
+    "inscription_link": "https://docs.google.com/forms/d/e/1FAIpQLSd-pI2LE0BWrSYdMeVeJoTouXOCpieU51NWMqt_6cLXLNlBmA/viewform",
+    "prix_inscription": "Inconnue",
+    "colors": {
+      "background_color": "#66642a",
+      "secondary_color": "",
+      "accent_color": "#36350e"
+    }
   }
 ]
