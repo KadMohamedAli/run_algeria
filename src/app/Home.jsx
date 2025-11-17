@@ -102,7 +102,16 @@ export default function HomeContent() {
       <FilterBar filters={filters} setFilters={setFilters} />
       <ActiveFilters filters={filters} setFilters={setFilters} />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-2">
+      {/* Result Counter */}
+      <div className="mt-6 mb-4">
+        <p className="text-2xl md:text-3xl font-bold">
+          <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 bg-clip-text text-transparent">
+            {filtered.length} {filtered.length === 1 ? "course" : "courses"} trouvée{filtered.length !== 1 ? "s" : ""}
+          </span>
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {filtered.map((course) => (
           <CourseCard key={course.id} course={course} />
         ))}

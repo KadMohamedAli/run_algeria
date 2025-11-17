@@ -23,38 +23,47 @@ export default function RangeFilter({
   const [open, setOpen] = useState(false);
   const [minVal, setMinVal] = useState(value[0]);
   const [maxVal, setMaxVal] = useState(value[1]);
+  const [tempMinVal, setTempMinVal] = useState(value[0]);
+  const [tempMaxVal, setTempMaxVal] = useState(value[1]);
   const containerRef = useRef(null);
-
-  // réorganiser min/max après saisie avec debounce
-  const normalizeValues = debounce((low, high) => {
-    if (low > high) {
-      onChange([high, low]);
-      setMinVal(high);
-      setMaxVal(low);
-    } else {
-      onChange([low, high]);
-    }
-  }, 400);
 
   const handleMin = (e) => {
     const val = Number(e.target.value);
-    setMinVal(val);
-    normalizeValues(val, maxVal);
+    setTempMinVal(val);
   };
 
   const handleMax = (e) => {
     const val = Number(e.target.value);
-    setMaxVal(val);
-    normalizeValues(minVal, val);
+    setTempMaxVal(val);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      applyFilter();
+    }
   };
 
   const clearMin = () => {
-    setMinVal(min);
-    onChange([min, maxVal]);
+    setTempMinVal(min);
   };
   const clearMax = () => {
-    setMaxVal(max);
-    onChange([minVal, max]);
+    setTempMaxVal(max);
+  };
+
+  // Appliquer les changements
+  const applyFilter = () => {
+    let finalMin = tempMinVal;
+    let finalMax = tempMaxVal;
+
+    // normaliser seulement au click du bouton
+    if (finalMin > finalMax) {
+      [finalMin, finalMax] = [finalMax, finalMin];
+    }
+
+    setMinVal(finalMin);
+    setMaxVal(finalMax);
+    onChange([finalMin, finalMax]);
+    setOpen(false);
   };
 
   // Bloquer caractères non numériques
@@ -130,15 +139,18 @@ export default function RangeFilter({
               <input
                 type="text"
                 inputMode="numeric"
-                value={minVal}
+                value={tempMinVal}
                 onChange={handleMin}
-                onKeyDown={blockInvalidChars}
+                onKeyDown={(e) => {
+                  blockInvalidChars(e);
+                  handleKeyDown(e);
+                }}
                 onInput={sanitizeInput}
                 onPaste={handlePaste}
                 className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
                 placeholder={`Min ${unit}`}
               />
-              {minVal !== min && (
+              {tempMinVal !== min && (
                 <button
                   type="button"
                   onClick={clearMin}
@@ -157,15 +169,18 @@ export default function RangeFilter({
               <input
                 type="text"
                 inputMode="numeric"
-                value={maxVal}
+                value={tempMaxVal}
                 onChange={handleMax}
-                onKeyDown={blockInvalidChars}
+                onKeyDown={(e) => {
+                  blockInvalidChars(e);
+                  handleKeyDown(e);
+                }}
                 onInput={sanitizeInput}
                 onPaste={handlePaste}
                 className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
                 placeholder={`Max ${unit}`}
               />
-              {maxVal !== max && (
+              {tempMaxVal !== max && (
                 <button
                   type="button"
                   onClick={clearMax}
@@ -176,6 +191,15 @@ export default function RangeFilter({
               )}
             </div>
           </div>
+
+          {/* Bouton Appliquer */}
+          <button
+            type="button"
+            onClick={applyFilter}
+            className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium rounded py-2 px-3 text-sm transition-colors duration-200"
+          >
+            Appliquer
+          </button>
         </div>
       )}
     </div>
