@@ -102,12 +102,15 @@ export default function InfoPage() {
         </p>
 
         <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
-          Le site est totalement <strong>gratuit</strong> pour les organisateurs
-          et les coureurs. Nous essayons toujours de{" "}
-          <strong>contacter les organisateurs</strong> avant la publication d’un
-          événement, afin d’obtenir leur accord et de vérifier les informations.
-          Tout est validé manuellement pour garantir la{" "}
-          <strong>fiabilité des données</strong>.
+          Nous essayons de publier le{" "}
+          <strong>maximum de courses disponibles</strong> afin d’offrir une vue
+          complète du calendrier running en Algérie. Nous faisons de notre mieux
+          pour garantir la{" "}
+          <strong>fiabilité et l’exactitude des informations</strong>. Si vous
+          constatez <strong>une erreur</strong>, si une information doit être
+          mise à jour ou si vous souhaitez que nous{" "}
+          <strong>retirions un contenu</strong>, vous pouvez simplement nous
+          contacter et nous corrigerons la page rapidement.
         </p>
       </article>
 
