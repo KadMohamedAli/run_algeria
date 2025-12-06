@@ -33,13 +33,7 @@ Chaque demande sera vérifiée manuellement avant mise à jour.
 
 ## Licence
 
-Ce projet est sous **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** :
-
-- Vous pouvez partager, copier et adapter le contenu.
-- Vous devez créditer l’auteur.
-- **Vous ne pouvez pas utiliser ce projet à des fins commerciales.**
-
-Pour plus de détails : [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
+Ce projet est sous **CC BY-NC 4.0**. Voir le fichier [LICENSE](./LICENSE) pour le texte complet.
 
 ---
 
