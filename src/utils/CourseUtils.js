@@ -36,7 +36,6 @@ export function normalizeDistance(distance) {
   return `${num}`;
 }
 
-
 /**
  * Normalize elevation relative to distance:
  * - ratio < 1% → "Plat"
@@ -44,15 +43,23 @@ export function normalizeDistance(distance) {
  */
 export function normalizeElevation(distanceKm, deniveleM) {
   // If deniveleM is not a number, return it as-is
-  if (deniveleM === null || deniveleM === undefined || isNaN(Number(deniveleM))) {
+  if (
+    deniveleM === null ||
+    deniveleM === undefined ||
+    isNaN(Number(deniveleM))
+  ) {
     return deniveleM;
   }
 
   // If distance is missing, just return deniveleM
   if (!distanceKm) return deniveleM;
 
-  const d = parseFloat(String(distanceKm).trim().toLowerCase().replace(/km|m/g, "").trim());
-  const e = parseFloat(String(deniveleM).trim().toLowerCase().replace(/km|m/g, "").trim());
+  const d = parseFloat(
+    String(distanceKm).trim().toLowerCase().replace(/km|m/g, "").trim()
+  );
+  const e = parseFloat(
+    String(deniveleM).trim().toLowerCase().replace(/km|m/g, "").trim()
+  );
 
   if (isNaN(d) || isNaN(e) || d <= 0) return deniveleM;
 
@@ -62,7 +69,6 @@ export function normalizeElevation(distanceKm, deniveleM) {
 
   return `${e}`;
 }
-
 
 /**
  * Normalize price:
@@ -80,11 +86,24 @@ export function normalizePrice(price) {
   return `${str}`;
 }
 
-export const getPrice = (course) => {
-  const price = parseFloat(course.prix_inscription);
-  // Return null if price is not a number
-  return isNaN(price) ? null : price;
-};
+export function getPrice(course) {
+  const raw = course.prix_inscription;
+  if (raw === null || raw === undefined) return null;
+
+  const parsed = parseFloat(String(raw).trim().replace(",", "."));
+  const price = isNaN(parsed) ? null : parsed;
+
+  return price;
+}
+
+export function getPriceForSort(course, dir = "asc") {
+  const price = getPrice(course);
+  if (price === null) {
+    // Unknown price: put at the end
+    return dir === "asc" ? Infinity : -Infinity;
+  }
+  return price;
+}
 
 export const getDistance = (course) => {
   if (!course.distance) return null;
@@ -115,7 +134,10 @@ export const matchesSearch = (course, query) => {
 
 export function filterCourses(courses, filters) {
   return courses.filter((course) => {
-    if (filters.wilaya.length && !filters.wilaya.includes(String(course.wilaya)))
+    if (
+      filters.wilaya.length &&
+      !filters.wilaya.includes(String(course.wilaya))
+    )
       return false;
 
     if (
@@ -125,17 +147,23 @@ export function filterCourses(courses, filters) {
       return false;
 
     const courseDate = getDate(course);
-    if (filters.date.start && courseDate < new Date(filters.date.start)) return false;
-    if (filters.date.end && courseDate > new Date(filters.date.end)) return false;
+    if (filters.date.start && courseDate < new Date(filters.date.start))
+      return false;
+    if (filters.date.end && courseDate > new Date(filters.date.end))
+      return false;
 
     const coursePrice = getPrice(course);
-    if (coursePrice < filters.price[0] || coursePrice > filters.price[1]) return false;
+
+    if (coursePrice < filters.price[0] || coursePrice > filters.price[1])
+      return false;
 
     const distance = getDistance(course);
-    if (distance < filters.distance[0] || distance > filters.distance[1]) return false;
+    if (distance < filters.distance[0] || distance > filters.distance[1])
+      return false;
 
     const denivele = getDenivele(course);
-    if (denivele < filters.denivele[0] || denivele > filters.denivele[1]) return false;
+    if (denivele < filters.denivele[0] || denivele > filters.denivele[1])
+      return false;
 
     if (!matchesSearch(course, filters.search)) return false;
 
@@ -143,51 +171,86 @@ export function filterCourses(courses, filters) {
   });
 }
 export function sortCourses(courses, orderBy) {
-  return courses.slice().sort((a, b) => {
-    const [key, dir] = orderBy.split("_");
-    const multiplier = dir === "desc" ? -1 : 1;
+  const [key, dir] = orderBy.split("_");
+  const multiplier = dir === "desc" ? -1 : 1;
 
-    const isChrono = (course) => course.type.includes(25);
+  const isChrono = (course) => course.type.includes(25);
 
-    switch (key) {
-      case "price": {
-        const priceA = getPrice(a);
-        const priceB = getPrice(b);
-        if (priceA === null && priceB === null) return 0;
-        if (priceA === null) return 1; // put missing prices at the end
-        if (priceB === null) return -1;
-        return (priceA - priceB) * multiplier;
-      }
-      case "distance": {
-        const distA = getDistance(a);
-        const distB = getDistance(b);
+  // Map courses with original index for stable sort
+  return courses
+    .map((course, index) => ({ course, index }))
+    .sort((a, b) => {
+      const A = a.course;
+      const B = b.course;
 
-        // Chronometer races go last
-        if (isChrono(a) && !isChrono(b)) return 1;
-        if (!isChrono(a) && isChrono(b)) return -1;
-        if (distA === null && distB === null) return 0;
-        if (distA === null) return 1;
-        if (distB === null) return -1;
+      switch (key) {
+        case "price": {
+          const priceA = getPrice(A);
+          const priceB = getPrice(B);
 
-        return (distA - distB) * multiplier;
-      }
-      case "denivele":
-        return (getDenivele(a) - getDenivele(b)) * multiplier;
-      case "date":
-      default: {
-        const dateA = getDate(a);
-        const dateB = getDate(b);
+          const isUnknownA = priceA === null;
+          const isUnknownB = priceB === null;
 
-        if (key === "date" && dir === "asc") {
-          const now = new Date();
-          const isPastA = dateA < now;
-          const isPastB = dateB < now;
-          if (isPastA && !isPastB) return 1;
-          if (!isPastA && isPastB) return -1;
+          // Unknown prices always go last
+          if (isUnknownA && isUnknownB) {
+            return a.index - b.index; // stable among unknowns
+          }
+          if (isUnknownA) {
+            return 1;
+          }
+          if (isUnknownB) {
+            return -1;
+          }
+
+          // Both prices known, compare properly with multiplier
+          if (priceA < priceB) {
+            return -1 * multiplier;
+          }
+          if (priceA > priceB) {
+            return 1 * multiplier;
+          }
+
+          return a.index - b.index;
         }
 
-        return (dateA - dateB) * multiplier;
+        case "distance": {
+          const distA = getDistance(A);
+          const distB = getDistance(B);
+
+          // Chronometer races go last
+          if (isChrono(A) && !isChrono(B)) return 1;
+          if (!isChrono(A) && isChrono(B)) return -1;
+
+          if (distA === null && distB === null) return a.index - b.index;
+          if (distA === null) return 1;
+          if (distB === null) return -1;
+
+          const diff = (distA - distB) * multiplier;
+          return diff === 0 ? a.index - b.index : diff;
+        }
+
+        case "denivele": {
+          const diff = (getDenivele(A) - getDenivele(B)) * multiplier;
+          return diff === 0 ? a.index - b.index : diff;
+        }
+
+        case "date":
+        default: {
+          const dateA = getDate(A);
+          const dateB = getDate(B);
+
+          if (key === "date" && dir === "asc") {
+            const now = new Date();
+            const isPastA = dateA < now;
+            const isPastB = dateB < now;
+            if (isPastA && !isPastB) return 1;
+            if (!isPastA && isPastB) return -1;
+          }
+
+          const diff = (dateA - dateB) * multiplier;
+          return diff === 0 ? a.index - b.index : diff;
+        }
       }
-    }
-  });
+    })
+    .map(({ course }) => course);
 }

@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import LZString from "lz-string";
 
@@ -22,7 +22,9 @@ function encodeFilters(filters) {
   try {
     const diff = {};
     for (const key in filters) {
-      if (JSON.stringify(filters[key]) !== JSON.stringify(defaultFilters[key])) {
+      if (
+        JSON.stringify(filters[key]) !== JSON.stringify(defaultFilters[key])
+      ) {
         diff[key] = filters[key];
       }
     }
@@ -46,42 +48,34 @@ function decodeFilters(str) {
 export function useFilters() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const initialized = useRef(false);
 
-  // 1️⃣ Initialize from URL on first render
-  const initialFilters = (() => {
-    if (!initialized.current) {
-      const f = searchParams.get("f");
-      initialized.current = true;
-      return f ? decodeFilters(f) : defaultFilters;
-    }
-    return defaultFilters;
-  })();
-
-  const [filters, setFilters] = useState(initialFilters);
-
-  // 2️⃣ Watch for URL changes (e.g. paste URL, click back/forward, navigate home)
-  useEffect(() => {
+  // Memoize decoded filters from URL to avoid new object on each render
+  const decodedFilters = useMemo(() => {
     const f = searchParams.get("f");
-    const decoded = f ? decodeFilters(f) : defaultFilters;
-    setFilters((prev) => {
-      if (JSON.stringify(prev) !== JSON.stringify(decoded)) {
-        return decoded;
-      }
-      return prev;
-    });
+    return f ? decodeFilters(f) : defaultFilters;
   }, [searchParams]);
 
-  // 3️⃣ Sync state → URL (only after initialization)
+  // State initialization
+  const [filters, setFilters] = useState(decodedFilters);
+
+  // 1️⃣ Watch URL → update filters only if different
   useEffect(() => {
-    if (!initialized.current) return; // avoid overwriting pasted URL before load
-    const f = encodeFilters(filters);
-    const current = searchParams.get("f") || "";
-    if (f !== current) {
-      const url = f ? `?f=${f}` : "";
-      router.replace(url, { scroll: false });
+    if (JSON.stringify(filters) !== JSON.stringify(decodedFilters)) {
+      setFilters(decodedFilters);
     }
-  }, [filters, router, searchParams]);
+  }, [decodedFilters]);
+
+  // 2️⃣ Sync filters → URL
+  const encodedFilters = useMemo(() => encodeFilters(filters), [filters]);
+
+  useEffect(() => {
+    const current = searchParams.get("f") || "";
+    if (encodedFilters !== current) {
+      router.replace(encodedFilters ? `?f=${encodedFilters}` : "", {
+        scroll: false,
+      });
+    }
+  }, [encodedFilters, router]);
 
   return [filters, setFilters];
 }

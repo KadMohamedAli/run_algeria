@@ -5,13 +5,14 @@ import FilterBar from "../components/FilterBar";
 import ActiveFilters from "@/components/ui/ActiveFilters";
 import { useFilters } from "@/hooks/useFilters"; // adjust path
 import { filterCourses, sortCourses } from "@/utils/CourseUtils";
+import { useMemo } from "react";
 
 export default function HomeContent() {
   const [filters, setFilters] = useFilters();
 
-  const filtered = sortCourses(
-    filterCourses(coursesData, filters),
-    filters.orderBy
+  const filtered = useMemo(
+    () => sortCourses(filterCourses(coursesData, filters), filters.orderBy),
+    [coursesData, filters]
   );
 
   return (

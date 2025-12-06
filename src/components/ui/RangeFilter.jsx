@@ -48,7 +48,7 @@ export default function RangeFilter({
         }
 
         timerRef.current = null;
-      }, 800);
+      }, 500);
     },
     [onChange]
   );
