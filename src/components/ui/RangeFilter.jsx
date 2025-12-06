@@ -16,6 +16,11 @@ export default function RangeFilter({
   const [maxVal, setMaxVal] = useState(value[1]);
   const containerRef = useRef(null);
 
+  useEffect(() => {
+    setMinVal(value[0]);
+    setMaxVal(value[1]);
+  }, [value]);
+
   // stable timer ref for debounce
   const timerRef = useRef(null);
   const minInputRef = useRef(null);
