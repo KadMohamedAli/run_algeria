@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 // ✅ Base URL from env
 const baseUrl =
@@ -99,6 +100,7 @@ export default function RootLayout({ children }) {
         }}
       >
         <SpeedInsights />
+        <Analytics />
         <Navbar />
         <main className="container mx-auto">{children}</main>
       </body>
