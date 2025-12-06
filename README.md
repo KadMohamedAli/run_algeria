@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Courses Algérie 🏃‍♂️🇩🇿
 
-## Getting Started
+**Courses Algérie** est un projet personnel et non lucratif visant à centraliser toutes les courses organisées en Algérie : marathons, semi-marathons, trails et autres événements running. Ce projet est ouvert à tous pour consultation et contributions, mais **aucune utilisation commerciale n'est autorisée**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Objectif
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Fournir aux coureurs algériens un calendrier clair et complet des courses.
+- Permettre aux organisateurs de publier gratuitement leurs événements.
+- Encourager la participation et la promotion de la course à pied en Algérie.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Équipe
 
-## Learn More
+- **KADDOUR Mohamed Ali** – Créateur et développeur principal  
+- **AMER EL KHEDOUD AMIR (amir3xe)** – Contributeur et collaborateur
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact & Contributions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pour suggérer une course, corriger des informations, ou proposer des idées :  
 
-## Deploy on Vercel
+- **Email :** [dzmohamedali31@gmail.com](mailto:dzmohamedali31@gmail.com)  
+- **GitHub Issues** : utilisez les issues de ce repository  
+- **Instagram :** [@m0h4m3d.ali](https://www.instagram.com/m0h4m3d.ali)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Chaque demande sera vérifiée manuellement avant mise à jour.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Licence
+
+Ce projet est sous **CC BY-NC 4.0**. Voir le fichier [LICENSE](./LICENSE) pour le texte complet.
+
+---
+
+Merci à tous les coureurs, clubs et bénévoles qui font vivre la course à pied en Algérie ! 🏃‍♂️🇩🇿
