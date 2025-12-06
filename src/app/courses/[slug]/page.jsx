@@ -4,7 +4,7 @@ import wilayas from "@/data/wilaya.json";
 import CourseClient from "./CourseClient";
 
 const baseUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://coursesalgerie.vercel.app";
 
 export function generateStaticParams() {
   if (!coursesData || !Array.isArray(coursesData) || coursesData.length === 0) {

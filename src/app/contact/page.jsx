@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Plateforme gratuite pour les coureurs et organisateurs de courses en Algérie. Ajoutez ou mettez à jour vos événements facilement.",
     url: `${
-      process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app"
+      process.env.NEXT_PUBLIC_SITE_URL || "https://coursesalgerie.vercel.app"
     }/contact`,
     siteName: "Courses Algérie",
     type: "website",
@@ -28,7 +28,8 @@ export const metadata = {
     images: [
       {
         url: `${
-          process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app"
+          process.env.NEXT_PUBLIC_SITE_URL ||
+          "https://coursesalgerie.vercel.app"
         }/ca_logo.jpg`,
         width: 1080,
         height: 1080,
@@ -38,7 +39,7 @@ export const metadata = {
   },
   alternates: {
     canonical: `${
-      process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app"
+      process.env.NEXT_PUBLIC_SITE_URL || "https://coursesalgerie.vercel.app"
     }/contact`,
   },
   robots: {
@@ -55,7 +56,7 @@ const structuredData = {
   description:
     "Plateforme gratuite pour les coureurs et organisateurs de courses en Algérie. Ajoutez ou mettez à jour vos événements facilement.",
   url: `${
-    process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://coursesalgerie.vercel.app"
   }/contact`,
   contactPoint: {
     "@type": "ContactPoint",

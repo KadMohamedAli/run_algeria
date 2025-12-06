@@ -37,21 +37,21 @@ export default function CourseCard({ course }) {
       className="group block w-full relative"
     >
       <div
-        className="relative flex flex-col rounded-xl overflow-hidden transition-all duration-500 ease-out h-36 md:h-42
+        className="relative flex flex-col rounded-xl overflow-hidden transition-all duration-900 ease-out h-36 md:h-42
           hover:scale-101 hover:-translate-y-1
           shadow-2xl hover:shadow-2xl
-          border-2 border-orange-500/40 hover:border-orange-500/70
           before:absolute before:inset-0 before:rounded-xl before:pointer-events-none
           before:opacity-0 hover:before:opacity-80 before:transition-opacity before:duration-500
-          before:bg-gradient-to-br before:from-white/8 before:via-transparent before:to-orange-500/5
+          before:bg-linear-to-br before:from-white/8 before:via-transparent before:to-orange-500/5
           after:absolute after:-inset-0.5 after:rounded-xl after:pointer-events-none
           after:opacity-50 hover:after:opacity-100 after:transition-opacity after:duration-500
-          after:bg-gradient-to-br after:from-orange-500/60 after:via-orange-400/30 after:to-transparent after:-z-10
+          after:bg-linear-to-br after:from-orange-500/60 after:via-orange-400/30 after:to-transparent after:-z-10
           drop-shadow-lg hover:drop-shadow-2xl"
         style={{
           filter: isPast ? "saturate(0.4)" : "none",
+          border: `2px solid ${colors.accent}55`,
           transition:
-            "filter 0.3s ease-in-out, transform 0.5s ease-out, box-shadow 0.5s ease-out, border-color 0.5s ease-out",
+            "filter 0.3s ease-in-out, transform 0.5s ease-out, box-shadow 0.5s ease-out, border-color 0.3s ease-out",
           boxShadow: `
             0 15px 35px ${colors.accent}22, 
             0 8px 20px ${colors.main}33, 
@@ -62,12 +62,13 @@ export default function CourseCard({ course }) {
         }}
         onMouseEnter={(e) => {
           e.currentTarget.style.boxShadow = `
-            0 20px 40px ${colors.accent}44, 
-            0 10px 25px ${colors.main}55, 
+            0 20px 40px ${colors.accent}44,
+            0 10px 25px ${colors.main}55,
             0 0 40px ${colors.accent}66,
             0 0 60px ${colors.accent}44,
             inset 0 1px 2px rgba(255, 255, 255, 0.1)
           `;
+          e.currentTarget.style.borderColor = `${colors.accent}AA`; // stronger border on hover
         }}
         onMouseLeave={(e) => {
           e.currentTarget.style.boxShadow = `
@@ -77,6 +78,7 @@ export default function CourseCard({ course }) {
             0 0 50px ${colors.accent}22,
             inset 0 1px 1px rgba(255, 255, 255, 0.05)
           `;
+          e.currentTarget.style.borderColor = `${colors.accent}55`; // revert to original
         }}
       >
         {/* CARD CONTENT WRAPPER */}
@@ -99,8 +101,10 @@ export default function CourseCard({ course }) {
             <CourseTitle text={course.nom} seed={course.id} />
 
             {/* Distance or Chrono */}
-            <div className="w-full px-1 flex justify-around text-white text-sm md:text-base items-center
-              transition-all duration-500 group-hover:scale-105">
+            <div
+              className="w-full px-1 flex justify-around text-white text-sm md:text-base items-center
+              transition-all duration-500 group-hover:scale-105"
+            >
               {course.distance ? (
                 (() => {
                   const normDist = normalizeDistance(course.distance);
@@ -141,8 +145,10 @@ export default function CourseCard({ course }) {
 
             {/* Date */}
             {course.date && (
-              <p className="flex px-1 items-center justify-start gap-1 text-white text-sm md:text-base
-                transition-all duration-500 group-hover:text-orange-300">
+              <p
+                className="flex px-1 items-center justify-start gap-1 text-white text-sm md:text-base
+                transition-all duration-500 group-hover:text-orange-300"
+              >
                 <ClockIcon className="h-4 w-4 md:h-5 md:w-5 transition-all duration-500 group-hover:scale-110" />
                 {formatCourseDate(course.date)} à {getWilayaName(course.wilaya)}
               </p>
@@ -184,10 +190,12 @@ export default function CourseCard({ course }) {
 
         {/* FINI badge */}
         {isPast && (
-          <div className="absolute top-2 right-2 bg-gradient-to-br from-orange-600 to-red-700 text-white text-xs font-black px-2.5 py-1 rounded-lg z-30
+          <div
+            className="absolute top-2 right-2 bg-linear-to-br from-orange-600 to-red-700 text-white text-xs font-black px-2.5 py-1 rounded-lg z-30
             shadow-md hover:shadow-lg
             transition-all duration-400 group-hover:scale-110
-            border border-orange-400/40">
+            border border-orange-400/40"
+          >
             FINI
           </div>
         )}

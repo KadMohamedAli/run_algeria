@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Point to sitemap
-Sitemap: https://run-algeria.vercel.app/sitemap.xml
+Sitemap: https://coursesalgerie.vercel.app/sitemap.xml
 
 # Contact and site info
-Host: https://run-algeria.vercel.app
+Host: https://coursesalgerie.vercel.app
 # Created by KADDOUR Mohamed Ali & AMER EL KHEDOUD AMIR

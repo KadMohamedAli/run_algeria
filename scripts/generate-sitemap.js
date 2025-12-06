@@ -23,7 +23,7 @@ try {
 
 // ✅ Base URL (for sitemap links)
 const baseUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://run-algeria.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://coursesalgerie.vercel.app";
 
 // ✅ Static and dynamic pages
 const staticPages = ["", "/contact"];

@@ -1,16 +1,7 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import LabelWithCount from "./LabelWithCount";
-
-// petit utilitaire debounce
-function debounce(fn, delay) {
-  let timer;
-  return (...args) => {
-    clearTimeout(timer);
-    timer = setTimeout(() => fn(...args), delay);
-  };
-}
 
 export default function RangeFilter({
   label,
@@ -23,51 +14,79 @@ export default function RangeFilter({
   const [open, setOpen] = useState(false);
   const [minVal, setMinVal] = useState(value[0]);
   const [maxVal, setMaxVal] = useState(value[1]);
-  const [tempMinVal, setTempMinVal] = useState(value[0]);
-  const [tempMaxVal, setTempMaxVal] = useState(value[1]);
   const containerRef = useRef(null);
 
+  // stable timer ref for debounce
+  const timerRef = useRef(null);
+  const minInputRef = useRef(null);
+  const maxInputRef = useRef(null);
+  const lastFocused = useRef("min");
+
+  const normalizeValues = useCallback(
+    (low, high) => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+
+      timerRef.current = setTimeout(() => {
+        if (low > high) {
+          // swap
+          setMinVal(high);
+          setMaxVal(low);
+          onChange([high, low]);
+
+          // restore focus AFTER swap
+          setTimeout(() => {
+            if (lastFocused.current === "min") {
+              // user was typing in Min → focus should move to Max
+              maxInputRef.current?.focus();
+            } else {
+              // user was typing in Max → focus should move to Min
+              minInputRef.current?.focus();
+            }
+          }, 0);
+        } else {
+          onChange([low, high]);
+        }
+
+        timerRef.current = null;
+      }, 800);
+    },
+    [onChange]
+  );
+  // cleanup on unmount
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+        timerRef.current = null;
+      }
+    };
+  }, []);
+
   const handleMin = (e) => {
-    const val = Number(e.target.value);
-    setTempMinVal(val);
+    const val = Number(e.target.value === "" ? min : e.target.value);
+    setMinVal(val);
+    normalizeValues(val, maxVal);
   };
 
   const handleMax = (e) => {
-    const val = Number(e.target.value);
-    setTempMaxVal(val);
-  };
-
-  const handleKeyDown = (e) => {
-    if (e.key === "Enter") {
-      applyFilter();
-    }
+    const val = Number(e.target.value === "" ? max : e.target.value);
+    setMaxVal(val);
+    normalizeValues(minVal, val);
   };
 
   const clearMin = () => {
-    setTempMinVal(min);
+    setMinVal(min);
+    onChange([min, maxVal]);
   };
   const clearMax = () => {
-    setTempMaxVal(max);
-  };
-
-  // Appliquer les changements
-  const applyFilter = () => {
-    let finalMin = tempMinVal;
-    let finalMax = tempMaxVal;
-
-    // normaliser seulement au click du bouton
-    if (finalMin > finalMax) {
-      [finalMin, finalMax] = [finalMax, finalMin];
-    }
-
-    setMinVal(finalMin);
-    setMaxVal(finalMax);
-    onChange([finalMin, finalMax]);
-    setOpen(false);
+    setMaxVal(max);
+    onChange([minVal, max]);
   };
 
   // Bloquer caractères non numériques
   const blockInvalidChars = (e) => {
+    // allow: digits, Backspace, Delete, Arrow keys, Tab
+    // block e/E + + - . for integer-only
     if (["e", "E", "+", "-", "."].includes(e.key)) {
       e.preventDefault();
     }
@@ -77,6 +96,7 @@ export default function RangeFilter({
   const sanitizeInput = (e) => {
     let clean = e.target.value.replace(/[^0-9]/g, ""); // garder que digits
     if (clean !== e.target.value) {
+      // For controlled input we still update the underlying state
       e.target.value = clean;
     }
   };
@@ -139,22 +159,21 @@ export default function RangeFilter({
               <input
                 type="text"
                 inputMode="numeric"
-                value={tempMinVal}
+                ref={minInputRef}
+                value={minVal}
                 onChange={handleMin}
-                onKeyDown={(e) => {
-                  blockInvalidChars(e);
-                  handleKeyDown(e);
-                }}
+                onKeyDown={blockInvalidChars}
                 onInput={sanitizeInput}
                 onPaste={handlePaste}
+                onFocus={() => (lastFocused.current = "min")}
                 className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
                 placeholder={`Min ${unit}`}
               />
-              {tempMinVal !== min && (
+              {minVal !== min && (
                 <button
                   type="button"
                   onClick={clearMin}
-                  className="text-orange-400 hover:text-orange-300 flex-shrink-0 transition-all duration-300"
+                  className="text-orange-400 hover:text-orange-300 shrink-0 transition-all duration-300"
                 >
                   <XMarkIcon className="w-4 h-4" />
                 </button>
@@ -169,37 +188,27 @@ export default function RangeFilter({
               <input
                 type="text"
                 inputMode="numeric"
-                value={tempMaxVal}
+                ref={maxInputRef}
+                value={maxVal}
                 onChange={handleMax}
-                onKeyDown={(e) => {
-                  blockInvalidChars(e);
-                  handleKeyDown(e);
-                }}
+                onKeyDown={blockInvalidChars}
                 onInput={sanitizeInput}
                 onPaste={handlePaste}
+                onFocus={() => (lastFocused.current = "max")}
                 className="bg-gray-800 border border-gray-600 rounded p-1 text-white w-full text-sm text-center focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
                 placeholder={`Max ${unit}`}
               />
-              {tempMaxVal !== max && (
+              {maxVal !== max && (
                 <button
                   type="button"
                   onClick={clearMax}
-                  className="text-orange-400 hover:text-orange-300 flex-shrink-0 transition-all duration-300"
+                  className="text-orange-400 hover:text-orange-300 shrink-0 transition-all duration-300"
                 >
                   <XMarkIcon className="w-4 h-4" />
                 </button>
               )}
             </div>
           </div>
-
-          {/* Bouton Appliquer */}
-          <button
-            type="button"
-            onClick={applyFilter}
-            className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium rounded py-2 px-3 text-sm transition-colors duration-200"
-          >
-            Appliquer
-          </button>
         </div>
       )}
     </div>
