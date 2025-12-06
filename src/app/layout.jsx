@@ -9,31 +9,36 @@ const baseUrl =
 
 export const metadata = {
   title: {
-    default: "Courses Algérie",
-    template: "%s – Courses Algérie",
+    default: "Courses Algérie – Run & Running en Algérie",
+    template: "%s – Courses Algérie | Run & Running Algeria",
   },
   description:
-    "Courses Algérie est une plateforme gratuite créée par des passionnés pour les coureurs et organisateurs de courses à pied en Algérie. Découvrez, ajoutez ou mettez à jour vos événements facilement.",
+    "Courses Algérie est la plateforme gratuite pour tous les passionnés de course à pied en Algérie. Découvrez le calendrier complet des marathons, semi-marathons, trails et événements running à travers le pays, ajoutez vos courses ou mettez-les à jour facilement.",
   keywords: [
     "courses à pied",
-    "Algérie",
-    "marathon",
-    "semi-marathon",
-    "trail",
     "running",
-    "événements sportifs",
-    "calendrier running",
+    "Algérie",
+    "marathon Algérie",
+    "semi-marathon Algérie",
+    "trail Algérie",
+    "événements running",
+    "course à pied Algérie",
+    "calendrier running Algérie",
+    "run Algeria",
+    "running Algeria",
+    "marathons Algeria",
+    "races Algeria",
   ],
   authors: [{ name: "Kaddour Mohamed Ali" }, { name: "Amer El Khedoud Amir" }],
   creator: "Kaddour Mohamed Ali & Amer El Khedoud Amir",
   publisher: "Courses Algérie (projet communautaire)",
   category: "Sport / Communauté",
 
-  // ✅ OpenGraph metadata
+  // OpenGraph metadata
   openGraph: {
-    title: "Courses Algérie",
+    title: "Courses Algérie – Run & Running en Algérie",
     description:
-      "Découvrez le calendrier complet des courses à pied en Algérie : marathons, semi-marathons, trails et plus encore.",
+      "Découvrez le calendrier complet des courses à pied en Algérie : marathons, semi-marathons, trails et événements running à travers le pays.",
     url: baseUrl,
     siteName: "Courses Algérie",
     type: "website",
@@ -43,22 +48,22 @@ export const metadata = {
         url: `${baseUrl}/ca_logo.jpg`,
         width: 1080,
         height: 1080,
-        alt: "Courses Algérie – Courses à pied en Algérie",
+        alt: "Courses Algérie – Courses à pied, Running & Marathons en Algérie",
       },
     ],
   },
 
-  // ✅ Twitter metadata
+  // Twitter metadata
   twitter: {
     card: "summary_large_image",
-    title: "Courses Algérie",
+    title: "Courses Algérie – Run & Running en Algérie",
     description:
-      "Courses Algérie — plateforme gratuite pour découvrir et partager les courses à pied en Algérie.",
+      "Courses Algérie : calendrier complet et gratuit des courses à pied, marathons et trails en Algérie. Partagez et découvrez vos événements running favoris.",
     images: [`${baseUrl}/ca_logo.jpg`],
-    creator: "@CoursesAlgerie", // optional if you ever create an account
+    creator: "@CoursesAlgerie",
   },
 
-  // ✅ Robots & Googlebot config
+  // Robots & Googlebot config
   robots: {
     index: true,
     follow: true,
@@ -71,14 +76,14 @@ export const metadata = {
     },
   },
 
-  // ✅ Icons
+  // Icons
   icons: {
     icon: "/favicon.ico",
     shortcut: "/ca_logo_32.jpg",
     apple: "/ca_logo.jpg",
   },
 
-  // ✅ Canonical + base
+  // Canonical + base
   metadataBase: new URL(baseUrl),
 };
 

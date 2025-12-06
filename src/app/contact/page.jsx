@@ -92,27 +92,38 @@ export default function InfoPage() {
         </h1>
       </header>
 
-      <article className="space-y-6">
-        <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
-          <strong>Courses Algérie</strong> est un projet personnel et{" "}
-          <strong>non lucratif</strong> créé par des passionnés de course à
-          pied. Notre objectif est d’offrir aux coureurs algériens une
-          plateforme claire et gratuite pour découvrir toutes les{" "}
-          <strong>courses organisées en Algérie</strong> — marathons, trails,
-          semi-marathons et plus encore.
-        </p>
+      <article className="flex flex-col sm:flex-row items-center sm:items-center gap-6">
+        {/* Image */}
+        <div className="w-full sm:w-[400px] shrink-0 flex justify-center pe-2 md:p-0">
+          <img
+            src="/ca_logo_fit.png"
+            alt="Courses Algérie Logo"
+            className="w-full h-auto object-contain"
+          />
+        </div>
 
-        <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
-          Nous essayons de publier le{" "}
-          <strong>maximum de courses disponibles</strong> afin d’offrir une vue
-          complète du calendrier running en Algérie. Nous faisons de notre mieux
-          pour garantir la{" "}
-          <strong>fiabilité et l’exactitude des informations</strong>. Si vous
-          constatez <strong>une erreur</strong>, si une information doit être
-          mise à jour ou si vous souhaitez que nous{" "}
-          <strong>retirions un contenu</strong>, vous pouvez simplement nous
-          contacter et nous corrigerons la page rapidement.
-        </p>
+        <div className="space-y-6">
+          <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
+            <strong>Courses Algérie</strong> est un projet personnel et{" "}
+            <strong>non lucratif</strong> créé par des passionnés de course à
+            pied. Notre objectif est d’offrir aux coureurs algériens une
+            plateforme claire et gratuite pour découvrir toutes les{" "}
+            <strong>courses organisées en Algérie</strong> — marathons, trails,
+            semi-marathons et plus encore.
+          </p>
+
+          <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
+            Nous essayons de publier le{" "}
+            <strong>maximum de courses disponibles</strong> afin d’offrir une
+            vue complète du calendrier running en Algérie. Nous faisons de notre
+            mieux pour garantir la{" "}
+            <strong>fiabilité et l’exactitude des informations</strong>. Si vous
+            constatez <strong>une erreur</strong>, si une information doit être
+            mise à jour ou si vous souhaitez que nous{" "}
+            <strong>retirions un contenu</strong>, vous pouvez simplement nous
+            contacter et nous corrigerons la page rapidement.
+          </p>
+        </div>
       </article>
 
       <section className="space-y-5">
