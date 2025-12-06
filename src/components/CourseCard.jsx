@@ -147,7 +147,7 @@ export default function CourseCard({ course }) {
             {course.date && (
               <p
                 className="flex px-1 items-center justify-start gap-1 text-white text-sm md:text-base
-                transition-all duration-500 group-hover:text-orange-300"
+                transition-all duration-300 group-hover:font-semibold"
               >
                 <ClockIcon className="h-4 w-4 md:h-5 md:w-5 transition-all duration-500 group-hover:scale-110" />
                 {formatCourseDate(course.date)} à {getWilayaName(course.wilaya)}
