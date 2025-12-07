@@ -653,7 +653,7 @@
     "commune": "Tirourda",
     "pays": "Algérie",
     "organisateur_nom": "Athletics Club Gaya",
-    "contact_numero": "0554687089",
+    "contact_numero": "+213554687089",
     "contact_email": "contact@azronthor.com",
     "site_web": "https://azronthor.com/",
     "image": "/images/trail-azro-nthor-2026.png",
@@ -687,7 +687,7 @@
     "commune": "Tirourda",
     "pays": "Algérie",
     "organisateur_nom": "Athletics Club Gaya",
-    "contact_numero": "0554687089",
+    "contact_numero": "+213554687089",
     "contact_email": "contact@azronthor.com",
     "site_web": "https://azronthor.com/",
     "image": "/images/trail-azro-nthor-2026.png",
@@ -717,12 +717,11 @@
     "date": "2025-12-13T07:00:00+01:00",
     "type": [0, 26],
     "distance": "14",
-    "denivele_plus": 0,
     "wilaya": 42,
     "commune": "Tipaza",
     "pays": "Algérie",
     "organisateur_nom": "DJS Tipaza",
-    "contact_numero": "0661719281",
+    "contact_numero": "+213661719281",
     "contact_email": "",
     "site_web": "https://sport.tipasa.net/",
     "image": "/images/tipaza-14k-2026.jpg",
@@ -739,5 +738,169 @@
         "finishers": ["Maillot officiel", "Médaille de participation"]
       }
     }
+  },
+  {
+    "id": 22,
+    "slug": "course-commemorative-tizi-ouzou-5km-2025",
+    "nom": "Course Commémorative 5 km Tizi Ouzou 2025",
+    "description": "À l'occasion du 65ème anniversaire des manifestations du 11 décembre 1960, la wilaya de Tizi Ouzou organise une course populaire sur route de 5 km. Cet événement rend hommage à un moment historique de la Révolution algérienne et célèbre l'unité et la détermination du peuple algérien pour l'indépendance. Le parcours se déroule sur route, adapté à tous les participants, et le départ est prévu dans la matinée du 11 décembre 2025.",
+    "date": "2025-12-11T08:00:00+01:00",
+    "type": [0, 6, 17],
+    "distance": "5",
+    "wilaya": 15,
+    "commune": "Tizi Ouzou",
+    "pays": "Algérie",
+    "organisateur_nom": "Wilaya de Tizi Ouzou",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/tizi-5k-2025.jpg",
+    "prix_inscription": "Gratuit",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#1c5e99",
+      "secondary_color": "",
+      "accent_color": "#073054"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 23,
+    "slug": "course-commemorative-mohand-oulhadj-bouzeguen-2025",
+    "nom": "Course Commémorative Colonel Akli Mokrane 2025",
+    "description": "À l'occasion de la commémoration du 53ᵉ anniversaire du décès du Colonel Akli Mokrane, dit Mohand Oulhadj, symbole de la Révolution algérienne et Chef de la Wilaya III, la commune de Bouzeguen organise une course populaire. Cet événement rend hommage à son engagement et à son rôle historique dans la lutte pour l'indépendance. Le départ de la course est prévu à 8h00 et le parcours se déroule sur route, adapté à tous les participants.",
+    "date": "2025-12-12T08:00:00+01:00",
+    "type": [0, 4],
+    "distance": 21.097,
+    "wilaya": 15,
+    "commune": "Bouzeguen",
+    "pays": "Algérie",
+    "organisateur_nom": "Commune de Bouzeguen",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "https://www.facebook.com/mairie2022",
+    "image": "/images/semi-bouzegeuene-2025.jpg",
+    "prix_inscription": "Gratuit",
+    "inscription_link": "",
+    "conditions": [
+      "Ouvert à tous les participants adultes",
+      "Respecter les règles de sécurité et les consignes de l'organisation"
+    ],
+    "colors": {
+      "background_color": "#1c4511",
+      "secondary_color": "",
+      "accent_color": "#20700a"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 24,
+    "slug": "trail-boumerdes-21km-2026",
+    "nom": "Trail Boumerdes 21 km 2026",
+    "description": "Le Trail Boumerdes revient pour sa 2ᵉ édition, organisé par le Club des Aventuriers de Boumerdes sous la supervision de la Direction de la Jeunesse et des Sports. Cette course de 21 km traverse des vallées, des rochers et des sentiers étroits, offrant un parcours varié et exigeant, adapté aux standards internationaux. Le départ est prévu le 6 février 2026 et le parcours met en valeur le potentiel touristique et naturel exceptionnel de la région de Boumerdes. Les participants recevront une médaille commémorative spéciale de l'événement.",
+    "date": "2026-02-06T08:00:00+01:00",
+    "type": [1, 7, 11, 20],
+    "distance": 21,
+
+    "wilaya": 35,
+    "commune": "Boumerdes",
+    "pays": "Algérie",
+    "organisateur_nom": "Club des Aventuriers de Boumerdes",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/trail-boumerdas-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#1a3b54",
+      "secondary_color": "",
+      "accent_color": "#0b294d"
+    },
+    "prix_gagnants": {
+      "Senior Homme & Femme": {
+        "finishers": ["Médaille commémorative spéciale"]
+      }
+    }
+  },
+  {
+    "id": 25,
+    "slug": "semi-marathon-littoral-tigzirt-2025",
+    "nom": "Semi-Marathon du Littoral – Tigzirt 2025",
+    "description": "La 4ᵉ édition du Semi-Marathon du Littoral de Tigzirt rend hommage au défunt MEDJBER Mohammed, dit MOH 42. Cette course populaire propose un parcours de 12 km pour hommes et femmes, ouvert à différentes catégories d'âge : 18-35 ans, 36-45 ans, 46-55 ans et 56 ans et plus. Le départ est prévu le 27 décembre 2025 à 8h00 depuis le stade communal de Tigzirt. Cet événement met en avant la pratique sportive et l'esprit de dépassement de soi, et vise à devenir une tradition dans la région.",
+    "date": "2025-12-27T08:00:00+01:00",
+    "type": [0],
+    "distance": 12,
+    "wilaya": 15,
+    "commune": "Tigzirt",
+    "pays": "Algérie",
+    "organisateur_nom": "Assemblée populaire communale de Tigzirt / CLT Tigzirt / Ligue d'Athlétisme de Tizi-Ouzou",
+    "contact_numero": "+213555132365",
+    "contact_email": "littoral1@hotmail.fr",
+    "site_web": "",
+    "image": "/images/tigzirt-12k-2025.jpg",
+    "prix_inscription": "Gratuit",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#2c3036",
+      "secondary_color": "",
+      "accent_color": "#293547"
+    },
+    "prix_gagnants": {
+      "Homme & Femme (18-35)": {
+        "1er": ["Cadeaux"],
+        "2e": ["Cadeaux"],
+        "3e": ["Cadeaux"],
+        "finishers": ["Médaille et diplôme de participation"]
+      },
+      "Homme & Femme (36-45)": {
+        "1er": ["Cadeaux"],
+        "2e": ["Cadeaux"],
+        "3e": ["Cadeaux"],
+        "finishers": ["Médaille et diplôme de participation"]
+      },
+      "Homme & Femme (46-55)": {
+        "1er": ["Cadeaux"],
+        "2e": ["Cadeaux"],
+        "3e": ["Cadeaux"],
+        "finishers": ["Médaille et diplôme de participation"]
+      },
+      "Homme & Femme (+56)": {
+        "1er": ["Cadeaux"],
+        "2e": ["Cadeaux"],
+        "3e": ["Cadeaux"],
+        "finishers": ["Médaille et diplôme de participation"]
+      }
+    }
+  },
+  {
+    "id": 26,
+    "slug": "defi-marche-longue-distance-boumerdes-2026",
+    "nom": "Défi Marche Longue Distance – Boumerdes 2026",
+    "description": "La 5ᵉ édition du Défi Marche Longue Distance à Boumerdes se tiendra le 3 avril 2026. Cet événement sportif est destiné aux participants expérimentés et vise à développer et professionnaliser la pratique de la marche en montagne. Le parcours se déroule sur un circuit ouvert balisé, à travers quatre wilayas, avec des sections de niveau difficile à moyen pour tester la résistance et la condition physique des participants. L'événement met l'accent sur l'endurance, la stratégie et la maîtrise des terrains montagneux.",
+    "date": "2026-04-03T08:00:00+01:00",
+    "type": [1, 2],
+    "distance": 52,
+    "denivele_plus": null,
+    "wilaya": 35,
+    "commune": "Boumerdes",
+    "pays": "Algérie",
+    "organisateur_nom": "Adventurers Alma club for mountain sports and environnement protection",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "https://www.facebook.com/p/Adventurers-Alma-club-for-mountain-sports-and-environnement-protection-100062059075655/",
+    "image": "/images/bomerdas52k-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#403225",
+      "secondary_color": "",
+      "accent_color": "#523418"
+    },
+    "prix_gagnants": {}
   }
 ]
