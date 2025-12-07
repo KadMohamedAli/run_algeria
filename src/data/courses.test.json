@@ -708,5 +708,36 @@
         "finishers": ["Médaille Finisher", "T-shirt officiel", "1 point ITRA"]
       }
     }
+  },
+  {
+    "id": 21,
+    "slug": "national-populaire-tipasa-14km-2025",
+    "nom": "21ème Edition du National Populaire Tipasa 14 km 2025",
+    "description": "Dans le cadre des célébrations de la commémoration des manifestations du 11 décembre 2025, la Ligue Wilayale de Sport pour Tous organise, en coordination avec la Fédération Algérienne du Sport pour Tous et sous la supervision de la Direction de la Jeunesse et des Sports de Tipasa, la 21ème édition du National Populaire sur une distance de 14 km. Le parcours suit la Route Nationale 11 entre Tipasa et El Nador, offrant une expérience sportive sur route pour tous les participants. Le départ se fera le 13 décembre 2025 à partir de 07:00.",
+    "date": "2025-12-13T07:00:00+01:00",
+    "type": [0, 26],
+    "distance": "14",
+    "denivele_plus": 0,
+    "wilaya": 42,
+    "commune": "Tipaza",
+    "pays": "Algérie",
+    "organisateur_nom": "DJS Tipaza",
+    "contact_numero": "0661719281",
+    "contact_email": "",
+    "site_web": "https://sport.tipasa.net/",
+    "image": "/images/tipaza-14k-2026.jpg",
+    "prix_inscription": "Gratuit",
+    "inscription_link": "https://sport.tipasa.net/",
+    "conditions": ["Âge minimum 18 ans"],
+    "colors": {
+      "background_color": "#1e244a",
+      "secondary_color": "",
+      "accent_color": "#1d2869"
+    },
+    "prix_gagnants": {
+      "Senior Homme & Femme": {
+        "finishers": ["Maillot officiel", "Médaille de participation"]
+      }
+    }
   }
 ]
