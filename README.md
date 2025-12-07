@@ -35,6 +35,14 @@ Chaque demande sera vérifiée manuellement avant mise à jour.
 
 Ce projet est sous **CC BY-NC 4.0**. Voir le fichier [LICENSE](./LICENSE) pour le texte complet.
 
+
 ---
 
 Merci à tous les coureurs, clubs et bénévoles qui font vivre la course à pied en Algérie ! 🏃‍♂️🇩🇿
+
+
+
+
+
+
+  <img src="public/ca_logo.jpg" width="100%">
