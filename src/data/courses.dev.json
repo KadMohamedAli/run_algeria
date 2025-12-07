@@ -639,5 +639,74 @@
       "secondary_color": "",
       "accent_color": "#36350e"
     }
+  },
+  {
+    "id": 19,
+    "slug": "trail-azro-nthor-23km-2026",
+    "nom": "Trail Azro N'Thor 23 km 2026",
+    "description": "Le Trail Azro N'Thor est une course 100 % algérienne, située au Sud de Tizi Ouzou, à Tirourda, au cœur des montagnes de Kabylie. La distance de 23 km avec 1 360 mD+ propose un parcours exigeant mais accessible, avec départ à 8h30 et plusieurs points de ravitaillement. Les premiers kilomètres montent crescendo au milieu des buissons et de la roche, jusqu'au sommet d’une crête offrant une vue imprenable sur le village. Après le 15ème km, le parcours descend vers Tirourda, où les spectateurs encouragent les coureurs jusqu'à l'arche finale.\n\nPoints de ravitaillement : km 5, 7, 16,5, 22.\nBarrières horaires : km 16,5 → 4h, arrivée → 5h30.\n\nVivez une expérience authentique dans les montagnes du Djurdjura avec des participants venus du monde entier et profitez de la beauté naturelle des vergers, figuiers, vignes et pommiers le long du parcours.",
+    "date": "2026-05-29T08:30:00+01:00",
+    "type": [1, 7, 13, 31, 36],
+    "distance": "23",
+    "denivele_plus": 1340,
+    "wilaya": 15,
+    "commune": "Tirourda",
+    "pays": "Algérie",
+    "organisateur_nom": "Athletics Club Gaya",
+    "contact_numero": "0554687089",
+    "contact_email": "contact@azronthor.com",
+    "site_web": "https://azronthor.com/",
+    "image": "/images/trail-azro-nthor-2026.png",
+    "prix_inscription": "4500",
+    "inscription_link": "https://azronthor.com/inscription/",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Certificat médical indiquant la non contre-indication à la pratique sportive"
+    ],
+    "colors": {
+      "background_color": "#2e251d",
+      "secondary_color": "",
+      "accent_color": "#422b17"
+    },
+    "prix_gagnants": {
+      "Senior Homme & Femme": {
+        "finishers": ["Médaille Finisher", "T-shirt officiel", "1 point ITRA"]
+      }
+    }
+  },
+  {
+    "id": 20,
+    "slug": "trail-azro-nthor-40km-2026",
+    "nom": "Trail Azro N'Thor 40,6 km 2026",
+    "description": "Le Trail Azro N'Thor 40,6 km avec 2 460 mD+ est inscrit aux UTMB® World Series, attribuant 2 points ITRA. Départ à 7h30, parcours semi-autonome exigeant en boucle unique, traversant le col de Tirourda et culminant au sommet d’Azro N’Thor à 1 883 m d’altitude. Les 20 premiers km sont communs avec la distance de 23 km, suivis d’une deuxième boucle avec montée finale de 1 324 mD+ jusqu’au sommet, puis descente vers le village d’arrivée. Les spectateurs encouragent les coureurs jusqu’à l'arche finale.\n\nPoints de ravitaillement : km 5, 7, 16,5, 22, 27, 35, arrivée.\nBarrières horaires : km 16,5 → 4h, km 22,5 → 5h, km 35,5 → 8h30, arrivée → 10h30.\n\nVivez une expérience exceptionnelle au cœur des montagnes de Kabylie, avec des paysages de vergers, figuiers, vignes et pommiers, et partagez cette aventure avec des participants du monde entier.",
+    "date": "2026-05-29T07:30:00+01:00",
+    "type": [1, 7, 13, 2, 31, 36],
+    "distance": "40.6",
+    "denivele_plus": 2460,
+    "wilaya": 15,
+    "commune": "Tirourda",
+    "pays": "Algérie",
+    "organisateur_nom": "Athletics Club Gaya",
+    "contact_numero": "0554687089",
+    "contact_email": "contact@azronthor.com",
+    "site_web": "https://azronthor.com/",
+    "image": "/images/trail-azro-nthor-2026.png",
+    "prix_inscription": "6000",
+    "inscription_link": "https://azronthor.com/inscription/",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Certificat médical indiquant la non contre-indication à la pratique sportive",
+      "Au moins 1 point ITRA ou marathon en moins de 4h dans les 3 dernières années"
+    ],
+    "colors": {
+      "background_color": "#2e251d",
+      "secondary_color": "",
+      "accent_color": "#422b17"
+    },
+    "prix_gagnants": {
+      "Senior Homme & Femme": {
+        "finishers": ["Médaille Finisher", "T-shirt officiel", "1 point ITRA"]
+      }
+    }
   }
 ]

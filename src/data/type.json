@@ -178,5 +178,10 @@
     "code": 35,
     "type": "Last Man Standing",
     "description": "Format de course à élimination où tous les participants doivent compléter une boucle dans un temps imparti, et seul le dernier coureur encore en course est déclaré vainqueur. Ce format est similaire à la Backyard Ultra."
+  },
+  {
+    "code": 36,
+    "type": "UTMB® World Series Event",
+    "description": "Événement officiel faisant partie des UTMB® World Series. Les courses permettent de gagner des points ITRA et suivent les standards internationaux en matière de trail running et de sécurité. Destiné aux coureurs expérimentés et semi-professionnels."
   }
 ]
