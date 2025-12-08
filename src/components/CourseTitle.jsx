@@ -39,7 +39,7 @@ export default function CourseTitle({ text, seed = 0 }) {
     >
       <motion.h3
         ref={textRef}
-        className="text-white text-2xl md:text-3xl font-black whitespace-nowrap"
+        className="text-white text-xl md:text-2xl font-black whitespace-nowrap"
         initial={{ x: 0 }}
         animate={
           offset === 0 ? { x: 0 } : { x: [0, offset, offset, 0] } // go → pause → back
@@ -48,8 +48,8 @@ export default function CourseTitle({ text, seed = 0 }) {
           offset === 0
             ? { duration: 0 }
             : {
-                duration: 12,
-                times: [0, 0.4, 0.6, 1],
+                duration: 7,
+                times: [0, 0.35, 0.65, 1],
                 ease: "easeInOut",
                 repeat: Infinity,
                 repeatDelay: 4,
