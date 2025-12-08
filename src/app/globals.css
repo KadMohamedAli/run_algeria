@@ -128,23 +128,31 @@ body {
 
 @layer utilities {
   .bg-radial {
-    background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+    background: radial-gradient(
+      circle at center,
+      transparent 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    );
   }
-  
+
   .shadow-glow {
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1), 0 10px 40px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1),
+      0 10px 40px rgba(0, 0, 0, 0.5);
   }
-  
+
   .hover\:shadow-glow:hover {
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2), 0 20px 60px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2),
+      0 20px 60px rgba(0, 0, 0, 0.7);
   }
-  
+
   .shadow-orange-glow {
-    box-shadow: 0 0 40px rgba(249, 115, 22, 0.4), 0 0 20px rgba(249, 115, 22, 0.2);
+    box-shadow: 0 0 40px rgba(249, 115, 22, 0.4),
+      0 0 20px rgba(249, 115, 22, 0.2);
   }
-  
+
   .hover\:shadow-orange-glow:hover {
-    box-shadow: 0 0 60px rgba(249, 115, 22, 0.6), 0 0 40px rgba(249, 115, 22, 0.4);
+    box-shadow: 0 0 60px rgba(249, 115, 22, 0.6),
+      0 0 40px rgba(249, 115, 22, 0.4);
   }
 }
 
@@ -168,4 +176,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .scrollbar-hide::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 3px;
+}
+
+.card-smooth {
+  transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.55s cubic-bezier(0.22, 1, 0.36, 1), filter 0.35s ease,
+    transform 0.5s ease;
+}
+.card-smooth:hover {
+  transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.55s cubic-bezier(0.22, 1, 0.36, 1), filter 0.35s ease,
+    transform 0.5s ease;
 }
