@@ -68,13 +68,13 @@ export default function RangeFilter({
   }, []);
 
   const handleMin = (e) => {
-    const val = Number(e.target.value === "" ? min : e.target.value);
+    const val = Number(e.target.value === "" ? null : e.target.value);
     setMinVal(val);
     normalizeValues(val, maxVal);
   };
 
   const handleMax = (e) => {
-    const val = Number(e.target.value === "" ? max : e.target.value);
+    const val = Number(e.target.value === "" ? null : e.target.value);
     setMaxVal(val);
     normalizeValues(minVal, val);
   };
