@@ -902,5 +902,67 @@
       "accent_color": "#523418"
     },
     "prix_gagnants": {}
+  },
+  {
+    "id": 27,
+    "slug": "kastal-trail-chrea-2025-15km",
+    "nom": "Kastal Trail Chréa 2025 – 15 km",
+    "description": "Le Kastal Trail revient le samedi 27 décembre 2025 à Chréa (Blida). La distance de 15 km est destinée aux athlètes confirmés. Le départ est prévu à 8h30. Les inscriptions s'effectuent en ligne à partir du 11 décembre 2025. Plus d'informations seront communiquées prochainement.",
+    "date": "2025-12-27T08:30:00+01:00",
+    "type": [1, 7, 11, 13],
+    "distance": 15,
+    "denivele_plus": null,
+    "wilaya": 9,
+    "commune": "Chréa",
+    "pays": "Algérie",
+    "organisateur_nom": "Kastal Trail",
+    "contact_numero": "",
+    "contact_email": "guedouali.mohamed@gmail.com",
+    "site_web": "https://www.facebook.com/profile.php?id=61584258900852",
+    "image": "/images/kastal-trail-chrea-2025.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#524330",
+      "secondary_color": "",
+      "accent_color": "#d18621"
+    },
+    "prix_gagnants": {
+      "Tous": {
+        "finishers": ["Médaille de participation"]
+      }
+    }
+  },
+  {
+    "id": 28,
+    "slug": "kastal-trail-chrea-2025-6km",
+    "nom": "Kastal Trail Chréa 2025 – 6 km",
+    "description": "Le Kastal Trail propose également un parcours de 6 km ouvert aux familles et aux institutions, le samedi 27 décembre 2025 à Chréa (Blida). Le départ est prévu à 8h30. Les inscriptions se feront en ligne à partir du 11 décembre 2025.",
+    "date": "2025-12-27T08:30:00+01:00",
+    "type": [1, 11, 13, 23],
+    "distance": 6,
+    "denivele_plus": null,
+    "wilaya": 9,
+    "commune": "Chréa",
+    "pays": "Algérie",
+    "organisateur_nom": "Kastal Trail",
+    "contact_numero": "",
+    "contact_email": "guedouali.mohamed@gmail.com",
+    "site_web": "https://www.facebook.com/profile.php?id=61584258900852",
+    "image": "/images/kastal-trail-chrea-2025.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#524330",
+      "secondary_color": "",
+      "accent_color": "#d18621"
+    },
+    "prix_gagnants": {
+      "Tous": {
+        "finishers": ["Médaille de participation"]
+      }
+    }
   }
 ]
