@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Point to sitemap
-Sitemap: https://coursesalgerie.vercel.app/sitemap.xml
+Sitemap: https://coursealgerie.com/sitemap.xml
 
 # Contact and site info
-Host: https://coursesalgerie.vercel.app
+Host: https://coursealgerie.com
 # Created by KADDOUR Mohamed Ali & AMER EL KHEDOUD AMIR
