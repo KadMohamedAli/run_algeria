@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
       ? wilayas.find((w) => w.id === String(course.wilaya))?.name || "Algérie"
       : course.wilaya;
 
-  const title = `${course.nom} – ${wilayaName}`;
+  const title = `${course.nom} – ${wilayaName} | Courses Algérie`;
   const description =
     course.description?.slice(0, 200).replace(/\n/g, " ") ||
     `Découvrez les détails de ${course.nom} à ${wilayaName}.`;
@@ -40,7 +40,10 @@ export async function generateMetadata({ params }) {
   const url = `${baseUrl}/courses/${course.slug}`;
 
   return {
-    title,
+    title: {
+      default: `${course.nom} – ${wilayaName}`,
+      template: "%s | Courses Algérie",
+    },
     description,
     keywords: [
       "course",
