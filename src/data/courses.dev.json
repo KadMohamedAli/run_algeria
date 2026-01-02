@@ -964,5 +964,293 @@
         "finishers": ["Médaille de participation"]
       }
     }
+  },
+  {
+    "id": 29,
+    "slug": "assirem-course-tazmalt-2026",
+    "nom": "Assirem Course – Tazmalt 2026",
+    "description": "La 8ᵉ édition de l’Assirem Course se déroulera le samedi 10 janvier 2026 dans la commune de Tazmalt, wilaya de Béjaïa. Cette manifestation sportive emblématique rassemble des coureurs venus de plusieurs wilayas dans un esprit de défi, de passion et de fair-play. L’événement offre une organisation complète incluant hébergement, restauration, sécurité et récompenses, tout en mettant en valeur le cadre naturel et l’accueil chaleureux de Tazmalt.",
+    "date": "2026-01-10T09:30:00+01:00",
+    "type": [0],
+    "distance": 12,
+    "denivele_plus": null,
+    "wilaya": 6,
+    "commune": "Tazmalt",
+    "pays": "Algérie",
+    "organisateur_nom": "Comité d’organisation Assirem Tazmalt",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "https://www.facebook.com/profile.php?id=61570643581506",
+    "image": "/images/tazmalt_12km_2026.jpg",
+    "prix_inscription": 1500,
+    "inscription_link": "https://docs.google.com/forms/d/e/1FAIpQLSdgdrY-xrJZOW-aYxF0RAe8M3CrCXkhneh_QOjTSWb9I80DfA/viewform?fbclid=IwY2xjawPErhJleHRuA2FlbQIxMABicmlkETFJNGpVaDVQa0lJUUdGN2Nwc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjy1utjPfBTrMSiCTyazco9MWfDeuPBCPBAxRIvI0n_bhRMILNB8BILaAvn5_aem_tx1L34ttxK2EfShgXq2T-w",
+    "conditions": [
+      "Remplir le formulaire avec soin et en caractères latins",
+      "Les documents et photos doivent être clairs et lisibles",
+      "Le reçu de paiement doit être au nom du participant",
+      "Les paiements collectifs ne sont pas acceptés"
+    ],
+    "colors": {
+      "background_color": "#2f3d2c",
+      "secondary_color": "",
+      "accent_color": "#6fa34d"
+    },
+    "prix_gagnants": {
+      "Général Homme": {
+        "1er": ["30000"],
+        "2e": ["20000"],
+        "3e": ["18000"],
+        "4e": ["15000"],
+        "5e": ["10000"],
+        "finishers": [
+          "Médaille de participation",
+          "Certificat de participation",
+          "T-shirt"
+        ]
+      },
+      "Général Femme": {
+        "1er": ["30000"],
+        "2e": ["20000"],
+        "3e": ["18000"],
+        "4e": ["15000"],
+        "5e": ["10000"],
+        "finishers": [
+          "Médaille de participation",
+          "Certificat de participation",
+          "T-shirt"
+        ]
+      }
+    }
+  },
+  {
+    "id": 30,
+    "slug": "semi-marathon-calama-guelma-2026",
+    "nom": "Semi-Marathon Calama – Guelma 2026",
+    "description": "Le Semi-Marathon Calama 2026 est organisé par l’association Running Club Calama de la wilaya de Guelma. Cette épreuve de 21 km se déroulera le vendredi 08 mai 2026. Les détails concernant le parcours, les inscriptions et les récompenses seront communiqués ultérieurement via la page officielle de l’association.",
+    "date": "2026-05-08T08:00:00+01:00",
+    "type": [0, 4],
+    "distance": 21.097,
+    "denivele_plus": null,
+    "wilaya": 24,
+    "commune": "Guelma",
+    "pays": "Algérie",
+    "organisateur_nom": "Running Club Calama – Guelma",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/calama_guelma-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#4A6F75",
+      "secondary_color": "",
+      "accent_color": "#1B565E"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 31,
+    "slug": "course-10km-calama-guelma-2026",
+    "nom": "Course 10 km Calama – Guelma 2026",
+    "description": "La Course 10 km Calama 2026 se tiendra le vendredi 08 mai 2026 dans la wilaya de Guelma. Organisée par l’association Running Club Calama, cette épreuve est ouverte aux coureurs souhaitant relever un défi accessible et dynamique. Les informations détaillées concernant l’organisation seront annoncées ultérieurement sur la page officielle de l’association.",
+    "date": "2026-05-08T08:00:00+01:00",
+    "type": [0, 5],
+    "distance": 10,
+    "denivele_plus": null,
+    "wilaya": 24,
+    "commune": "Guelma",
+    "pays": "Algérie",
+    "organisateur_nom": "Running Club Calama – Guelma",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/calama_guelma-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#4A6F75",
+      "secondary_color": "",
+      "accent_color": "#1B565E"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 32,
+    "slug": "darguina-bejaia-2026",
+    "nom": "10K Darguina 2026",
+    "description": "La Course Janvier 2026 se déroulera le samedi 10 janvier 2026 dans la commune de Darguina, wilaya de Béjaïa. Cette course sur route de 10 km rassemble des coureurs de différents niveaux dans une ambiance sportive et conviviale. L’événement vise à promouvoir la pratique du sport et l’esprit de compétition dans la région.",
+    "date": "2026-01-10T09:30:00+01:00",
+    "type": [0, 5],
+    "distance": 10,
+    "denivele_plus": null,
+    "wilaya": 6,
+    "commune": "Darguina",
+    "pays": "Algérie",
+    "organisateur_nom": "Commune de Darguina",
+    "contact_numero": "+213770286181",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/darguina-10km-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#858A3F",
+      "secondary_color": "",
+      "accent_color": "#638228"
+    },
+    "prix_gagnants": {
+      "Homme & Femme (18-39 ans)": {
+        "1er": ["15000"],
+        "2e": ["10000"],
+        "3e": ["5000"]
+      },
+      "Homme & Femme (40-49 ans)": {
+        "1er": ["15000"],
+        "2e": ["10000"],
+        "3e": ["5000"]
+      },
+      "Homme & Femme (50-59 ans)": {
+        "1er": ["15000"],
+        "2e": ["10000"],
+        "3e": ["5000"]
+      },
+      "Homme & Femme (+60 ans)": {
+        "1er": ["15000"],
+        "2e": ["10000"],
+        "3e": ["5000"]
+      },
+      "Participant le(a) plus agé(e)": {
+        "finishers": ["5000"]
+      }
+    }
+  },
+  {
+    "id": 33,
+    "slug": "semi-marathon-didouche-mourad-aghribs-2026",
+    "nom": "Semi-Marathon Didouche Mourad – Aghribs 2026",
+    "description": "La 4ᵉ édition du Semi-Marathon Didouche Mourad se déroulera le vendredi 16 janvier 2026 à partir de 08h30 au chef-lieu de la commune d’Aghribs (Agouni Oucherki), wilaya de Tizi Ouzou. Cet événement sportif est organisé à l’occasion de la commémoration du 70ᵉ anniversaire du décès du Chahid Didouche Mourad, héros emblématique de la Révolution algérienne. Un rendez-vous sportif incontournable réunissant coureurs, clubs et passionnés dans un esprit de mémoire, de sport et de fraternité.",
+    "date": "2026-01-16T08:30:00+01:00",
+    "type": [0, 4],
+    "distance": 21.097,
+    "denivele_plus": null,
+    "wilaya": 15,
+    "commune": "Aghribs",
+    "pays": "Algérie",
+    "organisateur_nom": "Askabylie Runners",
+    "contact_numero": "+213697602574",
+    "contact_email": "askabylierunners@gmail.com",
+    "site_web": "",
+    "image": "/images/semimarathon-didoucheMourad-2026.jpg",
+    "prix_inscription": "1500 DA",
+    "inscription_link": "https://docs.google.com/forms/d/11FcHvnWlO7NmB33tVTEcv7V2cVgOkbYl6P5I5FIse0U/viewform?fbclid=IwY2xjawPEtaRleHRuA2FlbQIxMABicmlkETFsa3d5Mm9DdUM3aU9uSzRKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHviOa6DLC1CbTJtZziuiPbVWyuzGqQqeDsP5AeI3x35Q4mlV5IEBirLInQx1_aem_sYb-BK4PBIYs7Ye3e02oqw&edit_requested=true",
+    "conditions": [
+      "Inscription obligatoire en ligne",
+      "Les places sont limitées",
+      "Confirmation de l’inscription après paiement",
+      "Versement via CCP ou BaridiMob uniquement"
+    ],
+    "colors": {
+      "background_color": "#596354",
+      "secondary_color": "",
+      "accent_color": "#244F0F"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 34,
+    "slug": "cross-tidiket-20km-ain-salah-2026",
+    "nom": "Cross Tidiket – Ain Salah 20 km",
+    "description": "Le Cross Tidiket 20 km se déroulera le lundi 12 janvier 2026 à Ain Salah dans le cadre de la Grande Aventure Sportive au Sahara. Il s’agit de la 1ʳᵉ édition de cette course nature emblématique du Tidiket, mettant en valeur l’endurance, la résistance et le patrimoine naturel du Sud algérien.\n\n🔗 Course liée : [Course du Hoggar – 15 km](/courses/course-du-hoggar-15km-tamanrasset-2026)",
+    "date": "2026-01-12T09:00:00+01:00",
+    "type": [1, 7, 8, 11, 14],
+    "distance": 20,
+    "denivele_plus": null,
+    "wilaya": 53,
+    "commune": "Ain Salah",
+    "pays": "Algérie",
+    "organisateur_nom": "Fédération Algérienne de Sport et Travail (FAST)",
+    "contact_numero": "+21323147340",
+    "contact_email": "federation@fast.dz",
+    "site_web": "https://www.fast.dz/",
+    "image": "/images/adventure-sahara-2026.jpg",
+    "prix_inscription": "30400",
+    "inscription_link": "https://www.fast.dz/%d8%a7%d9%84%d9%85%d8%ba%d8%a7%d9%85%d8%b1%d8%a9-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%83%d8%a8%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d9%86%d9%88%d8%a8/?fbclid=IwY2xjawPEuGFleHRuA2FlbQIxMABicmlkETFsa3d5Mm9DdUM3aU9uSzRKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmblJWjnMDfVvpoBjtps9XSlce2wyBAo4jIxB1z2WRHdrzcuK0jAlstseQ-7_aem_dzaF8Xi7IW2eaClU7VeS0g",
+    "conditions": [
+      "Course réservée aux participants inscrits à l’événement principal",
+      "Bonne condition physique requise",
+      "Respect du règlement technique de la FAST"
+    ],
+    "colors": {
+      "background_color": "#61533B",
+      "secondary_color": "",
+      "accent_color": "#0F4F66"
+    },
+    "prix_gagnants": {}
+  },
+
+  {
+    "id": 35,
+    "slug": "course-du-hoggar-15km-tamanrasset-2026",
+    "nom": "Course du Hoggar – Tamanrasset 15 km",
+    "description": "La Course du Hoggar 15 km se déroulera le jeudi 15 janvier 2026 à Tamanrasset, dans le cadre de la Grande Aventure Sportive au Sahara. Cette épreuve de trail met en valeur les paysages majestueux du massif du Hoggar et s’inscrit dans une dynamique de sport, découverte et valorisation touristique.\n\n🔗 Course liée : [Cross Tidiket – 20 km](/courses/cross-tidiket-20km-ain-salah-2026)",
+    "date": "2026-01-15T09:00:00+01:00",
+    "type": [1, 7, 8, 11, 14],
+    "distance": 15,
+    "denivele_plus": null,
+    "wilaya": 11,
+    "commune": "Tamanrasset",
+    "pays": "Algérie",
+    "organisateur_nom": "Fédération Algérienne de Sport et Travail (FAST)",
+    "contact_numero": "+21323147340",
+    "contact_email": "federation@fast.dz",
+    "site_web": "https://www.fast.dz/",
+    "image": "/images/adventure-sahara-2026.jpg",
+    "prix_inscription": "30400",
+    "inscription_link": "https://www.fast.dz/%d8%a7%d9%84%d9%85%d8%ba%d8%a7%d9%85%d8%b1%d8%a9-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%83%d8%a8%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d9%86%d9%88%d8%a8/?fbclid=IwY2xjawPEuGFleHRuA2FlbQIxMABicmlkETFsa3d5Mm9DdUM3aU9uSzRKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmblJWjnMDfVvpoBjtps9XSlce2wyBAo4jIxB1z2WRHdrzcuK0jAlstseQ-7_aem_dzaF8Xi7IW2eaClU7VeS0g",
+    "conditions": [
+      "Course réservée aux participants inscrits à l’événement principal",
+      "Bonne condition physique requise",
+      "Respect du règlement technique de la FAST"
+    ],
+    "colors": {
+      "background_color": "#61533B",
+      "secondary_color": "",
+      "accent_color": "#0F4F66"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 36,
+    "slug": "championnat-alger-cross-country-2026",
+    "nom": "Championnat de la Wilaya d'Alger – Cross Country Jeunes",
+    "description": "La Fédération Algérienne d'Athlétisme et la Direction de la Jeunesse et des Sports d'Alger organisent le Championnat de la Wilaya d'Alger de Cross Country pour les jeunes, dans le cadre de la 3ᵉ étape du Challenge Cross Country Jeunes.\n\n📅 Date : Samedi 3 janvier 2026\n🕘 Heure : 09h00\n📍 Lieu : Domaine de Bouchawi, Alger\n\n⚠️ Participation réservée aux jeunes détenteurs d'une licence sportive 2025-2026 et d'un numéro d'inscription attribué par la Fédération.\n\n📝 Inscription obligatoire pour les sportifs sans numéro d'identification avant le mardi 30 décembre 2025 via : [http://dzweblicence.com/faa](http://dzweblicence.com/faa)\n\n📄 Données techniques : [Fiche technique](https://drive.google.com/.../1rBfjFi_mA_jdTdOam.../view...)\n\n📞 Contact : LAA 044171771\n\nBonne chance à tous les participants ! 🇩🇿",
+    "date": "2026-01-03T09:00:00+01:00",
+    "type": [11],
+    "distance": null,
+    "denivele_plus": null,
+    "wilaya": 16,
+    "commune": "Alger",
+    "pays": "Algérie",
+    "organisateur_nom": "RABAT / Fédération Algérienne d'Athlétisme & Direction de la Jeunesse et des Sports d'Alger",
+    "contact_numero": "+21344171771",
+    "contact_email": "",
+    "site_web": "http://dzweblicence.com/faa",
+    "image": "/images/bouchaoui-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "http://dzweblicence.com/faa",
+    "conditions": [
+      "Licence sportive 2025-2026 obligatoire",
+      "Numéro d'inscription attribué par la Fédération",
+      "Inscription obligatoire pour les sportifs sans numéro avant le 30 décembre 2025"
+    ],
+    "colors": {
+      "background_color": "#28421D",
+      "secondary_color": "",
+      "accent_color": "#2A6911"
+    },
+    "prix_gagnants": {}
   }
 ]
