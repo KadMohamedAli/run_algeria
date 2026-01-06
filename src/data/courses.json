@@ -1252,5 +1252,115 @@
       "accent_color": "#2A6911"
     },
     "prix_gagnants": {}
+  },
+  {
+    "id": 37,
+    "slug": "trail-chrea-2026-extreme-printemps",
+    "nom": "Trail Chréa 2026 – Extreme Trail Printemps",
+    "description": "🌸 **Trail Chréa 2026 – Extreme Trail**\n\nQuand la montagne devient un **véritable défi**. Le **vendredi 01 mai 2026**, le massif de Chréa accueillera l’épreuve la plus exigeante de l’année : l’**Extreme Trail +40 km**.\n\nDestinée aux traileurs expérimentés, cette course mettra à l’épreuve l’endurance physique et mentale à travers des **montées sévères**, des **descentes techniques**, des **franchissements d’oueds** et des sentiers sauvages du **parc national de Chréa**.\n\n⚠️ Une course où **seule l’élite atteint la ligne d’arrivée**.\n\n**Épreuve :**\n- Extreme Trail **+40 km**\n\n**Catégories :** Hommes & Femmes (selon règlement)\n\nOrganisé par l’**Association des Randonneurs Amateurs de la Ville des Roses – GRAVIR**.",
+    "date": "2026-05-01T08:00:00+01:00",
+    "type": [1, 13, 2],
+    "distance": 40,
+    "denivele_plus": 2000,
+    "wilaya": 9,
+    "commune": "Chréa",
+    "pays": "Algérie",
+    "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
+    "contact_numero": "+213658430636",
+    "contact_email": "gravirblida@gmail.com",
+    "site_web": "https://www.facebook.com/TrailChrea",
+    "image": "/images/chreaTrail.jpg",
+    "prix_inscription": "Inconnue",
+    "conditions": [
+      "Expérience en trail longue distance recommandée",
+      "Bonne condition physique obligatoire"
+    ],
+    "colors": {
+      "background_color": "#2b3826",
+      "secondary_color": "",
+      "accent_color": "#5f6359"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 38,
+    "slug": "trail-chrea-2026-15km-automne",
+    "nom": "Trail Chréa 2026 – 15 km",
+    "description": "🍂 **Trail Chréa 2026 – 15 km**\n\nLe **samedi 21 novembre 2026**, Trail Chréa revient pour sa saison d’automne avec une distance idéale pour **débuter en trail** ou courir avec plaisir.\n\nUn parcours accessible mais authentique, à travers les sentiers boisés et les reliefs modérés du **parc national de Chréa**.\n\n**Épreuve :**\n- Trail **15 km** – parfait pour une première expérience en montagne.",
+    "date": "2026-11-21T09:00:00+01:00",
+    "type": [1, 13],
+    "distance": 15,
+    "denivele_plus": 500,
+    "wilaya": 9,
+    "commune": "Chréa",
+    "pays": "Algérie",
+    "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
+    "contact_numero": "+213658430636",
+    "contact_email": "gravirblida@gmail.com",
+    "site_web": "https://www.facebook.com/TrailChrea",
+    "image": "/images/chreaTrail.jpg",
+    "prix_inscription": "Inconnue",
+    "conditions": ["Âge minimum 18 ans"],
+    "colors": {
+      "background_color": "#2b3826",
+      "secondary_color": "",
+      "accent_color": "#5f6359"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 39,
+    "slug": "trail-chrea-2026-24km-automne",
+    "nom": "Trail Chréa 2026 – 24 km",
+    "description": "🍂 **Trail Chréa 2026 – 24 km**\n\nUne distance emblématique alliant **plaisir et défi**, idéale pour les traileurs intermédiaires. Le parcours traverse les secteurs mythiques de Chréa avec un équilibre parfait entre technicité et endurance.\n\n**Épreuve :**\n- Trail **24 km** – le cœur de l’esprit Trail Chréa.",
+    "date": "2026-11-21T09:00:00+01:00",
+    "type": [1, 13, 26],
+    "distance": 24,
+    "denivele_plus": 900,
+    "wilaya": 9,
+    "commune": "Chréa",
+    "pays": "Algérie",
+    "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
+    "contact_numero": "+213658430636",
+    "contact_email": "gravirblida@gmail.com",
+    "site_web": "https://www.facebook.com/TrailChrea",
+    "image": "/images/chreaTrail.jpg",
+    "prix_inscription": "Inconnue",
+    "conditions": ["Âge minimum 18 ans"],
+    "colors": {
+      "background_color": "#2b3826",
+      "secondary_color": "",
+      "accent_color": "#5f6359"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 40,
+    "slug": "trail-chrea-2026-40km-automne",
+    "nom": "Trail Chréa 2026 – 40 km",
+    "description": "🍂 **Trail Chréa 2026 – 40 km**\n\nUn véritable **test d’endurance et de volonté**. Cette distance longue est destinée aux traileurs confirmés souhaitant repousser leurs limites dans un environnement montagneux exigeant.\n\n**Épreuve :**\n- Trail **40 km** – endurance, stratégie et mental.",
+    "date": "2026-11-21T09:00:00+01:00",
+    "type": [1, 13, 26],
+    "distance": 40,
+    "denivele_plus": 1600,
+    "wilaya": 9,
+    "commune": "Chréa",
+    "pays": "Algérie",
+    "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
+    "contact_numero": "+213658430636",
+    "contact_email": "gravirblida@gmail.com",
+    "site_web": "https://www.facebook.com/TrailChrea",
+    "image": "/images/chreaTrail.jpg",
+    "prix_inscription": "Inconnue",
+    "conditions": [
+      "Expérience en trail requise",
+      "Bonne condition physique obligatoire"
+    ],
+    "colors": {
+      "background_color": "#2b3826",
+      "secondary_color": "",
+      "accent_color": "#5f6359"
+    },
+    "prix_gagnants": {}
   }
 ]
