@@ -1362,5 +1362,89 @@
       "accent_color": "#5f6359"
     },
     "prix_gagnants": {}
+  },
+  {
+    "id": 41,
+    "slug": "course-ville-jijel-10km-2026",
+    "nom": "Course de la Ville de Jijel – 10 km (2ᵉ édition)",
+    "description": "**Course de la Ville de Jijel – 2ᵉ édition**\n\nLa Course de la Ville de Jijel revient pour sa **deuxième édition** le **vendredi 10 avril 2026**, avec une épreuve de **10 km** ouverte aux passionnés de course sur route.\n\n📍 Le parcours reliera **la Porte du Conquérant (Kongador)** à **la façade maritime**, offrant aux coureurs un itinéraire emblématique au cœur de la ville de Jijel.\n\n🏃‍♂️ Une course qui met à l’honneur la **volonté**, la **détermination** et l’**esprit sportif**.\n\n**Message de l’événement :**\nCourir à Jijel, ce n’est pas seulement participer à une course… c’est **raconter l’histoire d’une ville, de son identité et de son patrimoine**.\n\n**Valeurs portées par l’événement :**\n- Patience\n- Discipline\n- Persévérance\n- Détermination\n\n📢 Les détails techniques ainsi que les modalités d’inscription seront communiqués prochainement.\n\n",
+    "date": "2026-04-10T09:00:00+01:00",
+    "type": [0, 5],
+    "distance": 10,
+    "denivele_plus": null,
+    "wilaya": 18,
+    "commune": "Jijel",
+    "pays": "Algérie",
+    "organisateur_nom": "Club Athlétique de Jijel (CAJ)",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/jijel-10km-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#566378",
+      "secondary_color": "",
+      "accent_color": "#2f3c52"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 42,
+    "slug": "cross-country-omar-ben-hablis-constantine-2026",
+    "nom": "Cross Country Omar Ben Hablis – Constantine",
+    "description": "🏃‍♂️ **Cross Country Omar Ben Hablis – Constantine**\n\nLe **Cross Country Omar Ben Hablis** se déroulera le **samedi 31 janvier 2026** dans le cadre naturel de la **forêt d’El Baouiya**, à Constantine.\n\nCette manifestation sportive est organisée sous l’égide du **Ministère de la Jeunesse et des Sports**, avec la participation de la **Direction de la Jeunesse et des Sports de la Wilaya de Constantine**, de la **Fédération Algérienne d’Athlétisme** et de la **Ligue de Wilaya d’Athlétisme de Constantine**.\n\n🌿 Une course de **cross-country authentique**, ouverte à l’ensemble des athlètes, mettant en valeur l’endurance, la combativité et l’esprit sportif dans un environnement naturel.\n\n**Participants :**\n- Tous les athlètes (selon règlement en vigueur)\n\n**Parrain officiel :**\n- Sonelgaz\n\n💪 Bonne chance à tous les participants !",
+    "date": "2026-01-31T08:30:00+01:00",
+    "type": [11],
+    "distance": null,
+    "denivele_plus": null,
+    "wilaya": 25,
+    "commune": "Constantine",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue de Wilaya d’Athlétisme de Constantine & Fédération Algérienne d’Athlétisme",
+    "contact_numero": "",
+    "contact_email": "athletics.constantine@gmail.com",
+    "site_web": "",
+    "image": "/images/cross-constantine-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#9e6e37",
+      "secondary_color": "",
+      "accent_color": "#325715"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 43,
+    "slug": "festival-national-cross-country-chahid-chelda-boulnouar-tlemcen-2026",
+    "nom": "40ᵉ Festival National de Cross Country Chahid Chelda Boulnouar",
+    "description": "🙌 **40ᵉ Festival National de Cross Country Chahid Chelda Boulnouar**\n\nLa **40ᵉ édition** du Festival National de Cross Country **Chahid Chelda Boulnouar** se tiendra le **samedi 24 janvier 2026** dans la **wilaya de Tlemcen**.\n\nCet événement sportif majeur est organisé à l’occasion du **Championnat Régional de Cross Country – Région Ouest (Tlemcen)**, rassemblant les meilleurs athlètes de la région dans une ambiance de compétition et de mémoire.\n\n🏃‍♂️ Une manifestation qui honore la **mémoire du chahid Chelda Boulnouar**, tout en promouvant les valeurs du **sport**, de la **discipline** et de la **persévérance** à travers la pratique du cross-country.\n\n💪 Bonne chance à tous les participants !",
+    "date": "2026-01-24T09:00:00+01:00",
+    "type": [11],
+    "distance": null,
+    "denivele_plus": null,
+    "wilaya": 13,
+    "commune": "Tlemcen",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue Régionale d’Athlétisme – Région Ouest",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/cross-tlemcen-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [
+      "Respect du règlement de la Fédération Algérienne d’Athlétisme",
+      "Licence sportive valide selon les catégories"
+    ],
+    "colors": {
+      "background_color": "#71785d",
+      "secondary_color": "",
+      "accent_color": "#A7B35A"
+    },
+    "prix_gagnants": {}
   }
 ]
