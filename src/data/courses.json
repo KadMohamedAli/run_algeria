@@ -1446,5 +1446,84 @@
       "accent_color": "#A7B35A"
     },
     "prix_gagnants": {}
+  },
+  {
+    "id": 44,
+    "slug": "course-nationale-route-khadr-nature-el-akhdaria-2026",
+    "nom": "Course Nationale sur Route – Khadr Nature Pure (5ᵉ Édition)",
+    "description": "🏃‍♂️🌿 **Course Nationale sur Route – Khadr Nature Pure**\n\nLa **5ᵉ édition** de la Course Nationale sur Route *Khadr Nature Pure* se déroulera le **17 avril 2026** à **El Akhdaria**, wilaya de **Bouira**.\n\nUn événement sportif national réunissant des coureurs de différents niveaux dans une ambiance compétitive et conviviale, visant à promouvoir la pratique du sport et les valeurs d’endurance et de fair-play.\n\n🎁 Chaque participant recevrá un **t-shirt** et une **médaille** à l’arrivée.\n\n💪 Bonne chance à tous les participants !",
+    "date": "2026-04-17T09:00:00+01:00",
+    "type": [0],
+    "distance": 21,
+    "denivele_plus": null,
+    "wilaya": 10,
+    "commune": "El Akhdaria",
+    "pays": "Algérie",
+    "organisateur_nom": "Comité d’Organisation Khadr Nature Pure",
+    "contact_numero": "+213771095910",
+    "contact_email": "",
+    "site_web": "https://www.facebook.com/profile.php?id=61572293332123",
+    "image": "/images/khadr-nature-el-akhdaria-2026.jpg",
+    "prix_inscription": "1500 DA",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#2F6B3C",
+      "secondary_color": "",
+      "accent_color": "#8DBF3C"
+    },
+    "prix_gagnants": {
+      "Classement Général - Hommes": {
+        "1er": ["70000"],
+        "2e": ["60000"],
+        "3e": ["50000"],
+        "finishers": ["Médaille de participation", "T-shirt"]
+      },
+      "Classement Général - Femmes": {
+        "1er": ["35000"],
+        "2e": ["30000"],
+        "3e": ["25000"],
+        "finishers": ["Médaille de participation", "T-shirt"]
+      },
+      "Hommes (18-39 ans)": {
+        "1er": ["15000"],
+        "2e": ["12000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille de participation", "T-shirt"]
+      },
+      "Hommes (40-49 ans)": {
+        "1er": ["15000"],
+        "2e": ["12000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille de participation", "T-shirt"]
+      },
+      "Hommes (50-59 ans)": {
+        "1er": ["15000"],
+        "2e": ["12000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille de participation", "T-shirt"]
+      },
+      "Hommes (60-69 ans)": {
+        "1er": ["15000"],
+        "2e": ["12000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille de participation", "T-shirt"]
+      },
+      "Hommes (70 ans et plus)": {
+        "1er": ["7000"],
+        "2e": ["6000"],
+        "3e": ["5000"],
+        "finishers": ["Médaille de participation", "T-shirt"]
+      },
+      "Femmes (18 ans et plus)": {
+        "1er": ["15000"],
+        "2e": ["12000"],
+        "3e": ["10000"],
+        "finishers": ["Médaille de participation", "T-shirt"]
+      },
+      "Participant le(a) plus âgé(e)": {
+        "finishers": ["5000", "Médaille de participation", "T-shirt"]
+      }
+    }
   }
 ]
