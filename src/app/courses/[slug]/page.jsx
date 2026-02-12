@@ -15,8 +15,8 @@ export function generateStaticParams() {
 }
 
 // ✅ Generate metadata dynamically per course
-export async function generateMetadata({ params }) {
-  const { slug } = await params;
+export function generateMetadata({ params }) {
+  const { slug } = params;
   const course = coursesData.find((c) => c.slug === slug);
   if (!course) return { title: "Course non trouvée" };
 
@@ -29,10 +29,10 @@ export async function generateMetadata({ params }) {
       ? wilayas.find((w) => w.id === String(course.wilaya))?.name || "Algérie"
       : course.wilaya;
 
-  const title = `${course.nom} – ${wilayaName} | Courses Algérie`;
+  const title = `${course.nom} – ${wilayaName}`;
   const description =
-    course.description?.slice(0, 200).replace(/\n/g, " ") ||
-    `Découvrez les détails de ${course.nom} à ${wilayaName}.`;
+    course.description?.replace(/\n/g, " ").slice(0, 155).trim() ||
+    `Participez à ${course.nom} à ${wilayaName}.`;
 
   const imageUrl = course.image?.startsWith("http")
     ? course.image
@@ -69,14 +69,20 @@ export async function generateMetadata({ params }) {
         },
       ],
     },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [imageUrl],
+    },
     alternates: { canonical: url },
     robots: { index: true, follow: true },
   };
 }
 
 // ✅ Page component
-export default async function CoursePage({ params }) {
-  const { slug } = await params;
+export default function CoursePage({ params }) {
+  const { slug } = params;
   const course = coursesData.find((c) => c.slug === slug);
 
   if (!course) {
@@ -101,17 +107,22 @@ export default async function CoursePage({ params }) {
     "@context": "https://schema.org",
     "@type": "SportsEvent",
     name: course.nom,
-    description: course.description,
+    description: course.description?.replace(/\n/g, " ").trim(),
+    url: `${baseUrl}/courses/${course.slug}`,
+    category: typeNames,
     startDate: course.date,
+    endDate: course.date,
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     eventStatus: "https://schema.org/EventScheduled",
+    sport: "Running",
     location: {
       "@type": "Place",
-      name: wilayaName,
+      name: course.commune || wilayaName,
       address: {
         "@type": "PostalAddress",
-        addressCountry: "DZ",
+        addressLocality: course.commune,
         addressRegion: wilayaName,
+        addressCountry: "DZ",
       },
     },
     organizer: {
@@ -124,13 +135,15 @@ export default async function CoursePage({ params }) {
     image: course.image
       ? `${baseUrl}${course.image}`
       : `${baseUrl}/og-image.jpg`,
-    offers: {
-      "@type": "Offer",
-      price: course.prix_inscription || "Gratuit",
-      priceCurrency: "DZD",
-      url: course.inscription_link || baseUrl,
-      availability: "https://schema.org/InStock",
-    },
+    offers: parsedPrice
+      ? {
+          "@type": "Offer",
+          price: parsedPrice,
+          priceCurrency: "DZD",
+          url: course.inscription_link || baseUrl,
+          availability: "https://schema.org/InStock",
+        }
+      : undefined,
   };
 
   return (
