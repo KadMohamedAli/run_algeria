@@ -15,8 +15,8 @@ export function generateStaticParams() {
 }
 
 // ✅ Generate metadata dynamically per course
-export function generateMetadata({ params }) {
-  const { slug } = params;
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
   const course = coursesData.find((c) => c.slug === slug);
   if (!course) return { title: "Course non trouvée" };
 
@@ -81,8 +81,8 @@ export function generateMetadata({ params }) {
 }
 
 // ✅ Page component
-export default function CoursePage({ params }) {
-  const { slug } = params;
+export default async function CoursePage({ params }) {
+  const { slug } = await params;
   const course = coursesData.find((c) => c.slug === slug);
 
   if (!course) {
@@ -101,6 +101,12 @@ export default function CoursePage({ params }) {
     typeof course.wilaya === "number" || /^\d+$/.test(course.wilaya)
       ? wilayas.find((w) => w.id === String(course.wilaya))?.name || "Algérie"
       : course.wilaya;
+
+  // Parse price from course.prix_inscription
+  const parsedPrice =
+    course.prix_inscription != null
+      ? Number(String(course.prix_inscription).replace(/\D/g, ""))
+      : undefined;
 
   // ✅ JSON-LD structured data for SEO (schema.org/Event)
   const structuredData = {

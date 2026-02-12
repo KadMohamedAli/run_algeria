@@ -93,8 +93,6 @@ export const metadata = {
 
   // Canonical + base
   metadataBase: new URL(baseUrl),
-
-  themeColor: "#1e293b",
 };
 
 export const viewport = {
@@ -102,6 +100,7 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 1,
   viewportFit: "cover",
+  themeColor: "#1e293b",
 };
 
 export default function RootLayout({ children }) {
