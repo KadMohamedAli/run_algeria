@@ -644,8 +644,8 @@
     "id": 19,
     "slug": "trail-azro-nthor-23km-2026",
     "nom": "Trail Azro N'Thor 23 km 2026",
-    "description": "Le Trail Azro N'Thor est une course 100 % algérienne, située au Sud de Tizi Ouzou, à Tirourda, au cœur des montagnes de Kabylie. La distance de 23 km avec 1 360 mD+ propose un parcours exigeant mais accessible, avec départ à 8h30 et plusieurs points de ravitaillement. Les premiers kilomètres montent crescendo au milieu des buissons et de la roche, jusqu'au sommet d’une crête offrant une vue imprenable sur le village. Après le 15ème km, le parcours descend vers Tirourda, où les spectateurs encouragent les coureurs jusqu'à l'arche finale.\n\nPoints de ravitaillement : km 5, 7, 16,5, 22.\nBarrières horaires : km 16,5 → 4h, arrivée → 5h30.\n\nVivez une expérience authentique dans les montagnes du Djurdjura avec des participants venus du monde entier et profitez de la beauté naturelle des vergers, figuiers, vignes et pommiers le long du parcours.",
-    "date": "2026-05-29T08:30:00+01:00",
+    "description": "La 9ᵉ édition du Trail Azro N'Thor se tiendra le vendredi 05 juin 2026 au village de Tirourda, dans le massif du Djurdjura, en Algérie. Cette course 100 % algérienne propose un parcours exigeant et authentique de 23 km avec 1 340 mD+. Les coureurs évolueront au cœur des montagnes de Kabylie, entre sentiers rocailleux, crêtes panoramiques et paysages naturels grandioses.\n\nVivez une aventure sportive intense dans un décor à couper le souffle, avec une organisation professionnelle et des participants venus de tout le pays.\n\n⚠️ Inscriptions exclusivement en ligne (paiement inclus).\nPlaces limitées : premier arrivé, premier servi.",
+    "date": "2026-06-05T08:30:00+01:00",
     "type": [1, 7, 13, 31, 36],
     "distance": "23",
     "denivele_plus": 1340,
@@ -654,14 +654,14 @@
     "pays": "Algérie",
     "organisateur_nom": "Athletics Club Gaya",
     "contact_numero": "+213554687089",
-    "contact_email": "contact@azronthor.com",
-    "site_web": "https://azronthor.com/",
-    "image": "/images/trail-azro-nthor-2026.png",
+    "contact_email": "contact@acgaya.dz",
+    "site_web": "https://acgaya.dz/",
+    "image": "/images/trail-azro-nthor-2026.jpg",
     "prix_inscription": "4500",
-    "inscription_link": "https://azronthor.com/inscription/",
+    "inscription_link": "https://acgaya.dz/",
     "conditions": [
       "Âge minimum 18 ans",
-      "Certificat médical indiquant la non contre-indication à la pratique sportive"
+      "Certificat médical de moins de 6 mois"
     ],
     "colors": {
       "background_color": "#2e251d",
@@ -670,33 +670,32 @@
     },
     "prix_gagnants": {
       "Senior Homme & Femme": {
-        "finishers": ["Médaille Finisher", "T-shirt officiel", "1 point ITRA"]
+        "finishers": ["Médaille Finisher", "T-shirt officiel"]
       }
     }
   },
   {
     "id": 20,
-    "slug": "trail-azro-nthor-40km-2026",
-    "nom": "Trail Azro N'Thor 40,6 km 2026",
-    "description": "Le Trail Azro N'Thor 40,6 km avec 2 460 mD+ est inscrit aux UTMB® World Series, attribuant 2 points ITRA. Départ à 7h30, parcours semi-autonome exigeant en boucle unique, traversant le col de Tirourda et culminant au sommet d’Azro N’Thor à 1 883 m d’altitude. Les 20 premiers km sont communs avec la distance de 23 km, suivis d’une deuxième boucle avec montée finale de 1 324 mD+ jusqu’au sommet, puis descente vers le village d’arrivée. Les spectateurs encouragent les coureurs jusqu’à l'arche finale.\n\nPoints de ravitaillement : km 5, 7, 16,5, 22, 27, 35, arrivée.\nBarrières horaires : km 16,5 → 4h, km 22,5 → 5h, km 35,5 → 8h30, arrivée → 10h30.\n\nVivez une expérience exceptionnelle au cœur des montagnes de Kabylie, avec des paysages de vergers, figuiers, vignes et pommiers, et partagez cette aventure avec des participants du monde entier.",
-    "date": "2026-05-29T07:30:00+01:00",
+    "slug": "trail-azro-nthor-42km-2026",
+    "nom": "Trail Azro N'Thor 42,6 km 2026",
+    "description": "La 9ᵉ édition du Trail Azro N'Thor propose un format long de 42,6 km avec 2 300 mD+, le vendredi 05 juin 2026 au village de Tirourda, dans le massif du Djurdjura.\n\nCe parcours exigeant emmène les coureurs au cœur des montagnes de Kabylie, sur des sentiers techniques et panoramiques, offrant une expérience immersive dans une nature sauvage et préservée.\n\nUn défi sportif intense dans un cadre exceptionnel.\n\n⚠️ Inscriptions exclusivement en ligne (paiement inclus).\nPlaces limitées : premier arrivé, premier servi.",
+    "date": "2026-06-05T07:30:00+01:00",
     "type": [1, 7, 13, 2, 31, 36],
-    "distance": "40.6",
-    "denivele_plus": 2460,
+    "distance": "42.6",
+    "denivele_plus": 2300,
     "wilaya": 15,
     "commune": "Tirourda",
     "pays": "Algérie",
     "organisateur_nom": "Athletics Club Gaya",
     "contact_numero": "+213554687089",
-    "contact_email": "contact@azronthor.com",
-    "site_web": "https://azronthor.com/",
-    "image": "/images/trail-azro-nthor-2026.png",
+    "contact_email": "contact@acgaya.dz",
+    "site_web": "https://acgaya.dz/",
+    "image": "/images/trail-azro-nthor-2026.jpg",
     "prix_inscription": "6000",
-    "inscription_link": "https://azronthor.com/inscription/",
+    "inscription_link": "https://acgaya.dz/",
     "conditions": [
       "Âge minimum 18 ans",
-      "Certificat médical indiquant la non contre-indication à la pratique sportive",
-      "Au moins 1 point ITRA ou marathon en moins de 4h dans les 3 dernières années"
+      "Certificat médical de moins de 6 mois"
     ],
     "colors": {
       "background_color": "#2e251d",
@@ -705,7 +704,7 @@
     },
     "prix_gagnants": {
       "Senior Homme & Femme": {
-        "finishers": ["Médaille Finisher", "T-shirt officiel", "1 point ITRA"]
+        "finishers": ["Médaille Finisher", "T-shirt officiel"]
       }
     }
   },
@@ -1132,7 +1131,7 @@
     "slug": "semi-marathon-didouche-mourad-aghribs-2026",
     "nom": "Semi-Marathon Didouche Mourad – Aghribs 2026",
     "description": "La 4ᵉ édition du Semi-Marathon Didouche Mourad se déroulera le vendredi 16 janvier 2026 à partir de 08h30 au chef-lieu de la commune d’Aghribs (Agouni Oucherki), wilaya de Tizi Ouzou. Cet événement sportif est organisé à l’occasion de la commémoration du 70ᵉ anniversaire du décès du Chahid Didouche Mourad, héros emblématique de la Révolution algérienne. Un rendez-vous sportif incontournable réunissant coureurs, clubs et passionnés dans un esprit de mémoire, de sport et de fraternité.",
-    "date": "2026-01-16T08:30:00+01:00",
+    "date": "2026-04-03T08:30:00+01:00",
     "type": [0, 4],
     "distance": 21.097,
     "denivele_plus": null,
@@ -1525,5 +1524,100 @@
         "finishers": ["5000", "Médaille de participation", "T-shirt"]
       }
     }
+  },
+  {
+    "id": 45,
+    "slug": "souhane-trail-21km-2026",
+    "nom": "Souhane Trail 21 km 2026",
+    "description": "🏔️ **Souhane Trail 21 km 2026**\n\nLe **Souhane Trail 2026** se déroulera le **samedi 18 avril 2026** à **Souhane**, wilaya de **Blida**.\n\nCette épreuve de **trail de 21 km** propose un défi sportif exigeant à travers des sentiers montagneux offrant des paysages spectaculaires et une immersion totale en pleine nature.\n\n🌿 Une aventure sportive authentique, ouverte aux coureurs hommes et femmes âgés de **16 à 99 ans**.\n\n🎽 Tous les participants bénéficieront d’un **chronométrage professionnel**, de **résultats en direct**, d’un **service photo**, de **ravitaillements** et d’un **certificat de participation**.\n\n⚠️ Clôture des inscriptions : **17 avril 2026 à 16h00** ou dès que les places sont complètes.",
+    "date": "2026-04-18T08:00:00+01:00",
+    "type": [1, 4, 7, 13],
+    "distance": 21,
+    "denivele_plus": null,
+    "wilaya": 9,
+    "commune": "Souhane",
+    "pays": "Algérie",
+    "organisateur_nom": "Adrenaline Bike L'Arbaa",
+    "contact_numero": "",
+    "contact_email": "souhanetrail@gmail.com",
+    "site_web": "https://www.souhane-trail.com/",
+    "image": "/images/souhane-trail-2026.jpg",
+    "prix_inscription": 3000,
+    "inscription_link": "",
+    "conditions": ["Âge minimum 16 ans"],
+    "colors": {
+      "background_color": "#1f3a2d",
+      "secondary_color": "",
+      "accent_color": "#2e6b4a"
+    },
+    "prix_gagnants": {
+      "Général Hommes": {
+        "finishers": ["Certificat de participation", "Chronométrage officiel"]
+      },
+      "Général Femmes": {
+        "finishers": ["Certificat de participation", "Chronométrage officiel"]
+      }
+    }
+  },
+  {
+    "id": 46,
+    "slug": "souhane-trail-5km-2026",
+    "nom": "Souhane Trail 5 km 2026",
+    "description": "🌿 **Souhane Trail 5 km 2026**\n\nLe **Souhane Trail 2026** propose également une **course récréative de 5 km**, organisée le **samedi 18 avril 2026** à **Souhane**, wilaya de **Blida**.\n\nIdéal pour les coureurs débutants ou ceux souhaitant vivre une expérience sportive conviviale en pleine nature, ce format accessible permet de profiter des paysages montagneux dans une ambiance dynamique.\n\n🎽 Tous les participants bénéficieront d’un **chronométrage professionnel**, de **résultats en direct**, d’un **service photo**, de **ravitaillements** et d’un **certificat de participation**.\n\n⚠️ Clôture des inscriptions : **17 avril 2026 à 16h00** ou dès que les places sont complètes.",
+    "date": "2026-04-18T08:00:00+01:00",
+    "type": [1, 13],
+    "distance": 5,
+    "denivele_plus": null,
+    "wilaya": 9,
+    "commune": "Souhane",
+    "pays": "Algérie",
+    "organisateur_nom": "Adrenaline Bike L'Arbaa",
+    "contact_numero": "",
+    "contact_email": "souhanetrail@gmail.com",
+    "site_web": "https://www.souhane-trail.com/",
+    "image": "/images/souhane-trail-2026.jpg",
+    "prix_inscription": 3000,
+    "inscription_link": "",
+    "conditions": ["Âge minimum 16 ans"],
+    "colors": {
+      "background_color": "#1f3a2d",
+      "secondary_color": "",
+      "accent_color": "#2e6b4a"
+    },
+    "prix_gagnants": {
+      "Général Hommes": {
+        "finishers": ["Certificat de participation", "Chronométrage officiel"]
+      },
+      "Général Femmes": {
+        "finishers": ["Certificat de participation", "Chronométrage officiel"]
+      }
+    }
+  },
+  {
+    "id": 47,
+    "slug": "semi-marathon-tamgout-freha-2026",
+    "nom": "Semi-Marathon Tamgout – Fréha 2026",
+    "description": "🏃‍♂️ **Semi-Marathon Tamgout – Fréha 2026** ✨\n\nLe **Semi-Marathon Tamgout 2026** se déroulera le **vendredi 24 avril 2026** à **Fréha**, wilaya de **Tizi Ouzou**.\n\nDevenu un rendez-vous sportif annuel incontournable, cet événement rassemble les passionnés de course à pied et de nature dans un cadre exceptionnel.\n\n🏞️ Le parcours combine **défi physique** et **paysages naturels magnifiques**, offrant une expérience sportive unique aux participants.\n\n💪 Soyez au rendez-vous pour écrire un nouveau chapitre de l’histoire du Semi-Marathon Tamgout !",
+    "date": "2026-04-24T08:30:00+01:00",
+    "type": [0, 4],
+    "distance": 21.0975,
+    "denivele_plus": null,
+    "wilaya": 15,
+    "commune": "Fréha",
+    "pays": "Algérie",
+    "organisateur_nom": "Semi Marathon Tamgout",
+    "contact_numero": "+213549143800",
+    "contact_email": "marathoniens.freha@gmail.com",
+    "site_web": "https://www.facebook.com/p/Semi-Marathon-Tamgout-Officiel-61554927467384/",
+    "image": "/images/semi-marathon-tamgout-2026.jpg",
+    "prix_inscription": "Inconnue",
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#214d8a",
+      "secondary_color": "",
+      "accent_color": "#042a5e"
+    },
+    "prix_gagnants": {}
   }
 ]
