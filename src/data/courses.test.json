@@ -1619,5 +1619,84 @@
       "accent_color": "#042a5e"
     },
     "prix_gagnants": {}
+  },
+  {
+    "id": 48,
+    "slug": "trail-ait-aissi-25km-2026",
+    "nom": "Trail Aït Aissi – 1ʳᵉ Édition",
+    "description": "🌲 **Trail Aït Aissi – 1ʳᵉ Édition**\n\nLe **Trail Aït Aissi 2026** se déroulera le **samedi 27 mars 2026 à 9h00** dans la wilaya de **Tizi Ouzou**.\n\nUne épreuve de **25 km** sur un **parcours forestier** qui propose un défi sportif pour les amateurs de trail et de nature.\n\n📅 **Clôture des inscriptions : 22 mars 2026**.\n\n💰 **Frais d’inscription : 500 DA**\n\n📱 Inscriptions via **WhatsApp** au numéro **0669333561**.\n\nVenez vivre une expérience sportive unique dans un cadre naturel exceptionnel !",
+    "date": "2026-03-27T09:00:00+01:00",
+    "type": [1, 7, 13],
+    "distance": 25,
+    "denivele_plus": null,
+    "wilaya": 15,
+    "commune": "Aït Aissi",
+    "pays": "Algérie",
+    "organisateur_nom": "Collectif des Jeunes d'Aït Aissi",
+    "contact_numero": "+213669333561",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/trail-ait-aissi-2026.jpg",
+    "prix_inscription": 500,
+    "inscription_link": "",
+    "conditions": [],
+    "colors": {
+      "background_color": "#1f4d3f",
+      "secondary_color": "",
+      "accent_color": "#0b472c"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 49,
+    "slug": "semi-marathon-seddouk-2026",
+    "nom": "Semi-Marathon de Seddouk – Cheikh Belhaddad",
+    "description": "🏃‍♂️ **Semi-Marathon de Seddouk – Cheikh Belhaddad 2026**\n\nLe **Semi-Marathon de Seddouk 2026** se déroulera le **10 avril 2026 à 8h00** à **Seddouk**, wilaya de **Béjaïa**, avec départ depuis le centre-ville.\n\nUne course de **21 km** ouverte aux **hommes et femmes** dans deux catégories : **Senior (18-35 ans)** et **Vétéran (35 ans et plus)**.\n\n🏆 **Récompenses :** Trophées et médailles pour les 3 premiers de chaque catégorie, et médailles d’honneur pour tous les participants.\n\n📅 **Clôture des inscriptions : 20 mars 2026**\n\n💳 Paiement sur place et retrait des dossards : du 20 mars au 9 avril 2026.\n\n",
+    "date": "2026-04-10T08:00:00+01:00",
+    "type": [0, 4],
+    "distance": 21.0975,
+    "denivele_plus": null,
+    "wilaya": 6,
+    "commune": "Seddouk",
+    "pays": "Algérie",
+    "organisateur_nom": "Marathon Seddouk",
+    "contact_numero": "+21371511058",
+    "contact_email": "marathon.seddouk@email.com",
+    "site_web": "https://seddouk-marathon.vercel.app/",
+    "image": "/images/semi-marathon-seddouk-2026.jpg",
+    "prix_inscription": 0,
+    "inscription_link": "https://seddouk-marathon.vercel.app/inscription",
+    "conditions": ["Certificat médical (optionnel)", "ECG (optionnel)"],
+    "colors": {
+      "background_color": "#5a8263",
+      "secondary_color": "",
+      "accent_color": "#084516"
+    },
+    "prix_gagnants": {
+      "Senior Hommes": {
+        "1er": ["Trophée", "Médaille"],
+        "2e": ["Trophée", "Médaille"],
+        "3e": ["Trophée", "Médaille"],
+        "finishers": ["Médaille d'honneur"]
+      },
+      "Senior Femmes": {
+        "1er": ["Trophée", "Médaille"],
+        "2e": ["Trophée", "Médaille"],
+        "3e": ["Trophée", "Médaille"],
+        "finishers": ["Médaille d'honneur"]
+      },
+      "Vétéran Hommes": {
+        "1er": ["Trophée", "Médaille"],
+        "2e": ["Trophée", "Médaille"],
+        "3e": ["Trophée", "Médaille"],
+        "finishers": ["Médaille d'honneur"]
+      },
+      "Vétéran Femmes": {
+        "1er": ["Trophée", "Médaille"],
+        "2e": ["Trophée", "Médaille"],
+        "3e": ["Trophée", "Médaille"],
+        "finishers": ["Médaille d'honneur"]
+      }
+    }
   }
 ]
