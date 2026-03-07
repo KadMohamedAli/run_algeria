@@ -1597,7 +1597,7 @@
     "id": 47,
     "slug": "semi-marathon-tamgout-freha-2026",
     "nom": "Semi-Marathon Tamgout – Fréha 2026",
-    "description": "🏃‍♂️ **Semi-Marathon Tamgout – Fréha 2026** ✨\n\nLe **Semi-Marathon Tamgout 2026** se déroulera le **vendredi 24 avril 2026** à **Fréha**, wilaya de **Tizi Ouzou**.\n\nDevenu un rendez-vous sportif annuel incontournable, cet événement rassemble les passionnés de course à pied et de nature dans un cadre exceptionnel.\n\n🏞️ Le parcours combine **défi physique** et **paysages naturels magnifiques**, offrant une expérience sportive unique aux participants.\n\n💪 Soyez au rendez-vous pour écrire un nouveau chapitre de l’histoire du Semi-Marathon Tamgout !",
+    "description": "🏃‍♂️ **Semi-Marathon Tamgout – Fréha 2026**\n\nLe **Semi-Marathon Tamgout 2026** se déroulera le **vendredi 24 avril 2026** à **Fréha**, wilaya de **Tizi Ouzou**.\n\nCette course de **21,1 km** est ouverte aux **coureurs âgés de 18 ans et plus**.\n\n🏆 L’événement propose des **récompenses pour les gagnants selon les catégories**, et constitue une compétition officielle inscrite dans le **calendrier national des courses 2026**, servant également de **sélection préliminaire pour certains athlètes**.\n\n🎽 Tous les participants recevront un **t-shirt officiel de la course** et une **médaille souvenir**.\n\n💰 **Frais d’inscription : 1500 DA**.\n\n📅 **Date limite d’inscription : 31 mars 2026** (nombre de places limité).\n\n💳 Paiement via **CCP : 1201832 / Clé 06**.\n⚠️ Paiement via **BaridiMob non accepté**.",
     "date": "2026-04-24T08:30:00+01:00",
     "type": [0, 4],
     "distance": 21.0975,
@@ -1610,15 +1610,26 @@
     "contact_email": "marathoniens.freha@gmail.com",
     "site_web": "https://www.facebook.com/p/Semi-Marathon-Tamgout-Officiel-61554927467384/",
     "image": "/images/semi-marathon-tamgout-2026.jpg",
-    "prix_inscription": "Inconnue",
-    "inscription_link": "",
-    "conditions": [],
+    "prix_inscription": 1500,
+    "inscription_link": "https://forms.gle/PuoQuT3pnx2ShiAJ7",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Paiement via CCP : 1201832 / Clé 06",
+      "Paiement via BaridiMob non accepté"
+    ],
     "colors": {
       "background_color": "#214d8a",
       "secondary_color": "",
       "accent_color": "#042a5e"
     },
-    "prix_gagnants": {}
+    "prix_gagnants": {
+      "Général Hommes": {
+        "finishers": ["T-shirt de la course", "Médaille souvenir"]
+      },
+      "Général Femmes": {
+        "finishers": ["T-shirt de la course", "Médaille souvenir"]
+      }
+    }
   },
   {
     "id": 48,
@@ -1698,5 +1709,32 @@
         "finishers": ["Médaille d'honneur"]
       }
     }
+  },
+  {
+    "id": 50,
+    "slug": "trail-gorges-chiffa-2026",
+    "nom": "Trail Les Gorges de Chiffa 2026",
+    "description": "🏔️ **Trail Les Gorges de Chiffa 2026**\n\nLe **Trail des Gorges de Chiffa** se déroulera le **8 mai 2026 à 08h30** dans les célèbres **Gorges de Chiffa**, wilaya de **Blida**.\n\nCette épreuve de **24 km** propose un parcours spectaculaire au cœur d’un site naturel emblématique, avec **1101 m de dénivelé positif et 1101 m de dénivelé négatif**.\n\n🔥 Le parcours présente une **difficulté technique modérée**, idéal pour les amateurs de trail souhaitant relever un défi sportif dans un cadre naturel exceptionnel.\n\n📊 Classement Trail Rank : **14**.\n\n📋 Les participants peuvent consulter la **liste des inscrits directement sur la plateforme officielle**.\n\n💳 Paiement possible via **CCP ou BaridiMob** (le nom complet du coureur doit être indiqué dans le reçu de paiement).\n\n🎯 L’objectif de l’événement est d’offrir une organisation transparente et de réunir les passionnés de trail dans une ambiance sportive au cœur des montagnes de la Chiffa.",
+    "date": "2026-05-08T08:30:00+01:00",
+    "type": [1, 7, 13],
+    "distance": 24,
+    "denivele_plus": 1101,
+    "wilaya": 9,
+    "commune": "Chiffa",
+    "pays": "Algérie",
+    "organisateur_nom": "Trail Les Gorges de Chiffa",
+    "contact_numero": "+213542288035",
+    "contact_email": "gravirblida@gmail.com",
+    "site_web": "https://sites.google.com/view/trailgorgeschiffa/",
+    "image": "/images/trail-gorges-chiffa-2026.jpg",
+    "prix_inscription": 2800,
+    "inscription_link": "https://sites.google.com/view/trailgorgeschiffa/inscription",
+    "conditions": [],
+    "colors": {
+      "background_color": "#2f3e46",
+      "secondary_color": "",
+      "accent_color": "#52796f"
+    },
+    "prix_gagnants": {}
   }
 ]
