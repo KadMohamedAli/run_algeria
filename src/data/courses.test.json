@@ -878,8 +878,8 @@
   {
     "id": 26,
     "slug": "defi-marche-longue-distance-boumerdes-2026",
-    "nom": "Défi Marche Longue Distance – Boumerdes 2026",
-    "description": "La 5ᵉ édition du Défi Marche Longue Distance à Boumerdes se tiendra le 3 avril 2026. Cet événement sportif est destiné aux participants expérimentés et vise à développer et professionnaliser la pratique de la marche en montagne. Le parcours se déroule sur un circuit ouvert balisé, à travers quatre wilayas, avec des sections de niveau difficile à moyen pour tester la résistance et la condition physique des participants. L'événement met l'accent sur l'endurance, la stratégie et la maîtrise des terrains montagneux.",
+    "nom": "❌ Annulé - Défi Marche Longue Distance – Boumerdès 2026",
+    "description": "❌ ÉVÉNEMENT ANNULÉ PAR L’ORGANISATEUR\n\nLa 5ᵉ édition du Défi Marche Longue Distance à Boumerdès devait se tenir le 3 avril 2026. Cet événement sportif est destiné aux participants expérimentés et vise à développer et professionnaliser la pratique de la marche en montagne.\n\nLe parcours se déroule sur un circuit ouvert balisé, à travers quatre wilayas, avec des sections de niveau difficile à moyen pour tester la résistance et la condition physique des participants. L'événement met l'accent sur l'endurance, la stratégie et la maîtrise des terrains montagneux.",
     "date": "2026-04-03T08:00:00+01:00",
     "type": [1, 2],
     "distance": 52,
@@ -896,9 +896,9 @@
     "inscription_link": "",
     "conditions": [],
     "colors": {
-      "background_color": "#403225",
+      "background_color": "#383532",
       "secondary_color": "",
-      "accent_color": "#523418"
+      "accent_color": "#36302a"
     },
     "prix_gagnants": {}
   },
@@ -1734,6 +1734,86 @@
       "background_color": "#2f3e46",
       "secondary_color": "",
       "accent_color": "#52796f"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 51,
+    "slug": "bir-el-ater-10km-national-2026",
+    "nom": "Course nationale de 10 km de Bir el-Ater 2026",
+    "description": "La Direction de la Jeunesse et des Sports de Tébessa et la page officielle de la commune de Bir el-Ater présentent le **10 km national de Bir el-Ater**.`\n Organisé sous le patronage de **Monsieur le Wali de la Wilaya de Tébessa** et de **Monsieur le Wali délégué de la daïra de Bir el-Ater**, l’événement se déroule sous la supervision de la **Direction de la Jeunesse et des Sports** et de la **Fédération Algérienne d’Athlétisme**.\n🤝 En coordination avec : le **Conseil Populaire Communal de Bir el-Ater** et la **Ligue de Wilaya d’Athlétisme de Tébessa**.\n🏁 **Course nationale sur route – 10 km** : ouverte aux coureurs confirmés et aux amateurs désireux de relever le défi. \n✨ شعارنا : « خطو نحو التنمية … على أرض التحدي »\n📝 Inscription : ouverture le **dimanche 29 mars 2026** via formulaire électronique.",
+    "date": "2026-05-02T08:00:00+01:00",
+    "type": [5, 0, 26],
+    "distance": 10,
+    "wilaya": 12,
+    "commune": "Bir el-Ater",
+    "pays": "Algérie",
+    "organisateur_nom": "Direction de la Jeunesse et des Sports de Tébessa / Académie sportive de la Commune de Bir el-Ater",
+    "contact_numero": "+213662630504",
+    "contact_email": "academybir06@gmail.com",
+    "site_web": "",
+    "image": "/images/bir_ater_10k_2026.jpg",
+    "prix_inscription": "Inconnue",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical recommandé"
+    ],
+    "colors": {
+      "background_color": "#736544",
+      "secondary_color": "",
+      "accent_color": "#a8832c"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 52,
+    "slug": "semi-marathon-zaccar-djelfa-2026",
+    "nom": "Semi-Marathon de Zaccar – Djelfa 2026",
+    "description": "🏃‍♂️ **Semi-Marathon de Zaccar – Djelfa 2026**\n\nLe **Semi-Marathon de Zaccar** se déroulera le **23 mai 2026 à 09h30** à **Zaccar**, wilaya de **Djelfa**.\n\nUne course de **21 km** ouverte aux passionnés de course à pied, dans le cadre du **Festival Zaccar**.\n\n🌍 Un événement sportif et festif visant à promouvoir la pratique du sport et à rassembler les coureurs dans une ambiance conviviale.\n\n📅 **Date : 23 mai 2026**\n🕘 **Heure de départ : 09h30**",
+    "date": "2026-05-23T09:30:00+01:00",
+    "type": [0, 4],
+    "distance": 21.0975,
+    "denivele_plus": null,
+    "wilaya": 17,
+    "commune": "Zaccar",
+    "pays": "Algérie",
+    "organisateur_nom": "Festival Zaccar",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/semi_zaccar_2026.jpg",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6b705c",
+      "secondary_color": "",
+      "accent_color": "#a5a58d"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 53,
+    "slug": "course-des-travailleurs-alger-2026",
+    "nom": "Course des Travailleurs 5 km – Alger 2026",
+    "description": "🏃‍♂️ **Course des Travailleurs – Alger 2026**\n\nÀ l’occasion de la célébration de la **Journée internationale des travailleurs**, la **Fédération Algérienne Sport & Travail (FAST)** organise la **3ᵉ édition de la Course des Travailleurs**.\n\nCette course sur route de **5 km** se déroulera dans la capitale, sur un parcours passant par certaines des principales artères d’**Alger**.\n\n📍 **Parcours :** Départ depuis le **stade Ferhani**, passage par les rues principales, jusqu’au siège de la centrale syndicale à **Sidi M’Hamed**.\n\n🎉 Un événement sportif et festif ouvert aux amateurs de course à pied, dans une ambiance conviviale et dynamique.\n\n📝 **Inscriptions :** Le lien d’inscription sera communiqué prochainement.\n\n📢 Suivez les prochaines annonces pour plus d’informations.",
+    "date": "2026-05-01T08:00:00+01:00",
+    "type": [0, 6],
+    "distance": 5,
+    "denivele_plus": null,
+    "wilaya": 16,
+    "commune": "Sidi M'Hamed",
+    "pays": "Algérie",
+    "organisateur_nom": "Fédération Algérienne Sport & Travail (FAST)",
+    "contact_numero": "+21323147342",
+    "contact_email": "federation@fast.dz",
+    "site_web": "https://fast.dz",
+    "image": "/images/course_travailleurs_alger_2026.jpg",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#364736",
+      "secondary_color": "",
+      "accent_color": "#1c5e1c"
     },
     "prix_gagnants": {}
   }
