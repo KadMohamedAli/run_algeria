@@ -2014,5 +2014,41 @@
       "accent_color": "#285221"
     },
     "prix_gagnants": {}
-  }
+  },
+  {
+  "id": 61,
+  "slug": "trail-chelia-21k-2026",
+  "nom": "Trail Chélia 21K",
+  "description": "🏃‍♂️ **Trail Chélia 21K 2026** ⛰️\n\nLa page **TRAIL Chelia Running** organise la première édition du **Trail Chélia 21K**, une course nature dans la région du **Mont Chélia**, au cœur des **Aurès**.\n\n🏔️ **Distance : 21 km**\n⛰️ **Dénivelé positif : 1300 m**\n\n🔥 Un parcours exigeant en montagne, destiné aux amateurs de trail et de course nature.\n\n📅 **Date : 22 août 2026**\n📍 **Lieu : Mont Chélia – Aurès, Algérie**\n\n⚠️ Places limitées – inscription obligatoire.\n\n📌 Pour confirmer l’inscription, les participants doivent envoyer le reçu de paiement, le numéro de téléphone personnel, ainsi qu’une photo de la carte d’identité nationale et une licence sportive 2025/2026 ou un certificat médical via WhatsApp.",
+  "date": "2026-08-22T09:00:00+01:00",
+  "type": [1, 7, 13],
+  "distance": 21,
+  "denivele_plus": 1300,
+  "denivele_minus": null,
+  "wilaya": 40,
+  "commune": "Chélia",
+  "pays": "Algérie",
+  "organisateur_nom": "TRAIL Chelia Running",
+  "contact_numero": "+213662504331",
+  "contact_email": "",
+  "site_web": "",
+  "image": "/images/trail_chelia_21k_2026.jpg",
+  "prix_inscription": "2000 DA",
+  "inscription_link": "https://www.facebook.com/story.php?story_fbid=122134559931065876&id=61581976300334&rdid=9S20NdDAiHldeNqQ#",
+  "conditions": [
+    "Places limitées",
+    "Paiement par CCP",
+    "Envoyer le reçu de paiement par WhatsApp",
+    "Envoyer le numéro de téléphone personnel",
+    "Envoyer une photo de la carte d’identité nationale",
+    "Fournir une licence sportive 2025/2026 ou un certificat médical",
+    "Première édition"
+  ],
+  "colors": {
+    "background_color": "#005A9C",
+    "secondary_color": "#F2B705",
+    "accent_color": "#E31B23"
+  },
+  "prix_gagnants": {}
+}
 ]
