@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 1,
     "slug": "trail-chrea-2025",
@@ -2649,7 +2649,7 @@
     },
     "prix_gagnants": {}
   },
-    {
+  {
     "id": 61,
     "slug": "trail-chelia",
     "nom": "TRAIL Chelia",
@@ -2679,42 +2679,32 @@
   },
   {
     "id": 62,
-    "slug": "trail-chelia-21k-2026",
-    "nom": "Trail ChÃ©lia 21K",
-    "description": "ðŸƒâ€â™‚ï¸ **Trail ChÃ©lia 21K 2026** â›°ï¸\n\nLa page **TRAIL Chelia Running** organise la premiÃ¨re Ã©dition du **Trail ChÃ©lia 21K**, une course nature dans la rÃ©gion du **Mont ChÃ©lia**, au cÅ“ur des **AurÃ¨s**.\n\nðŸ”ï¸ **Distance : 21 km**\nâ›°ï¸ **DÃ©nivelÃ© positif : 1300 m**\n\nðŸ”¥ Un parcours exigeant en montagne, destinÃ© aux amateurs de trail et de course nature.\n\nðŸ“… **Date : 22 aoÃ»t 2026**\nðŸ“ **Lieu : Mont ChÃ©lia â€“ AurÃ¨s, AlgÃ©rie**\n\nâš ï¸ Places limitÃ©es â€“ inscription obligatoire.\n\nðŸ“Œ Pour confirmer lâ€™inscription, les participants doivent envoyer le reÃ§u de paiement, le numÃ©ro de tÃ©lÃ©phone personnel, ainsi quâ€™une photo de la carte dâ€™identitÃ© nationale et une licence sportive 2025/2026 ou un certificat mÃ©dical via WhatsApp.",
-    "date": "2026-08-22T09:00:00+01:00",
+    "slug": "ecolo-trail-akfadou",
+    "nom": "ecolo trail akfadou",
+    "description": "Une course de trail dans la magnifique foret d'akfadou",
+    "date": "2026-09-05T08:00:00+01100",
     "type": [
       1,
-      7,
-      13
+      13,
+      23,
+      24
     ],
-    "distance": 21,
-    "denivele_plus": 1300,
-    "denivele_minus": null,
-    "wilaya": 40,
-    "commune": "ChÃ©lia",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "TRAIL Chelia Running",
-    "contact_numero": "+213662504331",
-    "contact_email": "",
-    "site_web": "",
-    "image": "/images/trail_chelia_21k_2026.jpg",
-    "prix_inscription": "2000 DA",
-    "inscription_link": "https://www.facebook.com/story.php?story_fbid=122134559931065876&id=61581976300334&rdid=9S20NdDAiHldeNqQ#",
-    "conditions": [
-      "Places limitÃ©es",
-      "Paiement par CCP",
-      "Envoyer le reÃ§u de paiement par WhatsApp",
-      "Envoyer le numÃ©ro de tÃ©lÃ©phone personnel",
-      "Envoyer une photo de la carte dâ€™identitÃ© nationale",
-      "Fournir une licence sportive 2025/2026 ou un certificat mÃ©dical",
-      "PremiÃ¨re Ã©dition"
-    ],
+    "distance": 22,
+    "denivele_plus": 450,
+    "wilaya": 15,
+    "commune": "Akfadou",
+    "pays": "Algerie",
+    "organisateur_nom": "EMCA",
+    "contact_numero": "-",
+    "contact_email": "-",
+    "site_web": "https://www.facebook.com/people/%C3%89colo-Trail-dAkfadou-EMCA/61575298801886/?rdid=RAnJdZHgZIEuWdum&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DnqoJvVvV%2F",
+    "prix_inscription": "-",
+    "inscription_link": "-",
     "colors": {
-      "background_color": "#005A9C",
-      "secondary_color": "#F2B705",
-      "accent_color": "#E31B23"
+      "background_color": "#a2a79c",
+      "secondary_color": "#c6cbc0",
+      "accent_color": "#070302"
     },
-    "prix_gagnants": {}
+    "image": "/images/ecolo-trail-akfadou.png"
   }
 ]
