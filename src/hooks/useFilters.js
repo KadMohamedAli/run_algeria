@@ -5,6 +5,10 @@ import LZString from "lz-string";
 
 const today = new Date();
 const yyyyMMdd = today.toISOString().slice(0, 10);
+const isValidDateString = (value) => {
+  if (!value || typeof value !== "string") return false;
+  return !Number.isNaN(new Date(value).getTime());
+};
 
 export const defaultFilters = {
   wilaya: [],
@@ -38,7 +42,18 @@ function decodeFilters(str) {
   try {
     const decompressed = LZString.decompressFromEncodedURIComponent(str);
     const parsed = JSON.parse(decompressed);
-    return { ...defaultFilters, ...parsed };
+    const nextFilters = { ...defaultFilters, ...parsed };
+
+    nextFilters.date = {
+      start: isValidDateString(nextFilters.date?.start)
+        ? nextFilters.date.start
+        : defaultFilters.date.start,
+      end: isValidDateString(nextFilters.date?.end)
+        ? nextFilters.date.end
+        : null,
+    };
+
+    return nextFilters;
   } catch {
     return { ...defaultFilters };
   }

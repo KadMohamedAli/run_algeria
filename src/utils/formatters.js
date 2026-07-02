@@ -15,6 +15,8 @@ import { fr } from "date-fns/locale";
 
 // Format court avec mois FR
 const formatShort = (date) => format(date, "d MMM yyyy", { locale: fr });
+const isValidDate = (value) =>
+  value instanceof Date && !Number.isNaN(value.getTime());
 
 /**
  * Formatte un intervalle de dates en texte humain
@@ -22,8 +24,12 @@ const formatShort = (date) => format(date, "d MMM yyyy", { locale: fr });
 export function formatDateRange(start, end) {
   if (!start && !end) return "";
 
-  const s = start ? new Date(start) : null;
-  const e = end ? new Date(end) : null;
+  const startDate = start ? new Date(start) : null;
+  const endDate = end ? new Date(end) : null;
+  const s = isValidDate(startDate) ? startDate : null;
+  const e = isValidDate(endDate) ? endDate : null;
+
+  if (!s && !e) return "";
 
   // === Cas : une seule date (début ou fin) ===
   if (s && !e) {

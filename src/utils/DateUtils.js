@@ -1,5 +1,12 @@
+const isValidDate = (value) =>
+  value instanceof Date && !Number.isNaN(value.getTime());
+
 export const formatCourseDate = (dateString) => {
   const date = new Date(dateString);
+  if (!isValidDate(date)) {
+    return "Date inconnue";
+  }
+
   const now = new Date();
   const isToday =
     date.getDate() === now.getDate() &&
