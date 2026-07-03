@@ -2,8 +2,8 @@
   {
     "id": 1,
     "slug": "trail-chrea-2025",
-    "nom": "5e Ã©dition Trail ChrÃ©a - Course des Champions",
-    "description": "La 5áµ‰ Ã©dition du **Trail ChrÃ©a** revient le **samedi 22 novembre 2025 Ã  9h30**, avec un dÃ©part depuis le **Ski Club de ChrÃ©a (Wilaya de Blida)**. Lâ€™Ã©vÃ©nement est organisÃ© par lâ€™**Association GRAVIR**, Ã  lâ€™occasion de la commÃ©moration du dÃ©clenchement de la guerre de libÃ©ration.\n\nCette course nature unique mÃªle **performance sportive** et **plaisir de la dÃ©couverte**, Ã  travers les sentiers du **parc national de ChrÃ©a**. Elle offre un dÃ©fi exigeant dans un cadre montagneux spectaculaire.\n\n**Au programme :**\n- **Course des Champions (24 km)** : Ski Club â€“ El Haoudh (le bassin) â€“ Yemma Bahria â€“ Les ChÃ¢taignes â€“ Oued Blat â€“ Le Noyer â€“ Placette APC â€“ Ski Club.\n- **Course en binÃ´me (2x12 km)** : mÃªme parcours, ouverte aux Ã©quipes Hommes, Femmes ou Mixtes.\n- **Marche 5 km** : ouverte Ã  tous les groupes sociaux et entreprises.\n- **Course du Petit Traileur (moins de 14 ans)** : participation gratuite.\n\n**CatÃ©gories :** Hommes et Femmes par tranche dâ€™Ã¢ge (18â€“39, 40â€“49, 50â€“59, 60â€“69, 70+), binÃ´mes, marcheurs, jeunes et personnes Ã  besoins spÃ©cifiques.\n\n**Inscription :** 2500 DA â€” comprend mÃ©daille finisher, dossard, tee-shirt, assurance, ravitaillement et rÃ©compenses.\n\n**RÃ©compenses :**\n- 1er : 30.000 DA, 2e : 20.000 DA, 3e : 10.000 DA (Hommes et Femmes).\n- Prix spÃ©ciaux pour binÃ´mes, personnes Ã  besoins spÃ©cifiques, entreprises, clubs et premiers de Blida.\n\n**Avantages :** rÃ©duction pour les 100 premiers inscrits, hÃ©bergement gratuit pour certains participants hors wilaya, et inscription offerte aux vainqueurs des Ã©ditions prÃ©cÃ©dentes.\n\n**Retrait des dossards :** Ã  partir du **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\nContact : gravirblida@gmail.com  \nPage officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
+    "nom": "5e édition Trail Chréa - Course des Champions",
+    "description": "La 5ᵉ édition du **Trail Chréa** revient le **samedi 22 novembre 2025 à 9h30**, avec un départ depuis le **Ski Club de Chréa (Wilaya de Blida)**. L’événement est organisé par l’**Association GRAVIR**, à l’occasion de la commémoration du déclenchement de la guerre de libération.\n\nCette course nature unique mêle **performance sportive** et **plaisir de la découverte**, à travers les sentiers du **parc national de Chréa**. Elle offre un défi exigeant dans un cadre montagneux spectaculaire.\n\n**Au programme :**\n- **Course des Champions (24 km)** : Ski Club – El Haoudh (le bassin) – Yemma Bahria – Les Châtaignes – Oued Blat – Le Noyer – Placette APC – Ski Club.\n- **Course en binôme (2x12 km)** : même parcours, ouverte aux équipes Hommes, Femmes ou Mixtes.\n- **Marche 5 km** : ouverte à tous les groupes sociaux et entreprises.\n- **Course du Petit Traileur (moins de 14 ans)** : participation gratuite.\n\n**Catégories :** Hommes et Femmes par tranche d’âge (18–39, 40–49, 50–59, 60–69, 70+), binômes, marcheurs, jeunes et personnes à besoins spécifiques.\n\n**Inscription :** 2500 DA — comprend médaille finisher, dossard, tee-shirt, assurance, ravitaillement et récompenses.\n\n**Récompenses :**\n- 1er : 30.000 DA, 2e : 20.000 DA, 3e : 10.000 DA (Hommes et Femmes).\n- Prix spéciaux pour binômes, personnes à besoins spécifiques, entreprises, clubs et premiers de Blida.\n\n**Avantages :** réduction pour les 100 premiers inscrits, hébergement gratuit pour certains participants hors wilaya, et inscription offerte aux vainqueurs des éditions précédentes.\n\n**Retrait des dossards :** à partir du **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\nContact : gravirblida@gmail.com  \nPage officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
     "date": "2025-11-22T09:30:00+01:00",
     "type": [
       1,
@@ -13,8 +13,8 @@
     "distance": 24,
     "denivele_plus": 700,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
     "contact_numero": "+213658430636",
     "contact_email": "gravirblida@gmail.com",
@@ -22,7 +22,7 @@
     "image": "/images/chreaTrail.jpg",
     "prix_inscription": "2500",
     "conditions": [
-      "Ã‚ge minimum 18 ans"
+      "Âge minimum 18 ans"
     ],
     "colors": {
       "background_color": "#2b3826",
@@ -41,7 +41,7 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
+          "Médaille Finisher",
           "Dossard",
           "Tee-Shirt"
         ]
@@ -57,7 +57,7 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
+          "Médaille Finisher",
           "Dossard",
           "Tee-Shirt"
         ]
@@ -67,8 +67,8 @@
   {
     "id": 2,
     "slug": "trail-chrea-2025-binome",
-    "nom": "5e Ã©dition Trail ChrÃ©a - Course en BinÃ´me",
-    "description": "Participez Ã  la **Course en BinÃ´me** de la 5áµ‰ Ã©dition du **Trail ChrÃ©a**, le **samedi 22 novembre 2025 Ã  9h30**, depuis le **Ski Club de ChrÃ©a (Blida)**. OrganisÃ©e par lâ€™**Association GRAVIR**, cette course commÃ©more le dÃ©clenchement de la guerre de libÃ©ration et cÃ©lÃ¨bre la solidaritÃ© sportive.\n\nLe Trail ChrÃ©a combine **course Ã  pied, esprit dâ€™Ã©quipe et dÃ©couverte** des paysages exceptionnels du **parc national de ChrÃ©a**.\n\n**Au programme :**\n- **Course en binÃ´me (2x12 km)** : mÃªme parcours que la course principale, ouverte aux catÃ©gories Hommes, Femmes et Mixtes.\n- **Autres Ã©preuves :** Course des Champions (24 km), Marche 5 km, Course du Petit Traileur (moins de 14 ans â€“ gratuite).\n\n**CatÃ©gories :** binÃ´mes, marcheurs, jeunes et personnes Ã  besoins spÃ©cifiques.\n\n**Inscription :** 2500 DA par participant â€” inclut mÃ©daille finisher, dossard, tee-shirt, assurance, ravitaillement et rÃ©compenses.\n\n**RÃ©compenses :**\n- BinÃ´me Hommes : 1er prix 10.000 DA\n- BinÃ´me Femmes : 1er prix 10.000 DA\n- BinÃ´me Mixte : 1er prix 10.000 DA\n\n**Avantages :** rÃ©duction pour les 100 premiers inscrits, hÃ©bergement gratuit pour certains participants hors wilaya, et inscription offerte aux vainqueurs prÃ©cÃ©dents.\n\n**Retrait des dossards :** dÃ¨s le **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\nContact : gravirblida@gmail.com  \nPage officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
+    "nom": "5e édition Trail Chréa - Course en Binôme",
+    "description": "Participez à la **Course en Binôme** de la 5ᵉ édition du **Trail Chréa**, le **samedi 22 novembre 2025 à 9h30**, depuis le **Ski Club de Chréa (Blida)**. Organisée par l’**Association GRAVIR**, cette course commémore le déclenchement de la guerre de libération et célèbre la solidarité sportive.\n\nLe Trail Chréa combine **course à pied, esprit d’équipe et découverte** des paysages exceptionnels du **parc national de Chréa**.\n\n**Au programme :**\n- **Course en binôme (2x12 km)** : même parcours que la course principale, ouverte aux catégories Hommes, Femmes et Mixtes.\n- **Autres épreuves :** Course des Champions (24 km), Marche 5 km, Course du Petit Traileur (moins de 14 ans – gratuite).\n\n**Catégories :** binômes, marcheurs, jeunes et personnes à besoins spécifiques.\n\n**Inscription :** 2500 DA par participant — inclut médaille finisher, dossard, tee-shirt, assurance, ravitaillement et récompenses.\n\n**Récompenses :**\n- Binôme Hommes : 1er prix 10.000 DA\n- Binôme Femmes : 1er prix 10.000 DA\n- Binôme Mixte : 1er prix 10.000 DA\n\n**Avantages :** réduction pour les 100 premiers inscrits, hébergement gratuit pour certains participants hors wilaya, et inscription offerte aux vainqueurs précédents.\n\n**Retrait des dossards :** dès le **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\nContact : gravirblida@gmail.com  \nPage officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
     "date": "2025-11-22T09:30:00+01:00",
     "type": [
       1,
@@ -82,8 +82,8 @@
     ],
     "denivele_plus": 700,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
     "contact_numero": "+213658430636",
     "contact_email": "gravirblida@gmail.com",
@@ -91,7 +91,7 @@
     "image": "/images/chreaTrail.jpg",
     "prix_inscription": "2500",
     "conditions": [
-      "Ã‚ge minimum 18 ans"
+      "Âge minimum 18 ans"
     ],
     "colors": {
       "background_color": "#2b3826",
@@ -99,32 +99,32 @@
       "accent_color": "#5f6359"
     },
     "prix_gagnants": {
-      "BinÃ´me Hommes": {
+      "Binôme Hommes": {
         "1er": [
           "10000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
+          "Médaille Finisher",
           "Dossard",
           "Tee-Shirt"
         ]
       },
-      "BinÃ´me Femmes": {
+      "Binôme Femmes": {
         "1er": [
           "10000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
+          "Médaille Finisher",
           "Dossard",
           "Tee-Shirt"
         ]
       },
-      "BinÃ´me Mixte": {
+      "Binôme Mixte": {
         "1er": [
           "10000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
+          "Médaille Finisher",
           "Dossard",
           "Tee-Shirt"
         ]
@@ -134,8 +134,8 @@
   {
     "id": 3,
     "slug": "marche-5k-chrea-2025",
-    "nom": "5e Ã©dition Trail ChrÃ©a - Marche 5 km",
-    "description": "Dans le cadre du **Trail ChrÃ©a 2025**, venez participer Ã  la **Marche 5 km**, une activitÃ© conviviale et accessible Ã  tous ! Rendez-vous le **samedi 22 novembre 2025 Ã  9h30** au **Ski Club de ChrÃ©a (Blida)**, pour une matinÃ©e de sport, de nature et de solidaritÃ©, organisÃ©e par lâ€™**Association GRAVIR**.\n\nCette marche ouverte aux **groupes sociaux, entreprises, clubs et particuliers** est une belle occasion de profiter des sentiers du **parc national de ChrÃ©a**, tout en soutenant lâ€™Ã©vÃ©nement sportif phare de la rÃ©gion.\n\n**Au programme :**\n- **Marche de 5 km** dans un cadre naturel exceptionnel.\n- Participation libre pour tous les Ã¢ges Ã  partir de 17 ans.\n- Autres Ã©preuves : Course des Champions (24 km), Course en binÃ´me (2x12 km), Course du Petit Traileur (moins de 14 ans â€“ gratuite).\n\n**Inscription :** 2500 DA â€” inclut mÃ©daille finisher, dossard, tee-shirt, assurance et ravitaillement.\n\n**Avantages :** rÃ©duction pour les 100 premiers inscrits, hÃ©bergement gratuit pour certains participants hors wilaya, et participation gratuite pour les vainqueurs prÃ©cÃ©dents.\n\n**Retrait des dossards :** Ã  partir du **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\nContact : gravirblida@gmail.com  \nPage officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
+    "nom": "5e édition Trail Chréa - Marche 5 km",
+    "description": "Dans le cadre du **Trail Chréa 2025**, venez participer à la **Marche 5 km**, une activité conviviale et accessible à tous ! Rendez-vous le **samedi 22 novembre 2025 à 9h30** au **Ski Club de Chréa (Blida)**, pour une matinée de sport, de nature et de solidarité, organisée par l’**Association GRAVIR**.\n\nCette marche ouverte aux **groupes sociaux, entreprises, clubs et particuliers** est une belle occasion de profiter des sentiers du **parc national de Chréa**, tout en soutenant l’événement sportif phare de la région.\n\n**Au programme :**\n- **Marche de 5 km** dans un cadre naturel exceptionnel.\n- Participation libre pour tous les âges à partir de 17 ans.\n- Autres épreuves : Course des Champions (24 km), Course en binôme (2x12 km), Course du Petit Traileur (moins de 14 ans – gratuite).\n\n**Inscription :** 2500 DA — inclut médaille finisher, dossard, tee-shirt, assurance et ravitaillement.\n\n**Avantages :** réduction pour les 100 premiers inscrits, hébergement gratuit pour certains participants hors wilaya, et participation gratuite pour les vainqueurs précédents.\n\n**Retrait des dossards :** à partir du **1er novembre 2025** (date limite : **14 novembre**, au Club Hippique).\n\nContact : gravirblida@gmail.com  \nPage officielle : [facebook.com/TrailChrea25](https://www.facebook.com/TrailChrea25)",
     "date": "2025-11-22T09:30:00+01:00",
     "type": [
       1,
@@ -145,8 +145,8 @@
     ],
     "distance": 5,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
     "contact_numero": "+213658430636",
     "contact_email": "gravirblida@gmail.com",
@@ -154,7 +154,7 @@
     "image": "/images/chreaTrail.jpg",
     "prix_inscription": "2500",
     "conditions": [
-      "Ã‚ge minimum 17 ans"
+      "Âge minimum 17 ans"
     ],
     "colors": {
       "background_color": "#2b3826",
@@ -165,8 +165,8 @@
   {
     "id": 4,
     "slug": "algiers-half-marathon-2025",
-    "nom": "Semi-marathon international dâ€™Alger 2025",
-    "description": "Le Semi-marathon international dâ€™Alger revient le **samedi 14 novembre 2025** dans la capitale. OrganisÃ© par la Ligue AlgÃ©roise dâ€™AthlÃ©tisme (LAA) sous lâ€™Ã©gide de la Wilaya dâ€™Alger, de la Direction de la Jeunesse et des Sports et de la FÃ©dÃ©ration AlgÃ©rienne dâ€™AthlÃ©tisme. Environ **5 000 participants de 24 nationalitÃ©s** sont attendus.\n\nParcours : dÃ©part dans le quartier de Bab El Oued, traversÃ©e des rues historiques dâ€™Alger jusquâ€™aux rivages de la MÃ©diterranÃ©e. Une course Ã  la fois challengeante et panoramique, parfaite pour les coureurs amateurs et confirmÃ©s.\n\nDistances proposÃ©es : 21,097 km (semi-marathon) et 10 km.\n\nInscriptions ouvertes exclusivement sur le site officiel (fermeture prÃ©vue le 15 octobre 2025 Ã  23h59).\n\nInclus pour chaque inscrit : mÃ©daille finisher, tee-shirt officiel, puce de chronomÃ©trage et pack de participation. Lâ€™Ã©vÃ©nement cultive lâ€™esprit Â« Une course, une ville, une Ã¢me Â».",
+    "nom": "Semi-marathon international d’Alger 2025",
+    "description": "Le Semi-marathon international d’Alger revient le **samedi 14 novembre 2025** dans la capitale. Organisé par la Ligue Algéroise d’Athlétisme (LAA) sous l’égide de la Wilaya d’Alger, de la Direction de la Jeunesse et des Sports et de la Fédération Algérienne d’Athlétisme. Environ **5 000 participants de 24 nationalités** sont attendus.\n\nParcours : départ dans le quartier de Bab El Oued, traversée des rues historiques d’Alger jusqu’aux rivages de la Méditerranée. Une course à la fois challengeante et panoramique, parfaite pour les coureurs amateurs et confirmés.\n\nDistances proposées : 21,097 km (semi-marathon) et 10 km.\n\nInscriptions ouvertes exclusivement sur le site officiel (fermeture prévue le 15 octobre 2025 à 23h59).\n\nInclus pour chaque inscrit : médaille finisher, tee-shirt officiel, puce de chronométrage et pack de participation. L’événement cultive l’esprit « Une course, une ville, une âme ».",
     "date": "2025-11-14T07:00:00+01:00",
     "type": [
       4,
@@ -177,8 +177,8 @@
     "denivele_plus": 120,
     "wilaya": 16,
     "commune": "Bab El Oued",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue AlgÃ©roise dâ€™AthlÃ©tisme",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue Algéroise d’Athlétisme",
     "contact_numero": "+21344171771",
     "contact_email": "laathletisme@gmail.com",
     "site_web": "https://laa.dz/",
@@ -186,8 +186,8 @@
     "prix_inscription": "2000",
     "inscription_link": "https://laa.dz/join-us/",
     "conditions": [
-      "Ã‚ge minimum 18 ans",
-      "Licence dâ€™athlÃ©tisme ou certificat de bonne santÃ©"
+      "Âge minimum 18 ans",
+      "Licence d’athlétisme ou certificat de bonne santé"
     ],
     "colors": {
       "background_color": "#1e1d4a",
@@ -227,13 +227,13 @@
           "50000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
-          "T-shirt de lâ€™Ã©vÃ©nement",
-          "Puce de chronomÃ©trage",
+          "Médaille Finisher",
+          "T-shirt de l’événement",
+          "Puce de chronométrage",
           "Un pack de participation"
         ]
       },
-      "VÃ©tÃ©ran Homme & Femme": {
+      "Vétéran Homme & Femme": {
         "1er": [
           "150000"
         ],
@@ -250,9 +250,9 @@
           "50000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
-          "T-shirt de lâ€™Ã©vÃ©nement",
-          "Puce de chronomÃ©trage",
+          "Médaille Finisher",
+          "T-shirt de l’événement",
+          "Puce de chronométrage",
           "Un pack de participation"
         ]
       }
@@ -261,8 +261,8 @@
   {
     "id": 5,
     "slug": "algiers-10k-2025",
-    "nom": "10 km dâ€™Alger 2025",
-    "description": "La 10 km dâ€™Alger est programmÃ©e le **samedi 14 novembre 2025**, en ouverture du Semi-marathon international dâ€™Alger. Cet Ã©vÃ©nement de la Ligue AlgÃ©roise dâ€™AthlÃ©tisme (LAA) offre aux coureurs amateurs une superbe opportunitÃ© de dÃ©couvrir la capitale algÃ©rienne dans une ambiance sportive et festive.\n\nParcours urbain rapide, ouvert Ã  tous niveaux (dÃ©butants et confirmÃ©s), avec dÃ©part depuis le quartier de Bab El Oued et arrivÃ©e dans le centre dâ€™Alger.\n\nInscription : 2000 DA â€” mÃ©daille finisher, tee-shirt, puce de chronomÃ©trage et pack de participation inclus.\n\nConditions : Ã¢ge minimum 18 ans, licence ou certificat mÃ©dical demandÃ©. Rejoignez-nous pour vivre un moment collectif et dÃ©couvrir la ville autrement.",
+    "nom": "10 km d’Alger 2025",
+    "description": "La 10 km d’Alger est programmée le **samedi 14 novembre 2025**, en ouverture du Semi-marathon international d’Alger. Cet événement de la Ligue Algéroise d’Athlétisme (LAA) offre aux coureurs amateurs une superbe opportunité de découvrir la capitale algérienne dans une ambiance sportive et festive.\n\nParcours urbain rapide, ouvert à tous niveaux (débutants et confirmés), avec départ depuis le quartier de Bab El Oued et arrivée dans le centre d’Alger.\n\nInscription : 2000 DA — médaille finisher, tee-shirt, puce de chronométrage et pack de participation inclus.\n\nConditions : âge minimum 18 ans, licence ou certificat médical demandé. Rejoignez-nous pour vivre un moment collectif et découvrir la ville autrement.",
     "date": "2025-11-14T07:00:00+01:00",
     "type": [
       5,
@@ -271,8 +271,8 @@
     "distance": 10,
     "wilaya": 16,
     "commune": "Bab El Oued",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue AlgÃ©roise dâ€™AthlÃ©tisme",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue Algéroise d’Athlétisme",
     "contact_numero": "+21344171771",
     "contact_email": "laathletisme@gmail.com",
     "site_web": "https://laa.dz/",
@@ -280,8 +280,8 @@
     "prix_inscription": "2000",
     "inscription_link": "https://laa.dz/join-us/",
     "conditions": [
-      "Ã‚ge minimum 18 ans",
-      "Licence dâ€™athlÃ©tisme ou certificat de bonne santÃ©"
+      "Âge minimum 18 ans",
+      "Licence d’athlétisme ou certificat de bonne santé"
     ],
     "colors": {
       "background_color": "#1e1d4a",
@@ -306,13 +306,13 @@
           "50000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
-          "T-shirt de lâ€™Ã©vÃ©nement",
-          "Puce de chronomÃ©trage",
+          "Médaille Finisher",
+          "T-shirt de l’événement",
+          "Puce de chronométrage",
           "Un pack de participation"
         ]
       },
-      "VÃ©tÃ©ran Homme & Femme 1": {
+      "Vétéran Homme & Femme 1": {
         "1er": [
           "100000"
         ],
@@ -329,13 +329,13 @@
           "40000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
-          "T-shirt de lâ€™Ã©vÃ©nement",
-          "Puce de chronomÃ©trage",
+          "Médaille Finisher",
+          "T-shirt de l’événement",
+          "Puce de chronométrage",
           "Un pack de participation"
         ]
       },
-      "VÃ©tÃ©ran Homme & Femme 2": {
+      "Vétéran Homme & Femme 2": {
         "1er": [
           "60000"
         ],
@@ -351,12 +351,12 @@
         "5e": [
           "20000"
         ],
-        "Homme plus Ã¢gÃ©": "RÃ©compense symbolique",
-        "Femme plus Ã¢gÃ©e": "RÃ©compense symbolique",
+        "Homme plus âgé": "Récompense symbolique",
+        "Femme plus âgée": "Récompense symbolique",
         "finishers": [
-          "MÃ©daille Finisher",
-          "T-shirt de lâ€™Ã©vÃ©nement",
-          "Puce de chronomÃ©trage",
+          "Médaille Finisher",
+          "T-shirt de l’événement",
+          "Puce de chronométrage",
           "Un pack de participation"
         ]
       }
@@ -366,7 +366,7 @@
     "id": 6,
     "slug": "backyard-ultra-algeria-2025",
     "nom": "Backyard Ultra Algeria 2025",
-    "description": "Sous lâ€™Ã©gide de la Wilaya et de la DJSL dâ€™Alger, le CSA Athletic Club Gaya (ACG), en collaboration avec la FÃ©dÃ©ration AlgÃ©rienne dâ€™AthlÃ©tisme (FAA) et la Ligue dâ€™AthlÃ©tisme dâ€™Alger, organise la Backyard Ultra Algeria 2025 â€“ un Ã©vÃ©nement exceptionnel inscrit dans le cadre du championnat du monde de cette discipline.\n\nLa Backyard Ultra est une course Ã  Ã©limination unique : chaque coureur doit parcourir une boucle de 6,706 km en une heure. Ã€ la fin de chaque heure, une nouvelle boucle dÃ©bute, et ainsi de suite, jusquâ€™Ã  ce quâ€™il ne reste quâ€™un seul participant en course. Ce format met Ã  lâ€™Ã©preuve lâ€™endurance, la stratÃ©gie et la rÃ©silience mentale.\n\nLieu : Marina Les Sablettes â€“ Alger\nDate : 05 dÃ©cembre 2025 â€“ 08h00\nFrais dâ€™inscription : 4000 DA\n\nCourse qualificative pour les Championnats du Monde Backyard Ultra 2026. LimitÃ©e Ã  100 participants, elle sâ€™adresse aux coureurs expÃ©rimentÃ©s remplissant les critÃ¨res de performance.\n\nFormat mixte â€“ un seul classement (hommes et femmes confondus).\n\nRejoignez une aventure hors du commun, oÃ¹ chaque tour compte et oÃ¹ seule la volontÃ© dÃ©termine la victoire.",
+    "description": "Sous l’égide de la Wilaya et de la DJSL d’Alger, le CSA Athletic Club Gaya (ACG), en collaboration avec la Fédération Algérienne d’Athlétisme (FAA) et la Ligue d’Athlétisme d’Alger, organise la Backyard Ultra Algeria 2025 – un événement exceptionnel inscrit dans le cadre du championnat du monde de cette discipline.\n\nLa Backyard Ultra est une course à élimination unique : chaque coureur doit parcourir une boucle de 6,706 km en une heure. À la fin de chaque heure, une nouvelle boucle débute, et ainsi de suite, jusqu’à ce qu’il ne reste qu’un seul participant en course. Ce format met à l’épreuve l’endurance, la stratégie et la résilience mentale.\n\nLieu : Marina Les Sablettes – Alger\nDate : 05 décembre 2025 – 08h00\nFrais d’inscription : 4000 DA\n\nCourse qualificative pour les Championnats du Monde Backyard Ultra 2026. Limitée à 100 participants, elle s’adresse aux coureurs expérimentés remplissant les critères de performance.\n\nFormat mixte – un seul classement (hommes et femmes confondus).\n\nRejoignez une aventure hors du commun, où chaque tour compte et où seule la volonté détermine la victoire.",
     "date": "2025-12-05T08:00:00+01:00",
     "type": [
       30,
@@ -378,7 +378,7 @@
     "distance": 6.706,
     "wilaya": 16,
     "commune": "Les Sablettes",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Athletic Club Gaya (ACG)",
     "contact_numero": "+213554687089",
     "contact_email": "contact@acgaya.dz",
@@ -387,11 +387,11 @@
     "prix_inscription": "4000",
     "inscription_link": "https://acgaya.dz/Backyard-ultra-algeria/",
     "conditions": [
-      "PiÃ¨ce dâ€™identitÃ© requise",
-      "Certificat mÃ©dical (-12 mois) ou licence FAA 2025",
-      "Marathon infÃ©rieur Ã  4h30",
-      "Trail Azro Nâ€™Thor 23 km infÃ©rieur Ã  3h45",
-      "Trail Azro Nâ€™Thor 42 km infÃ©rieur Ã  7h30",
+      "Pièce d’identité requise",
+      "Certificat médical (-12 mois) ou licence FAA 2025",
+      "Marathon inférieur à 4h30",
+      "Trail Azro N’Thor 23 km inférieur à 3h45",
+      "Trail Azro N’Thor 42 km inférieur à 7h30",
       "Backyard Alger minimum 12 tours",
       "Course horaire minimum 45 km en 6h ou 90 km en 12h"
     ],
@@ -404,8 +404,8 @@
   {
     "id": 7,
     "slug": "semi-marathon-bejaia-2025",
-    "nom": "Semi-Marathon International de BÃ©jaÃ¯a 2025 - 19e Edition",
-    "description": "La 19áµ‰ Ã©dition du Semi-Marathon International de la Ville de BÃ©jaÃ¯a se dÃ©roulera le vendredi 17 octobre 2025, organisÃ©e par le CSA/AMCB sous le patronage du MinistÃ¨re de la Jeunesse et des Sports, du Wali et de la Ligue dâ€™AthlÃ©tisme de BÃ©jaÃ¯a. Le parcours de 21,098 km, homologuÃ© par lâ€™AIMS, traverse les artÃ¨res de la ville dans une ambiance sportive et populaire.",
+    "nom": "Semi-Marathon International de Béjaïa 2025 - 19e Edition",
+    "description": "La 19ᵉ édition du Semi-Marathon International de la Ville de Béjaïa se déroulera le vendredi 17 octobre 2025, organisée par le CSA/AMCB sous le patronage du Ministère de la Jeunesse et des Sports, du Wali et de la Ligue d’Athlétisme de Béjaïa. Le parcours de 21,098 km, homologué par l’AIMS, traverse les artères de la ville dans une ambiance sportive et populaire.",
     "date": "2025-10-17T08:45:00+01:00",
     "type": [
       4,
@@ -414,17 +414,17 @@
     "distance": 21.098,
     "denivele_plus": 180,
     "wilaya": 6,
-    "commune": "BÃ©jaÃ¯a",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "AthlÃ©tic MÃ©diterranÃ©en Club BÃ©jaÃ¯a (AMCB)",
+    "commune": "Béjaïa",
+    "pays": "Algérie",
+    "organisateur_nom": "Athlétic Méditerranéen Club Béjaïa (AMCB)",
     "contact_numero": "+21334117008",
     "contact_email": "contact@semimarathonbejaia.com",
     "site_web": "https://semimarathonbejaia.com/",
     "image": "/images/semiBejaia2025.jpg",
     "prix_inscription": "1500",
     "conditions": [
-      "Ã‚ge minimum 18 ans",
-      "Licence ou certificat mÃ©dical obligatoire"
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical obligatoire"
     ],
     "colors": {
       "background_color": "#3b586e",
@@ -432,7 +432,7 @@
       "accent_color": "#142c3d"
     },
     "prix_gagnants": {
-      "Classement GÃ©nÃ©ral â€“ Hommes": {
+      "Classement Général – Hommes": {
         "1er": [
           "200000"
         ],
@@ -452,12 +452,12 @@
           "200000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
-          "T-shirt officiel de lâ€™Ã©vÃ©nement"
+          "Médaille Finisher",
+          "T-shirt officiel de l’événement"
         ]
       },
-      "Classement GÃ©nÃ©ral â€“ Femmes": {
-        "1Ã¨re": [
+      "Classement Général – Femmes": {
+        "1ère": [
           "200000"
         ],
         "2e": [
@@ -476,11 +476,11 @@
           "200000"
         ],
         "finishers": [
-          "MÃ©daille Finisher",
-          "T-shirt officiel de lâ€™Ã©vÃ©nement"
+          "Médaille Finisher",
+          "T-shirt officiel de l’événement"
         ]
       },
-      "Par CatÃ©gorie â€“ Hommes (18-26)(27-34)(35-42)(43-50)(51-59)(+60)": {
+      "Par Catégorie – Hommes (18-26)(27-34)(35-42)(43-50)(51-59)(+60)": {
         "1er": [
           "10000"
         ],
@@ -491,7 +491,7 @@
           "5000"
         ]
       },
-      "Par CatÃ©gorie â€“ Femmes (18-26)(27-34)(+35)": {
+      "Par Catégorie – Femmes (18-26)(27-34)(+35)": {
         "1er": [
           "10000"
         ],
@@ -507,17 +507,17 @@
   {
     "id": 8,
     "slug": "course-populaire-bejaia-7km-2025",
-    "nom": "Course Populaire de BÃ©jaÃ¯a 7 km 2025",
-    "description": "OrganisÃ©e en parallÃ¨le du semi-marathon, la 19áµ‰ Ã©dition de la Course Populaire de BÃ©jaÃ¯a aura lieu le vendredi 17 octobre 2025 Ã  08h45. Ce parcours de 7 km est ouvert Ã  tous les coureurs nÃ©s en 2008 ou avant, licenciÃ©s ou non, dans une ambiance conviviale et festive Ã  travers les rues de BÃ©jaÃ¯a.",
+    "nom": "Course Populaire de Béjaïa 7 km 2025",
+    "description": "Organisée en parallèle du semi-marathon, la 19ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 17 octobre 2025 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
     "date": "2025-10-17T08:45:00+01:00",
     "type": [
       0
     ],
     "distance": 7,
     "wilaya": 6,
-    "commune": "BÃ©jaÃ¯a",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "AthlÃ©tic MÃ©diterranÃ©en Club BÃ©jaÃ¯a (AMCB)",
+    "commune": "Béjaïa",
+    "pays": "Algérie",
+    "organisateur_nom": "Athlétic Méditerranéen Club Béjaïa (AMCB)",
     "contact_numero": "+21334117008",
     "contact_email": "contact@semimarathonbejaia.com",
     "site_web": "https://semimarathonbejaia.com/",
@@ -525,8 +525,8 @@
     "prix_inscription": "1500",
     "inscription_link": "https://semimarathonbejaia.com/inscription",
     "conditions": [
-      "Ã‚ge minimum 18 ans",
-      "Licence ou certificat mÃ©dical requis"
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical requis"
     ],
     "colors": {
       "background_color": "#3b586e",
@@ -534,7 +534,7 @@
       "accent_color": "#142c3d"
     },
     "prix_gagnants": {
-      "Course Populaire â€“ Hommes": {
+      "Course Populaire – Hommes": {
         "1er": [
           "20000"
         ],
@@ -545,10 +545,10 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille Finisher"
+          "Médaille Finisher"
         ]
       },
-      "Course Populaire â€“ Femmes": {
+      "Course Populaire – Femmes": {
         "1er": [
           "20000"
         ],
@@ -559,7 +559,7 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille Finisher"
+          "Médaille Finisher"
         ]
       }
     }
@@ -567,8 +567,8 @@
   {
     "id": 9,
     "slug": "marathon-sahara-2026",
-    "nom": "Sahara Marathon 2026 â€“ Marathon 42 km",
-    "description": "Le Sahara Marathon est une course d'endurance internationale organisÃ©e dans les camps de rÃ©fugiÃ©s sahraouis Ã  Tindouf. Le marathon relie symboliquement les camps d'El Ayoun, Auserd et Smara sur un parcours de 42,195 km Ã  travers le dÃ©sert. Lâ€™Ã©vÃ©nement soutient des projets humanitaires et sensibilise Ã  la cause sahraouie.",
+    "nom": "Sahara Marathon 2026 – Marathon 42 km",
+    "description": "Le Sahara Marathon est une course d'endurance internationale organisée dans les camps de réfugiés sahraouis à Tindouf. Le marathon relie symboliquement les camps d'El Ayoun, Auserd et Smara sur un parcours de 42,195 km à travers le désert. L’événement soutient des projets humanitaires et sensibilise à la cause sahraouie.",
     "date": "2026-02-24T10:00:00+01:00",
     "type": [
       3,
@@ -577,7 +577,7 @@
     "distance": 42.195,
     "wilaya": 37,
     "commune": "Tindouf",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Sahara Marathon",
     "contact_numero": "",
     "contact_email": "mdurli@gmail.com",
@@ -594,8 +594,8 @@
   {
     "id": 10,
     "slug": "semi-marathon-sahara-2026",
-    "nom": "Sahara Marathon 2026 â€“ Semi-Marathon",
-    "description": "Le semi-marathon du Sahara Marathon relie le camp dâ€™Auserd Ã  celui de Smara sur 21,097 km de sable et de pistes. Câ€™est lâ€™occasion de dÃ©couvrir la beautÃ© du dÃ©sert tout en soutenant la solidaritÃ© sahraouie.",
+    "nom": "Sahara Marathon 2026 – Semi-Marathon",
+    "description": "Le semi-marathon du Sahara Marathon relie le camp d’Auserd à celui de Smara sur 21,097 km de sable et de pistes. C’est l’occasion de découvrir la beauté du désert tout en soutenant la solidarité sahraouie.",
     "date": "2026-02-24T10:30:00+01:00",
     "type": [
       4,
@@ -604,7 +604,7 @@
     "distance": 21.097,
     "wilaya": 37,
     "commune": "Tindouf",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Sahara Marathon",
     "contact_numero": "",
     "contact_email": "mdurli@gmail.com",
@@ -621,8 +621,8 @@
   {
     "id": 11,
     "slug": "10km-sahara-2026",
-    "nom": "Sahara Marathon 2026 â€“ 10 km",
-    "description": "Course populaire de 10 km reliant Farmacia Ã  Smara, Ã  travers un paysage saharien unique. Accessible Ã  tous, cette course combine sport, solidaritÃ© et dÃ©couverte du dÃ©sert.",
+    "nom": "Sahara Marathon 2026 – 10 km",
+    "description": "Course populaire de 10 km reliant Farmacia à Smara, à travers un paysage saharien unique. Accessible à tous, cette course combine sport, solidarité et découverte du désert.",
     "date": "2026-02-24T10:00:00+01:00",
     "type": [
       5,
@@ -631,7 +631,7 @@
     "distance": 10,
     "wilaya": 37,
     "commune": "Tindouf",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Sahara Marathon",
     "contact_numero": "",
     "contact_email": "mdurli@gmail.com",
@@ -648,8 +648,8 @@
   {
     "id": 12,
     "slug": "5km-sahara-2026",
-    "nom": "Sahara Marathon 2026 â€“ 5 km",
-    "description": "Course dÃ©couverte ouverte Ã  tous, sur 5 km entre Paco et Smara. IdÃ©ale pour vivre une expÃ©rience saharienne conviviale dans un dÃ©cor exceptionnel.",
+    "nom": "Sahara Marathon 2026 – 5 km",
+    "description": "Course découverte ouverte à tous, sur 5 km entre Paco et Smara. Idéale pour vivre une expérience saharienne conviviale dans un décor exceptionnel.",
     "date": "2026-02-24T10:00:00+01:00",
     "type": [
       6,
@@ -658,7 +658,7 @@
     "distance": 5,
     "wilaya": 37,
     "commune": "Tindouf",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Sahara Marathon",
     "contact_numero": "",
     "contact_email": "mdurli@gmail.com",
@@ -675,8 +675,8 @@
   {
     "id": 13,
     "slug": "treg-ultra-algeria-trail-2025",
-    "nom": "Ultra Algeria Trail 2025 â€“ 182 km",
-    "description": "Lâ€™Ultra Algeria Trail est une Ã©preuve de 182 km pour environ 1 000 m de dÃ©nivelÃ© positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et Ã  allure libre.\n Navigation exclusivement par GPS fourni par lâ€™organisation, avec un roadbook dâ€™accompagnement.\n Le dÃ©part sera donnÃ© le mardi 2 dÃ©cembre 2025 Ã  09h00 Ã  Timimoun.\n Temps maximum autorisÃ© : 72 heures.",
+    "nom": "Ultra Algeria Trail 2025 – 182 km",
+    "description": "L’Ultra Algeria Trail est une épreuve de 182 km pour environ 1 000 m de dénivelé positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et à allure libre.\n Navigation exclusivement par GPS fourni par l’organisation, avec un roadbook d’accompagnement.\n Le départ sera donné le mardi 2 décembre 2025 à 09h00 à Timimoun.\n Temps maximum autorisé : 72 heures.",
     "date": "2025-12-02T09:00:00+01:00",
     "type": [
       2,
@@ -689,7 +689,7 @@
     "denivele_plus": 1000,
     "wilaya": 49,
     "commune": "Timimoun",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Trail Africa Organization (Le Treg)",
     "contact_numero": "+33 609757101",
     "contact_email": "contact@le-treg.com",
@@ -697,13 +697,13 @@
     "image": "/images/treg2025.jpg",
     "prix_inscription": "90000",
     "conditions": [
-      "Ã‚ge minimum : 18 ans (2007 ou avant)",
-      "ExpÃ©rience prÃ©alable sur un trail longue distance (> 80 km) fortement conseillÃ©e",
-      "Course en autosuffisance alimentaire â€“ minimum 6 000 calories obligatoires",
-      "Auto-navigation GPS obligatoire (GPS fourni par lâ€™organisation)",
-      "Certificat mÃ©dical de moins dâ€™un an",
-      "Ã‰preuve dâ€™effort de moins de 3 ans pour les coureurs de plus de 40 ans",
-      "Visa touristique obligatoire pour les Ã©trangers"
+      "Âge minimum : 18 ans (2007 ou avant)",
+      "Expérience préalable sur un trail longue distance (> 80 km) fortement conseillée",
+      "Course en autosuffisance alimentaire – minimum 6 000 calories obligatoires",
+      "Auto-navigation GPS obligatoire (GPS fourni par l’organisation)",
+      "Certificat médical de moins d’un an",
+      "Épreuve d’effort de moins de 3 ans pour les coureurs de plus de 40 ans",
+      "Visa touristique obligatoire pour les étrangers"
     ],
     "colors": {
       "background_color": "#694618",
@@ -714,8 +714,8 @@
   {
     "id": 14,
     "slug": "treg-algeria-trail-2025",
-    "nom": "Algeria Trail 2025 â€“ 106 km",
-    "description": "Lâ€™Algeria Trail est une Ã©preuve de 106 km pour environ 500 m de dÃ©nivelÃ© positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et Ã  allure libre.\n Navigation GPS obligatoire (appareil fourni par lâ€™organisation).\n Le dÃ©part sera donnÃ© le mardi 2 dÃ©cembre 2025 Ã  09h00 Ã  Timimoun.\n Temps maximum autorisÃ© : 42 heures.",
+    "nom": "Algeria Trail 2025 – 106 km",
+    "description": "L’Algeria Trail est une épreuve de 106 km pour environ 500 m de dénivelé positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et à allure libre.\n Navigation GPS obligatoire (appareil fourni par l’organisation).\n Le départ sera donné le mardi 2 décembre 2025 à 09h00 à Timimoun.\n Temps maximum autorisé : 42 heures.",
     "date": "2025-12-02T09:00:00+01:00",
     "type": [
       2,
@@ -728,7 +728,7 @@
     "denivele_plus": 500,
     "wilaya": 49,
     "commune": "Timimoun",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Trail Africa Organization (Le Treg)",
     "contact_numero": "+33 609757101",
     "contact_email": "contact@le-treg.com",
@@ -736,13 +736,13 @@
     "image": "/images/treg2025.jpg",
     "prix_inscription": "30000",
     "conditions": [
-      "Ã‚ge minimum : 18 ans (2007 ou avant)",
-      "ExpÃ©rience prÃ©alable sur trail (> 40 km) fortement conseillÃ©e",
-      "Course en autosuffisance alimentaire â€“ minimum 3 000 calories obligatoires",
-      "Auto-navigation GPS obligatoire (GPS fourni par lâ€™organisation)",
-      "Certificat mÃ©dical de moins dâ€™un an",
-      "Ã‰preuve dâ€™effort de moins de 3 ans pour les coureurs de plus de 40 ans",
-      "Visa touristique obligatoire pour les Ã©trangers"
+      "Âge minimum : 18 ans (2007 ou avant)",
+      "Expérience préalable sur trail (> 40 km) fortement conseillée",
+      "Course en autosuffisance alimentaire – minimum 3 000 calories obligatoires",
+      "Auto-navigation GPS obligatoire (GPS fourni par l’organisation)",
+      "Certificat médical de moins d’un an",
+      "Épreuve d’effort de moins de 3 ans pour les coureurs de plus de 40 ans",
+      "Visa touristique obligatoire pour les étrangers"
     ],
     "colors": {
       "background_color": "#694618",
@@ -753,8 +753,8 @@
   {
     "id": 15,
     "slug": "treg-algeria-marathon-2025",
-    "nom": "Algeria Marathon 2025 â€“ 50 km",
-    "description": "Lâ€™Algeria Marathon est une Ã©preuve de 50 km pour environ 250 m de dÃ©nivelÃ© positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et Ã  allure libre.\n Navigation par GPS obligatoire (appareil fourni par lâ€™organisation).\n Le dÃ©part sera donnÃ© le mardi 2 dÃ©cembre 2025 Ã  09h00 Ã  Timimoun.\n Temps maximum autorisÃ© : 18 heures.",
+    "nom": "Algeria Marathon 2025 – 50 km",
+    "description": "L’Algeria Marathon est une épreuve de 50 km pour environ 250 m de dénivelé positif.\n Course non-stop, en boucle, en autosuffisance alimentaire et à allure libre.\n Navigation par GPS obligatoire (appareil fourni par l’organisation).\n Le départ sera donné le mardi 2 décembre 2025 à 09h00 à Timimoun.\n Temps maximum autorisé : 18 heures.",
     "date": "2025-12-02T09:00:00+01:00",
     "type": [
       2,
@@ -767,7 +767,7 @@
     "denivele_plus": 250,
     "wilaya": 49,
     "commune": "Timimoun",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Trail Africa Organization (Le Treg)",
     "contact_numero": "+33 609757101",
     "contact_email": "contact@le-treg.com",
@@ -775,13 +775,13 @@
     "image": "/images/treg2025.jpg",
     "prix_inscription": "15000",
     "conditions": [
-      "Ã‚ge minimum : 18 ans (2007 ou avant)",
-      "ExpÃ©rience prÃ©alable sur course dâ€™endurance (> 21 km) fortement conseillÃ©e",
-      "Course en autosuffisance alimentaire â€“ minimum 1 500 calories obligatoires",
-      "Auto-navigation GPS obligatoire (GPS fourni par lâ€™organisation)",
-      "Certificat mÃ©dical de moins dâ€™un an",
+      "Âge minimum : 18 ans (2007 ou avant)",
+      "Expérience préalable sur course d’endurance (> 21 km) fortement conseillée",
+      "Course en autosuffisance alimentaire – minimum 1 500 calories obligatoires",
+      "Auto-navigation GPS obligatoire (GPS fourni par l’organisation)",
+      "Certificat médical de moins d’un an",
       "ECG de moins de 2 ans pour les coureurs de moins de 40 ans ou pour les participants locaux",
-      "Visa touristique obligatoire pour les Ã©trangers"
+      "Visa touristique obligatoire pour les étrangers"
     ],
     "colors": {
       "background_color": "#694618",
@@ -792,8 +792,8 @@
   {
     "id": 16,
     "slug": "pink-move-alger-2025-3km",
-    "nom": "Pink Run Alger 2025 â€“ 3 km",
-    "description": "Dans le cadre dâ€™Octobre Rose, la campagne de sensibilisation au dÃ©pistage du cancer du sein, lâ€™Ã©vÃ©nement Â« Pink Move Â» se dÃ©roule les **17 et 18 octobre 2025** Ã  la Marina des Sablettes (Parking 3), Alger.\n Cette Ã©dition propose notamment une course de **3 km** ouverte Ã  tous, mÃªlant sport, solidaritÃ© et prÃ©vention.\n Au programme : village santÃ©, ateliers bien-Ãªtre, animations familiales et course â€œPinkâ€ Ã  but caritatif.",
+    "nom": "Pink Run Alger 2025 – 3 km",
+    "description": "Dans le cadre d’Octobre Rose, la campagne de sensibilisation au dépistage du cancer du sein, l’événement « Pink Move » se déroule les **17 et 18 octobre 2025** à la Marina des Sablettes (Parking 3), Alger.\n Cette édition propose notamment une course de **3 km** ouverte à tous, mêlant sport, solidarité et prévention.\n Au programme : village santé, ateliers bien-être, animations familiales et course “Pink” à but caritatif.",
     "date": "2025-10-17T09:00:00+01:00",
     "type": [
       0,
@@ -803,8 +803,8 @@
     "denivele_plus": 3,
     "wilaya": 16,
     "commune": "Les Sablettes, Alger",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Pink Move â€“ Alger",
+    "pays": "Algérie",
+    "organisateur_nom": "Pink Move – Alger",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "https://www.instagram.com/pink_move_dz",
@@ -818,7 +818,7 @@
     "prix_gagnants": {
       "Participants": {
         "finishers": [
-          "T-shirt de lâ€™Ã©vÃ©nement"
+          "T-shirt de l’événement"
         ]
       }
     }
@@ -826,8 +826,8 @@
   {
     "id": 17,
     "slug": "semi-marathon-ouled-djellal-2025",
-    "nom": "Semi-Marathon dâ€™Ouled Djellal 2025",
-    "description": "La prochaine Ã©dition du Semi-Marathon dâ€™Ouled Djellal se dÃ©roulera le samedi 13 dÃ©cembre 2025 sur les routes de la wilaya dâ€™Ouled Djellal.",
+    "nom": "Semi-Marathon d’Ouled Djellal 2025",
+    "description": "La prochaine édition du Semi-Marathon d’Ouled Djellal se déroulera le samedi 13 décembre 2025 sur les routes de la wilaya d’Ouled Djellal.",
     "date": "2025-12-13T08:00:00+01:00",
     "type": [
       4,
@@ -837,8 +837,8 @@
     "denivele_plus": null,
     "wilaya": 51,
     "commune": "Ouled Djellal",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue dâ€™AthlÃ©tisme de la Wilaya dâ€™Ouled Djellal",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue d’Athlétisme de la Wilaya d’Ouled Djellal",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "",
@@ -853,8 +853,8 @@
   {
     "id": 18,
     "slug": "course-aasma-resp-3k-2025",
-    "nom": "A.ASMA RESP 2025 â€“ 2áµ‰ Ã‰dition",
-    "description": "La 2áµ‰ Ã©dition de la course A.ASMA RESP 2025 aura lieu le vendredi 5 dÃ©cembre 2025 Ã  09h du matin, au Complexe Omnisport Mohamed Boudiaf Ã  Alger.\n OrganisÃ©e par lâ€™Association A.ASMA RESP en collaboration avec les Lions Clubs AlgÃ©rie, cette Ã©preuve de 3 km allie sport, solidaritÃ© et sensibilisation.",
+    "nom": "A.ASMA RESP 2025 – 2ᵉ Édition",
+    "description": "La 2ᵉ édition de la course A.ASMA RESP 2025 aura lieu le vendredi 5 décembre 2025 à 09h du matin, au Complexe Omnisport Mohamed Boudiaf à Alger.\n Organisée par l’Association A.ASMA RESP en collaboration avec les Lions Clubs Algérie, cette épreuve de 3 km allie sport, solidarité et sensibilisation.",
     "date": "2025-12-05T09:00:00+01:00",
     "type": [
       0,
@@ -863,8 +863,8 @@
     "distance": 3,
     "wilaya": 16,
     "commune": "Alger",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "A.ASMA RESP en collaboration avec Lions Clubs AlgÃ©rie",
+    "pays": "Algérie",
+    "organisateur_nom": "A.ASMA RESP en collaboration avec Lions Clubs Algérie",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "",
@@ -881,7 +881,7 @@
     "id": 19,
     "slug": "trail-azro-nthor-23km-2026",
     "nom": "Trail Azro N'Thor 23 km 2026",
-    "description": "La 9áµ‰ Ã©dition du Trail Azro N'Thor se tiendra le vendredi 05 juin 2026 au village de Tirourda, dans le massif du Djurdjura, en AlgÃ©rie. Cette course 100 % algÃ©rienne propose un parcours exigeant et authentique de 23 km avec 1 340 mD+. Les coureurs Ã©volueront au cÅ“ur des montagnes de Kabylie, entre sentiers rocailleux, crÃªtes panoramiques et paysages naturels grandioses.\n\nVivez une aventure sportive intense dans un dÃ©cor Ã  couper le souffle, avec une organisation professionnelle et des participants venus de tout le pays.\n\nâš ï¸ Inscriptions exclusivement en ligne (paiement inclus).\nPlaces limitÃ©es : premier arrivÃ©, premier servi.",
+    "description": "La 9ᵉ édition du Trail Azro N'Thor se tiendra le vendredi 05 juin 2026 au village de Tirourda, dans le massif du Djurdjura, en Algérie. Cette course 100 % algérienne propose un parcours exigeant et authentique de 23 km avec 1 340 mD+. Les coureurs évolueront au cœur des montagnes de Kabylie, entre sentiers rocailleux, crêtes panoramiques et paysages naturels grandioses.\n\nVivez une aventure sportive intense dans un décor à couper le souffle, avec une organisation professionnelle et des participants venus de tout le pays.\n\n⚠️ Inscriptions exclusivement en ligne (paiement inclus).\nPlaces limitées : premier arrivé, premier servi.",
     "date": "2026-06-05T08:30:00+01:00",
     "type": [
       1,
@@ -894,7 +894,7 @@
     "denivele_plus": 1340,
     "wilaya": 15,
     "commune": "Tirourda",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Athletics Club Gaya",
     "contact_numero": "+213554687089",
     "contact_email": "contact@acgaya.dz",
@@ -903,8 +903,8 @@
     "prix_inscription": "4500",
     "inscription_link": "https://acgaya.dz/",
     "conditions": [
-      "Ã‚ge minimum 18 ans",
-      "Certificat mÃ©dical de moins de 6 mois"
+      "Âge minimum 18 ans",
+      "Certificat médical de moins de 6 mois"
     ],
     "colors": {
       "background_color": "#2e251d",
@@ -914,7 +914,7 @@
     "prix_gagnants": {
       "Senior Homme & Femme": {
         "finishers": [
-          "MÃ©daille Finisher",
+          "Médaille Finisher",
           "T-shirt officiel"
         ]
       }
@@ -924,7 +924,7 @@
     "id": 20,
     "slug": "trail-azro-nthor-42km-2026",
     "nom": "Trail Azro N'Thor 42,6 km 2026",
-    "description": "La 9áµ‰ Ã©dition du Trail Azro N'Thor propose un format long de 42,6 km avec 2 300 mD+, le vendredi 05 juin 2026 au village de Tirourda, dans le massif du Djurdjura.\n\nCe parcours exigeant emmÃ¨ne les coureurs au cÅ“ur des montagnes de Kabylie, sur des sentiers techniques et panoramiques, offrant une expÃ©rience immersive dans une nature sauvage et prÃ©servÃ©e.\n\nUn dÃ©fi sportif intense dans un cadre exceptionnel.\n\nâš ï¸ Inscriptions exclusivement en ligne (paiement inclus).\nPlaces limitÃ©es : premier arrivÃ©, premier servi.",
+    "description": "La 9ᵉ édition du Trail Azro N'Thor propose un format long de 42,6 km avec 2 300 mD+, le vendredi 05 juin 2026 au village de Tirourda, dans le massif du Djurdjura.\n\nCe parcours exigeant emmène les coureurs au cœur des montagnes de Kabylie, sur des sentiers techniques et panoramiques, offrant une expérience immersive dans une nature sauvage et préservée.\n\nUn défi sportif intense dans un cadre exceptionnel.\n\n⚠️ Inscriptions exclusivement en ligne (paiement inclus).\nPlaces limitées : premier arrivé, premier servi.",
     "date": "2026-06-05T07:30:00+01:00",
     "type": [
       1,
@@ -938,7 +938,7 @@
     "denivele_plus": 2300,
     "wilaya": 15,
     "commune": "Tirourda",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Athletics Club Gaya",
     "contact_numero": "+213554687089",
     "contact_email": "contact@acgaya.dz",
@@ -947,8 +947,8 @@
     "prix_inscription": "6000",
     "inscription_link": "https://acgaya.dz/",
     "conditions": [
-      "Ã‚ge minimum 18 ans",
-      "Certificat mÃ©dical de moins de 6 mois"
+      "Âge minimum 18 ans",
+      "Certificat médical de moins de 6 mois"
     ],
     "colors": {
       "background_color": "#2e251d",
@@ -958,7 +958,7 @@
     "prix_gagnants": {
       "Senior Homme & Femme": {
         "finishers": [
-          "MÃ©daille Finisher",
+          "Médaille Finisher",
           "T-shirt officiel"
         ]
       }
@@ -967,8 +967,8 @@
   {
     "id": 21,
     "slug": "national-populaire-tipasa-14km-2025",
-    "nom": "21Ã¨me Edition du National Populaire Tipasa 14 km 2025",
-    "description": "Dans le cadre des cÃ©lÃ©brations de la commÃ©moration des manifestations du 11 dÃ©cembre 2025, la Ligue Wilayale de Sport pour Tous organise, en coordination avec la FÃ©dÃ©ration AlgÃ©rienne du Sport pour Tous et sous la supervision de la Direction de la Jeunesse et des Sports de Tipasa, la 21Ã¨me Ã©dition du National Populaire sur une distance de 14 km. Le parcours suit la Route Nationale 11 entre Tipasa et El Nador, offrant une expÃ©rience sportive sur route pour tous les participants. Le dÃ©part se fera le 13 dÃ©cembre 2025 Ã  partir de 07:00.",
+    "nom": "21ème Edition du National Populaire Tipasa 14 km 2025",
+    "description": "Dans le cadre des célébrations de la commémoration des manifestations du 11 décembre 2025, la Ligue Wilayale de Sport pour Tous organise, en coordination avec la Fédération Algérienne du Sport pour Tous et sous la supervision de la Direction de la Jeunesse et des Sports de Tipasa, la 21ème édition du National Populaire sur une distance de 14 km. Le parcours suit la Route Nationale 11 entre Tipasa et El Nador, offrant une expérience sportive sur route pour tous les participants. Le départ se fera le 13 décembre 2025 à partir de 07:00.",
     "date": "2025-12-13T07:00:00+01:00",
     "type": [
       0,
@@ -977,7 +977,7 @@
     "distance": "14",
     "wilaya": 42,
     "commune": "Tipaza",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "DJS Tipaza",
     "contact_numero": "+213661719281",
     "contact_email": "",
@@ -986,7 +986,7 @@
     "prix_inscription": "Gratuit",
     "inscription_link": "https://sport.tipasa.net/",
     "conditions": [
-      "Ã‚ge minimum 18 ans"
+      "Âge minimum 18 ans"
     ],
     "colors": {
       "background_color": "#1e244a",
@@ -997,7 +997,7 @@
       "Senior Homme & Femme": {
         "finishers": [
           "Maillot officiel",
-          "MÃ©daille de participation"
+          "Médaille de participation"
         ]
       }
     }
@@ -1005,8 +1005,8 @@
   {
     "id": 22,
     "slug": "course-commemorative-tizi-ouzou-5km-2025",
-    "nom": "Course CommÃ©morative 5 km Tizi Ouzou 2025",
-    "description": "Ã€ l'occasion du 65Ã¨me anniversaire des manifestations du 11 dÃ©cembre 1960, la wilaya de Tizi Ouzou organise une course populaire sur route de 5 km. Cet Ã©vÃ©nement rend hommage Ã  un moment historique de la RÃ©volution algÃ©rienne et cÃ©lÃ¨bre l'unitÃ© et la dÃ©termination du peuple algÃ©rien pour l'indÃ©pendance. Le parcours se dÃ©roule sur route, adaptÃ© Ã  tous les participants, et le dÃ©part est prÃ©vu dans la matinÃ©e du 11 dÃ©cembre 2025.",
+    "nom": "Course Commémorative 5 km Tizi Ouzou 2025",
+    "description": "À l'occasion du 65ème anniversaire des manifestations du 11 décembre 1960, la wilaya de Tizi Ouzou organise une course populaire sur route de 5 km. Cet événement rend hommage à un moment historique de la Révolution algérienne et célèbre l'unité et la détermination du peuple algérien pour l'indépendance. Le parcours se déroule sur route, adapté à tous les participants, et le départ est prévu dans la matinée du 11 décembre 2025.",
     "date": "2025-12-11T08:00:00+01:00",
     "type": [
       0,
@@ -1016,7 +1016,7 @@
     "distance": "5",
     "wilaya": 15,
     "commune": "Tizi Ouzou",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Wilaya de Tizi Ouzou",
     "contact_numero": "",
     "contact_email": "",
@@ -1035,8 +1035,8 @@
   {
     "id": 23,
     "slug": "course-commemorative-mohand-oulhadj-bouzeguen-2025",
-    "nom": "Course CommÃ©morative Colonel Akli Mokrane 2025",
-    "description": "Ã€ l'occasion de la commÃ©moration du 53áµ‰ anniversaire du dÃ©cÃ¨s du Colonel Akli Mokrane, dit Mohand Oulhadj, symbole de la RÃ©volution algÃ©rienne et Chef de la Wilaya III, la commune de Bouzeguen organise une course populaire. Cet Ã©vÃ©nement rend hommage Ã  son engagement et Ã  son rÃ´le historique dans la lutte pour l'indÃ©pendance. Le dÃ©part de la course est prÃ©vu Ã  8h00 et le parcours se dÃ©roule sur route, adaptÃ© Ã  tous les participants.",
+    "nom": "Course Commémorative Colonel Akli Mokrane 2025",
+    "description": "À l'occasion de la commémoration du 53ᵉ anniversaire du décès du Colonel Akli Mokrane, dit Mohand Oulhadj, symbole de la Révolution algérienne et Chef de la Wilaya III, la commune de Bouzeguen organise une course populaire. Cet événement rend hommage à son engagement et à son rôle historique dans la lutte pour l'indépendance. Le départ de la course est prévu à 8h00 et le parcours se déroule sur route, adapté à tous les participants.",
     "date": "2025-12-12T08:00:00+01:00",
     "type": [
       0,
@@ -1045,7 +1045,7 @@
     "distance": 21.097,
     "wilaya": 15,
     "commune": "Bouzeguen",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Commune de Bouzeguen",
     "contact_numero": "",
     "contact_email": "",
@@ -1054,8 +1054,8 @@
     "prix_inscription": "Gratuit",
     "inscription_link": "",
     "conditions": [
-      "Ouvert Ã  tous les participants adultes",
-      "Respecter les rÃ¨gles de sÃ©curitÃ© et les consignes de l'organisation"
+      "Ouvert à tous les participants adultes",
+      "Respecter les règles de sécurité et les consignes de l'organisation"
     ],
     "colors": {
       "background_color": "#1c4511",
@@ -1068,7 +1068,7 @@
     "id": 24,
     "slug": "trail-boumerdes-21km-2026",
     "nom": "Trail Boumerdes 21 km 2026",
-    "description": "Le Trail Boumerdes revient pour sa 2áµ‰ Ã©dition, organisÃ© par le Club des Aventuriers de Boumerdes sous la supervision de la Direction de la Jeunesse et des Sports. Cette course de 21 km traverse des vallÃ©es, des rochers et des sentiers Ã©troits, offrant un parcours variÃ© et exigeant, adaptÃ© aux standards internationaux. Le dÃ©part est prÃ©vu le 6 fÃ©vrier 2026 et le parcours met en valeur le potentiel touristique et naturel exceptionnel de la rÃ©gion de Boumerdes. Les participants recevront une mÃ©daille commÃ©morative spÃ©ciale de l'Ã©vÃ©nement.",
+    "description": "Le Trail Boumerdes revient pour sa 2ᵉ édition, organisé par le Club des Aventuriers de Boumerdes sous la supervision de la Direction de la Jeunesse et des Sports. Cette course de 21 km traverse des vallées, des rochers et des sentiers étroits, offrant un parcours varié et exigeant, adapté aux standards internationaux. Le départ est prévu le 6 février 2026 et le parcours met en valeur le potentiel touristique et naturel exceptionnel de la région de Boumerdes. Les participants recevront une médaille commémorative spéciale de l'événement.",
     "date": "2026-02-06T08:00:00+01:00",
     "type": [
       1,
@@ -1079,7 +1079,7 @@
     "distance": 21,
     "wilaya": 35,
     "commune": "Boumerdes",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Club des Aventuriers de Boumerdes",
     "contact_numero": "",
     "contact_email": "",
@@ -1096,7 +1096,7 @@
     "prix_gagnants": {
       "Senior Homme & Femme": {
         "finishers": [
-          "MÃ©daille commÃ©morative spÃ©ciale"
+          "Médaille commémorative spéciale"
         ]
       }
     }
@@ -1104,8 +1104,8 @@
   {
     "id": 25,
     "slug": "semi-marathon-littoral-tigzirt-2025",
-    "nom": "Semi-Marathon du Littoral â€“ Tigzirt 2025",
-    "description": "La 4áµ‰ Ã©dition du Semi-Marathon du Littoral de Tigzirt rend hommage au dÃ©funt MEDJBER Mohammed, dit MOH 42. Cette course populaire propose un parcours de 12 km pour hommes et femmes, ouvert Ã  diffÃ©rentes catÃ©gories d'Ã¢ge : 18-35 ans, 36-45 ans, 46-55 ans et 56 ans et plus. Le dÃ©part est prÃ©vu le 27 dÃ©cembre 2025 Ã  8h00 depuis le stade communal de Tigzirt. Cet Ã©vÃ©nement met en avant la pratique sportive et l'esprit de dÃ©passement de soi, et vise Ã  devenir une tradition dans la rÃ©gion.",
+    "nom": "Semi-Marathon du Littoral – Tigzirt 2025",
+    "description": "La 4ᵉ édition du Semi-Marathon du Littoral de Tigzirt rend hommage au défunt MEDJBER Mohammed, dit MOH 42. Cette course populaire propose un parcours de 12 km pour hommes et femmes, ouvert à différentes catégories d'âge : 18-35 ans, 36-45 ans, 46-55 ans et 56 ans et plus. Le départ est prévu le 27 décembre 2025 à 8h00 depuis le stade communal de Tigzirt. Cet événement met en avant la pratique sportive et l'esprit de dépassement de soi, et vise à devenir une tradition dans la région.",
     "date": "2025-12-27T08:00:00+01:00",
     "type": [
       0
@@ -1113,8 +1113,8 @@
     "distance": 12,
     "wilaya": 15,
     "commune": "Tigzirt",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "AssemblÃ©e populaire communale de Tigzirt / CLT Tigzirt / Ligue d'AthlÃ©tisme de Tizi-Ouzou",
+    "pays": "Algérie",
+    "organisateur_nom": "Assemblée populaire communale de Tigzirt / CLT Tigzirt / Ligue d'Athlétisme de Tizi-Ouzou",
     "contact_numero": "+213555132365",
     "contact_email": "littoral1@hotmail.fr",
     "site_web": "",
@@ -1139,7 +1139,7 @@
           "Cadeaux"
         ],
         "finishers": [
-          "MÃ©daille et diplÃ´me de participation"
+          "Médaille et diplôme de participation"
         ]
       },
       "Homme & Femme (36-45)": {
@@ -1153,7 +1153,7 @@
           "Cadeaux"
         ],
         "finishers": [
-          "MÃ©daille et diplÃ´me de participation"
+          "Médaille et diplôme de participation"
         ]
       },
       "Homme & Femme (46-55)": {
@@ -1167,7 +1167,7 @@
           "Cadeaux"
         ],
         "finishers": [
-          "MÃ©daille et diplÃ´me de participation"
+          "Médaille et diplôme de participation"
         ]
       },
       "Homme & Femme (+56)": {
@@ -1181,7 +1181,7 @@
           "Cadeaux"
         ],
         "finishers": [
-          "MÃ©daille et diplÃ´me de participation"
+          "Médaille et diplôme de participation"
         ]
       }
     }
@@ -1189,8 +1189,8 @@
   {
     "id": 26,
     "slug": "defi-marche-longue-distance-boumerdes-2026",
-    "nom": "âŒ AnnulÃ© - DÃ©fi Marche Longue Distance â€“ BoumerdÃ¨s 2026",
-    "description": "âŒ Ã‰VÃ‰NEMENT ANNULÃ‰ PAR Lâ€™ORGANISATEUR\n\nLa 5áµ‰ Ã©dition du DÃ©fi Marche Longue Distance Ã  BoumerdÃ¨s devait se tenir le 3 avril 2026. Cet Ã©vÃ©nement sportif est destinÃ© aux participants expÃ©rimentÃ©s et vise Ã  dÃ©velopper et professionnaliser la pratique de la marche en montagne.\n\nLe parcours se dÃ©roule sur un circuit ouvert balisÃ©, Ã  travers quatre wilayas, avec des sections de niveau difficile Ã  moyen pour tester la rÃ©sistance et la condition physique des participants. L'Ã©vÃ©nement met l'accent sur l'endurance, la stratÃ©gie et la maÃ®trise des terrains montagneux.",
+    "nom": "❌ Annulé - Défi Marche Longue Distance – Boumerdès 2026",
+    "description": "❌ ÉVÉNEMENT ANNULÉ PAR L’ORGANISATEUR\n\nLa 5ᵉ édition du Défi Marche Longue Distance à Boumerdès devait se tenir le 3 avril 2026. Cet événement sportif est destiné aux participants expérimentés et vise à développer et professionnaliser la pratique de la marche en montagne.\n\nLe parcours se déroule sur un circuit ouvert balisé, à travers quatre wilayas, avec des sections de niveau difficile à moyen pour tester la résistance et la condition physique des participants. L'événement met l'accent sur l'endurance, la stratégie et la maîtrise des terrains montagneux.",
     "date": "2026-04-03T08:00:00+01:00",
     "type": [
       1,
@@ -1200,7 +1200,7 @@
     "denivele_plus": null,
     "wilaya": 35,
     "commune": "Boumerdes",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Adventurers Alma club for mountain sports and environnement protection",
     "contact_numero": "",
     "contact_email": "",
@@ -1219,8 +1219,8 @@
   {
     "id": 27,
     "slug": "kastal-trail-chrea-2025-15km",
-    "nom": "Kastal Trail ChrÃ©a 2025 â€“ 15 km",
-    "description": "Le Kastal Trail revient le samedi 27 dÃ©cembre 2025 Ã  ChrÃ©a (Blida). La distance de 15 km est destinÃ©e aux athlÃ¨tes confirmÃ©s. Le dÃ©part est prÃ©vu Ã  8h30. Les inscriptions s'effectuent en ligne Ã  partir du 11 dÃ©cembre 2025. Plus d'informations seront communiquÃ©es prochainement.",
+    "nom": "Kastal Trail Chréa 2025 – 15 km",
+    "description": "Le Kastal Trail revient le samedi 27 décembre 2025 à Chréa (Blida). La distance de 15 km est destinée aux athlètes confirmés. Le départ est prévu à 8h30. Les inscriptions s'effectuent en ligne à partir du 11 décembre 2025. Plus d'informations seront communiquées prochainement.",
     "date": "2025-12-27T08:30:00+01:00",
     "type": [
       1,
@@ -1231,8 +1231,8 @@
     "distance": 15,
     "denivele_plus": null,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Kastal Trail",
     "contact_numero": "",
     "contact_email": "guedouali.mohamed@gmail.com",
@@ -1249,7 +1249,7 @@
     "prix_gagnants": {
       "Tous": {
         "finishers": [
-          "MÃ©daille de participation"
+          "Médaille de participation"
         ]
       }
     }
@@ -1257,8 +1257,8 @@
   {
     "id": 28,
     "slug": "kastal-trail-chrea-2025-6km",
-    "nom": "Kastal Trail ChrÃ©a 2025 â€“ 6 km",
-    "description": "Le Kastal Trail propose Ã©galement un parcours de 6 km ouvert aux familles et aux institutions, le samedi 27 dÃ©cembre 2025 Ã  ChrÃ©a (Blida). Le dÃ©part est prÃ©vu Ã  8h30. Les inscriptions se feront en ligne Ã  partir du 11 dÃ©cembre 2025.",
+    "nom": "Kastal Trail Chréa 2025 – 6 km",
+    "description": "Le Kastal Trail propose également un parcours de 6 km ouvert aux familles et aux institutions, le samedi 27 décembre 2025 à Chréa (Blida). Le départ est prévu à 8h30. Les inscriptions se feront en ligne à partir du 11 décembre 2025.",
     "date": "2025-12-27T08:30:00+01:00",
     "type": [
       1,
@@ -1269,8 +1269,8 @@
     "distance": 6,
     "denivele_plus": null,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Kastal Trail",
     "contact_numero": "",
     "contact_email": "guedouali.mohamed@gmail.com",
@@ -1287,7 +1287,7 @@
     "prix_gagnants": {
       "Tous": {
         "finishers": [
-          "MÃ©daille de participation"
+          "Médaille de participation"
         ]
       }
     }
@@ -1295,8 +1295,8 @@
   {
     "id": 29,
     "slug": "assirem-course-tazmalt-2026",
-    "nom": "Assirem Course â€“ Tazmalt 2026",
-    "description": "La 8áµ‰ Ã©dition de lâ€™Assirem Course se dÃ©roulera le samedi 10 janvier 2026 dans la commune de Tazmalt, wilaya de BÃ©jaÃ¯a. Cette manifestation sportive emblÃ©matique rassemble des coureurs venus de plusieurs wilayas dans un esprit de dÃ©fi, de passion et de fair-play. Lâ€™Ã©vÃ©nement offre une organisation complÃ¨te incluant hÃ©bergement, restauration, sÃ©curitÃ© et rÃ©compenses, tout en mettant en valeur le cadre naturel et lâ€™accueil chaleureux de Tazmalt.",
+    "nom": "Assirem Course – Tazmalt 2026",
+    "description": "La 8ᵉ édition de l’Assirem Course se déroulera le samedi 10 janvier 2026 dans la commune de Tazmalt, wilaya de Béjaïa. Cette manifestation sportive emblématique rassemble des coureurs venus de plusieurs wilayas dans un esprit de défi, de passion et de fair-play. L’événement offre une organisation complète incluant hébergement, restauration, sécurité et récompenses, tout en mettant en valeur le cadre naturel et l’accueil chaleureux de Tazmalt.",
     "date": "2026-01-10T09:30:00+01:00",
     "type": [
       0
@@ -1305,8 +1305,8 @@
     "denivele_plus": null,
     "wilaya": 6,
     "commune": "Tazmalt",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "ComitÃ© dâ€™organisation Assirem Tazmalt",
+    "pays": "Algérie",
+    "organisateur_nom": "Comité d’organisation Assirem Tazmalt",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "https://www.facebook.com/profile.php?id=61570643581506",
@@ -1314,10 +1314,10 @@
     "prix_inscription": 1500,
     "inscription_link": "https://docs.google.com/forms/d/e/1FAIpQLSdgdrY-xrJZOW-aYxF0RAe8M3CrCXkhneh_QOjTSWb9I80DfA/viewform?fbclid=IwY2xjawPErhJleHRuA2FlbQIxMABicmlkETFJNGpVaDVQa0lJUUdGN2Nwc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjy1utjPfBTrMSiCTyazco9MWfDeuPBCPBAxRIvI0n_bhRMILNB8BILaAvn5_aem_tx1L34ttxK2EfShgXq2T-w",
     "conditions": [
-      "Remplir le formulaire avec soin et en caractÃ¨res latins",
-      "Les documents et photos doivent Ãªtre clairs et lisibles",
-      "Le reÃ§u de paiement doit Ãªtre au nom du participant",
-      "Les paiements collectifs ne sont pas acceptÃ©s"
+      "Remplir le formulaire avec soin et en caractères latins",
+      "Les documents et photos doivent être clairs et lisibles",
+      "Le reçu de paiement doit être au nom du participant",
+      "Les paiements collectifs ne sont pas acceptés"
     ],
     "colors": {
       "background_color": "#2f3d2c",
@@ -1325,7 +1325,7 @@
       "accent_color": "#6fa34d"
     },
     "prix_gagnants": {
-      "GÃ©nÃ©ral Homme": {
+      "Général Homme": {
         "1er": [
           "30000"
         ],
@@ -1342,12 +1342,12 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "Certificat de participation",
           "T-shirt"
         ]
       },
-      "GÃ©nÃ©ral Femme": {
+      "Général Femme": {
         "1er": [
           "30000"
         ],
@@ -1364,7 +1364,7 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "Certificat de participation",
           "T-shirt"
         ]
@@ -1374,8 +1374,8 @@
   {
     "id": 30,
     "slug": "semi-marathon-calama-guelma-2026",
-    "nom": "Semi-Marathon Calama â€“ Guelma 2026",
-    "description": "Le Semi-Marathon Calama 2026 est organisÃ© par lâ€™association Running Club Calama de la wilaya de Guelma. Cette Ã©preuve de 21 km se dÃ©roulera le vendredi 08 mai 2026. Les dÃ©tails concernant le parcours, les inscriptions et les rÃ©compenses seront communiquÃ©s ultÃ©rieurement via la page officielle de lâ€™association.",
+    "nom": "Semi-Marathon Calama – Guelma 2026",
+    "description": "Le Semi-Marathon Calama 2026 est organisé par l’association Running Club Calama de la wilaya de Guelma. Cette épreuve de 21 km se déroulera le vendredi 08 mai 2026. Les détails concernant le parcours, les inscriptions et les récompenses seront communiqués ultérieurement via la page officielle de l’association.",
     "date": "2026-05-08T08:00:00+01:00",
     "type": [
       0,
@@ -1385,8 +1385,8 @@
     "denivele_plus": null,
     "wilaya": 24,
     "commune": "Guelma",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Running Club Calama â€“ Guelma",
+    "pays": "Algérie",
+    "organisateur_nom": "Running Club Calama – Guelma",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "",
@@ -1404,8 +1404,8 @@
   {
     "id": 31,
     "slug": "course-10km-calama-guelma-2026",
-    "nom": "Course 10 km Calama â€“ Guelma 2026",
-    "description": "La Course 10 km Calama 2026 se tiendra le vendredi 08 mai 2026 dans la wilaya de Guelma. OrganisÃ©e par lâ€™association Running Club Calama, cette Ã©preuve est ouverte aux coureurs souhaitant relever un dÃ©fi accessible et dynamique. Les informations dÃ©taillÃ©es concernant lâ€™organisation seront annoncÃ©es ultÃ©rieurement sur la page officielle de lâ€™association.",
+    "nom": "Course 10 km Calama – Guelma 2026",
+    "description": "La Course 10 km Calama 2026 se tiendra le vendredi 08 mai 2026 dans la wilaya de Guelma. Organisée par l’association Running Club Calama, cette épreuve est ouverte aux coureurs souhaitant relever un défi accessible et dynamique. Les informations détaillées concernant l’organisation seront annoncées ultérieurement sur la page officielle de l’association.",
     "date": "2026-05-08T08:00:00+01:00",
     "type": [
       0,
@@ -1415,8 +1415,8 @@
     "denivele_plus": null,
     "wilaya": 24,
     "commune": "Guelma",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Running Club Calama â€“ Guelma",
+    "pays": "Algérie",
+    "organisateur_nom": "Running Club Calama – Guelma",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "",
@@ -1435,7 +1435,7 @@
     "id": 32,
     "slug": "darguina-bejaia-2026",
     "nom": "10K Darguina 2026",
-    "description": "La Course Janvier 2026 se dÃ©roulera le samedi 10 janvier 2026 dans la commune de Darguina, wilaya de BÃ©jaÃ¯a. Cette course sur route de 10 km rassemble des coureurs de diffÃ©rents niveaux dans une ambiance sportive et conviviale. Lâ€™Ã©vÃ©nement vise Ã  promouvoir la pratique du sport et lâ€™esprit de compÃ©tition dans la rÃ©gion.",
+    "description": "La Course Janvier 2026 se déroulera le samedi 10 janvier 2026 dans la commune de Darguina, wilaya de Béjaïa. Cette course sur route de 10 km rassemble des coureurs de différents niveaux dans une ambiance sportive et conviviale. L’événement vise à promouvoir la pratique du sport et l’esprit de compétition dans la région.",
     "date": "2026-01-10T09:30:00+01:00",
     "type": [
       0,
@@ -1445,7 +1445,7 @@
     "denivele_plus": null,
     "wilaya": 6,
     "commune": "Darguina",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Commune de Darguina",
     "contact_numero": "+213770286181",
     "contact_email": "",
@@ -1504,7 +1504,7 @@
           "5000"
         ]
       },
-      "Participant le(a) plus agÃ©(e)": {
+      "Participant le(a) plus agé(e)": {
         "finishers": [
           "5000"
         ]
@@ -1514,8 +1514,8 @@
   {
     "id": 33,
     "slug": "semi-marathon-didouche-mourad-aghribs-2026",
-    "nom": "Semi-Marathon Didouche Mourad â€“ Aghribs 2026",
-    "description": "La 4áµ‰ Ã©dition du Semi-Marathon Didouche Mourad se dÃ©roulera le vendredi 16 janvier 2026 Ã  partir de 08h30 au chef-lieu de la commune dâ€™Aghribs (Agouni Oucherki), wilaya de Tizi Ouzou. Cet Ã©vÃ©nement sportif est organisÃ© Ã  lâ€™occasion de la commÃ©moration du 70áµ‰ anniversaire du dÃ©cÃ¨s du Chahid Didouche Mourad, hÃ©ros emblÃ©matique de la RÃ©volution algÃ©rienne. Un rendez-vous sportif incontournable rÃ©unissant coureurs, clubs et passionnÃ©s dans un esprit de mÃ©moire, de sport et de fraternitÃ©.",
+    "nom": "Semi-Marathon Didouche Mourad – Aghribs 2026",
+    "description": "La 4ᵉ édition du Semi-Marathon Didouche Mourad se déroulera le vendredi 16 janvier 2026 à partir de 08h30 au chef-lieu de la commune d’Aghribs (Agouni Oucherki), wilaya de Tizi Ouzou. Cet événement sportif est organisé à l’occasion de la commémoration du 70ᵉ anniversaire du décès du Chahid Didouche Mourad, héros emblématique de la Révolution algérienne. Un rendez-vous sportif incontournable réunissant coureurs, clubs et passionnés dans un esprit de mémoire, de sport et de fraternité.",
     "date": "2026-04-03T08:30:00+01:00",
     "type": [
       0,
@@ -1525,7 +1525,7 @@
     "denivele_plus": null,
     "wilaya": 15,
     "commune": "Aghribs",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Askabylie Runners",
     "contact_numero": "+213697602574",
     "contact_email": "askabylierunners@gmail.com",
@@ -1535,8 +1535,8 @@
     "inscription_link": "https://docs.google.com/forms/d/11FcHvnWlO7NmB33tVTEcv7V2cVgOkbYl6P5I5FIse0U/viewform?fbclid=IwY2xjawPEtaRleHRuA2FlbQIxMABicmlkETFsa3d5Mm9DdUM3aU9uSzRKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHviOa6DLC1CbTJtZziuiPbVWyuzGqQqeDsP5AeI3x35Q4mlV5IEBirLInQx1_aem_sYb-BK4PBIYs7Ye3e02oqw&edit_requested=true",
     "conditions": [
       "Inscription obligatoire en ligne",
-      "Les places sont limitÃ©es",
-      "Confirmation de lâ€™inscription aprÃ¨s paiement",
+      "Les places sont limitées",
+      "Confirmation de l’inscription après paiement",
       "Versement via CCP ou BaridiMob uniquement"
     ],
     "colors": {
@@ -1549,8 +1549,8 @@
   {
     "id": 34,
     "slug": "cross-tidiket-20km-ain-salah-2026",
-    "nom": "Cross Tidiket â€“ Ain Salah 20 km",
-    "description": "Le Cross Tidiket 20 km se dÃ©roulera le lundi 12 janvier 2026 Ã  Ain Salah dans le cadre de la Grande Aventure Sportive au Sahara. Il sâ€™agit de la 1Ê³áµ‰ Ã©dition de cette course nature emblÃ©matique du Tidiket, mettant en valeur lâ€™endurance, la rÃ©sistance et le patrimoine naturel du Sud algÃ©rien.\n\nðŸ”— Course liÃ©e : [Course du Hoggar â€“ 15 km](/courses/course-du-hoggar-15km-tamanrasset-2026)",
+    "nom": "Cross Tidiket – Ain Salah 20 km",
+    "description": "Le Cross Tidiket 20 km se déroulera le lundi 12 janvier 2026 à Ain Salah dans le cadre de la Grande Aventure Sportive au Sahara. Il s’agit de la 1ʳᵉ édition de cette course nature emblématique du Tidiket, mettant en valeur l’endurance, la résistance et le patrimoine naturel du Sud algérien.\n\n🔗 Course liée : [Course du Hoggar – 15 km](/courses/course-du-hoggar-15km-tamanrasset-2026)",
     "date": "2026-01-12T09:00:00+01:00",
     "type": [
       1,
@@ -1563,8 +1563,8 @@
     "denivele_plus": null,
     "wilaya": 53,
     "commune": "Ain Salah",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "FÃ©dÃ©ration AlgÃ©rienne de Sport et Travail (FAST)",
+    "pays": "Algérie",
+    "organisateur_nom": "Fédération Algérienne de Sport et Travail (FAST)",
     "contact_numero": "+21323147340",
     "contact_email": "federation@fast.dz",
     "site_web": "https://www.fast.dz/",
@@ -1572,9 +1572,9 @@
     "prix_inscription": "30400",
     "inscription_link": "https://www.fast.dz/%d8%a7%d9%84%d9%85%d8%ba%d8%a7%d9%85%d8%b1%d8%a9-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%83%d8%a8%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d9%86%d9%88%d8%a8/?fbclid=IwY2xjawPEuGFleHRuA2FlbQIxMABicmlkETFsa3d5Mm9DdUM3aU9uSzRKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmblJWjnMDfVvpoBjtps9XSlce2wyBAo4jIxB1z2WRHdrzcuK0jAlstseQ-7_aem_dzaF8Xi7IW2eaClU7VeS0g",
     "conditions": [
-      "Course rÃ©servÃ©e aux participants inscrits Ã  lâ€™Ã©vÃ©nement principal",
+      "Course réservée aux participants inscrits à l’événement principal",
       "Bonne condition physique requise",
-      "Respect du rÃ¨glement technique de la FAST"
+      "Respect du règlement technique de la FAST"
     ],
     "colors": {
       "background_color": "#61533B",
@@ -1586,8 +1586,8 @@
   {
     "id": 35,
     "slug": "course-du-hoggar-15km-tamanrasset-2026",
-    "nom": "Course du Hoggar â€“ Tamanrasset 15 km",
-    "description": "La Course du Hoggar 15 km se dÃ©roulera le jeudi 15 janvier 2026 Ã  Tamanrasset, dans le cadre de la Grande Aventure Sportive au Sahara. Cette Ã©preuve de trail met en valeur les paysages majestueux du massif du Hoggar et sâ€™inscrit dans une dynamique de sport, dÃ©couverte et valorisation touristique.\n\nðŸ”— Course liÃ©e : [Cross Tidiket â€“ 20 km](/courses/cross-tidiket-20km-ain-salah-2026)",
+    "nom": "Course du Hoggar – Tamanrasset 15 km",
+    "description": "La Course du Hoggar 15 km se déroulera le jeudi 15 janvier 2026 à Tamanrasset, dans le cadre de la Grande Aventure Sportive au Sahara. Cette épreuve de trail met en valeur les paysages majestueux du massif du Hoggar et s’inscrit dans une dynamique de sport, découverte et valorisation touristique.\n\n🔗 Course liée : [Cross Tidiket – 20 km](/courses/cross-tidiket-20km-ain-salah-2026)",
     "date": "2026-01-15T09:00:00+01:00",
     "type": [
       1,
@@ -1600,8 +1600,8 @@
     "denivele_plus": null,
     "wilaya": 11,
     "commune": "Tamanrasset",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "FÃ©dÃ©ration AlgÃ©rienne de Sport et Travail (FAST)",
+    "pays": "Algérie",
+    "organisateur_nom": "Fédération Algérienne de Sport et Travail (FAST)",
     "contact_numero": "+21323147340",
     "contact_email": "federation@fast.dz",
     "site_web": "https://www.fast.dz/",
@@ -1609,9 +1609,9 @@
     "prix_inscription": "30400",
     "inscription_link": "https://www.fast.dz/%d8%a7%d9%84%d9%85%d8%ba%d8%a7%d9%85%d8%b1%d8%a9-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%83%d8%a8%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d9%86%d9%88%d8%a8/?fbclid=IwY2xjawPEuGFleHRuA2FlbQIxMABicmlkETFsa3d5Mm9DdUM3aU9uSzRKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmblJWjnMDfVvpoBjtps9XSlce2wyBAo4jIxB1z2WRHdrzcuK0jAlstseQ-7_aem_dzaF8Xi7IW2eaClU7VeS0g",
     "conditions": [
-      "Course rÃ©servÃ©e aux participants inscrits Ã  lâ€™Ã©vÃ©nement principal",
+      "Course réservée aux participants inscrits à l’événement principal",
       "Bonne condition physique requise",
-      "Respect du rÃ¨glement technique de la FAST"
+      "Respect du règlement technique de la FAST"
     ],
     "colors": {
       "background_color": "#61533B",
@@ -1623,8 +1623,8 @@
   {
     "id": 36,
     "slug": "championnat-alger-cross-country-2026",
-    "nom": "Championnat de la Wilaya d'Alger â€“ Cross Country Jeunes",
-    "description": "La FÃ©dÃ©ration AlgÃ©rienne d'AthlÃ©tisme et la Direction de la Jeunesse et des Sports d'Alger organisent le Championnat de la Wilaya d'Alger de Cross Country pour les jeunes, dans le cadre de la 3áµ‰ Ã©tape du Challenge Cross Country Jeunes.\n\nðŸ“… Date : Samedi 3 janvier 2026\nðŸ•˜ Heure : 09h00\nðŸ“ Lieu : Domaine de Bouchawi, Alger\n\nâš ï¸ Participation rÃ©servÃ©e aux jeunes dÃ©tenteurs d'une licence sportive 2025-2026 et d'un numÃ©ro d'inscription attribuÃ© par la FÃ©dÃ©ration.\n\nðŸ“ Inscription obligatoire pour les sportifs sans numÃ©ro d'identification avant le mardi 30 dÃ©cembre 2025 via : [http://dzweblicence.com/faa](http://dzweblicence.com/faa)\n\nðŸ“„ DonnÃ©es techniques : [Fiche technique](https://drive.google.com/.../1rBfjFi_mA_jdTdOam.../view...)\n\nðŸ“ž Contact : LAA 044171771\n\nBonne chance Ã  tous les participants ! ðŸ‡©ðŸ‡¿",
+    "nom": "Championnat de la Wilaya d'Alger – Cross Country Jeunes",
+    "description": "La Fédération Algérienne d'Athlétisme et la Direction de la Jeunesse et des Sports d'Alger organisent le Championnat de la Wilaya d'Alger de Cross Country pour les jeunes, dans le cadre de la 3ᵉ étape du Challenge Cross Country Jeunes.\n\n📅 Date : Samedi 3 janvier 2026\n🕘 Heure : 09h00\n📍 Lieu : Domaine de Bouchawi, Alger\n\n⚠️ Participation réservée aux jeunes détenteurs d'une licence sportive 2025-2026 et d'un numéro d'inscription attribué par la Fédération.\n\n📝 Inscription obligatoire pour les sportifs sans numéro d'identification avant le mardi 30 décembre 2025 via : [http://dzweblicence.com/faa](http://dzweblicence.com/faa)\n\n📄 Données techniques : [Fiche technique](https://drive.google.com/.../1rBfjFi_mA_jdTdOam.../view...)\n\n📞 Contact : LAA 044171771\n\nBonne chance à tous les participants ! 🇩🇿",
     "date": "2026-01-03T09:00:00+01:00",
     "type": [
       11
@@ -1633,8 +1633,8 @@
     "denivele_plus": null,
     "wilaya": 16,
     "commune": "Alger",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "RABAT / FÃ©dÃ©ration AlgÃ©rienne d'AthlÃ©tisme & Direction de la Jeunesse et des Sports d'Alger",
+    "pays": "Algérie",
+    "organisateur_nom": "RABAT / Fédération Algérienne d'Athlétisme & Direction de la Jeunesse et des Sports d'Alger",
     "contact_numero": "+21344171771",
     "contact_email": "",
     "site_web": "http://dzweblicence.com/faa",
@@ -1643,8 +1643,8 @@
     "inscription_link": "http://dzweblicence.com/faa",
     "conditions": [
       "Licence sportive 2025-2026 obligatoire",
-      "NumÃ©ro d'inscription attribuÃ© par la FÃ©dÃ©ration",
-      "Inscription obligatoire pour les sportifs sans numÃ©ro avant le 30 dÃ©cembre 2025"
+      "Numéro d'inscription attribué par la Fédération",
+      "Inscription obligatoire pour les sportifs sans numéro avant le 30 décembre 2025"
     ],
     "colors": {
       "background_color": "#28421D",
@@ -1656,8 +1656,8 @@
   {
     "id": 37,
     "slug": "trail-chrea-2026-extreme-printemps",
-    "nom": "Trail ChrÃ©a 2026 â€“ Extreme Trail Printemps",
-    "description": "ðŸŒ¸ **Trail ChrÃ©a 2026 â€“ Extreme Trail**\n\nQuand la montagne devient un **vÃ©ritable dÃ©fi**. Le **vendredi 01 mai 2026**, le massif de ChrÃ©a accueillera lâ€™Ã©preuve la plus exigeante de lâ€™annÃ©e : lâ€™**Extreme Trail +40 km**.\n\nDestinÃ©e aux traileurs expÃ©rimentÃ©s, cette course mettra Ã  lâ€™Ã©preuve lâ€™endurance physique et mentale Ã  travers des **montÃ©es sÃ©vÃ¨res**, des **descentes techniques**, des **franchissements dâ€™oueds** et des sentiers sauvages du **parc national de ChrÃ©a**.\n\nâš ï¸ Une course oÃ¹ **seule lâ€™Ã©lite atteint la ligne dâ€™arrivÃ©e**.\n\n**Ã‰preuve :**\n- Extreme Trail **+40 km**\n\n**CatÃ©gories :** Hommes & Femmes (selon rÃ¨glement)\n\nOrganisÃ© par lâ€™**Association des Randonneurs Amateurs de la Ville des Roses â€“ GRAVIR**.",
+    "nom": "Trail Chréa 2026 – Extreme Trail Printemps",
+    "description": "🌸 **Trail Chréa 2026 – Extreme Trail**\n\nQuand la montagne devient un **véritable défi**. Le **vendredi 01 mai 2026**, le massif de Chréa accueillera l’épreuve la plus exigeante de l’année : l’**Extreme Trail +40 km**.\n\nDestinée aux traileurs expérimentés, cette course mettra à l’épreuve l’endurance physique et mentale à travers des **montées sévères**, des **descentes techniques**, des **franchissements d’oueds** et des sentiers sauvages du **parc national de Chréa**.\n\n⚠️ Une course où **seule l’élite atteint la ligne d’arrivée**.\n\n**Épreuve :**\n- Extreme Trail **+40 km**\n\n**Catégories :** Hommes & Femmes (selon règlement)\n\nOrganisé par l’**Association des Randonneurs Amateurs de la Ville des Roses – GRAVIR**.",
     "date": "2026-05-01T08:00:00+01:00",
     "type": [
       1,
@@ -1667,8 +1667,8 @@
     "distance": 40,
     "denivele_plus": 2000,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
     "contact_numero": "+213658430636",
     "contact_email": "gravirblida@gmail.com",
@@ -1676,7 +1676,7 @@
     "image": "/images/chreaTrail.jpg",
     "prix_inscription": "Inconnue",
     "conditions": [
-      "ExpÃ©rience en trail longue distance recommandÃ©e",
+      "Expérience en trail longue distance recommandée",
       "Bonne condition physique obligatoire"
     ],
     "colors": {
@@ -1689,8 +1689,8 @@
   {
     "id": 38,
     "slug": "trail-chrea-2026-15km-automne",
-    "nom": "Trail ChrÃ©a 2026 â€“ 15 km",
-    "description": "ðŸ‚ **Trail ChrÃ©a 2026 â€“ 15 km**\n\nLe **samedi 21 novembre 2026**, Trail ChrÃ©a revient pour sa saison dâ€™automne avec une distance idÃ©ale pour **dÃ©buter en trail** ou courir avec plaisir.\n\nUn parcours accessible mais authentique, Ã  travers les sentiers boisÃ©s et les reliefs modÃ©rÃ©s du **parc national de ChrÃ©a**.\n\n**Ã‰preuve :**\n- Trail **15 km** â€“ parfait pour une premiÃ¨re expÃ©rience en montagne.",
+    "nom": "Trail Chréa 2026 – 15 km",
+    "description": "🍂 **Trail Chréa 2026 – 15 km**\n\nLe **samedi 21 novembre 2026**, Trail Chréa revient pour sa saison d’automne avec une distance idéale pour **débuter en trail** ou courir avec plaisir.\n\nUn parcours accessible mais authentique, à travers les sentiers boisés et les reliefs modérés du **parc national de Chréa**.\n\n**Épreuve :**\n- Trail **15 km** – parfait pour une première expérience en montagne.",
     "date": "2026-11-21T09:00:00+01:00",
     "type": [
       1,
@@ -1699,8 +1699,8 @@
     "distance": 15,
     "denivele_plus": 500,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
     "contact_numero": "+213658430636",
     "contact_email": "gravirblida@gmail.com",
@@ -1708,7 +1708,7 @@
     "image": "/images/chreaTrail.jpg",
     "prix_inscription": "Inconnue",
     "conditions": [
-      "Ã‚ge minimum 18 ans"
+      "Âge minimum 18 ans"
     ],
     "colors": {
       "background_color": "#2b3826",
@@ -1720,8 +1720,8 @@
   {
     "id": 39,
     "slug": "trail-chrea-2026-24km-automne",
-    "nom": "Trail ChrÃ©a 2026 â€“ 24 km",
-    "description": "ðŸ‚ **Trail ChrÃ©a 2026 â€“ 24 km**\n\nUne distance emblÃ©matique alliant **plaisir et dÃ©fi**, idÃ©ale pour les traileurs intermÃ©diaires. Le parcours traverse les secteurs mythiques de ChrÃ©a avec un Ã©quilibre parfait entre technicitÃ© et endurance.\n\n**Ã‰preuve :**\n- Trail **24 km** â€“ le cÅ“ur de lâ€™esprit Trail ChrÃ©a.",
+    "nom": "Trail Chréa 2026 – 24 km",
+    "description": "🍂 **Trail Chréa 2026 – 24 km**\n\nUne distance emblématique alliant **plaisir et défi**, idéale pour les traileurs intermédiaires. Le parcours traverse les secteurs mythiques de Chréa avec un équilibre parfait entre technicité et endurance.\n\n**Épreuve :**\n- Trail **24 km** – le cœur de l’esprit Trail Chréa.",
     "date": "2026-11-21T09:00:00+01:00",
     "type": [
       1,
@@ -1731,8 +1731,8 @@
     "distance": 24,
     "denivele_plus": 900,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
     "contact_numero": "+213658430636",
     "contact_email": "gravirblida@gmail.com",
@@ -1740,7 +1740,7 @@
     "image": "/images/chreaTrail.jpg",
     "prix_inscription": "Inconnue",
     "conditions": [
-      "Ã‚ge minimum 18 ans"
+      "Âge minimum 18 ans"
     ],
     "colors": {
       "background_color": "#2b3826",
@@ -1752,8 +1752,8 @@
   {
     "id": 40,
     "slug": "trail-chrea-2026-40km-automne",
-    "nom": "Trail ChrÃ©a 2026 â€“ 40 km",
-    "description": "ðŸ‚ **Trail ChrÃ©a 2026 â€“ 40 km**\n\nUn vÃ©ritable **test dâ€™endurance et de volontÃ©**. Cette distance longue est destinÃ©e aux traileurs confirmÃ©s souhaitant repousser leurs limites dans un environnement montagneux exigeant.\n\n**Ã‰preuve :**\n- Trail **40 km** â€“ endurance, stratÃ©gie et mental.",
+    "nom": "Trail Chréa 2026 – 40 km",
+    "description": "🍂 **Trail Chréa 2026 – 40 km**\n\nUn véritable **test d’endurance et de volonté**. Cette distance longue est destinée aux traileurs confirmés souhaitant repousser leurs limites dans un environnement montagneux exigeant.\n\n**Épreuve :**\n- Trail **40 km** – endurance, stratégie et mental.",
     "date": "2026-11-21T09:00:00+01:00",
     "type": [
       1,
@@ -1763,8 +1763,8 @@
     "distance": 40,
     "denivele_plus": 1600,
     "wilaya": 9,
-    "commune": "ChrÃ©a",
-    "pays": "AlgÃ©rie",
+    "commune": "Chréa",
+    "pays": "Algérie",
     "organisateur_nom": "Association des Randonneurs Amateurs de la Ville des Roses GRAVIR",
     "contact_numero": "+213658430636",
     "contact_email": "gravirblida@gmail.com",
@@ -1772,7 +1772,7 @@
     "image": "/images/chreaTrail.jpg",
     "prix_inscription": "Inconnue",
     "conditions": [
-      "ExpÃ©rience en trail requise",
+      "Expérience en trail requise",
       "Bonne condition physique obligatoire"
     ],
     "colors": {
@@ -1785,8 +1785,8 @@
   {
     "id": 41,
     "slug": "course-ville-jijel-10km-2026",
-    "nom": "Course de la Ville de Jijel â€“ 10 km (2áµ‰ Ã©dition)",
-    "description": "**Course de la Ville de Jijel â€“ 2áµ‰ Ã©dition**\n\nLa Course de la Ville de Jijel revient pour sa **deuxiÃ¨me Ã©dition** le **vendredi 10 avril 2026**, avec une Ã©preuve de **10 km** ouverte aux passionnÃ©s de course sur route.\n\nðŸ“ Le parcours reliera **la Porte du ConquÃ©rant (Kongador)** Ã  **la faÃ§ade maritime**, offrant aux coureurs un itinÃ©raire emblÃ©matique au cÅ“ur de la ville de Jijel.\n\nðŸƒâ€â™‚ï¸ Une course qui met Ã  lâ€™honneur la **volontÃ©**, la **dÃ©termination** et lâ€™**esprit sportif**.\n\n**Message de lâ€™Ã©vÃ©nement :**\nCourir Ã  Jijel, ce nâ€™est pas seulement participer Ã  une courseâ€¦ câ€™est **raconter lâ€™histoire dâ€™une ville, de son identitÃ© et de son patrimoine**.\n\n**Valeurs portÃ©es par lâ€™Ã©vÃ©nement :**\n- Patience\n- Discipline\n- PersÃ©vÃ©rance\n- DÃ©termination\n\nðŸ“¢ Les dÃ©tails techniques ainsi que les modalitÃ©s dâ€™inscription seront communiquÃ©s prochainement.\n\n",
+    "nom": "Course de la Ville de Jijel – 10 km (2ᵉ édition)",
+    "description": "**Course de la Ville de Jijel – 2ᵉ édition**\n\nLa Course de la Ville de Jijel revient pour sa **deuxième édition** le **vendredi 10 avril 2026**, avec une épreuve de **10 km** ouverte aux passionnés de course sur route.\n\n📍 Le parcours reliera **la Porte du Conquérant (Kongador)** à **la façade maritime**, offrant aux coureurs un itinéraire emblématique au cœur de la ville de Jijel.\n\n🏃‍♂️ Une course qui met à l’honneur la **volonté**, la **détermination** et l’**esprit sportif**.\n\n**Message de l’événement :**\nCourir à Jijel, ce n’est pas seulement participer à une course… c’est **raconter l’histoire d’une ville, de son identité et de son patrimoine**.\n\n**Valeurs portées par l’événement :**\n- Patience\n- Discipline\n- Persévérance\n- Détermination\n\n📢 Les détails techniques ainsi que les modalités d’inscription seront communiqués prochainement.\n\n",
     "date": "2026-04-10T09:00:00+01:00",
     "type": [
       0,
@@ -1796,8 +1796,8 @@
     "denivele_plus": null,
     "wilaya": 18,
     "commune": "Jijel",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Club AthlÃ©tique de Jijel (CAJ)",
+    "pays": "Algérie",
+    "organisateur_nom": "Club Athlétique de Jijel (CAJ)",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "",
@@ -1815,8 +1815,8 @@
   {
     "id": 42,
     "slug": "cross-country-omar-ben-hablis-constantine-2026",
-    "nom": "Cross Country Omar Ben Hablis â€“ Constantine",
-    "description": "ðŸƒâ€â™‚ï¸ **Cross Country Omar Ben Hablis â€“ Constantine**\n\nLe **Cross Country Omar Ben Hablis** se dÃ©roulera le **samedi 31 janvier 2026** dans le cadre naturel de la **forÃªt dâ€™El Baouiya**, Ã  Constantine.\n\nCette manifestation sportive est organisÃ©e sous lâ€™Ã©gide du **MinistÃ¨re de la Jeunesse et des Sports**, avec la participation de la **Direction de la Jeunesse et des Sports de la Wilaya de Constantine**, de la **FÃ©dÃ©ration AlgÃ©rienne dâ€™AthlÃ©tisme** et de la **Ligue de Wilaya dâ€™AthlÃ©tisme de Constantine**.\n\nðŸŒ¿ Une course de **cross-country authentique**, ouverte Ã  lâ€™ensemble des athlÃ¨tes, mettant en valeur lâ€™endurance, la combativitÃ© et lâ€™esprit sportif dans un environnement naturel.\n\n**Participants :**\n- Tous les athlÃ¨tes (selon rÃ¨glement en vigueur)\n\n**Parrain officiel :**\n- Sonelgaz\n\nðŸ’ª Bonne chance Ã  tous les participants !",
+    "nom": "Cross Country Omar Ben Hablis – Constantine",
+    "description": "🏃‍♂️ **Cross Country Omar Ben Hablis – Constantine**\n\nLe **Cross Country Omar Ben Hablis** se déroulera le **samedi 31 janvier 2026** dans le cadre naturel de la **forêt d’El Baouiya**, à Constantine.\n\nCette manifestation sportive est organisée sous l’égide du **Ministère de la Jeunesse et des Sports**, avec la participation de la **Direction de la Jeunesse et des Sports de la Wilaya de Constantine**, de la **Fédération Algérienne d’Athlétisme** et de la **Ligue de Wilaya d’Athlétisme de Constantine**.\n\n🌿 Une course de **cross-country authentique**, ouverte à l’ensemble des athlètes, mettant en valeur l’endurance, la combativité et l’esprit sportif dans un environnement naturel.\n\n**Participants :**\n- Tous les athlètes (selon règlement en vigueur)\n\n**Parrain officiel :**\n- Sonelgaz\n\n💪 Bonne chance à tous les participants !",
     "date": "2026-01-31T08:30:00+01:00",
     "type": [
       11
@@ -1825,8 +1825,8 @@
     "denivele_plus": null,
     "wilaya": 25,
     "commune": "Constantine",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue de Wilaya dâ€™AthlÃ©tisme de Constantine & FÃ©dÃ©ration AlgÃ©rienne dâ€™AthlÃ©tisme",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue de Wilaya d’Athlétisme de Constantine & Fédération Algérienne d’Athlétisme",
     "contact_numero": "",
     "contact_email": "athletics.constantine@gmail.com",
     "site_web": "",
@@ -1844,8 +1844,8 @@
   {
     "id": 43,
     "slug": "festival-national-cross-country-chahid-chelda-boulnouar-tlemcen-2026",
-    "nom": "40áµ‰ Festival National de Cross Country Chahid Chelda Boulnouar",
-    "description": "ðŸ™Œ **40áµ‰ Festival National de Cross Country Chahid Chelda Boulnouar**\n\nLa **40áµ‰ Ã©dition** du Festival National de Cross Country **Chahid Chelda Boulnouar** se tiendra le **samedi 24 janvier 2026** dans la **wilaya de Tlemcen**.\n\nCet Ã©vÃ©nement sportif majeur est organisÃ© Ã  lâ€™occasion du **Championnat RÃ©gional de Cross Country â€“ RÃ©gion Ouest (Tlemcen)**, rassemblant les meilleurs athlÃ¨tes de la rÃ©gion dans une ambiance de compÃ©tition et de mÃ©moire.\n\nðŸƒâ€â™‚ï¸ Une manifestation qui honore la **mÃ©moire du chahid Chelda Boulnouar**, tout en promouvant les valeurs du **sport**, de la **discipline** et de la **persÃ©vÃ©rance** Ã  travers la pratique du cross-country.\n\nðŸ’ª Bonne chance Ã  tous les participants !",
+    "nom": "40ᵉ Festival National de Cross Country Chahid Chelda Boulnouar",
+    "description": "🙌 **40ᵉ Festival National de Cross Country Chahid Chelda Boulnouar**\n\nLa **40ᵉ édition** du Festival National de Cross Country **Chahid Chelda Boulnouar** se tiendra le **samedi 24 janvier 2026** dans la **wilaya de Tlemcen**.\n\nCet événement sportif majeur est organisé à l’occasion du **Championnat Régional de Cross Country – Région Ouest (Tlemcen)**, rassemblant les meilleurs athlètes de la région dans une ambiance de compétition et de mémoire.\n\n🏃‍♂️ Une manifestation qui honore la **mémoire du chahid Chelda Boulnouar**, tout en promouvant les valeurs du **sport**, de la **discipline** et de la **persévérance** à travers la pratique du cross-country.\n\n💪 Bonne chance à tous les participants !",
     "date": "2026-01-24T09:00:00+01:00",
     "type": [
       11
@@ -1854,8 +1854,8 @@
     "denivele_plus": null,
     "wilaya": 13,
     "commune": "Tlemcen",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue RÃ©gionale dâ€™AthlÃ©tisme â€“ RÃ©gion Ouest",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue Régionale d’Athlétisme – Région Ouest",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "",
@@ -1863,8 +1863,8 @@
     "prix_inscription": "Inconnue",
     "inscription_link": "",
     "conditions": [
-      "Respect du rÃ¨glement de la FÃ©dÃ©ration AlgÃ©rienne dâ€™AthlÃ©tisme",
-      "Licence sportive valide selon les catÃ©gories"
+      "Respect du règlement de la Fédération Algérienne d’Athlétisme",
+      "Licence sportive valide selon les catégories"
     ],
     "colors": {
       "background_color": "#71785d",
@@ -1876,8 +1876,8 @@
   {
     "id": 44,
     "slug": "course-nationale-route-khadr-nature-el-akhdaria-2026",
-    "nom": "Course Nationale sur Route â€“ Khadr Nature Pure (5áµ‰ Ã‰dition)",
-    "description": "ðŸƒâ€â™‚ï¸ðŸŒ¿ **Course Nationale sur Route â€“ Khadr Nature Pure**\n\nLa **5áµ‰ Ã©dition** de la Course Nationale sur Route *Khadr Nature Pure* se dÃ©roulera le **17 avril 2026** Ã  **El Akhdaria**, wilaya de **Bouira**.\n\nUn Ã©vÃ©nement sportif national rÃ©unissant des coureurs de diffÃ©rents niveaux dans une ambiance compÃ©titive et conviviale, visant Ã  promouvoir la pratique du sport et les valeurs dâ€™endurance et de fair-play.\n\nðŸŽ Chaque participant recevrÃ¡ un **t-shirt** et une **mÃ©daille** Ã  lâ€™arrivÃ©e.\n\nðŸ’ª Bonne chance Ã  tous les participants !",
+    "nom": "Course Nationale sur Route – Khadr Nature Pure (5ᵉ Édition)",
+    "description": "🏃‍♂️🌿 **Course Nationale sur Route – Khadr Nature Pure**\n\nLa **5ᵉ édition** de la Course Nationale sur Route *Khadr Nature Pure* se déroulera le **17 avril 2026** à **El Akhdaria**, wilaya de **Bouira**.\n\nUn événement sportif national réunissant des coureurs de différents niveaux dans une ambiance compétitive et conviviale, visant à promouvoir la pratique du sport et les valeurs d’endurance et de fair-play.\n\n🎁 Chaque participant recevrá un **t-shirt** et une **médaille** à l’arrivée.\n\n💪 Bonne chance à tous les participants !",
     "date": "2026-04-17T09:00:00+01:00",
     "type": [
       0
@@ -1886,8 +1886,8 @@
     "denivele_plus": null,
     "wilaya": 10,
     "commune": "El Akhdaria",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "ComitÃ© dâ€™Organisation Khadr Nature Pure",
+    "pays": "Algérie",
+    "organisateur_nom": "Comité d’Organisation Khadr Nature Pure",
     "contact_numero": "+213771095910",
     "contact_email": "",
     "site_web": "https://www.facebook.com/profile.php?id=61572293332123",
@@ -1901,7 +1901,7 @@
       "accent_color": "#8DBF3C"
     },
     "prix_gagnants": {
-      "Classement GÃ©nÃ©ral - Hommes": {
+      "Classement Général - Hommes": {
         "1er": [
           "70000"
         ],
@@ -1912,11 +1912,11 @@
           "50000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       },
-      "Classement GÃ©nÃ©ral - Femmes": {
+      "Classement Général - Femmes": {
         "1er": [
           "35000"
         ],
@@ -1927,7 +1927,7 @@
           "25000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       },
@@ -1942,7 +1942,7 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       },
@@ -1957,7 +1957,7 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       },
@@ -1972,7 +1972,7 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       },
@@ -1987,7 +1987,7 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       },
@@ -2002,7 +2002,7 @@
           "5000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       },
@@ -2017,14 +2017,14 @@
           "10000"
         ],
         "finishers": [
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       },
-      "Participant le(a) plus Ã¢gÃ©(e)": {
+      "Participant le(a) plus âgé(e)": {
         "finishers": [
           "5000",
-          "MÃ©daille de participation",
+          "Médaille de participation",
           "T-shirt"
         ]
       }
@@ -2034,7 +2034,7 @@
     "id": 45,
     "slug": "souhane-trail-21km-2026",
     "nom": "Souhane Trail 21 km 2026",
-    "description": "**Souhane Trail 21 km 2026**\n\nCette Ã©preuve de **trail de 21 km** propose un dÃ©fi sportif exigeant Ã  travers des sentiers montagneux offrant des paysages spectaculaires et une immersion totale en pleine nature.\n\nðŸŒ¿ Une aventure sportive authentique, ouverte aux coureurs hommes et femmes Ã¢gÃ©s de **16 Ã  99 ans**.\n\nðŸŽ½ Tous les participants bÃ©nÃ©ficieront dâ€™un **chronomÃ©trage professionnel**, de **rÃ©sultats en direct**, dâ€™un **service photo**, de **ravitaillements** et dâ€™un **certificat de participation**.\n\nâš ï¸ ClÃ´ture des inscriptions : **17 avril 2026 Ã  16h00** ou dÃ¨s que les places sont complÃ¨tes.",
+    "description": "**Souhane Trail 21 km 2026**\n\nCette épreuve de **trail de 21 km** propose un défi sportif exigeant à travers des sentiers montagneux offrant des paysages spectaculaires et une immersion totale en pleine nature.\n\n🌿 Une aventure sportive authentique, ouverte aux coureurs hommes et femmes âgés de **16 à 99 ans**.\n\n🎽 Tous les participants bénéficieront d’un **chronométrage professionnel**, de **résultats en direct**, d’un **service photo**, de **ravitaillements** et d’un **certificat de participation**.\n\n⚠️ Clôture des inscriptions : **17 avril 2026 à 16h00** ou dès que les places sont complètes.",
     "date": "2026-05-02T08:00:00+01:00",
     "type": [
       1,
@@ -2046,7 +2046,7 @@
     "denivele_plus": null,
     "wilaya": 9,
     "commune": "Souhane",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Adrenaline Bike L'Arbaa",
     "contact_numero": "",
     "contact_email": "souhanetrail@gmail.com",
@@ -2055,7 +2055,7 @@
     "prix_inscription": 3000,
     "inscription_link": "",
     "conditions": [
-      "Ã‚ge minimum 16 ans"
+      "Âge minimum 16 ans"
     ],
     "colors": {
       "background_color": "#1f3a2d",
@@ -2063,16 +2063,16 @@
       "accent_color": "#2e6b4a"
     },
     "prix_gagnants": {
-      "GÃ©nÃ©ral Hommes": {
+      "Général Hommes": {
         "finishers": [
           "Certificat de participation",
-          "ChronomÃ©trage officiel"
+          "Chronométrage officiel"
         ]
       },
-      "GÃ©nÃ©ral Femmes": {
+      "Général Femmes": {
         "finishers": [
           "Certificat de participation",
-          "ChronomÃ©trage officiel"
+          "Chronométrage officiel"
         ]
       }
     }
@@ -2081,7 +2081,7 @@
     "id": 46,
     "slug": "souhane-trail-5km-2026",
     "nom": "Souhane Trail 5 km 2026",
-    "description": "ðŸŒ¿ **Souhane Trail 5 km 2026**\n\nLe **Souhane Trail 2026** propose Ã©galement une **course rÃ©crÃ©ative de 5 km**, organisÃ©e le **samedi 18 avril 2026** Ã  **Souhane**, wilaya de **Blida**.\n\nIdÃ©al pour les coureurs dÃ©butants ou ceux souhaitant vivre une expÃ©rience sportive conviviale en pleine nature, ce format accessible permet de profiter des paysages montagneux dans une ambiance dynamique.\n\nðŸŽ½ Tous les participants bÃ©nÃ©ficieront dâ€™un **chronomÃ©trage professionnel**, de **rÃ©sultats en direct**, dâ€™un **service photo**, de **ravitaillements** et dâ€™un **certificat de participation**.\n\nâš ï¸ ClÃ´ture des inscriptions : **17 avril 2026 Ã  16h00** ou dÃ¨s que les places sont complÃ¨tes.",
+    "description": "🌿 **Souhane Trail 5 km 2026**\n\nLe **Souhane Trail 2026** propose également une **course récréative de 5 km**, organisée le **samedi 18 avril 2026** à **Souhane**, wilaya de **Blida**.\n\nIdéal pour les coureurs débutants ou ceux souhaitant vivre une expérience sportive conviviale en pleine nature, ce format accessible permet de profiter des paysages montagneux dans une ambiance dynamique.\n\n🎽 Tous les participants bénéficieront d’un **chronométrage professionnel**, de **résultats en direct**, d’un **service photo**, de **ravitaillements** et d’un **certificat de participation**.\n\n⚠️ Clôture des inscriptions : **17 avril 2026 à 16h00** ou dès que les places sont complètes.",
     "date": "2026-05-02T08:00:00+01:00",
     "type": [
       1,
@@ -2091,7 +2091,7 @@
     "denivele_plus": null,
     "wilaya": 9,
     "commune": "Souhane",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Adrenaline Bike L'Arbaa",
     "contact_numero": "",
     "contact_email": "souhanetrail@gmail.com",
@@ -2100,7 +2100,7 @@
     "prix_inscription": 3000,
     "inscription_link": "",
     "conditions": [
-      "Ã‚ge minimum 16 ans"
+      "Âge minimum 16 ans"
     ],
     "colors": {
       "background_color": "#1f3a2d",
@@ -2108,16 +2108,16 @@
       "accent_color": "#2e6b4a"
     },
     "prix_gagnants": {
-      "GÃ©nÃ©ral Hommes": {
+      "Général Hommes": {
         "finishers": [
           "Certificat de participation",
-          "ChronomÃ©trage officiel"
+          "Chronométrage officiel"
         ]
       },
-      "GÃ©nÃ©ral Femmes": {
+      "Général Femmes": {
         "finishers": [
           "Certificat de participation",
-          "ChronomÃ©trage officiel"
+          "Chronométrage officiel"
         ]
       }
     }
@@ -2125,8 +2125,8 @@
   {
     "id": 47,
     "slug": "semi-marathon-tamgout-freha-2026",
-    "nom": "Semi-Marathon Tamgout â€“ FrÃ©ha 2026",
-    "description": "ðŸƒâ€â™‚ï¸ **Semi-Marathon Tamgout â€“ FrÃ©ha 2026**\n\nLe **Semi-Marathon Tamgout 2026** se dÃ©roulera le **vendredi 24 avril 2026** Ã  **FrÃ©ha**, wilaya de **Tizi Ouzou**.\n\nCette course de **21,1 km** est ouverte aux **coureurs Ã¢gÃ©s de 18 ans et plus**.\n\nðŸ† Lâ€™Ã©vÃ©nement propose des **rÃ©compenses pour les gagnants selon les catÃ©gories**, et constitue une compÃ©tition officielle inscrite dans le **calendrier national des courses 2026**, servant Ã©galement de **sÃ©lection prÃ©liminaire pour certains athlÃ¨tes**.\n\nðŸŽ½ Tous les participants recevront un **t-shirt officiel de la course** et une **mÃ©daille souvenir**.\n\nðŸ’° **Frais dâ€™inscription : 1500 DA**.\n\nðŸ“… **Date limite dâ€™inscription : 31 mars 2026** (nombre de places limitÃ©).\n\nðŸ’³ Paiement via **CCP : 1201832 / ClÃ© 06**.\nâš ï¸ Paiement via **BaridiMob non acceptÃ©**.",
+    "nom": "Semi-Marathon Tamgout – Fréha 2026",
+    "description": "🏃‍♂️ **Semi-Marathon Tamgout – Fréha 2026**\n\nLe **Semi-Marathon Tamgout 2026** se déroulera le **vendredi 24 avril 2026** à **Fréha**, wilaya de **Tizi Ouzou**.\n\nCette course de **21,1 km** est ouverte aux **coureurs âgés de 18 ans et plus**.\n\n🏆 L’événement propose des **récompenses pour les gagnants selon les catégories**, et constitue une compétition officielle inscrite dans le **calendrier national des courses 2026**, servant également de **sélection préliminaire pour certains athlètes**.\n\n🎽 Tous les participants recevront un **t-shirt officiel de la course** et une **médaille souvenir**.\n\n💰 **Frais d’inscription : 1500 DA**.\n\n📅 **Date limite d’inscription : 31 mars 2026** (nombre de places limité).\n\n💳 Paiement via **CCP : 1201832 / Clé 06**.\n⚠️ Paiement via **BaridiMob non accepté**.",
     "date": "2026-04-24T08:30:00+01:00",
     "type": [
       0,
@@ -2135,8 +2135,8 @@
     "distance": 21.0975,
     "denivele_plus": null,
     "wilaya": 15,
-    "commune": "FrÃ©ha",
-    "pays": "AlgÃ©rie",
+    "commune": "Fréha",
+    "pays": "Algérie",
     "organisateur_nom": "Semi Marathon Tamgout",
     "contact_numero": "+213549143800",
     "contact_email": "marathoniens.freha@gmail.com",
@@ -2145,9 +2145,9 @@
     "prix_inscription": 1500,
     "inscription_link": "https://forms.gle/PuoQuT3pnx2ShiAJ7",
     "conditions": [
-      "Ã‚ge minimum 18 ans",
-      "Paiement via CCP : 1201832 / ClÃ© 06",
-      "Paiement via BaridiMob non acceptÃ©"
+      "Âge minimum 18 ans",
+      "Paiement via CCP : 1201832 / Clé 06",
+      "Paiement via BaridiMob non accepté"
     ],
     "colors": {
       "background_color": "#214d8a",
@@ -2155,16 +2155,16 @@
       "accent_color": "#042a5e"
     },
     "prix_gagnants": {
-      "GÃ©nÃ©ral Hommes": {
+      "Général Hommes": {
         "finishers": [
           "T-shirt de la course",
-          "MÃ©daille souvenir"
+          "Médaille souvenir"
         ]
       },
-      "GÃ©nÃ©ral Femmes": {
+      "Général Femmes": {
         "finishers": [
           "T-shirt de la course",
-          "MÃ©daille souvenir"
+          "Médaille souvenir"
         ]
       }
     }
@@ -2172,8 +2172,8 @@
   {
     "id": 48,
     "slug": "trail-ait-aissi-25km-2026",
-    "nom": "Trail AÃ¯t Aissi â€“ 1Ê³áµ‰ Ã‰dition",
-    "description": "ðŸŒ² **Trail AÃ¯t Aissi â€“ 1Ê³áµ‰ Ã‰dition**\n\nLe **Trail AÃ¯t Aissi 2026** se dÃ©roulera le **samedi 27 mars 2026 Ã  9h00** dans la wilaya de **Tizi Ouzou**.\n\nUne Ã©preuve de **25 km** sur un **parcours forestier** qui propose un dÃ©fi sportif pour les amateurs de trail et de nature.\n\nðŸ“… **ClÃ´ture des inscriptions : 22 mars 2026**.\n\nðŸ’° **Frais dâ€™inscription : 500 DA**\n\nðŸ“± Inscriptions via **WhatsApp** au numÃ©ro **0669333561**.\n\nVenez vivre une expÃ©rience sportive unique dans un cadre naturel exceptionnel !",
+    "nom": "Trail Aït Aissi – 1ʳᵉ Édition",
+    "description": "🌲 **Trail Aït Aissi – 1ʳᵉ Édition**\n\nLe **Trail Aït Aissi 2026** se déroulera le **samedi 27 mars 2026 à 9h00** dans la wilaya de **Tizi Ouzou**.\n\nUne épreuve de **25 km** sur un **parcours forestier** qui propose un défi sportif pour les amateurs de trail et de nature.\n\n📅 **Clôture des inscriptions : 22 mars 2026**.\n\n💰 **Frais d’inscription : 500 DA**\n\n📱 Inscriptions via **WhatsApp** au numéro **0669333561**.\n\nVenez vivre une expérience sportive unique dans un cadre naturel exceptionnel !",
     "date": "2026-03-27T09:00:00+01:00",
     "type": [
       1,
@@ -2183,9 +2183,9 @@
     "distance": 25,
     "denivele_plus": null,
     "wilaya": 15,
-    "commune": "AÃ¯t Aissi",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Collectif des Jeunes d'AÃ¯t Aissi",
+    "commune": "Aït Aissi",
+    "pays": "Algérie",
+    "organisateur_nom": "Collectif des Jeunes d'Aït Aissi",
     "contact_numero": "+213669333561",
     "contact_email": "",
     "site_web": "",
@@ -2203,8 +2203,8 @@
   {
     "id": 49,
     "slug": "semi-marathon-seddouk-2026",
-    "nom": "Semi-Marathon de Seddouk â€“ Cheikh Belhaddad",
-    "description": "ðŸƒâ€â™‚ï¸ **Semi-Marathon de Seddouk â€“ Cheikh Belhaddad 2026**\n\nLe **Semi-Marathon de Seddouk 2026** se dÃ©roulera le **10 avril 2026 Ã  8h00** Ã  **Seddouk**, wilaya de **BÃ©jaÃ¯a**, avec dÃ©part depuis le centre-ville.\n\nUne course de **21 km** ouverte aux **hommes et femmes** dans deux catÃ©gories : **Senior (18-35 ans)** et **VÃ©tÃ©ran (35 ans et plus)**.\n\nðŸ† **RÃ©compenses :** TrophÃ©es et mÃ©dailles pour les 3 premiers de chaque catÃ©gorie, et mÃ©dailles dâ€™honneur pour tous les participants.\n\nðŸ“… **ClÃ´ture des inscriptions : 20 mars 2026**\n\nðŸ’³ Paiement sur place et retrait des dossards : du 20 mars au 9 avril 2026.\n\n",
+    "nom": "Semi-Marathon de Seddouk – Cheikh Belhaddad",
+    "description": "🏃‍♂️ **Semi-Marathon de Seddouk – Cheikh Belhaddad 2026**\n\nLe **Semi-Marathon de Seddouk 2026** se déroulera le **10 avril 2026 à 8h00** à **Seddouk**, wilaya de **Béjaïa**, avec départ depuis le centre-ville.\n\nUne course de **21 km** ouverte aux **hommes et femmes** dans deux catégories : **Senior (18-35 ans)** et **Vétéran (35 ans et plus)**.\n\n🏆 **Récompenses :** Trophées et médailles pour les 3 premiers de chaque catégorie, et médailles d’honneur pour tous les participants.\n\n📅 **Clôture des inscriptions : 20 mars 2026**\n\n💳 Paiement sur place et retrait des dossards : du 20 mars au 9 avril 2026.\n\n",
     "date": "2026-04-10T08:00:00+01:00",
     "type": [
       0,
@@ -2214,7 +2214,7 @@
     "denivele_plus": null,
     "wilaya": 6,
     "commune": "Seddouk",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Marathon Seddouk",
     "contact_numero": "+21371511058",
     "contact_email": "marathon.seddouk@email.com",
@@ -2223,7 +2223,7 @@
     "prix_inscription": 0,
     "inscription_link": "https://seddouk-marathon.vercel.app/inscription",
     "conditions": [
-      "Certificat mÃ©dical (optionnel)",
+      "Certificat médical (optionnel)",
       "ECG (optionnel)"
     ],
     "colors": {
@@ -2234,70 +2234,70 @@
     "prix_gagnants": {
       "Senior Hommes": {
         "1er": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "2e": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "3e": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "finishers": [
-          "MÃ©daille d'honneur"
+          "Médaille d'honneur"
         ]
       },
       "Senior Femmes": {
         "1er": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "2e": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "3e": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "finishers": [
-          "MÃ©daille d'honneur"
+          "Médaille d'honneur"
         ]
       },
-      "VÃ©tÃ©ran Hommes": {
+      "Vétéran Hommes": {
         "1er": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "2e": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "3e": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "finishers": [
-          "MÃ©daille d'honneur"
+          "Médaille d'honneur"
         ]
       },
-      "VÃ©tÃ©ran Femmes": {
+      "Vétéran Femmes": {
         "1er": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "2e": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "3e": [
-          "TrophÃ©e",
-          "MÃ©daille"
+          "Trophée",
+          "Médaille"
         ],
         "finishers": [
-          "MÃ©daille d'honneur"
+          "Médaille d'honneur"
         ]
       }
     }
@@ -2306,7 +2306,7 @@
     "id": 50,
     "slug": "trail-gorges-chiffa-2026",
     "nom": "Trail Les Gorges de Chiffa 2026",
-    "description": "ðŸ”ï¸ **Trail Les Gorges de Chiffa 2026**\n\nLe **Trail des Gorges de Chiffa** se dÃ©roulera le **8 mai 2026 Ã  08h30** dans les cÃ©lÃ¨bres **Gorges de Chiffa**, wilaya de **Blida**.\n\nCette Ã©preuve de **24 km** propose un parcours spectaculaire au cÅ“ur dâ€™un site naturel emblÃ©matique, avec **1101 m de dÃ©nivelÃ© positif et 1101 m de dÃ©nivelÃ© nÃ©gatif**.\n\nðŸ”¥ Le parcours prÃ©sente une **difficultÃ© technique modÃ©rÃ©e**, idÃ©al pour les amateurs de trail souhaitant relever un dÃ©fi sportif dans un cadre naturel exceptionnel.\n\nðŸ“Š Classement Trail Rank : **14**.\n\nðŸ“‹ Les participants peuvent consulter la **liste des inscrits directement sur la plateforme officielle**.\n\nðŸ’³ Paiement possible via **CCP ou BaridiMob** (le nom complet du coureur doit Ãªtre indiquÃ© dans le reÃ§u de paiement).\n\nðŸŽ¯ Lâ€™objectif de lâ€™Ã©vÃ©nement est dâ€™offrir une organisation transparente et de rÃ©unir les passionnÃ©s de trail dans une ambiance sportive au cÅ“ur des montagnes de la Chiffa.",
+    "description": "🏔️ **Trail Les Gorges de Chiffa 2026**\n\nLe **Trail des Gorges de Chiffa** se déroulera le **8 mai 2026 à 08h30** dans les célèbres **Gorges de Chiffa**, wilaya de **Blida**.\n\nCette épreuve de **24 km** propose un parcours spectaculaire au cœur d’un site naturel emblématique, avec **1101 m de dénivelé positif et 1101 m de dénivelé négatif**.\n\n🔥 Le parcours présente une **difficulté technique modérée**, idéal pour les amateurs de trail souhaitant relever un défi sportif dans un cadre naturel exceptionnel.\n\n📊 Classement Trail Rank : **14**.\n\n📋 Les participants peuvent consulter la **liste des inscrits directement sur la plateforme officielle**.\n\n💳 Paiement possible via **CCP ou BaridiMob** (le nom complet du coureur doit être indiqué dans le reçu de paiement).\n\n🎯 L’objectif de l’événement est d’offrir une organisation transparente et de réunir les passionnés de trail dans une ambiance sportive au cœur des montagnes de la Chiffa.",
     "date": "2026-05-08T08:30:00+01:00",
     "type": [
       1,
@@ -2317,7 +2317,7 @@
     "denivele_plus": 1101,
     "wilaya": 9,
     "commune": "Chiffa",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Trail Les Gorges de Chiffa",
     "contact_numero": "+213542288035",
     "contact_email": "gravirblida@gmail.com",
@@ -2337,7 +2337,7 @@
     "id": 51,
     "slug": "bir-el-ater-10km-national-2026",
     "nom": "Course nationale de 10 km de Bir el-Ater 2026",
-    "description": "La Direction de la Jeunesse et des Sports de TÃ©bessa et la page officielle de la commune de Bir el-Ater prÃ©sentent le **10 km national de Bir el-Ater**.`\n OrganisÃ© sous le patronage de **Monsieur le Wali de la Wilaya de TÃ©bessa** et de **Monsieur le Wali dÃ©lÃ©guÃ© de la daÃ¯ra de Bir el-Ater**, lâ€™Ã©vÃ©nement se dÃ©roule sous la supervision de la **Direction de la Jeunesse et des Sports** et de la **FÃ©dÃ©ration AlgÃ©rienne dâ€™AthlÃ©tisme**.\nðŸ¤ En coordination avec : le **Conseil Populaire Communal de Bir el-Ater** et la **Ligue de Wilaya dâ€™AthlÃ©tisme de TÃ©bessa**.\nðŸ **Course nationale sur route â€“ 10 km** : ouverte aux coureurs confirmÃ©s et aux amateurs dÃ©sireux de relever le dÃ©fi. \nâœ¨ Ø´Ø¹Ø§Ø±Ù†Ø§ : Â« Ø®Ø·Ùˆ Ù†Ø­Ùˆ Ø§Ù„ØªÙ†Ù…ÙŠØ© â€¦ Ø¹Ù„Ù‰ Ø£Ø±Ø¶ Ø§Ù„ØªØ­Ø¯ÙŠ Â»\nðŸ“ Inscription : ouverture le **dimanche 29 mars 2026** via formulaire Ã©lectronique.",
+    "description": "La Direction de la Jeunesse et des Sports de Tébessa et la page officielle de la commune de Bir el-Ater présentent le **10 km national de Bir el-Ater**.`\n Organisé sous le patronage de **Monsieur le Wali de la Wilaya de Tébessa** et de **Monsieur le Wali délégué de la daïra de Bir el-Ater**, l’événement se déroule sous la supervision de la **Direction de la Jeunesse et des Sports** et de la **Fédération Algérienne d’Athlétisme**.\n🤝 En coordination avec : le **Conseil Populaire Communal de Bir el-Ater** et la **Ligue de Wilaya d’Athlétisme de Tébessa**.\n🏁 **Course nationale sur route – 10 km** : ouverte aux coureurs confirmés et aux amateurs désireux de relever le défi. \n✨ شعارنا : « خطو نحو التنمية … على أرض التحدي »\n📝 Inscription : ouverture le **dimanche 29 mars 2026** via formulaire électronique.",
     "date": "2026-05-02T08:00:00+01:00",
     "type": [
       5,
@@ -2347,16 +2347,16 @@
     "distance": 10,
     "wilaya": 12,
     "commune": "Bir el-Ater",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Direction de la Jeunesse et des Sports de TÃ©bessa / AcadÃ©mie sportive de la Commune de Bir el-Ater",
+    "pays": "Algérie",
+    "organisateur_nom": "Direction de la Jeunesse et des Sports de Tébessa / Académie sportive de la Commune de Bir el-Ater",
     "contact_numero": "+213662630504",
     "contact_email": "academybir06@gmail.com",
     "site_web": "",
     "image": "/images/bir_ater_10k_2026.jpg",
     "prix_inscription": "Inconnue",
     "conditions": [
-      "Ã‚ge minimum 18 ans",
-      "Licence ou certificat mÃ©dical recommandÃ©"
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical recommandé"
     ],
     "colors": {
       "background_color": "#736544",
@@ -2368,8 +2368,8 @@
   {
     "id": 52,
     "slug": "semi-marathon-zaccar-djelfa-2026",
-    "nom": "Semi-Marathon de Zaccar â€“ Djelfa 2026",
-    "description": "ðŸƒâ€â™‚ï¸ **Semi-Marathon de Zaccar â€“ Djelfa 2026**\n\nLe **Semi-Marathon de Zaccar** se dÃ©roulera le **23 mai 2026 Ã  09h30** Ã  **Zaccar**, wilaya de **Djelfa**.\n\nUne course de **21 km** ouverte aux passionnÃ©s de course Ã  pied, dans le cadre du **Festival Zaccar**.\n\nðŸŒ Un Ã©vÃ©nement sportif et festif visant Ã  promouvoir la pratique du sport et Ã  rassembler les coureurs dans une ambiance conviviale.\n\nðŸ“… **Date : 23 mai 2026**\nðŸ•˜ **Heure de dÃ©part : 09h30**",
+    "nom": "Semi-Marathon de Zaccar – Djelfa 2026",
+    "description": "🏃‍♂️ **Semi-Marathon de Zaccar – Djelfa 2026**\n\nLe **Semi-Marathon de Zaccar** se déroulera le **23 mai 2026 à 09h30** à **Zaccar**, wilaya de **Djelfa**.\n\nUne course de **21 km** ouverte aux passionnés de course à pied, dans le cadre du **Festival Zaccar**.\n\n🌍 Un événement sportif et festif visant à promouvoir la pratique du sport et à rassembler les coureurs dans une ambiance conviviale.\n\n📅 **Date : 23 mai 2026**\n🕘 **Heure de départ : 09h30**",
     "date": "2026-05-23T09:30:00+01:00",
     "type": [
       0,
@@ -2379,7 +2379,7 @@
     "denivele_plus": null,
     "wilaya": 17,
     "commune": "Zaccar",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Festival Zaccar",
     "contact_numero": "",
     "contact_email": "",
@@ -2397,8 +2397,8 @@
   {
     "id": 53,
     "slug": "course-des-travailleurs-alger-2026",
-    "nom": "Course des Travailleurs 5 km â€“ Alger 2026",
-    "description": "ðŸƒâ€â™‚ï¸ **Course des Travailleurs â€“ Alger 2026**\n\nÃ€ lâ€™occasion de la cÃ©lÃ©bration de la **JournÃ©e internationale des travailleurs**, la **FÃ©dÃ©ration AlgÃ©rienne Sport & Travail (FAST)** organise la **3áµ‰ Ã©dition de la Course des Travailleurs**.\n\nCette course sur route de **5 km** se dÃ©roulera dans la capitale, sur un parcours passant par certaines des principales artÃ¨res dâ€™**Alger**.\n\nðŸ“ **Parcours :** DÃ©part depuis le **stade Ferhani**, passage par les rues principales, jusquâ€™au siÃ¨ge de la centrale syndicale Ã  **Sidi Mâ€™Hamed**.\n\nðŸŽ‰ Un Ã©vÃ©nement sportif et festif ouvert aux amateurs de course Ã  pied, dans une ambiance conviviale et dynamique.\n\nðŸ“ **Inscriptions :** Le lien dâ€™inscription sera communiquÃ© prochainement.\n\nðŸ“¢ Suivez les prochaines annonces pour plus dâ€™informations.",
+    "nom": "Course des Travailleurs 5 km – Alger 2026",
+    "description": "🏃‍♂️ **Course des Travailleurs – Alger 2026**\n\nÀ l’occasion de la célébration de la **Journée internationale des travailleurs**, la **Fédération Algérienne Sport & Travail (FAST)** organise la **3ᵉ édition de la Course des Travailleurs**.\n\nCette course sur route de **5 km** se déroulera dans la capitale, sur un parcours passant par certaines des principales artères d’**Alger**.\n\n📍 **Parcours :** Départ depuis le **stade Ferhani**, passage par les rues principales, jusqu’au siège de la centrale syndicale à **Sidi M’Hamed**.\n\n🎉 Un événement sportif et festif ouvert aux amateurs de course à pied, dans une ambiance conviviale et dynamique.\n\n📝 **Inscriptions :** Le lien d’inscription sera communiqué prochainement.\n\n📢 Suivez les prochaines annonces pour plus d’informations.",
     "date": "2026-05-01T08:00:00+01:00",
     "type": [
       0,
@@ -2408,8 +2408,8 @@
     "denivele_plus": null,
     "wilaya": 16,
     "commune": "Sidi M'Hamed",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "FÃ©dÃ©ration AlgÃ©rienne Sport & Travail (FAST)",
+    "pays": "Algérie",
+    "organisateur_nom": "Fédération Algérienne Sport & Travail (FAST)",
     "contact_numero": "+21323147342",
     "contact_email": "federation@fast.dz",
     "site_web": "https://fast.dz",
@@ -2427,8 +2427,8 @@
   {
     "id": 54,
     "slug": "ultra-marathon-course-horaire-alger-6h-2026",
-    "nom": "Ultra-Marathon â€“ Course Horaire dâ€™Alger 6h (3áµ‰ Ã©dition)",
-    "description": "ðŸƒâ€â™‚ï¸ **Ultra-Marathon â€“ Course Horaire dâ€™Alger 2026 (6h)**\n\nLa **Course Horaire dâ€™Alger** revient pour sa **3áµ‰ Ã©dition** le **8 mai 2026** au **stade annexe du Complexe Olympique Mohamed Boudiaf (5 Juillet) Ã  Alger**.\n\nâ±ï¸ Format : **6 heures de course en continu**.\n\nðŸ”¥ Un dÃ©fi dâ€™endurance accessible aux coureurs souhaitant dÃ©couvrir le format ultra, avec une forte composante mentale et stratÃ©gique.\n\nâš ï¸ La date a Ã©tÃ© avancÃ©e en raison du match de football entre lâ€™USMA et Zamalek prÃ©vu le 9 mai au stade du 5 juillet.\n\nðŸ¤ OrganisÃ© par la **Ligue AlgÃ©roise dâ€™AthlÃ©tisme** en partenariat avec **Ultra Marathon Trail Souidania (UMTS)**.",
+    "nom": "Ultra-Marathon – Course Horaire d’Alger 6h (3ᵉ édition)",
+    "description": "🏃‍♂️ **Ultra-Marathon – Course Horaire d’Alger 2026 (6h)**\n\nLa **Course Horaire d’Alger** revient pour sa **3ᵉ édition** le **8 mai 2026** au **stade annexe du Complexe Olympique Mohamed Boudiaf (5 Juillet) à Alger**.\n\n⏱️ Format : **6 heures de course en continu**.\n\n🔥 Un défi d’endurance accessible aux coureurs souhaitant découvrir le format ultra, avec une forte composante mentale et stratégique.\n\n⚠️ La date a été avancée en raison du match de football entre l’USMA et Zamalek prévu le 9 mai au stade du 5 juillet.\n\n🤝 Organisé par la **Ligue Algéroise d’Athlétisme** en partenariat avec **Ultra Marathon Trail Souidania (UMTS)**.",
     "date": "2026-05-08T08:00:00+01:00",
     "type": [
       2,
@@ -2440,8 +2440,8 @@
     "denivele_plus": null,
     "wilaya": 16,
     "commune": "Alger",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue AlgÃ©roise dâ€™AthlÃ©tisme / UMTS",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue Algéroise d’Athlétisme / UMTS",
     "contact_numero": "",
     "contact_email": "Ultramarathon.trail.2021@gmail.com",
     "site_web": "https://www.facebook.com/groups/188818858711822/",
@@ -2459,8 +2459,8 @@
   {
     "id": 55,
     "slug": "ultra-marathon-course-horaire-alger-12h-2026",
-    "nom": "Ultra-Marathon â€“ Course Horaire dâ€™Alger 12h (3áµ‰ Ã©dition)",
-    "description": "ðŸƒâ€â™‚ï¸ **Ultra-Marathon â€“ Course Horaire dâ€™Alger 2026 (12h)**\n\nLa **Course Horaire dâ€™Alger** revient pour sa **3áµ‰ Ã©dition** le **8 mai 2026** au **stade annexe du Complexe Olympique Mohamed Boudiaf (5 Juillet) Ã  Alger**.\n\nâ±ï¸ Format : **12 heures de course en continu**.\n\nðŸ”¥ Une Ã©preuve extrÃªme rÃ©servÃ©e aux coureurs expÃ©rimentÃ©s, mettant Ã  lâ€™Ã©preuve endurance, nutrition et mental.\n\nâš ï¸ La date a Ã©tÃ© avancÃ©e en raison du match de football entre lâ€™USMA et Zamalek prÃ©vu le 9 mai au stade du 5 juillet.\n\nðŸ¤ OrganisÃ© par la **Ligue AlgÃ©roise dâ€™AthlÃ©tisme** en partenariat avec **Ultra Marathon Trail Souidania (UMTS)**.",
+    "nom": "Ultra-Marathon – Course Horaire d’Alger 12h (3ᵉ édition)",
+    "description": "🏃‍♂️ **Ultra-Marathon – Course Horaire d’Alger 2026 (12h)**\n\nLa **Course Horaire d’Alger** revient pour sa **3ᵉ édition** le **8 mai 2026** au **stade annexe du Complexe Olympique Mohamed Boudiaf (5 Juillet) à Alger**.\n\n⏱️ Format : **12 heures de course en continu**.\n\n🔥 Une épreuve extrême réservée aux coureurs expérimentés, mettant à l’épreuve endurance, nutrition et mental.\n\n⚠️ La date a été avancée en raison du match de football entre l’USMA et Zamalek prévu le 9 mai au stade du 5 juillet.\n\n🤝 Organisé par la **Ligue Algéroise d’Athlétisme** en partenariat avec **Ultra Marathon Trail Souidania (UMTS)**.",
     "date": "2026-05-08T08:00:00+01:00",
     "type": [
       2,
@@ -2472,8 +2472,8 @@
     "denivele_plus": null,
     "wilaya": 16,
     "commune": "Alger",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue AlgÃ©roise dâ€™AthlÃ©tisme / UMTS",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue Algéroise d’Athlétisme / UMTS",
     "contact_numero": "",
     "contact_email": "Ultramarathon.trail.2021@gmail.com",
     "site_web": "https://www.facebook.com/groups/188818858711822/",
@@ -2491,8 +2491,8 @@
   {
     "id": 56,
     "slug": "semi-marathon-iwaquren-2026",
-    "nom": "Semi-Marathon Iwaquren (6áµ‰ Ã©dition)",
-    "description": "ðŸƒâ€â™‚ï¸ **Semi-Marathon Iwaquren 2026 (6áµ‰ Ã©dition)**\n\nLe **Semi-Marathon Iwaquren** revient pour sa **6áµ‰ Ã©dition** le **1er mai 2026** au village **Ighzer Iwaquren**, dans la commune de **Saharidj**, wilaya de **Tizi Ouzou**.\n\nðŸ“ SituÃ© sur les hauteurs du versant sud du **Djurdjura**, Ã  proximitÃ© du mont **Tamgout (Lalla Khelidja)**, Ighzer Iwaquren offre un cadre naturel exceptionnel pour une course unique.\n\nðŸƒâ€â™‚ï¸ Une Ã©preuve de **21 km** ouverte aux passionnÃ©s de course Ã  pied, mÃªlant dÃ©fi sportif et dÃ©couverte dâ€™un site chargÃ© dâ€™histoire.\n\nðŸ•Šï¸ Le village est Ã©galement un **haut lieu de mÃ©moire**, dÃ©truit en 1957 durant la guerre de libÃ©ration.\n\nðŸ’° **Frais dâ€™inscription :**\n- Sans hÃ©bergement : **1500 DA**\n- Avec hÃ©bergement : **2000 DA**\n\nâ³ Les inscriptions sont toujours ouvertes.\n\nðŸ”— Inscription en ligne via la plateforme officielle.\n\nðŸ“ž Contact : 0774575616",
+    "nom": "Semi-Marathon Iwaquren (6ᵉ édition)",
+    "description": "🏃‍♂️ **Semi-Marathon Iwaquren 2026 (6ᵉ édition)**\n\nLe **Semi-Marathon Iwaquren** revient pour sa **6ᵉ édition** le **1er mai 2026** au village **Ighzer Iwaquren**, dans la commune de **Saharidj**, wilaya de **Tizi Ouzou**.\n\n📍 Situé sur les hauteurs du versant sud du **Djurdjura**, à proximité du mont **Tamgout (Lalla Khelidja)**, Ighzer Iwaquren offre un cadre naturel exceptionnel pour une course unique.\n\n🏃‍♂️ Une épreuve de **21 km** ouverte aux passionnés de course à pied, mêlant défi sportif et découverte d’un site chargé d’histoire.\n\n🕊️ Le village est également un **haut lieu de mémoire**, détruit en 1957 durant la guerre de libération.\n\n💰 **Frais d’inscription :**\n- Sans hébergement : **1500 DA**\n- Avec hébergement : **2000 DA**\n\n⏳ Les inscriptions sont toujours ouvertes.\n\n🔗 Inscription en ligne via la plateforme officielle.\n\n📞 Contact : 0774575616",
     "date": "2026-05-01T08:00:00+01:00",
     "type": [
       0,
@@ -2502,7 +2502,7 @@
     "denivele_plus": null,
     "wilaya": 15,
     "commune": "Saharidj",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "Semi-Marathon Iwaquren",
     "contact_numero": "+213774575616",
     "contact_email": "",
@@ -2521,8 +2521,8 @@
   {
     "id": 57,
     "slug": "course-nationale-10km-ait-issaad-2026",
-    "nom": "Course nationale 10 km â€“ AÃ¯t Issaad 2026",
-    "description": "ðŸƒâ€â™‚ï¸ **Course nationale 10 km â€“ AÃ¯t Issaad 2026**\n\nLe **club sportif AÃ¯t Issaad** organise une **course nationale sur route de 10 km** le **1er mai 2026** Ã  **Ifigha**, wilaya de **Tizi Ouzou**.\n\nðŸ¤ Lâ€™Ã©vÃ©nement est organisÃ© en collaboration avec lâ€™**APC Ifigha** et la **Ligue de Wilaya dâ€™AthlÃ©tisme de Tizi Ouzou**.\n\nðŸ•˜ **Heure de dÃ©part : 08h00**\n\nðŸ“‹ **Programme :**\n- ðŸ‘¶ Courses pour enfants (locales)\n- ðŸƒâ€â™‚ï¸ Course nationale 10 km\n\nðŸ“ **Inscriptions en ligne disponibles via formulaire Google**.\n\nðŸŽ½ **Retrait des dossards :** Ã  partir du **25 avril** au siÃ¨ge du club.\n\nðŸ“£ Suivez la page officielle du club pour plus dâ€™informations et mises Ã  jour.\n\nðŸ’ª Bonne chance Ã  tous les participants !",
+    "nom": "Course nationale 10 km – Aït Issaad 2026",
+    "description": "🏃‍♂️ **Course nationale 10 km – Aït Issaad 2026**\n\nLe **club sportif Aït Issaad** organise une **course nationale sur route de 10 km** le **1er mai 2026** à **Ifigha**, wilaya de **Tizi Ouzou**.\n\n🤝 L’événement est organisé en collaboration avec l’**APC Ifigha** et la **Ligue de Wilaya d’Athlétisme de Tizi Ouzou**.\n\n🕘 **Heure de départ : 08h00**\n\n📋 **Programme :**\n- 👶 Courses pour enfants (locales)\n- 🏃‍♂️ Course nationale 10 km\n\n📝 **Inscriptions en ligne disponibles via formulaire Google**.\n\n🎽 **Retrait des dossards :** à partir du **25 avril** au siège du club.\n\n📣 Suivez la page officielle du club pour plus d’informations et mises à jour.\n\n💪 Bonne chance à tous les participants !",
     "date": "2026-05-01T08:00:00+01:00",
     "type": [
       5,
@@ -2532,8 +2532,8 @@
     "denivele_plus": null,
     "wilaya": 15,
     "commune": "Ifigha",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Club Sportif AÃ¯t Issaad",
+    "pays": "Algérie",
+    "organisateur_nom": "Club Sportif Aït Issaad",
     "contact_numero": "",
     "contact_email": "",
     "site_web": "https://www.facebook.com/share/17TtXwaqzc/",
@@ -2553,8 +2553,8 @@
   {
     "id": 58,
     "slug": "trail-mouflons-dor-ben-aknoun-2026",
-    "nom": "Trail des Mouflons dâ€™Or â€“ 3áµ‰ Ã©dition",
-    "description": "ðŸƒâ€â™‚ï¸ **Trail des Mouflons dâ€™Or 2026 (3áµ‰ Ã©dition)** ðŸ\n\nLe trail que vous attendiez est de retour ! Rendez-vous le **1er mai 2026** au **Parc Zoologique de Ben Aknoun (Village Africain)** Ã  **Alger** pour une expÃ©rience unique en pleine nature.\n\nðŸŒ¿ Un parcours de **16,57 km** avec **443 m de dÃ©nivelÃ© positif**, mÃªlant sentiers forestiers, montÃ©es et paysages naturels exceptionnels.\n\nðŸ”¥ Une course idÃ©ale pour les amateurs de trail souhaitant se dÃ©passer dans une ambiance sportive et conviviale.\n\nðŸ•˜ **DÃ©part : 08h00**\nðŸ•• **Accueil des participants : dÃ¨s 06h00**\n\nðŸ“ Lieu : Parc Zoologique de Ben Aknoun â€“ Village Africain\n\nðŸ“ **Inscriptions ouvertes** (places limitÃ©es)\n\nðŸ’³ Paiement en ligne obligatoire via **CIB ou carte EDAHABIA**.\n\nâš ï¸ Les inscriptions seront clÃ´turÃ©es dÃ¨s que le nombre maximal de participants sera atteint.\n\nðŸ”ï¸ Ã‰vÃ©nement organisÃ© par la **Ligue AlgÃ©roise des Sports de Montagne (LASSM)**.\n\nðŸƒâ€â™€ï¸ Câ€™est le moment de relever le dÃ©fi !",
+    "nom": "Trail des Mouflons d’Or – 3ᵉ édition",
+    "description": "🏃‍♂️ **Trail des Mouflons d’Or 2026 (3ᵉ édition)** 🐏\n\nLe trail que vous attendiez est de retour ! Rendez-vous le **1er mai 2026** au **Parc Zoologique de Ben Aknoun (Village Africain)** à **Alger** pour une expérience unique en pleine nature.\n\n🌿 Un parcours de **16,57 km** avec **443 m de dénivelé positif**, mêlant sentiers forestiers, montées et paysages naturels exceptionnels.\n\n🔥 Une course idéale pour les amateurs de trail souhaitant se dépasser dans une ambiance sportive et conviviale.\n\n🕘 **Départ : 08h00**\n🕕 **Accueil des participants : dès 06h00**\n\n📍 Lieu : Parc Zoologique de Ben Aknoun – Village Africain\n\n📝 **Inscriptions ouvertes** (places limitées)\n\n💳 Paiement en ligne obligatoire via **CIB ou carte EDAHABIA**.\n\n⚠️ Les inscriptions seront clôturées dès que le nombre maximal de participants sera atteint.\n\n🏔️ Événement organisé par la **Ligue Algéroise des Sports de Montagne (LASSM)**.\n\n🏃‍♀️ C’est le moment de relever le défi !",
     "date": "2026-05-01T08:00:00+01:00",
     "type": [
       1,
@@ -2564,8 +2564,8 @@
     "denivele_plus": 443,
     "wilaya": 16,
     "commune": "Ben Aknoun",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue AlgÃ©roise des Sports de Montagne (LASSM)",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue Algéroise des Sports de Montagne (LASSM)",
     "contact_numero": "",
     "contact_email": "contact@lassm.dz",
     "site_web": "https://lassm.dz/",
@@ -2583,8 +2583,8 @@
   {
     "id": 59,
     "slug": "algiers-urban-trail-2026",
-    "nom": "Algiers Urban Trail â€“ 2áµ‰ Ã©dition",
-    "description": "ðŸƒâ€â™‚ï¸ **Algiers Urban Trail 2026 (2áµ‰ Ã©dition)**\n\nSous lâ€™Ã©gide de la Wilaya dâ€™Alger, la Direction de la Jeunesse, des Sports et des Loisirs en collaboration avec la Ligue AlgÃ©roise des Sports de Montagne (LASSM) et GAYA Athletic Club, organisent la 2áµ‰ Ã©dition de lâ€™Algiers Urban Trail.\n\nðŸŒ† Une course unique mÃªlant trail et environnement urbain, Ã  travers un parcours immersif au cÅ“ur dâ€™Alger.\n\nðŸŒ¿ **Distance : 19.5 km**\nâ›°ï¸ **DÃ©nivelÃ© positif : 463 m**\n\nðŸ”¥ Parcours variÃ© entre routes, escaliers, sentiers, ruelles et passages urbains emblÃ©matiques.\n\nðŸ“ **DÃ©part : Les Sablettes â€“ Marina d'Alger**\nðŸ **ArrivÃ©e : Maqam Eâ€™chahid**\n\nðŸ•• **DÃ©part officiel : 18h30**\nðŸ•‘ **Rassemblement : Ã  partir de 14h00**\n\nðŸŽ¯ Une occasion parfaite pour dÃ©couvrir Alger autrement, entre effort, dÃ©passement de soi et ambiance urbaine.",
+    "nom": "Algiers Urban Trail – 2ᵉ édition",
+    "description": "🏃‍♂️ **Algiers Urban Trail 2026 (2ᵉ édition)**\n\nSous l’égide de la Wilaya d’Alger, la Direction de la Jeunesse, des Sports et des Loisirs en collaboration avec la Ligue Algéroise des Sports de Montagne (LASSM) et GAYA Athletic Club, organisent la 2ᵉ édition de l’Algiers Urban Trail.\n\n🌆 Une course unique mêlant trail et environnement urbain, à travers un parcours immersif au cœur d’Alger.\n\n🌿 **Distance : 19.5 km**\n⛰️ **Dénivelé positif : 463 m**\n\n🔥 Parcours varié entre routes, escaliers, sentiers, ruelles et passages urbains emblématiques.\n\n📍 **Départ : Les Sablettes – Marina d'Alger**\n🏁 **Arrivée : Maqam E’chahid**\n\n🕕 **Départ officiel : 18h30**\n🕑 **Rassemblement : à partir de 14h00**\n\n🎯 Une occasion parfaite pour découvrir Alger autrement, entre effort, dépassement de soi et ambiance urbaine.",
     "date": "2026-06-26T18:30:00+01:00",
     "type": [
       1,
@@ -2594,8 +2594,8 @@
     "denivele_plus": 463,
     "wilaya": 16,
     "commune": "Alger",
-    "pays": "AlgÃ©rie",
-    "organisateur_nom": "Ligue AlgÃ©roise des Sports de Montagne (LASSM)",
+    "pays": "Algérie",
+    "organisateur_nom": "Ligue Algéroise des Sports de Montagne (LASSM)",
     "contact_numero": "",
     "contact_email": "contact@lassm.dz",
     "site_web": "https://lassm.dz/",
@@ -2603,10 +2603,10 @@
     "prix_inscription": 2500,
     "inscription_link": "https://inscriptions.lassm.dz/register",
     "conditions": [
-      "Ã‚ge minimum : 18 ans",
-      "DÃ©claration sur lâ€™honneur dâ€™aptitude physique obligatoire",
+      "Âge minimum : 18 ans",
+      "Déclaration sur l’honneur d’aptitude physique obligatoire",
       "Inscription uniquement en ligne avec paiement CIB ou Edahabia",
-      "BarriÃ¨re horaire : 4h00"
+      "Barrière horaire : 4h00"
     ],
     "colors": {
       "background_color": "#151c36",
@@ -2619,7 +2619,7 @@
     "id": 60,
     "slug": "trail-montagnes-babor-2026",
     "nom": "Trail des Montagnes de Babor",
-    "description": "ðŸƒâ€â™‚ï¸ **Trail des Montagnes de Babor 2026** â›°ï¸\n\nDans le cadre du **Festival de la Route des Montagnes de Babor-Tababort**, le programme **JIL-SIYAHA** organise une course nature exceptionnelle dans la rÃ©gion de **Babor, SÃ©tif**.\n\nðŸŒ¿ Ce trail sâ€™inscrit dans une dÃ©marche de promotion du **tourisme durable**, de lâ€™Ã©cotourisme et de la valorisation du patrimoine naturel du massif de Babor.\n\nðŸ”ï¸ **Distance : 14 km**\nâ›°ï¸ **DÃ©nivelÃ© positif : 703 m**\n\nðŸ”¥ Un parcours technique alternant montÃ©es, descentes et sentiers naturels au cÅ“ur dâ€™un environnement exceptionnel.\n\nðŸ’§ Ravitaillement prÃ©vu tous les 5 km.\n\nðŸ•˜ **DÃ©part : 09h00**\nðŸ“ **Lieu : SÃ©tif (massif du Babor - Tababort)**\n\nðŸŽª Ã€ lâ€™arrivÃ©e, une foire artisanale et des produits du terroir sont proposÃ©s Ã  Ighouassen.\n\nâš ï¸ Places limitÃ©es â€“ inscription obligatoire en ligne.",
+    "description": "🏃‍♂️ **Trail des Montagnes de Babor 2026** ⛰️\n\nDans le cadre du **Festival de la Route des Montagnes de Babor-Tababort**, le programme **JIL-SIYAHA** organise une course nature exceptionnelle dans la région de **Babor, Sétif**.\n\n🌿 Ce trail s’inscrit dans une démarche de promotion du **tourisme durable**, de l’écotourisme et de la valorisation du patrimoine naturel du massif de Babor.\n\n🏔️ **Distance : 14 km**\n⛰️ **Dénivelé positif : 703 m**\n\n🔥 Un parcours technique alternant montées, descentes et sentiers naturels au cœur d’un environnement exceptionnel.\n\n💧 Ravitaillement prévu tous les 5 km.\n\n🕘 **Départ : 09h00**\n📍 **Lieu : Sétif (massif du Babor - Tababort)**\n\n🎪 À l’arrivée, une foire artisanale et des produits du terroir sont proposés à Ighouassen.\n\n⚠️ Places limitées – inscription obligatoire en ligne.",
     "date": "2026-04-24T09:00:00+01:00",
     "type": [
       1,
@@ -2631,7 +2631,7 @@
     "denivele_minus": null,
     "wilaya": 19,
     "commune": "Babor",
-    "pays": "AlgÃ©rie",
+    "pays": "Algérie",
     "organisateur_nom": "JIL-SIYAHA",
     "contact_numero": "",
     "contact_email": "jil-siyaha@gmail.com",
@@ -2640,7 +2640,7 @@
     "prix_inscription": "Inconnue",
     "inscription_link": "https://maselek-dz.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGniUTnPxWWBhKBpwVmCUHUozPBJGBFo11g6fGz6tIxEkIwZ_WD7Usn5w4G8tk_aem_V0bMDry7mEmrTX5ZD1Yc8A",
     "conditions": [
-      "Ã‚ge cible 18-35 ans (programme JIL-SIYAHA)"
+      "Âge cible 18-35 ans (programme JIL-SIYAHA)"
     ],
     "colors": {
       "background_color": "#667364",
@@ -2651,10 +2651,50 @@
   },
   {
     "id": 61,
+    "slug": "trail-chelia-21k-2026",
+    "nom": "Trail Chélia 21K",
+    "description": "🏃‍♂️ **Trail Chélia 21K 2026** ⛰️\n\nLa page **TRAIL Chelia Running** organise la première édition du **Trail Chélia 21K**, une course nature dans la région du **Mont Chélia**, au cœur des **Aurès**.\n\n🏔️ **Distance : 21 km**\n⛰️ **Dénivelé positif : 1300 m**\n\n🔥 Un parcours exigeant en montagne, destiné aux amateurs de trail et de course nature.\n\n📅 **Date : 22 août 2026**\n📍 **Lieu : Mont Chélia – Aurès, Algérie**\n\n⚠️ Places limitées – inscription obligatoire.\n\n📌 Pour confirmer l’inscription, les participants doivent envoyer le reçu de paiement, le numéro de téléphone personnel, ainsi qu’une photo de la carte d’identité nationale et une licence sportive 2025/2026 ou un certificat médical via WhatsApp.",
+    "date": "2026-08-22T09:00:00+01:00",
+    "type": [
+      1,
+      7,
+      13
+    ],
+    "distance": 21,
+    "denivele_plus": 1300,
+    "denivele_minus": null,
+    "wilaya": 40,
+    "commune": "Chélia",
+    "pays": "Algérie",
+    "organisateur_nom": "TRAIL Chelia Running",
+    "contact_numero": "+213662504331",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/trail_chelia_21k_2026.jpg",
+    "prix_inscription": "2000 DA",
+    "inscription_link": "https://www.facebook.com/story.php?story_fbid=122134559931065876&id=61581976300334&rdid=9S20NdDAiHldeNqQ#",
+    "conditions": [
+      "Places limitées",
+      "Paiement par CCP",
+      "Envoyer le reçu de paiement par WhatsApp",
+      "Envoyer le numéro de téléphone personnel",
+      "Envoyer une photo de la carte d’identité nationale",
+      "Fournir une licence sportive 2025/2026 ou un certificat médical",
+      "Première édition"
+    ],
+    "colors": {
+      "background_color": "#005A9C",
+      "secondary_color": "#F2B705",
+      "accent_color": "#E31B23"
+    },
+    "prix_gagnants": {}
+  },
+  {
+    "id": 61,
     "slug": "trail-chelia",
-    "nom": "TRAIL Chelia",
-    "description": "Une course unique en algerie qui vous fait passer par le sommet du ChÃ©lia culmine Ã  2328 m, le plus haut sommet des AurÃ¨s.",
-    "date": "2026-08-22T08:00:00+00:00",
+    "nom": "Trail Chélia",
+    "description": "Une course unique en Algérie qui vous emmène jusqu'au sommet du Chélia, culminant à 2328 m, le plus haut sommet des Aurès.",
+    "date": "2026-08-22T08:00:00+01:00",
     "type": [
       1,
       13,
@@ -2663,12 +2703,12 @@
     "distance": 21,
     "denivele_plus": 1350,
     "wilaya": 40,
-    "commune": "Chelia",
-    "pays": "Algerie",
+    "commune": "Chélia",
+    "pays": "Algérie",
     "organisateur_nom": "CHELIA Mountain Running Trail",
     "contact_numero": "0662 50 43 31",
     "site_web": "https://www.facebook.com/profile.php?id=61581976300334",
-    "prix_inscription": "2000DA",
+    "prix_inscription": "2000 DA",
     "inscription_link": "https://www.facebook.com/story.php?story_fbid=122134559931065876&id=61581976300334&rdid=4y9P9CesShRn6Ezz#",
     "colors": {
       "background_color": "#414c4d",
@@ -2680,9 +2720,9 @@
   {
     "id": 62,
     "slug": "ecolo-trail-akfadou",
-    "nom": "ecolo trail akfadou",
-    "description": "Une course de trail dans la magnifique foret d'akfadou",
-    "date": "2026-09-05T08:00:00+01100",
+    "nom": "Écolo Trail Akfadou",
+    "description": "Une course de trail dans la magnifique forêt d'Akfadou.",
+    "date": "2026-09-05T08:00:00+01:00",
     "type": [
       1,
       13,
@@ -2693,7 +2733,7 @@
     "denivele_plus": 450,
     "wilaya": 15,
     "commune": "Akfadou",
-    "pays": "Algerie",
+    "pays": "Algérie",
     "organisateur_nom": "EMCA",
     "contact_numero": "-",
     "contact_email": "-",
