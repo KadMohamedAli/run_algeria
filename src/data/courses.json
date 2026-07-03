@@ -2690,34 +2690,6 @@
     "prix_gagnants": {}
   },
   {
-    "id": 61,
-    "slug": "trail-chelia",
-    "nom": "Trail Chélia",
-    "description": "Une course unique en Algérie qui vous emmène jusqu'au sommet du Chélia, culminant à 2328 m, le plus haut sommet des Aurès.",
-    "date": "2026-08-22T08:00:00+01:00",
-    "type": [
-      1,
-      13,
-      22
-    ],
-    "distance": 21,
-    "denivele_plus": 1350,
-    "wilaya": 40,
-    "commune": "Chélia",
-    "pays": "Algérie",
-    "organisateur_nom": "CHELIA Mountain Running Trail",
-    "contact_numero": "0662 50 43 31",
-    "site_web": "https://www.facebook.com/profile.php?id=61581976300334",
-    "prix_inscription": "2000 DA",
-    "inscription_link": "https://www.facebook.com/story.php?story_fbid=122134559931065876&id=61581976300334&rdid=4y9P9CesShRn6Ezz#",
-    "colors": {
-      "background_color": "#414c4d",
-      "secondary_color": "#657071",
-      "accent_color": "#000001"
-    },
-    "image": "/images/trail-chelia.jpg"
-  },
-  {
     "id": 62,
     "slug": "ecolo-trail-akfadou",
     "nom": "Écolo Trail Akfadou",
