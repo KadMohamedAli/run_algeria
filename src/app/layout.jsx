@@ -1,5 +1,6 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -115,6 +116,11 @@ export default function RootLayout({ children }) {
       >
         <SpeedInsights />
         <Analytics />
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="a1e3a407-2291-4136-b400-5389e2b5cfc9"
+          strategy="afterInteractive"
+        />
         <Navbar />
         <main className="container mx-auto">{children}</main>
       </body>
