@@ -155,6 +155,7 @@ export default function CoursePageClient({ course }) {
               href={course.inscription_link}
               target="_blank"
               rel="noopener noreferrer"
+              data-umami-event="clic_s_inscrire"
               className="block text-center w-full bg-[#ab3300] text-white uppercase text-lg font-black py-3 rounded-lg shadow-md hover:bg-[#c33b00] transition-all duration-300 ease-in-out"
             >
               S’inscrire
