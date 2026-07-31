@@ -2706,5 +2706,46 @@
       "accent_color": "#070302"
     },
     "image": "/images/ecolo-trail-akfadou.png"
+  },
+  {
+    "id": 63,
+    "slug": "trail-fernan",
+    "nom": "trail fernan",
+    "description": "Un trail rapide de 10km en plein nature de blida.",
+    "date": "2026-09-11T08:00:00+01:00",
+    "type": [
+      1,
+      5,
+      13,
+      22,
+      23
+    ],
+    "distance": 10,
+    "wilaya": 9,
+    "commune": "sidi salem",
+    "pays": "Algerie",
+    "organisateur_nom": "brakni cycisme blida",
+    "contact_numero": "0675331650 / 0770636707",
+    "site_web": "https://www.facebook.com/profile.php?id=100064092161851",
+    "inscription_link": "https://www.facebook.com/photo?fbid=1479076127572112&set=a.418940226919046",
+    "colors": {
+      "background_color": "#545647",
+      "secondary_color": "#787a6b",
+      "accent_color": "#040100"
+    },
+    "prix_gagnants": {
+      "Hommes": {
+        "1er": [
+          "30000"
+        ],
+        "2e": [
+          "15000"
+        ],
+        "3e": [
+          "10000"
+        ]
+      }
+    },
+    "image": "/images/trail-fernan.png"
   }
 ]
