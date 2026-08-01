@@ -2714,7 +2714,26 @@
     "contact_email": "ecolotrailakfadou.inscription@gmail.com",
     "site_web": "https://ecolotrailakfadou.com",
     "prix_inscription": "2500",
-    "conditions": "Inscription en ligne sur ecolotrailakfadou.com/inscription. Paiement de 2500 DA par participant (+500 DA pour hébergement en option), exclusivement par virement ou CCP, avec justificatif à télécharger dans le formulaire. Inscription validée après vérification du paiement.",
+    "conditions": [
+      "Inscription en ligne sur ecolotrailakfadou.com/inscription",
+      "Paiement de 2500 DA par participant",
+      "+500 DA en option pour l'hébergement",
+      "Paiement exclusivement par virement ou CCP",
+      "Justificatif de paiement à télécharger dans le formulaire",
+      "Inscription validée après vérification du paiement"
+    ],
+    "prix_gagnants": {
+      "Hommes": {
+        "1er": ["30000"],
+        "2e": ["25000"],
+        "3e": ["20000"]
+      },
+      "Dames": {
+        "1er": ["30000"],
+        "2e": ["25000"],
+        "3e": ["20000"]
+      }
+    },
     "inscription_link": "https://ecolotrailakfadou.com/inscription",
     "colors": {
       "background_color": "#a2a79c",
@@ -2745,7 +2764,14 @@
     "contact_email": "ecolotrailakfadou.inscription@gmail.com",
     "site_web": "https://ecolotrailakfadou.com",
     "prix_inscription": "2500",
-    "conditions": "Inscription en ligne sur ecolotrailakfadou.com/inscription. Paiement de 2500 DA par participant (+500 DA pour hébergement en option), exclusivement par virement ou CCP, avec justificatif à télécharger dans le formulaire. Inscription validée après vérification du paiement.",
+    "conditions": [
+      "Inscription en ligne sur ecolotrailakfadou.com/inscription",
+      "Paiement de 2500 DA par participant",
+      "+500 DA en option pour l'hébergement",
+      "Paiement exclusivement par virement ou CCP",
+      "Justificatif de paiement à télécharger dans le formulaire",
+      "Inscription validée après vérification du paiement"
+    ],
     "inscription_link": "https://ecolotrailakfadou.com/inscription",
     "colors": {
       "background_color": "#a2a79c",
