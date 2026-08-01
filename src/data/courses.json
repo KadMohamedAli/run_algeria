@@ -2694,7 +2694,7 @@
   },
   {
     "id": 62,
-    "slug": "ecolo-trail-akfadou",
+    "slug": "ecolo-trail-akfadou-24",
     "nom": "Écolo Trail Akfadou",
     "description": "Une course de trail dans la magnifique forêt d'Akfadou.",
     "date": "2026-09-05T08:00:00+01:00",
@@ -2704,8 +2704,38 @@
       23,
       24
     ],
-    "distance": 22,
-    "denivele_plus": 450,
+    "distance": 24,
+    "denivele_plus": 900,
+    "wilaya": 15,
+    "commune": "Akfadou",
+    "pays": "Algérie",
+    "organisateur_nom": "EMCA",
+    "contact_numero": "-",
+    "contact_email": "-",
+    "site_web": "https://www.facebook.com/people/%C3%89colo-Trail-dAkfadou-EMCA/61575298801886/?rdid=RAnJdZHgZIEuWdum&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DnqoJvVvV%2F",
+    "prix_inscription": "2500",
+    "inscription_link": "https://www.facebook.com/photo/?fbid=122175437498843293&set=a.122111273990843293",
+    "colors": {
+      "background_color": "#a2a79c",
+      "secondary_color": "#c6cbc0",
+      "accent_color": "#070302"
+    },
+    "image": "/images/ecolo-trail-akfadou.png"
+  },
+   {
+    "id": 64,
+    "slug": "ecolo-trail-akfadou-18",
+    "nom": "Écolo Trail Akfadou",
+    "description": "Une course de trail dans la magnifique forêt d'Akfadou.",
+    "date": "2026-09-05T08:00:00+01:00",
+    "type": [
+      1,
+      13,
+      23,
+      24
+    ],
+    "distance": 18,
+    "denivele_plus": 400,
     "wilaya": 15,
     "commune": "Akfadou",
     "pays": "Algérie",
