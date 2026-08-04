@@ -2724,14 +2724,26 @@
     ],
     "prix_gagnants": {
       "Hommes": {
-        "1er": ["30000"],
-        "2e": ["25000"],
-        "3e": ["20000"]
+        "1er": [
+          "30000"
+        ],
+        "2e": [
+          "25000"
+        ],
+        "3e": [
+          "20000"
+        ]
       },
       "Dames": {
-        "1er": ["30000"],
-        "2e": ["25000"],
-        "3e": ["20000"]
+        "1er": [
+          "30000"
+        ],
+        "2e": [
+          "25000"
+        ],
+        "3e": [
+          "20000"
+        ]
       }
     },
     "inscription_link": "https://ecolotrailakfadou.com/inscription",
@@ -2821,5 +2833,37 @@
       }
     },
     "image": "/images/trail-fernan.png"
+  },
+  {
+    "id": 65,
+    "slug": "trail-bouafroune",
+    "nom": "trail bouafroune",
+    "description": "Un trail de 10km en plein milieu de magnifique payesage dans jijel avec boucoup de d+, a plus de 11%",
+    "date": "0206-08-29T05:00:00+01:00",
+    "type": [
+      1,
+      5,
+      13,
+      21,
+      22,
+      23,
+      24
+    ],
+    "distance": 10,
+    "denivele_plus": 1100,
+    "wilaya": 18,
+    "commune": "bouafroune",
+    "pays": "Algerie",
+    "organisateur_nom": "Club Avenir Djimla",
+    "contact_numero": "0563613394  /",
+    "contact_email": "0658322031",
+    "prix_inscription": "1500",
+    "inscription_link": "https://docs.google.com/forms/d/e/1FAIpQLSc9RYoDlQShx64Vvqfv_39jR0DsyihM6V4UKlvJkFkX56xvRg/viewform?pli=1",
+    "colors": {
+      "background_color": "#9ea196",
+      "secondary_color": "#c2c5ba",
+      "accent_color": "#000300"
+    },
+    "image": "/images/trail-bouafroune.png"
   }
 ]
