@@ -1706,7 +1706,8 @@
     "contact_email": "gravirblida@gmail.com",
     "site_web": "https://www.facebook.com/TrailChrea",
     "image": "/images/chreaTrail.jpg",
-    "prix_inscription": "Inconnue",
+    "prix_inscription": "3500",
+    "inscription_link": "https://dzmoves.com/events/trail-chrea",
     "conditions": [
       "Âge minimum 18 ans"
     ],
@@ -1738,7 +1739,8 @@
     "contact_email": "gravirblida@gmail.com",
     "site_web": "https://www.facebook.com/TrailChrea",
     "image": "/images/chreaTrail.jpg",
-    "prix_inscription": "Inconnue",
+    "inscription_link": "https://dzmoves.com/events/trail-chrea",
+    "prix_inscription": "3500",
     "conditions": [
       "Âge minimum 18 ans"
     ],
@@ -1770,7 +1772,8 @@
     "contact_email": "gravirblida@gmail.com",
     "site_web": "https://www.facebook.com/TrailChrea",
     "image": "/images/chreaTrail.jpg",
-    "prix_inscription": "Inconnue",
+    "prix_inscription": "4000",
+    "inscription_link": "https://dzmoves.com/events/trail-chrea",
     "conditions": [
       "Expérience en trail requise",
       "Bonne condition physique obligatoire"
@@ -2691,9 +2694,9 @@
   },
   {
     "id": 62,
-    "slug": "ecolo-trail-akfadou",
-    "nom": "Écolo Trail Akfadou",
-    "description": "Une course de trail dans la magnifique forêt d'Akfadou.",
+    "slug": "ecolo-trail-akfadou-28",
+    "nom": "Écolo Trail d'Akfadou",
+    "description": "Une course de trail dans la magnifique forêt d'Akfadou, parcours 28 km.",
     "date": "2026-09-05T08:00:00+01:00",
     "type": [
       1,
@@ -2701,17 +2704,75 @@
       23,
       24
     ],
-    "distance": 22,
-    "denivele_plus": 450,
-    "wilaya": 15,
+    "distance": 28,
+    "denivele_plus": 900,
+    "wilaya": 6,
     "commune": "Akfadou",
     "pays": "Algérie",
-    "organisateur_nom": "EMCA",
-    "contact_numero": "-",
-    "contact_email": "-",
-    "site_web": "https://www.facebook.com/people/%C3%89colo-Trail-dAkfadou-EMCA/61575298801886/?rdid=RAnJdZHgZIEuWdum&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DnqoJvVvV%2F",
-    "prix_inscription": "-",
-    "inscription_link": "-",
+    "organisateur_nom": "École Montagne Club Akfadou (EMCA)",
+    "contact_numero": "0675862395",
+    "contact_email": "ecolotrailakfadou.inscription@gmail.com",
+    "site_web": "https://ecolotrailakfadou.com",
+    "prix_inscription": "2500",
+    "conditions": [
+      "Inscription en ligne sur ecolotrailakfadou.com/inscription",
+      "Paiement de 2500 DA par participant",
+      "+500 DA en option pour l'hébergement",
+      "Paiement exclusivement par virement ou CCP",
+      "Justificatif de paiement à télécharger dans le formulaire",
+      "Inscription validée après vérification du paiement"
+    ],
+    "prix_gagnants": {
+      "Hommes": {
+        "1er": ["30000"],
+        "2e": ["25000"],
+        "3e": ["20000"]
+      },
+      "Dames": {
+        "1er": ["30000"],
+        "2e": ["25000"],
+        "3e": ["20000"]
+      }
+    },
+    "inscription_link": "https://ecolotrailakfadou.com/inscription",
+    "colors": {
+      "background_color": "#a2a79c",
+      "secondary_color": "#c6cbc0",
+      "accent_color": "#070302"
+    },
+    "image": "/images/ecolo-trail-akfadou.png"
+  },
+  {
+    "id": 64,
+    "slug": "ecolo-trail-akfadou-18",
+    "nom": "Écolo Trail d'Akfadou",
+    "description": "Une course de trail dans la magnifique forêt d'Akfadou, parcours 18 km (accessible).",
+    "date": "2026-09-05T08:00:00+01:00",
+    "type": [
+      1,
+      13,
+      23,
+      24
+    ],
+    "distance": 18,
+    "denivele_plus": 900,
+    "wilaya": 6,
+    "commune": "Akfadou",
+    "pays": "Algérie",
+    "organisateur_nom": "École Montagne Club Akfadou (EMCA)",
+    "contact_numero": "0675862395",
+    "contact_email": "ecolotrailakfadou.inscription@gmail.com",
+    "site_web": "https://ecolotrailakfadou.com",
+    "prix_inscription": "2500",
+    "conditions": [
+      "Inscription en ligne sur ecolotrailakfadou.com/inscription",
+      "Paiement de 2500 DA par participant",
+      "+500 DA en option pour l'hébergement",
+      "Paiement exclusivement par virement ou CCP",
+      "Justificatif de paiement à télécharger dans le formulaire",
+      "Inscription validée après vérification du paiement"
+    ],
+    "inscription_link": "https://ecolotrailakfadou.com/inscription",
     "colors": {
       "background_color": "#a2a79c",
       "secondary_color": "#c6cbc0",
@@ -2733,6 +2794,7 @@
       23
     ],
     "distance": 10,
+    "denivele_plus": 300,
     "wilaya": 9,
     "commune": "sidi salem",
     "pays": "Algerie",
