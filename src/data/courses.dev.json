@@ -2749,11 +2749,49 @@
     "image": "/images/trail-fernan.png"
   },
   {
+    "id": 64,
+    "slug": "ecolo-trail-akfadou-18",
+    "nom": "Écolo Trail d'Akfadou",
+    "description": "Une course de trail dans la magnifique forêt d'Akfadou, parcours 18 km (accessible).",
+    "date": "2026-09-05T08:00:00+01:00",
+    "type": [
+      1,
+      13,
+      23,
+      24
+    ],
+    "distance": 18,
+    "denivele_plus": 900,
+    "wilaya": 6,
+    "commune": "Akfadou",
+    "pays": "Algérie",
+    "organisateur_nom": "École Montagne Club Akfadou (EMCA)",
+    "contact_numero": "0675862395",
+    "contact_email": "ecolotrailakfadou.inscription@gmail.com",
+    "site_web": "https://ecolotrailakfadou.com",
+    "prix_inscription": "2500",
+    "conditions": [
+      "Inscription en ligne sur ecolotrailakfadou.com/inscription",
+      "Paiement de 2500 DA par participant",
+      "+500 DA en option pour l'hébergement",
+      "Paiement exclusivement par virement ou CCP",
+      "Justificatif de paiement à télécharger dans le formulaire",
+      "Inscription validée après vérification du paiement"
+    ],
+    "inscription_link": "https://ecolotrailakfadou.com/inscription",
+    "colors": {
+      "background_color": "#a2a79c",
+      "secondary_color": "#c6cbc0",
+      "accent_color": "#070302"
+    },
+    "image": "/images/ecolo-trail-akfadou.png"
+  },
+  {
     "id": 65,
     "slug": "trail-bouafroune",
     "nom": "trail bouafroune",
     "description": "Un trail de 10km en plein milieu de magnifique payesage dans jijel avec boucoup de d+, a plus de 11%",
-    "date": "0206-08-29T05:00:00+01:00",
+    "date": "2026-08-29T05:00:00+01:00",
     "type": [
       1,
       5,
