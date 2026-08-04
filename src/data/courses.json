@@ -2755,7 +2755,7 @@
     "image": "/images/ecolo-trail-akfadou.png"
   },
   {
-    "id": 64,
+    "id": 63,
     "slug": "ecolo-trail-akfadou-18",
     "nom": "Écolo Trail d'Akfadou",
     "description": "Une course de trail dans la magnifique forêt d'Akfadou, parcours 18 km (accessible).",
@@ -2793,7 +2793,7 @@
     "image": "/images/ecolo-trail-akfadou.png"
   },
   {
-    "id": 63,
+    "id": 64,
     "slug": "trail-fernan",
     "nom": "trail fernan",
     "description": "Un trail rapide de 10km en plein nature de blida.",
@@ -2834,12 +2834,12 @@
     },
     "image": "/images/trail-fernan.png"
   },
-  {
+    {
     "id": 65,
     "slug": "trail-bouafroune",
     "nom": "trail bouafroune",
     "description": "Un trail de 10km en plein milieu de magnifique payesage dans jijel avec boucoup de d+, a plus de 11%",
-    "date": "0206-08-29T05:00:00+01:00",
+    "date": "2026-08-29T05:00:00+01:00",
     "type": [
       1,
       5,
@@ -2855,8 +2855,8 @@
     "commune": "bouafroune",
     "pays": "Algerie",
     "organisateur_nom": "Club Avenir Djimla",
-    "contact_numero": "0563613394  /",
-    "contact_email": "0658322031",
+    "contact_numero": "0563613394  / 0658322031",
+    "contact_email": "",
     "prix_inscription": "1500",
     "inscription_link": "https://docs.google.com/forms/d/e/1FAIpQLSc9RYoDlQShx64Vvqfv_39jR0DsyihM6V4UKlvJkFkX56xvRg/viewform?pli=1",
     "colors": {
