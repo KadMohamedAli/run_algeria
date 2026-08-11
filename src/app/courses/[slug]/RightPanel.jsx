@@ -85,6 +85,7 @@ function RightPanel({ course }) {
               target="_blank"
               rel="noopener noreferrer"
               data-umami-event="clic_s_inscrire"
+              data-umami-event-course={course.nom}
               className="block text-center w-full bg-[#ab3300] text-white uppercase text-xl font-black py-2 rounded-lg shadow-md hover:bg-[#c33b00] transition-all duration-300 ease-in-out"
             >
               S’inscrire
