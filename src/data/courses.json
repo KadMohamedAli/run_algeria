@@ -403,10 +403,10 @@
   },
   {
     "id": 7,
-    "slug": "semi-marathon-bejaia-2025",
-    "nom": "Semi-Marathon International de Béjaïa 2025 - 19e Edition",
-    "description": "La 19ᵉ édition du Semi-Marathon International de la Ville de Béjaïa se déroulera le vendredi 17 octobre 2025, organisée par le CSA/AMCB sous le patronage du Ministère de la Jeunesse et des Sports, du Wali et de la Ligue d’Athlétisme de Béjaïa. Le parcours de 21,098 km, homologué par l’AIMS, traverse les artères de la ville dans une ambiance sportive et populaire.",
-    "date": "2025-10-17T08:45:00+01:00",
+    "slug": "semi-marathon-bejaia-2026",
+    "nom": "Semi-Marathon International de Béjaïa 2026 - 20e Edition",
+    "description": "La 20ᵉ édition du Semi-Marathon International de la Ville de Béjaïa se déroulera le vendredi 16 octobre 2026, organisée par le CSA/AMCB sous le patronage du Ministère de la Jeunesse et des Sports, du Wali et de la Ligue d’Athlétisme de Béjaïa. Le parcours de 21,098 km, homologué par l’AIMS, traverse les artères de la ville dans une ambiance sportive et populaire.",
+    "date": "2026-10-16T08:45:00+01:00",
     "type": [
       4,
       27
@@ -420,8 +420,9 @@
     "contact_numero": "+21334117008",
     "contact_email": "contact@semimarathonbejaia.com",
     "site_web": "https://semimarathonbejaia.com/",
-    "image": "/images/semiBejaia2025.jpg",
-    "prix_inscription": "1500",
+    "inscription_link": "https://inscription.semimarathondebejaia.com/",
+    "image": "/images/semiBejaia2026.jpg",
+    "prix_inscription": "1600",
     "conditions": [
       "Âge minimum 18 ans",
       "Licence ou certificat médical obligatoire"
@@ -506,10 +507,10 @@
   },
   {
     "id": 8,
-    "slug": "course-populaire-bejaia-7km-2025",
-    "nom": "Course Populaire de Béjaïa 7 km 2025",
-    "description": "Organisée en parallèle du semi-marathon, la 19ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 17 octobre 2025 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
-    "date": "2025-10-17T08:45:00+01:00",
+    "slug": "course-populaire-bejaia-7km-2026",
+    "nom": "Course Populaire de Béjaïa 7 km 2026",
+    "description": "Organisée en parallèle du semi-marathon, la 20ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 16 octobre 2026 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
+    "date": "2026-10-16T08:45:00+01:00",
     "type": [
       0
     ],
@@ -521,9 +522,9 @@
     "contact_numero": "+21334117008",
     "contact_email": "contact@semimarathonbejaia.com",
     "site_web": "https://semimarathonbejaia.com/",
-    "image": "/images/semiBejaia2025.jpg",
-    "prix_inscription": "1500",
-    "inscription_link": "https://semimarathonbejaia.com/inscription",
+    "image": "/images/semiBejaia2026.jpg",
+    "prix_inscription": "1600",
+    "inscription_link": "https://inscription.semimarathondebejaia.com/",
     "conditions": [
       "Âge minimum 18 ans",
       "Licence ou certificat médical requis"
