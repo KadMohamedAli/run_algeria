@@ -2866,5 +2866,85 @@
       "accent_color": "#000300"
     },
     "image": "/images/trail-bouafroune.png"
+  },
+  {
+    "id": 66,
+    "slug": "medghacen-marathon-42k-2026",
+    "nom": "16e Medghacen International Marathon 2026 - Marathon 42.195 km",
+    "description": "Epreuve marathon 42.195 km de la 16e edition du Medghacen International Marathon, depart de l'OPOW de Batna vers Medghacen (selon affiche).",
+    "date": "2026-10-03T08:00:00+01:00",
+    "type": [   0,
+    3,
+    27],
+    "distance": 42.2,
+    "denivele_plus": null,
+    "wilaya": 5,
+    "commune": "Batna",
+    "pays": "Algerie",
+    "organisateur_nom": "Association des Amis de Medghacen",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "http://www.marathonmedghacen.com/",
+    "inscription_link": "https://www.facebook.com/profile.php?id=100064430000093",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6a4a2f",
+      "secondary_color": "#d6a45c",
+      "accent_color": "#1f1a17"
+    },
+    "image": "/images/MarathonMedghacen.png"
+  },
+  {
+    "id": 67,
+    "slug": "medghacen-13km-2026",
+    "nom": "16e Medghacen International Marathon 2026 - Course 13 km (Batna -> Fesdis)",
+    "description": "Course de 13 km de la 16e edition du Medghacen International Marathon. Depart depuis l'OPOW de Batna vers Fesdis, selon les informations visibles sur l'affiche officielle.",
+    "date": "2026-10-03T08:00:00+01:00",
+    "type": [0],
+    "distance": 13,
+    "denivele_plus": null,
+    "wilaya": 5,
+    "commune": "Batna",
+    "pays": "Algerie",
+    "organisateur_nom": "Association des Amis de Medghacen",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "http://www.marathonmedghacen.com/",
+    "inscription_link": "https://www.facebook.com/profile.php?id=100064430000093",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6a4a2f",
+      "secondary_color": "#d6a45c",
+      "accent_color": "#1f1a17"
+    },
+    "image": "/images/MarathonMedghacen.png"
+  },
+  {
+    "id": 68,
+    "slug": "medghacen-marathon-relais-2x21k-2026",
+    "nom": "16e Medghacen International Marathon 2026 - Marathon Relais 2 x 21.1 km",
+    "description": "Format marathon relais en 2 sections de 21.1 km (2 x 21.1), de l'OPOW de Batna vers Medghacen, d'apres l'affiche officielle.",
+    "date": "2026-10-03T08:00:00+01:00",
+    "type": [3, 29, 9],
+    "distance": [21.1, 21.1],
+    "denivele_plus": null,
+    "wilaya": 5,
+    "commune": "Batna",
+    "pays": "Algerie",
+    "organisateur_nom": "Association des Amis de Medghacen",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "http://www.marathonmedghacen.com/",
+    "inscription_link": "https://www.facebook.com/profile.php?id=100064430000093",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6a4a2f",
+      "secondary_color": "#d6a45c",
+      "accent_color": "#1f1a17"
+    },
+    "image": "/images/MarathonMedghacen.png"
   }
 ]
