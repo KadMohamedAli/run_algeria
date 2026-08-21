@@ -7,6 +7,7 @@ import DescriptionComponent from "./Description";
 import WinnerPricesComponent from "./WinnerPricesComponent";
 import CourseTags from "./CourseTags";
 import RightPanel from "./RightPanel";
+import { getTrackedHref } from "@/lib/outboundLinks";
 
 /* ===== HELPERS ===== */
 const getWilayaName = (wilaya) => {
@@ -55,6 +56,7 @@ export default function CoursePageClient({ course }) {
     : [];
 
   const isPastEvent = course.date ? new Date(course.date) < new Date() : false;
+  const inscriptionHref = getTrackedHref(course.inscription_link, course.slug);
 
   /* ===== Sticky button show/hide logic ===== */
   const [visible, setVisible] = useState(false);
@@ -142,7 +144,7 @@ export default function CoursePageClient({ course }) {
       </main>
 
       {/* === Sticky Inscription Button (mobile only) === */}
-      {course.inscription_link && !isPastEvent && (
+      {inscriptionHref && !isPastEvent && (
         <div
           className={`fixed bottom-0 left-0 right-0 z-50 sm:hidden transition-all duration-700 ease-[cubic-bezier(0.25,1,0.3,1)] ${
             visible
@@ -152,7 +154,7 @@ export default function CoursePageClient({ course }) {
         >
           <div className="bg-gray-900/95 border-t border-white/10 px-4 py-3 backdrop-blur-sm shadow-[0_-2px_15px_rgba(0,0,0,0.4)]">
             <a
-              href={course.inscription_link}
+              href={inscriptionHref}
               target="_blank"
               rel="noopener noreferrer"
               data-umami-event="clic_s_inscrire"
