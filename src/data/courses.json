@@ -3108,5 +3108,93 @@
         ]
       }
     }
+  },
+    {
+    "id": 8,
+    "slug": "course-populaire-bejaia-7km-2025",
+    "nom": "Course Populaire de Béjaïa 7 km 2025",
+    "description": "Organisée en parallèle du semi-marathon, la 19ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 17 octobre 2025 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
+    "date": "2025-10-17T08:45:00+01:00",
+    "type": [
+      0
+    ],
+    "distance": 7,
+    "wilaya": 6,
+    "commune": "Béjaïa",
+    "pays": "Algérie",
+    "organisateur_nom": "Athlétic Méditerranéen Club Béjaïa (AMCB)",
+    "contact_numero": "+21334117008",
+    "contact_email": "contact@semimarathonbejaia.com",
+    "site_web": "https://semimarathonbejaia.com/",
+    "image": "/images/semiBejaia2025.jpg",
+    "prix_inscription": "1500",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical requis"
+    ],
+    "colors": {
+      "background_color": "#3b586e",
+      "secondary_color": "",
+      "accent_color": "#142c3d"
+    },
+    "prix_gagnants": {
+      "Course Populaire – Hommes": {
+        "1er": [
+          "20000"
+        ],
+        "2e": [
+          "15000"
+        ],
+        "3e": [
+          "10000"
+        ],
+        "finishers": [
+          "Médaille Finisher"
+        ]
+      },
+      "Course Populaire – Femmes": {
+        "1er": [
+          "20000"
+        ],
+        "2e": [
+          "15000"
+        ],
+        "3e": [
+          "10000"
+        ],
+        "finishers": [
+          "Médaille Finisher"
+        ]
+      }
+    }
+  },
+   {
+  "id": 70,
+  "slug": "course-10km-bab-ezzouar-2026",
+  "nom": "Course 10 km de Bab Ezzouar 2026",
+  "description": "7e édition du 10 km de Bab Ezzouar, organisé par le Club Athlétique de Bab Ezzouar (CABE). Un parcours très plat, idéal pour viser un record personnel.",
+  "date": "2026-10-30T08:30:00+01:00",
+  "type": [
+    0
+  ],
+  "distance": 10,
+  "wilaya": 16,
+  "commune": "Bab Ezzouar",
+  "pays": "Algérie",
+  "organisateur_nom": "CABE (Club Athlétique de Bab Ezzouar)",
+  "contact_numero": "+21334117008",
+  "contact_email": null,
+  "site_web": "https://www.facebook.com/groups/603861843145022/about",
+  "image": "/images/10Bbz2026.jpg",
+  "prix_inscription": "-",
+  "conditions": [
+    "Âge minimum : 18 ans",
+    "Licence sportive ou certificat médical requis"
+  ],
+  "colors": {
+    "background_color": "#F5F3EE",
+    "secondary_color": "#009DB5",
+    "accent_color": "#142C3D"
   }
+}
 ]
