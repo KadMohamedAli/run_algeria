@@ -6,6 +6,7 @@ import {
   GlobeAltIcon,
 } from "@heroicons/react/24/solid";
 import { formatPhoneNumber, formatWebsite } from "@/utils/formatters";
+import { getTrackedHref } from "@/lib/outboundLinks";
 
 function RightPanel({ course }) {
   const org = course.organisateur_nom
@@ -17,8 +18,7 @@ function RightPanel({ course }) {
       }
     : null;
 
-  const hasValidInscriptionLink =
-    course.inscription_link && course.inscription_link.startsWith("http");
+  const inscriptionHref = getTrackedHref(course.inscription_link, course.slug);
 
   const hasConditions =
     Array.isArray(course.conditions) && course.conditions.length > 0;
@@ -78,10 +78,10 @@ function RightPanel({ course }) {
         )}
 
         {/* --- Inscription button --- */}
-        {hasValidInscriptionLink && !isPastEvent && (
+        {inscriptionHref && !isPastEvent && (
           <div className="pt-4 hidden sm:block">
             <a
-              href={course.inscription_link}
+              href={inscriptionHref}
               target="_blank"
               rel="noopener noreferrer"
               data-umami-event="clic_s_inscrire"

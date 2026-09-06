@@ -1,5 +1,6 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
@@ -123,6 +124,7 @@ export default function RootLayout({ children }) {
         />
         <Navbar />
         <main className="container mx-auto">{children}</main>
+        <Footer />
       </body>
     </html>
   );
