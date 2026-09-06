@@ -403,10 +403,10 @@
   },
   {
     "id": 7,
-    "slug": "semi-marathon-bejaia-2025",
-    "nom": "Semi-Marathon International de Béjaïa 2025 - 19e Edition",
-    "description": "La 19ᵉ édition du Semi-Marathon International de la Ville de Béjaïa se déroulera le vendredi 17 octobre 2025, organisée par le CSA/AMCB sous le patronage du Ministère de la Jeunesse et des Sports, du Wali et de la Ligue d’Athlétisme de Béjaïa. Le parcours de 21,098 km, homologué par l’AIMS, traverse les artères de la ville dans une ambiance sportive et populaire.",
-    "date": "2025-10-17T08:45:00+01:00",
+    "slug": "semi-marathon-bejaia-2026",
+    "nom": "Semi-Marathon International de Béjaïa 2026 - 20e Edition",
+    "description": "La 20ᵉ édition du Semi-Marathon International de la Ville de Béjaïa se déroulera le vendredi 16 octobre 2026, organisée par le CSA/AMCB sous le patronage du Ministère de la Jeunesse et des Sports, du Wali et de la Ligue d’Athlétisme de Béjaïa. Le parcours de 21,098 km, homologué par l’AIMS, traverse les artères de la ville dans une ambiance sportive et populaire.",
+    "date": "2026-10-16T08:45:00+01:00",
     "type": [
       4,
       27
@@ -420,8 +420,9 @@
     "contact_numero": "+21334117008",
     "contact_email": "contact@semimarathonbejaia.com",
     "site_web": "https://semimarathonbejaia.com/",
-    "image": "/images/semiBejaia2025.jpg",
-    "prix_inscription": "1500",
+    "inscription_link": "https://inscription.semimarathondebejaia.com/",
+    "image": "/images/semiBejaia2026.jpg",
+    "prix_inscription": "1600",
     "conditions": [
       "Âge minimum 18 ans",
       "Licence ou certificat médical obligatoire"
@@ -506,10 +507,10 @@
   },
   {
     "id": 8,
-    "slug": "course-populaire-bejaia-7km-2025",
-    "nom": "Course Populaire de Béjaïa 7 km 2025",
-    "description": "Organisée en parallèle du semi-marathon, la 19ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 17 octobre 2025 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
-    "date": "2025-10-17T08:45:00+01:00",
+    "slug": "course-populaire-bejaia-7km-2026",
+    "nom": "Course Populaire de Béjaïa 7 km 2026",
+    "description": "Organisée en parallèle du semi-marathon, la 20ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 16 octobre 2026 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
+    "date": "2026-10-16T08:45:00+01:00",
     "type": [
       0
     ],
@@ -521,9 +522,9 @@
     "contact_numero": "+21334117008",
     "contact_email": "contact@semimarathonbejaia.com",
     "site_web": "https://semimarathonbejaia.com/",
-    "image": "/images/semiBejaia2025.jpg",
-    "prix_inscription": "1500",
-    "inscription_link": "https://semimarathonbejaia.com/inscription",
+    "image": "/images/semiBejaia2026.jpg",
+    "prix_inscription": "1600",
+    "inscription_link": "https://inscription.semimarathondebejaia.com/",
     "conditions": [
       "Âge minimum 18 ans",
       "Licence ou certificat médical requis"
@@ -1691,7 +1692,7 @@
     "slug": "trail-chrea-2026-15km-automne",
     "nom": "Trail Chréa 2026 – 15 km",
     "description": "🍂 **Trail Chréa 2026 – 15 km**\n\nLe **samedi 21 novembre 2026**, Trail Chréa revient pour sa saison d’automne avec une distance idéale pour **débuter en trail** ou courir avec plaisir.\n\nUn parcours accessible mais authentique, à travers les sentiers boisés et les reliefs modérés du **parc national de Chréa**.\n\n**Épreuve :**\n- Trail **15 km** – parfait pour une première expérience en montagne.",
-    "date": "2026-11-21T09:00:00+01:00",
+    "date": "2026-12-12T09:00:00+01:00",
     "type": [
       1,
       13
@@ -1706,7 +1707,8 @@
     "contact_email": "gravirblida@gmail.com",
     "site_web": "https://www.facebook.com/TrailChrea",
     "image": "/images/chreaTrail.jpg",
-    "prix_inscription": "Inconnue",
+    "prix_inscription": "3500",
+    "inscription_link": "https://dzmoves.com/events/trail-chrea",
     "conditions": [
       "Âge minimum 18 ans"
     ],
@@ -1722,7 +1724,7 @@
     "slug": "trail-chrea-2026-24km-automne",
     "nom": "Trail Chréa 2026 – 24 km",
     "description": "🍂 **Trail Chréa 2026 – 24 km**\n\nUne distance emblématique alliant **plaisir et défi**, idéale pour les traileurs intermédiaires. Le parcours traverse les secteurs mythiques de Chréa avec un équilibre parfait entre technicité et endurance.\n\n**Épreuve :**\n- Trail **24 km** – le cœur de l’esprit Trail Chréa.",
-    "date": "2026-11-21T09:00:00+01:00",
+    "date": "2026-12-12T09:00:00+01:00",
     "type": [
       1,
       13,
@@ -1738,7 +1740,8 @@
     "contact_email": "gravirblida@gmail.com",
     "site_web": "https://www.facebook.com/TrailChrea",
     "image": "/images/chreaTrail.jpg",
-    "prix_inscription": "Inconnue",
+    "inscription_link": "https://dzmoves.com/events/trail-chrea",
+    "prix_inscription": "3500",
     "conditions": [
       "Âge minimum 18 ans"
     ],
@@ -1754,7 +1757,7 @@
     "slug": "trail-chrea-2026-40km-automne",
     "nom": "Trail Chréa 2026 – 40 km",
     "description": "🍂 **Trail Chréa 2026 – 40 km**\n\nUn véritable **test d’endurance et de volonté**. Cette distance longue est destinée aux traileurs confirmés souhaitant repousser leurs limites dans un environnement montagneux exigeant.\n\n**Épreuve :**\n- Trail **40 km** – endurance, stratégie et mental.",
-    "date": "2026-11-21T09:00:00+01:00",
+    "date": "2026-12-12T09:00:00+01:00",
     "type": [
       1,
       13,
@@ -1770,7 +1773,8 @@
     "contact_email": "gravirblida@gmail.com",
     "site_web": "https://www.facebook.com/TrailChrea",
     "image": "/images/chreaTrail.jpg",
-    "prix_inscription": "Inconnue",
+    "prix_inscription": "4000",
+    "inscription_link": "https://dzmoves.com/events/trail-chrea",
     "conditions": [
       "Expérience en trail requise",
       "Bonne condition physique obligatoire"
@@ -2651,55 +2655,99 @@
   },
   {
     "id": 61,
-    "slug": "trail-chelia",
-    "nom": "Trail Chélia",
-    "description": "Une course unique en Algérie qui vous emmène jusqu'au sommet du Chélia, culminant à 2328 m, le plus haut sommet des Aurès.",
-    "date": "2026-08-22T08:00:00+01:00",
+    "slug": "trail-chelia-21k-2026",
+    "nom": "Trail Chélia 21K",
+    "description": "🏃‍♂️ **Trail Chélia 21K 2026** ⛰️\n\nLa page **TRAIL Chelia Running** organise la première édition du **Trail Chélia 21K**, une course nature dans la région du **Mont Chélia**, au cœur des **Aurès**.\n\n🏔️ **Distance : 21 km**\n⛰️ **Dénivelé positif : 1300 m**\n\n🔥 Un parcours exigeant en montagne, destiné aux amateurs de trail et de course nature.\n\n📅 **Date : 22 août 2026**\n📍 **Lieu : Mont Chélia – Aurès, Algérie**\n\n⚠️ Places limitées – inscription obligatoire.\n\n📌 Pour confirmer l’inscription, les participants doivent envoyer le reçu de paiement, le numéro de téléphone personnel, ainsi qu’une photo de la carte d’identité nationale et une licence sportive 2025/2026 ou un certificat médical via WhatsApp.",
+    "date": "2026-08-22T09:00:00+01:00",
     "type": [
       1,
-      13,
-      22
+      7,
+      13
     ],
     "distance": 21,
-    "denivele_plus": 1350,
+    "denivele_plus": 1300,
+    "denivele_minus": null,
     "wilaya": 40,
     "commune": "Chélia",
     "pays": "Algérie",
-    "organisateur_nom": "CHELIA Mountain Running Trail",
-    "contact_numero": "0662 50 43 31",
-    "site_web": "https://www.facebook.com/profile.php?id=61581976300334",
+    "organisateur_nom": "TRAIL Chelia Running",
+    "contact_numero": "+213662504331",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/trail_chelia_21k_2026.jpg",
     "prix_inscription": "2000 DA",
-    "inscription_link": "https://www.facebook.com/story.php?story_fbid=122134559931065876&id=61581976300334&rdid=4y9P9CesShRn6Ezz#",
+    "inscription_link": "https://www.facebook.com/story.php?story_fbid=122113416363339966&id=61590199007366&rdid=C6LnhY3GFaeHa0IV",
+    "conditions": [
+      "Places limitées",
+      "Paiement par CCP",
+      "Envoyer le reçu de paiement par WhatsApp",
+      "Envoyer le numéro de téléphone personnel",
+      "Envoyer une photo de la carte d’identité nationale",
+      "Fournir une licence sportive 2025/2026 ou un certificat médical",
+      "Première édition"
+    ],
     "colors": {
-      "background_color": "#414c4d",
-      "secondary_color": "#657071",
-      "accent_color": "#000001"
+      "background_color": "#005A9C",
+      "secondary_color": "#F2B705",
+      "accent_color": "#E31B23"
     },
-    "image": "/images/trail-chelia.jpg"
+    "prix_gagnants": {}
   },
   {
     "id": 62,
-    "slug": "ecolo-trail-akfadou",
-    "nom": "Écolo Trail Akfadou",
-    "description": "Une course de trail dans la magnifique forêt d'Akfadou.",
-    "date": "2026-09-05T08:00:00+01:00",
+    "slug": "ecolo-trail-akfadou-28",
+    "nom": "Écolo Trail d'Akfadou",
+    "description": "Une course de trail dans la magnifique forêt d'Akfadou, parcours 28 km.",
+    "date": "2026-09-26T08:00:00+01:00",
     "type": [
       1,
       13,
       23,
       24
     ],
-    "distance": 22,
-    "denivele_plus": 450,
-    "wilaya": 15,
+    "distance": 28,
+    "denivele_plus": 900,
+    "wilaya": 6,
     "commune": "Akfadou",
     "pays": "Algérie",
-    "organisateur_nom": "EMCA",
-    "contact_numero": "-",
-    "contact_email": "-",
-    "site_web": "https://www.facebook.com/people/%C3%89colo-Trail-dAkfadou-EMCA/61575298801886/?rdid=RAnJdZHgZIEuWdum&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DnqoJvVvV%2F",
-    "prix_inscription": "-",
-    "inscription_link": "-",
+    "organisateur_nom": "École Montagne Club Akfadou (EMCA)",
+    "contact_numero": "0675862395",
+    "contact_email": "ecolotrailakfadou.inscription@gmail.com",
+    "site_web": "https://ecolotrailakfadou.com",
+    "prix_inscription": "2500",
+    "conditions": [
+      "Inscription en ligne sur ecolotrailakfadou.com/inscription",
+      "Paiement de 2500 DA par participant",
+      "+500 DA en option pour l'hébergement",
+      "Paiement exclusivement par virement ou CCP",
+      "Justificatif de paiement à télécharger dans le formulaire",
+      "Inscription validée après vérification du paiement"
+    ],
+    "prix_gagnants": {
+      "Hommes": {
+        "1er": [
+          "30000"
+        ],
+        "2e": [
+          "25000"
+        ],
+        "3e": [
+          "20000"
+        ]
+      },
+      "Dames": {
+        "1er": [
+          "30000"
+        ],
+        "2e": [
+          "25000"
+        ],
+        "3e": [
+          "20000"
+        ]
+      }
+    },
+    "inscription_link": "https://ecolotrailakfadou.com/inscription",
     "colors": {
       "background_color": "#a2a79c",
       "secondary_color": "#c6cbc0",
@@ -2709,51 +2757,10 @@
   },
   {
     "id": 63,
-    "slug": "trail-fernan",
-    "nom": "trail fernan",
-    "description": "Un trail rapide de 10km en plein nature de blida.",
-    "date": "2026-09-11T08:00:00+01:00",
-    "type": [
-      1,
-      5,
-      13,
-      22,
-      23
-    ],
-    "distance": 10,
-    "wilaya": 9,
-    "commune": "sidi salem",
-    "pays": "Algerie",
-    "organisateur_nom": "brakni cycisme blida",
-    "contact_numero": "0675331650 / 0770636707",
-    "site_web": "https://www.facebook.com/profile.php?id=100064092161851",
-    "inscription_link": "https://www.facebook.com/photo?fbid=1479076127572112&set=a.418940226919046",
-    "colors": {
-      "background_color": "#545647",
-      "secondary_color": "#787a6b",
-      "accent_color": "#040100"
-    },
-    "prix_gagnants": {
-      "Hommes": {
-        "1er": [
-          "30000"
-        ],
-        "2e": [
-          "15000"
-        ],
-        "3e": [
-          "10000"
-        ]
-      }
-    },
-    "image": "/images/trail-fernan.png"
-  },
-  {
-    "id": 64,
     "slug": "ecolo-trail-akfadou-18",
     "nom": "Écolo Trail d'Akfadou",
     "description": "Une course de trail dans la magnifique forêt d'Akfadou, parcours 18 km (accessible).",
-    "date": "2026-09-05T08:00:00+01:00",
+    "date": "2026-09-26T08:00:00+01:00",
     "type": [
       1,
       13,
@@ -2787,6 +2794,48 @@
     "image": "/images/ecolo-trail-akfadou.png"
   },
   {
+    "id": 64,
+    "slug": "trail-fernan",
+    "nom": "trail fernan",
+    "description": "Un trail rapide de 10km en plein nature de blida.",
+    "date": "2026-09-11T08:00:00+01:00",
+    "type": [
+      1,
+      5,
+      13,
+      22,
+      23
+    ],
+    "distance": 10,
+    "denivele_plus": 300,
+    "wilaya": 9,
+    "commune": "sidi salem",
+    "pays": "Algerie",
+    "organisateur_nom": "brakni cycisme blida",
+    "contact_numero": "0675331650 / 0770636707",
+    "site_web": "https://www.facebook.com/profile.php?id=100064092161851",
+    "inscription_link": "https://www.facebook.com/photo?fbid=1479076127572112&set=a.418940226919046",
+    "colors": {
+      "background_color": "#545647",
+      "secondary_color": "#787a6b",
+      "accent_color": "#040100"
+    },
+    "prix_gagnants": {
+      "Hommes": {
+        "1er": [
+          "30000"
+        ],
+        "2e": [
+          "15000"
+        ],
+        "3e": [
+          "10000"
+        ]
+      }
+    },
+    "image": "/images/trail-fernan.png"
+  },
+    {
     "id": 65,
     "slug": "trail-bouafroune",
     "nom": "trail bouafroune",
@@ -2807,8 +2856,8 @@
     "commune": "bouafroune",
     "pays": "Algerie",
     "organisateur_nom": "Club Avenir Djimla",
-    "contact_numero": "0563613394  /",
-    "contact_email": "0658322031",
+    "contact_numero": "0563613394  / 0658322031",
+    "contact_email": "",
     "prix_inscription": "1500",
     "inscription_link": "https://docs.google.com/forms/d/e/1FAIpQLSc9RYoDlQShx64Vvqfv_39jR0DsyihM6V4UKlvJkFkX56xvRg/viewform?pli=1",
     "colors": {
@@ -2817,5 +2866,335 @@
       "accent_color": "#000300"
     },
     "image": "/images/trail-bouafroune.png"
+  },
+  {
+    "id": 66,
+    "slug": "medghacen-marathon-42k-2026",
+    "nom": "16e Medghacen International Marathon 2026 - Marathon 42.195 km",
+    "description": "Epreuve marathon 42.195 km de la 16e edition du Medghacen International Marathon, depart de l'OPOW de Batna vers Medghacen (selon affiche).",
+    "date": "2026-10-03T08:00:00+01:00",
+    "type": [   0,
+    3,
+    27],
+    "distance": 42.2,
+    "denivele_plus": null,
+    "wilaya": 5,
+    "commune": "Batna",
+    "pays": "Algerie",
+    "organisateur_nom": "Association des Amis de Medghacen",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "http://www.marathonmedghacen.com/",
+    "inscription_link": "https://www.facebook.com/profile.php?id=100064430000093",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6a4a2f",
+      "secondary_color": "#d6a45c",
+      "accent_color": "#1f1a17"
+    },
+    "image": "/images/MarathonMedghacen.png"
+  },
+  {
+    "id": 67,
+    "slug": "medghacen-13km-2026",
+    "nom": "16e Medghacen International Marathon 2026 - Course 13 km (Batna -> Fesdis)",
+    "description": "Course de 13 km de la 16e edition du Medghacen International Marathon. Depart depuis l'OPOW de Batna vers Fesdis, selon les informations visibles sur l'affiche officielle.",
+    "date": "2026-10-03T08:00:00+01:00",
+    "type": [0],
+    "distance": 13,
+    "denivele_plus": null,
+    "wilaya": 5,
+    "commune": "Batna",
+    "pays": "Algerie",
+    "organisateur_nom": "Association des Amis de Medghacen",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "http://www.marathonmedghacen.com/",
+    "inscription_link": "https://www.facebook.com/profile.php?id=100064430000093",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6a4a2f",
+      "secondary_color": "#d6a45c",
+      "accent_color": "#1f1a17"
+    },
+    "image": "/images/MarathonMedghacen.png"
+  },
+  {
+    "id": 68,
+    "slug": "medghacen-marathon-relais-2x21k-2026",
+    "nom": "16e Medghacen International Marathon 2026 - Marathon Relais 2 x 21.1 km",
+    "description": "Format marathon relais en 2 sections de 21.1 km (2 x 21.1), de l'OPOW de Batna vers Medghacen, d'apres l'affiche officielle.",
+    "date": "2026-10-03T08:00:00+01:00",
+    "type": [3, 29, 9],
+    "distance": [21.1, 21.1],
+    "denivele_plus": null,
+    "wilaya": 5,
+    "commune": "Batna",
+    "pays": "Algerie",
+    "organisateur_nom": "Association des Amis de Medghacen",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "http://www.marathonmedghacen.com/",
+    "inscription_link": "https://www.facebook.com/profile.php?id=100064430000093",
+    "prix_inscription": "Inconnue",
+    "conditions": [],
+    "colors": {
+      "background_color": "#6a4a2f",
+      "secondary_color": "#d6a45c",
+      "accent_color": "#1f1a17"
+    },
+    "image": "/images/MarathonMedghacen.png"
+  },
+  {
+    "id": 69,
+    "slug": "semi-marathon-bejaia-2025",
+    "nom": "Semi-Marathon International de Béjaïa 2025 - 19e Edition",
+    "description": "La 19ᵉ édition du Semi-Marathon International de la Ville de Béjaïa se déroulera le vendredi 17 octobre 2025, organisée par le CSA/AMCB sous le patronage du Ministère de la Jeunesse et des Sports, du Wali et de la Ligue d’Athlétisme de Béjaïa. Le parcours de 21,098 km, homologué par l’AIMS, traverse les artères de la ville dans une ambiance sportive et populaire.",
+    "date": "2025-10-17T08:45:00+01:00",
+    "type": [
+      4,
+      27
+    ],
+    "distance": 21.098,
+    "denivele_plus": 180,
+    "wilaya": 6,
+    "commune": "Béjaïa",
+    "pays": "Algérie",
+    "organisateur_nom": "Athlétic Méditerranéen Club Béjaïa (AMCB)",
+    "contact_numero": "+21334117008",
+    "contact_email": "contact@semimarathonbejaia.com",
+    "site_web": "https://semimarathonbejaia.com/",
+    "image": "/images/semiBejaia2025.jpg",
+    "prix_inscription": "1500",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical obligatoire"
+    ],
+    "colors": {
+      "background_color": "#3b586e",
+      "secondary_color": "",
+      "accent_color": "#142c3d"
+    },
+    "prix_gagnants": {
+      "Classement Général – Hommes": {
+        "1er": [
+          "200000"
+        ],
+        "2e": [
+          "150000"
+        ],
+        "3e": [
+          "100000"
+        ],
+        "4e": [
+          "50000"
+        ],
+        "5e": [
+          "30000"
+        ],
+        "Record Homme (1h02'46\")": [
+          "200000"
+        ],
+        "finishers": [
+          "Médaille Finisher",
+          "T-shirt officiel de l’événement"
+        ]
+      },
+      "Classement Général – Femmes": {
+        "1ère": [
+          "200000"
+        ],
+        "2e": [
+          "150000"
+        ],
+        "3e": [
+          "100000"
+        ],
+        "4e": [
+          "50000"
+        ],
+        "5e": [
+          "30000"
+        ],
+        "Record Femme (1h10'15\")": [
+          "200000"
+        ],
+        "finishers": [
+          "Médaille Finisher",
+          "T-shirt officiel de l’événement"
+        ]
+      },
+      "Par Catégorie – Hommes (18-26)(27-34)(35-42)(43-50)(51-59)(+60)": {
+        "1er": [
+          "10000"
+        ],
+        "2e": [
+          "7000"
+        ],
+        "3e": [
+          "5000"
+        ]
+      },
+      "Par Catégorie – Femmes (18-26)(27-34)(+35)": {
+        "1er": [
+          "10000"
+        ],
+        "2e": [
+          "7000"
+        ],
+        "3e": [
+          "5000"
+        ]
+      }
+    }
+  },
+  {
+    "id": 8,
+    "slug": "course-populaire-bejaia-7km-2025",
+    "nom": "Course Populaire de Béjaïa 7 km 2025",
+    "description": "Organisée en parallèle du semi-marathon, la 19ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 17 octobre 2025 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
+    "date": "2025-10-17T08:45:00+01:00",
+    "type": [
+      0
+    ],
+    "distance": 7,
+    "wilaya": 6,
+    "commune": "Béjaïa",
+    "pays": "Algérie",
+    "organisateur_nom": "Athlétic Méditerranéen Club Béjaïa (AMCB)",
+    "contact_numero": "+21334117008",
+    "contact_email": "contact@semimarathonbejaia.com",
+    "site_web": "https://semimarathonbejaia.com/",
+    "image": "/images/semiBejaia2025.jpg",
+    "prix_inscription": "1500",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical requis"
+    ],
+    "colors": {
+      "background_color": "#3b586e",
+      "secondary_color": "",
+      "accent_color": "#142c3d"
+    },
+    "prix_gagnants": {
+      "Course Populaire – Hommes": {
+        "1er": [
+          "20000"
+        ],
+        "2e": [
+          "15000"
+        ],
+        "3e": [
+          "10000"
+        ],
+        "finishers": [
+          "Médaille Finisher"
+        ]
+      },
+      "Course Populaire – Femmes": {
+        "1er": [
+          "20000"
+        ],
+        "2e": [
+          "15000"
+        ],
+        "3e": [
+          "10000"
+        ],
+        "finishers": [
+          "Médaille Finisher"
+        ]
+      }
+    }
+  },
+    {
+    "id": 8,
+    "slug": "course-populaire-bejaia-7km-2025",
+    "nom": "Course Populaire de Béjaïa 7 km 2025",
+    "description": "Organisée en parallèle du semi-marathon, la 19ᵉ édition de la Course Populaire de Béjaïa aura lieu le vendredi 17 octobre 2025 à 08h45. Ce parcours de 7 km est ouvert à tous les coureurs nés en 2008 ou avant, licenciés ou non, dans une ambiance conviviale et festive à travers les rues de Béjaïa.",
+    "date": "2025-10-17T08:45:00+01:00",
+    "type": [
+      0
+    ],
+    "distance": 7,
+    "wilaya": 6,
+    "commune": "Béjaïa",
+    "pays": "Algérie",
+    "organisateur_nom": "Athlétic Méditerranéen Club Béjaïa (AMCB)",
+    "contact_numero": "+21334117008",
+    "contact_email": "contact@semimarathonbejaia.com",
+    "site_web": "https://semimarathonbejaia.com/",
+    "image": "/images/semiBejaia2025.jpg",
+    "prix_inscription": "1500",
+    "conditions": [
+      "Âge minimum 18 ans",
+      "Licence ou certificat médical requis"
+    ],
+    "colors": {
+      "background_color": "#3b586e",
+      "secondary_color": "",
+      "accent_color": "#142c3d"
+    },
+    "prix_gagnants": {
+      "Course Populaire – Hommes": {
+        "1er": [
+          "20000"
+        ],
+        "2e": [
+          "15000"
+        ],
+        "3e": [
+          "10000"
+        ],
+        "finishers": [
+          "Médaille Finisher"
+        ]
+      },
+      "Course Populaire – Femmes": {
+        "1er": [
+          "20000"
+        ],
+        "2e": [
+          "15000"
+        ],
+        "3e": [
+          "10000"
+        ],
+        "finishers": [
+          "Médaille Finisher"
+        ]
+      }
+    }
+  },
+   {
+  "id": 70,
+  "slug": "course-10km-bab-ezzouar-2026",
+  "nom": "Course 10 km de Bab Ezzouar 2026",
+  "description": "7e édition du 10 km de Bab Ezzouar, organisé par le Club Athlétique de Bab Ezzouar (CABE). Un parcours très plat, idéal pour viser un record personnel.",
+  "date": "2026-10-30T08:30:00+01:00",
+  "type": [
+    0
+  ],
+  "distance": 10,
+  "wilaya": 16,
+  "commune": "Bab Ezzouar",
+  "pays": "Algérie",
+  "organisateur_nom": "CABE (Club Athlétique de Bab Ezzouar)",
+  "contact_numero": "+21334117008",
+  "contact_email": null,
+  "site_web": "https://www.facebook.com/groups/603861843145022/about",
+  "image": "/images/10Bbz2026.jpg",
+  "prix_inscription": "-",
+  "conditions": [
+    "Âge minimum : 18 ans",
+    "Licence sportive ou certificat médical requis"
+  ],
+  "colors": {
+    "background_color": "#F5F3EE",
+    "secondary_color": "#009DB5",
+    "accent_color": "#142C3D"
   }
+}
 ]

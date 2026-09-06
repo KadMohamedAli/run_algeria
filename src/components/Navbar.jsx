@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import SocialLinks from "./SocialLinks";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,8 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Links */}
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden md:flex space-x-8 items-center">
+              <SocialLinks />
               <Link
                 href="/"
                 className="text-white hover:text-gray-300 transition-colors duration-200"
@@ -82,6 +84,7 @@ export default function Navbar() {
           >
             Contact
           </Link>
+          <SocialLinks className="pt-4 px-3" iconClassName="h-6 w-6" />
         </nav>
       </div>
 

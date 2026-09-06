@@ -1,4 +1,6 @@
 // ✅ Define SEO metadata using the new Next.js App Router system
+import SocialLinks from "@/components/SocialLinks";
+
 export const metadata = {
   title: "À propos et contact",
   description:
@@ -179,10 +181,16 @@ export default function InfoPage() {
       </section>
 
       <footer>
-        <p className="text-gray-400 italic text-center text-sm sm:text-base pt-4">
-          Merci à tous les coureurs, clubs et bénévoles qui font vivre la course
-          à pied en Algérie 🏃‍♂️🇩🇿
-        </p>
+        <div className="flex flex-col items-center gap-4 pt-4">
+          <p className="text-gray-400 italic text-center text-sm sm:text-base">
+            Suivez-nous sur nos réseaux :
+          </p>
+          <SocialLinks iconClassName="h-7 w-7" />
+          <p className="text-gray-400 italic text-center text-sm sm:text-base pt-2">
+            Merci à tous les coureurs, clubs et bénévoles qui font vivre la
+            course à pied en Algérie 🏃‍♂️🇩🇿
+          </p>
+        </div>
       </footer>
     </main>
   );
