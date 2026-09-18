@@ -3186,7 +3186,8 @@
   "contact_email": null,
   "site_web": "https://www.facebook.com/groups/603861843145022/about",
   "image": "/images/10Bbz2026.jpg",
-  "prix_inscription": "-",
+  "prix_inscription": "2000",
+  "inscription_link": "https://dzmoves.com/events/bab-ezzouar-run-2026",   
   "conditions": [
     "Âge minimum : 18 ans",
     "Licence sportive ou certificat médical requis"
