@@ -7,6 +7,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { formatPhoneNumber, formatWebsite } from "@/utils/formatters";
 import { getTrackedHref } from "@/lib/outboundLinks";
+import { addCourseAlgerieTracking } from "@/utils/redirection";
 
 function RightPanel({ course }) {
   const org = course.organisateur_nom
@@ -24,6 +25,8 @@ function RightPanel({ course }) {
     Array.isArray(course.conditions) && course.conditions.length > 0;
 
   const isPastEvent = course.date ? new Date(course.date) < new Date() : false;
+
+  const trackedInscriptionHref = addCourseAlgerieTracking(inscriptionHref);
 
   if (!org) return null;
 
@@ -81,7 +84,7 @@ function RightPanel({ course }) {
         {inscriptionHref && !isPastEvent && (
           <div className="pt-4 hidden sm:block">
             <a
-              href={inscriptionHref}
+              href={trackedInscriptionHref}
               target="_blank"
               rel="noopener noreferrer"
               data-umami-event="clic_s_inscrire"

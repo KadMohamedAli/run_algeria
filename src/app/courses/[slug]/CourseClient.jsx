@@ -8,6 +8,7 @@ import WinnerPricesComponent from "./WinnerPricesComponent";
 import CourseTags from "./CourseTags";
 import RightPanel from "./RightPanel";
 import { getTrackedHref } from "@/lib/outboundLinks";
+import { addCourseAlgerieTracking } from "@/utils/redirection";
 
 /* ===== HELPERS ===== */
 const getWilayaName = (wilaya) => {
@@ -52,8 +53,8 @@ export default function CoursePageClient({ course }) {
   const typeCodes = Array.isArray(course.type)
     ? course.type
     : course.type
-    ? [course.type]
-    : [];
+      ? [course.type]
+      : [];
 
   const isPastEvent = course.date ? new Date(course.date) < new Date() : false;
   const inscriptionHref = getTrackedHref(course.inscription_link, course.slug);
@@ -85,6 +86,8 @@ export default function CoursePageClient({ course }) {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const trackedInscriptionHref = addCourseAlgerieTracking(inscriptionHref);
 
   return (
     <div className="min-h-screen text-white flex flex-col">
@@ -154,7 +157,7 @@ export default function CoursePageClient({ course }) {
         >
           <div className="bg-gray-900/95 border-t border-white/10 px-4 py-3 backdrop-blur-sm shadow-[0_-2px_15px_rgba(0,0,0,0.4)]">
             <a
-              href={inscriptionHref}
+              href={trackedInscriptionHref}
               target="_blank"
               rel="noopener noreferrer"
               data-umami-event="clic_s_inscrire"
