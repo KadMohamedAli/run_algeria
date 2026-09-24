@@ -2480,5 +2480,34 @@
       "accent_color": "#1d1c6b"
     },
     "prix_gagnants": {}
+  },
+  {
+    "id": 73,
+    "slug": "les-marathoniennes-10km-2026",
+    "nom": "Les Marathoniennes - 10 km 2026",
+    "description": "La course internationale féminine **Les Marathoniennes** revient à Alger le **vendredi 23 octobre 2026** à l’occasion d’Octobre Rose, avec pour slogan *Run for Health, Run for Algeria* / « Courir pour la santé et l'espoir ».\n\nLa course, réservée exclusivement aux femmes, propose une distance officielle de **10 km** avec un circuit d'environ **10,5 km**. Le départ et l’arrivée sont prévus au **siège de la Wilaya d’Alger**.\n\nLe parcours passera notamment par le Jardin Sofia, le boulevard Colonel Amirouche, la rue Hassiba Ben Bouali, la rue Bachir Attar, Tafourah, la Grande Poste et la place Matoub Lounès.\n\nLes inscriptions sont ouvertes du **1er au 30 septembre 2026**. La participation est limitée à **1 000 athlètes**, réparties entre athlètes affiliées et non affiliées. Les catégories d’âge sont 18–35 ans, +35–55 ans et +55 ans.\n\nLa présentation d’un **certificat médical est obligatoire** lors du retrait des dossards. La remise des dossards aura lieu durant les trois jours précédant la course, avec le lieu communiqué après la clôture des inscriptions.",
+    "date": "2026-10-23T08:00:00+01:00",
+    "type": [5, 0],
+    "distance": 10,
+    "wilaya": 16,
+    "commune": "Alger-Centre",
+    "pays": "Algérie",
+    "organisateur_nom": "Association Nationale pour la Promotion et le Développement du Sport Féminin",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/10k_rose_alger.png",
+    "prix_inscription": 0,
+    "inscription_link": "",
+    "conditions": [
+      "Course réservée exclusivement aux femmes",
+      "Certificat médical obligatoire lors du retrait des dossards"
+    ],
+    "colors": {
+      "background_color": "#FF0055",
+      "secondary_color": "",
+      "accent_color": "#700031"
+    },
+    "prix_gagnants": {}
   }
 ]
