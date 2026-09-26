@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "prebuild": "node scripts/generate-sitemap.js",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "publish:buffer": "node scripts/publish-to-buffer.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
