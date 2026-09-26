@@ -2509,5 +2509,28 @@
       "accent_color": "#700031"
     },
     "prix_gagnants": {}
+  },
+   {
+    "id": 74,
+    "slug": "Semi-Marathon-Ifrane-2026",
+    "nom": "Semi-Marathon d'Ifrane",
+    "description": "La 9eme edition du Semi-Marathon d'Ifrane est une course qui se déroule dans la région d'Ifrane, dans le Sud algérien. L'événement propose un parcours de semi-marathon ouvert aux coureurs, avec un accueil organisé pour les participants sur place.",
+    "date": "2026-11-14T08:00:00+01:00",
+    "type": [4, 27, 0],
+    "distance": "21,097",
+    "denivele_plus": "-",
+    "wilaya": 30,
+    "commune": "Frane",
+    "pays": "Algérie",
+    "organisateur_nom": "Club Sportif Jeunesse la Liberté Afrane",
+    "image": "/images/semi-afran-2026.png",
+    "prix_inscription": "1500",
+    "inscription_link": "https://docs.google.com/forms/d/e/1FAIpQLSc9gWbsFab4j90gI-tfWI-VTTiyt6aHnHPrQrQfoVDNRDs1ug/viewform?pli=1",
+    "colors": {
+      "background_color": "#1a4d2e",
+      "secondary_color": "",
+      "accent_color": "#c62828"
+    },
+    "prix_gagnants": {}
   }
 ]
