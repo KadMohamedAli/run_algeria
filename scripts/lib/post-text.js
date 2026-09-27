@@ -107,6 +107,18 @@ function cleanDescription(raw, maxLength = 320) {
   return `${cut.slice(0, cut.lastIndexOf(" ")).trim()}…`;
 }
 
+function formatDPlus(raw) {
+  if (raw === null || raw === undefined) return null;
+
+  const value = String(raw).trim().replace(",", ".");
+  if (!/^\d+(?:\.\d+)?$/.test(value)) return null;
+
+  const meters = Number(value);
+  if (!Number.isFinite(meters) || meters <= 0) return null;
+
+  return `D+ ${formatNumber(meters)} m`;
+}
+
 function formatDate(raw) {
   if (!raw) return null;
 
@@ -125,7 +137,7 @@ function formatDate(raw) {
     timeZone: TIME_ZONE,
     hour: "2-digit",
     minute: "2-digit",
-    hour12: false,
+    hourCycle: "h23",
   }).format(date);
 
   return `${day} à ${time}`;
@@ -178,35 +190,40 @@ function buildPostText({ course, typeNames, wilayas, siteUrl }) {
   const url = `${siteUrl.replace(/\/+$/, "")}/courses/${course.slug}`;
   const typeCodes = Array.isArray(course.type) ? course.type : [];
 
-  const description = cleanDescription(course.description);
-
   const lines = [`🏃‍♂️ ${course.nom}`];
 
-  if (description) lines.push("", description);
-
-  const details = [];
-  const location = resolveLocation(course, wilayas);
-  const date = formatDate(course.date);
-
-  if (location) details.push(`📍 ${location}`);
-  if (date) details.push(`📅 ${date}`);
+  // Rappel des faits avant la description : nom, distance, D+, wilaya, prix.
+  const facts = [];
 
   const typeLabel = resolveTypes(course, typeNames);
-  const distance = formatDistance(course.distance);
-  if (typeLabel || distance) {
-    details.push(`🏷 ${[typeLabel, distance].filter(Boolean).join(" · ")}`);
-  }
+  const raceFacts = [
+    typeLabel,
+    formatDistance(course.distance),
+    formatDPlus(course.denivele_plus),
+  ].filter(Boolean);
+
+  if (raceFacts.length) facts.push(`🏷 ${raceFacts.join(" · ")}`);
+
+  const location = resolveLocation(course, wilayas);
+  if (location) facts.push(`📍 ${location}`);
 
   const price = formatPrice(course.prix_inscription);
-  if (price) details.push(`💰 ${price}`);
+  if (price) facts.push(`💰 ${price}`);
 
-  if (details.length) lines.push("", ...details);
+  const date = formatDate(course.date);
+  if (date) facts.push(`📅 ${date}`);
 
-  if (course.inscription_link) {
-    lines.push("", `📝 Inscription : ${course.inscription_link}`);
-  }
+  if (facts.length) lines.push("", ...facts);
 
-  lines.push("", `👉 Toutes les infos : ${url}`, "", buildHashtags(course, typeCodes));
+  const description = cleanDescription(course.description);
+  if (description) lines.push("", description);
+
+  lines.push(
+    "",
+    `👉 Inscription et détails : ${url}`,
+    "",
+    buildHashtags(course, typeCodes),
+  );
 
   let text = lines.join("\n");
   if (text.length > MAX_TEXT_LENGTH) {
@@ -221,6 +238,7 @@ module.exports = {
   buildHashtags,
   buildPostText,
   cleanDescription,
+  formatDPlus,
   formatDate,
   formatDistance,
   formatPrice,
