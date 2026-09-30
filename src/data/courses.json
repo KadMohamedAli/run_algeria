@@ -2533,177 +2533,181 @@
     },
     "prix_gagnants": {}
   },
+Voici le JSON complet avec `-15km`, `-42km`, etc. ajoutés au **nom et au slug** :
+
+```json
+[
   {
-  "id": 75,
-  "slug": "kastal-trail",
-  "nom": "Kastal trail",
-  "description": "Le Kastal Trail est un événement sportif de premier plan dédié au trail running (course à pied en pleine nature), qui se déroule au cœur des somptueux paysages montagneux de Chréa, dans la wilaya de Blida (Algérie).",
-  "date": "2027-04-03T08:00:00+01:00",
-  "type": [
-    1,
-    11,
-    13,
-    23
-  ],
-  "distance": "15",
-  "denivele_plus": 550,
-  "wilaya": 9,
-  "commune": "chrea",
-  "pays": "Algerie",
-  "organisateur_nom": "Blida Athletics League",
-  "contact_numero": "-",
-  "contact_email": "l.a.blida1989@gmail.com",
-  "site_web": "https://sites.google.com/view/kastaltrail",
-  "prix_inscription": "-",
-  "inscription_link": "https://sites.google.com/view/kastaltrail",
-  "image": "/images/Katal-trail.png",
-  "colors": {
-    "background_color": "#51522a",
-    "secondary_color": "#75764e",
-    "accent_color": "#010001"
+    "id": 75,
+    "slug": "kastal-trail-15km",
+    "nom": "Kastal trail - 15 km",
+    "description": "Le Kastal Trail est un événement sportif de premier plan dédié au trail running (course à pied en pleine nature), qui se déroule au cœur des somptueux paysages montagneux de Chréa, dans la wilaya de Blida (Algérie).",
+    "date": "2027-04-03T08:00:00+01:00",
+    "type": [
+      1,
+      11,
+      13,
+      23
+    ],
+    "distance": "15",
+    "denivele_plus": 550,
+    "wilaya": 9,
+    "commune": "chrea",
+    "pays": "Algerie",
+    "organisateur_nom": "Blida Athletics League",
+    "contact_numero": "-",
+    "contact_email": "l.a.blida1989@gmail.com",
+    "site_web": "https://sites.google.com/view/kastaltrail",
+    "prix_inscription": "-",
+    "inscription_link": "https://sites.google.com/view/kastaltrail",
+    "image": "/images/Katal-trail.png",
+    "colors": {
+      "background_color": "#51522a",
+      "secondary_color": "#75764e",
+      "accent_color": "#010001"
+    }
+  },
+  {
+    "id": 76,
+    "slug": "kastal-trail-42km",
+    "nom": "Kastal trail - 42 km",
+    "description": "Le Kastal Trail est un événement sportif de premier plan dédié au trail running (course à pied en pleine nature), qui se déroule au cœur des somptueux paysages montagneux de Chréa, dans la wilaya de Blida (Algérie).",
+    "date": "2027-04-03T08:00:00+01:00",
+    "type": [
+      1,
+      11,
+      13,
+      23
+    ],
+    "distance": "42km",
+    "denivele_plus": 1800,
+    "wilaya": 9,
+    "commune": "chrea",
+    "pays": "Algerie",
+    "organisateur_nom": "Blida Athletics League",
+    "contact_numero": "-",
+    "contact_email": "l.a.blida1989@gmail.com",
+    "site_web": "https://sites.google.com/view/kastaltrail",
+    "prix_inscription": "-",
+    "inscription_link": "https://sites.google.com/view/kastaltrail",
+    "image": "/images/Katal-trail.png",
+    "colors": {
+      "background_color": "#51522a",
+      "secondary_color": "#75764e",
+      "accent_color": "#010001"
+    }
+  },
+  {
+    "id": 77,
+    "slug": "sahara-marathon-42km",
+    "nom": "Sahara Marathon - 42 km",
+    "description": "Le Sahara Marathon est une course internationale unique organisée au cœur du désert saharien. Elle propose plusieurs formats de course, offrant aux participants une expérience sportive et humaine exceptionnelle dans un environnement désertique emblématique.",
+    "date": "2027-03-16T08:00:00+01:00",
+    "type": [
+      1,
+      3,
+      11
+    ],
+    "distance": 42,
+    "wilaya": 37,
+    "commune": "Smara",
+    "pays": "Algerie",
+    "organisateur_nom": "Sahara marathon",
+    "contact_numero": "-",
+    "contact_email": "mdurli@gmail.com",
+    "site_web": "https://www.saharamarathon.org/en",
+    "prix_inscription": "-",
+    "inscription_link": "https://www.saharamarathon.org/en",
+    "image": "/images/SaharMarathon.png",
+    "colors": {
+      "background_color": "#59554f",
+      "secondary_color": "#7d7973",
+      "accent_color": "#002542"
+    }
+  },
+  {
+    "id": 78,
+    "slug": "sahara-marathon-21km",
+    "nom": "Sahara Marathon - 21 km",
+    "description": "Le Sahara Marathon est une course internationale unique organisée au cœur du désert saharien. Elle propose plusieurs formats de course, offrant aux participants une expérience sportive et humaine exceptionnelle dans un environnement désertique emblématique.",
+    "date": "2027-03-16T08:00:00+01:00",
+    "type": [
+      1,
+      3,
+      11
+    ],
+    "distance": 21,
+    "wilaya": 37,
+    "commune": "Smara",
+    "pays": "Algerie",
+    "organisateur_nom": "Sahara marathon",
+    "contact_numero": "-",
+    "contact_email": "mdurli@gmail.com",
+    "site_web": "https://www.saharamarathon.org/en",
+    "prix_inscription": "-",
+    "inscription_link": "https://www.saharamarathon.org/en",
+    "image": "/images/SaharMarathon.png",
+    "colors": {
+      "background_color": "#59554f",
+      "secondary_color": "#7d7973",
+      "accent_color": "#002542"
+    }
+  },
+  {
+    "id": 79,
+    "slug": "sahara-marathon-10km",
+    "nom": "Sahara Marathon - 10 km",
+    "description": "Le Sahara Marathon est une course internationale unique organisée au cœur du désert saharien. Elle propose plusieurs formats de course, offrant aux participants une expérience sportive et humaine exceptionnelle dans un environnement désertique emblématique.",
+    "date": "2027-03-16T08:00:00+01:00",
+    "type": [
+      1,
+      3,
+      11
+    ],
+    "distance": 10,
+    "wilaya": 37,
+    "commune": "Smara",
+    "pays": "Algerie",
+    "organisateur_nom": "Sahara marathon",
+    "contact_numero": "-",
+    "contact_email": "mdurli@gmail.com",
+    "site_web": "https://www.saharamarathon.org/en",
+    "prix_inscription": "-",
+    "inscription_link": "https://www.saharamarathon.org/en",
+    "image": "/images/SaharMarathon.png",
+    "colors": {
+      "background_color": "#59554f",
+      "secondary_color": "#7d7973",
+      "accent_color": "#002542"
+    }
+  },
+  {
+    "id": 80,
+    "slug": "sahara-marathon-5km",
+    "nom": "Sahara Marathon - 5 km",
+    "description": "Le Sahara Marathon est une course internationale unique organisée au cœur du désert saharien. Elle propose plusieurs formats de course, offrant aux participants une expérience sportive et humaine exceptionnelle dans un environnement désertique emblématique.",
+    "date": "2027-03-16T08:00:00+01:00",
+    "type": [
+      1,
+      3,
+      11
+    ],
+    "distance": 5,
+    "wilaya": 37,
+    "commune": "Smara",
+    "pays": "Algerie",
+    "organisateur_nom": "Sahara marathon",
+    "contact_numero": "-",
+    "contact_email": "mdurli@gmail.com",
+    "site_web": "https://www.saharamarathon.org/en",
+    "prix_inscription": "-",
+    "inscription_link": "https://www.saharamarathon.org/en",
+    "image": "/images/SaharMarathon.png",
+    "colors": {
+      "background_color": "#59554f",
+      "secondary_color": "#7d7973",
+      "accent_color": "#002542"
+    }
   }
-},
-{
-  "id": 76,
-  "slug": "kastal-trail",
-  "nom": "Kastal trail",
-  "description": "Le Kastal Trail est un événement sportif de premier plan dédié au trail running (course à pied en pleine nature), qui se déroule au cœur des somptueux paysages montagneux de Chréa, dans la wilaya de Blida (Algérie).",
-  "date": "2027-04-03T08:00:00+01:00",
-  "type": [
-    1,
-    11,
-    13,
-    23
-  ],
-  "distance": "42km",
-  "denivele_plus": 1800,
-  "wilaya": 9,
-  "commune": "chrea",
-  "pays": "Algerie",
-  "organisateur_nom": "Blida Athletics League",
-  "contact_numero": "-",
-  "contact_email": "l.a.blida1989@gmail.com",
-  "site_web": "https://sites.google.com/view/kastaltrail",
-  "prix_inscription": "-",
-  "inscription_link": "https://sites.google.com/view/kastaltrail",
-  "image": "/images/Katal-trail.png",
-  "colors": {
-    "background_color": "#51522a",
-    "secondary_color": "#75764e",
-    "accent_color": "#010001"
-  }
-},
-{
-  "id": 77,
-  "slug": "sahara-marathon",
-  "nom": "Sahara Marathon",
-  "description": "Le Sahara Marathon est une course internationale unique organisée au cœur du désert saharien. Elle propose plusieurs formats de course, offrant aux participants une expérience sportive et humaine exceptionnelle dans un environnement désertique emblématique.",
-  "date": "2027-03-16T08:00:00+01:00",
-  "type": [
-    1,
-    3,
-    11
-  ],
-  "distance": 42,
-  "wilaya": 37,
-  "commune": "Smara",
-  "pays": "Algerie",
-  "organisateur_nom": "Sahara marathon",
-  "contact_numero": "-",
-  "contact_email": "mdurli@gmail.com",
-  "site_web": "https://www.saharamarathon.org/en",
-  "prix_inscription": "-",
-  "inscription_link": "https://www.saharamarathon.org/en",
-  "image": "/images/SaharMarathon.png",
-  "colors": {
-    "background_color": "#59554f",
-    "secondary_color": "#7d7973",
-    "accent_color": "#002542"
-  }
-},
-{
-  "id": 78,
-  "slug": "sahara-marathon",
-  "nom": "Sahara Marathon",
-  "description": "Le Sahara Marathon est une course internationale unique organisée au cœur du désert saharien. Elle propose plusieurs formats de course, offrant aux participants une expérience sportive et humaine exceptionnelle dans un environnement désertique emblématique.",
-  "date": "2027-03-16T08:00:00+01:00",
-  "type": [
-    1,
-    3,
-    11
-  ],
-  "distance": 21,
-  "wilaya": 37,
-  "commune": "Smara",
-  "pays": "Algerie",
-  "organisateur_nom": "Sahara marathon",
-  "contact_numero": "-",
-  "contact_email": "mdurli@gmail.com",
-  "site_web": "https://www.saharamarathon.org/en",
-  "prix_inscription": "-",
-  "inscription_link": "https://www.saharamarathon.org/en",
-  "image": "/images/SaharMarathon.png",
-  "colors": {
-    "background_color": "#59554f",
-    "secondary_color": "#7d7973",
-    "accent_color": "#002542"
-  }
-},
-{
-  "id": 79,
-  "slug": "sahara-marathon",
-  "nom": "Sahara Marathon",
-  "description": "Le Sahara Marathon est une course internationale unique organisée au cœur du désert saharien. Elle propose plusieurs formats de course, offrant aux participants une expérience sportive et humaine exceptionnelle dans un environnement désertique emblématique.",
-  "date": "2027-03-16T08:00:00+01:00",
-  "type": [
-    1,
-    3,
-    11
-  ],
-  "distance": 10,
-  "wilaya": 37,
-  "commune": "Smara",
-  "pays": "Algerie",
-  "organisateur_nom": "Sahara marathon",
-  "contact_numero": "-",
-  "contact_email": "mdurli@gmail.com",
-  "site_web": "https://www.saharamarathon.org/en",
-  "prix_inscription": "-",
-  "inscription_link": "https://www.saharamarathon.org/en",
-  "image": "/images/SaharMarathon.png",
-  "colors": {
-    "background_color": "#59554f",
-    "secondary_color": "#7d7973",
-    "accent_color": "#002542"
-  }
-},
-{
-  "id": 80,
-  "slug": "sahara-marathon",
-  "nom": "Sahara Marathon",
-  "description": "Le Sahara Marathon est une course internationale unique organisée au cœur du désert saharien. Elle propose plusieurs formats de course, offrant aux participants une expérience sportive et humaine exceptionnelle dans un environnement désertique emblématique.",
-  "date": "2027-03-16T08:00:00+01:00",
-  "type": [
-    1,
-    3,
-    11
-  ],
-  "distance": 5,
-  "wilaya": 37,
-  "commune": "Smara",
-  "pays": "Algerie",
-  "organisateur_nom": "Sahara marathon",
-  "contact_numero": "-",
-  "contact_email": "mdurli@gmail.com",
-  "site_web": "https://www.saharamarathon.org/en",
-  "prix_inscription": "-",
-  "inscription_link": "https://www.saharamarathon.org/en",
-  "image": "/images/SaharMarathon.png",
-  "colors": {
-    "background_color": "#59554f",
-    "secondary_color": "#7d7973",
-    "accent_color": "#002542"
-  }
-}
-}
 ]
+
