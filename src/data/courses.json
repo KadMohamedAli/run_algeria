@@ -2533,10 +2533,6 @@
     },
     "prix_gagnants": {}
   },
-Voici le JSON complet avec `-15km`, `-42km`, etc. ajoutés au **nom et au slug** :
-
-```json
-[
   {
     "id": 75,
     "slug": "kastal-trail-15km",
