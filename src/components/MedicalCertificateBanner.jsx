@@ -22,10 +22,12 @@ export default function MedicalCertificateBanner() {
           Il vous manque un certificat médical ?
         </h2>
         <p className="mt-0.5 text-xs leading-relaxed text-slate-200 sm:mt-1 sm:text-sm">
-          <span className="sm:hidden">Médecin du sport assermenté.</span>
+          <span className="sm:hidden">
+            Médecin du sport assermenté, priorité et tarif réduit.
+          </span>
           <span className="hidden sm:inline">
-            Préparez votre prochaine course avec notre médecin du sport
-            assermenté.
+            Nous collaborons avec un médecin du sport assermenté : priorité et
+            réduction sur la consultation du certificat d&apos;aptitude.
           </span>
         </p>
         <a
