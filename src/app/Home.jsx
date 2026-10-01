@@ -3,6 +3,7 @@ import coursesData from "@/data/loadCourses"; // ✅ now uses correct dataset
 import CourseCard from "../components/CourseCard";
 import FilterBar from "../components/FilterBar";
 import ActiveFilters from "@/components/ui/ActiveFilters";
+import MedicalCertificateBanner from "@/components/MedicalCertificateBanner";
 import { useFilters } from "@/hooks/useFilters"; // adjust path
 import { filterCourses, sortCourses } from "@/utils/CourseUtils";
 import { useMemo } from "react";
@@ -19,6 +20,8 @@ export default function HomeContent() {
     <div className="p-4 md:p-8">
       <FilterBar filters={filters} setFilters={setFilters} />
       <ActiveFilters filters={filters} setFilters={setFilters} />
+
+      <MedicalCertificateBanner />
 
       {/* Result Counter */}
       <div className="mt-6 mb-4">
