@@ -3438,5 +3438,33 @@
       "secondary_color": "#7d7973",
       "accent_color": "#002542"
     }
+  },
+  {
+  "id": 81,
+  "slug": "big-pink-run-5km",
+  "nom": "Big Pink Run - 5 km",
+  "description": "Le Big Pink Run arrive aux Sablettes ! Une course de 5 km organisée à l'occasion d'Octobre Rose pour sensibiliser à la prévention et à la santé des femmes. Un événement ouvert à tous, entre amis, en famille ou en équipe, pour bouger ensemble et faire partie du mouvement.",
+  "date": "2026-10-10T08:00:00+01:00",
+  "type": [
+    1,
+    3,
+    11
+  ],
+  "distance": 5,
+  "wilaya": 16,
+  "commune": "Alger",
+  "pays": "Algerie",
+  "organisateur_nom": "Spart Run Club",
+  "contact_numero": "-",
+  "contact_email": "-",
+  "site_web": "https://spart-dz.com/",
+  "prix_inscription": "-",
+  "inscription_link": "https://spart-dz.com/app",
+  "image": "/images/BigPinkRun.png",
+  "colors": {
+    "background_color": "#e8a0b5",
+    "secondary_color": "#f4c6d3",
+    "accent_color": "#c2185b"
   }
+}
 ]
