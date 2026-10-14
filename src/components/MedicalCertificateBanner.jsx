@@ -34,6 +34,7 @@ export default function MedicalCertificateBanner() {
           href={DOCTOR_MAPS_URL}
           target="_blank"
           rel="noopener noreferrer"
+          data-umami-event="clic_medecin"
           aria-label="Voir l’adresse du cabinet sur Google Maps (nouvel onglet)"
           className="inline-flex min-h-11 items-center rounded-sm text-sm font-medium text-orange-300 underline decoration-orange-300/50 underline-offset-4 transition-colors hover:text-orange-200 hover:decoration-orange-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-orange-300 sm:mt-1 sm:min-h-0 sm:py-1"
         >
