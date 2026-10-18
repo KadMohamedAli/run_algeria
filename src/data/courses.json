@@ -2733,5 +2733,34 @@
       "accent_color": "#700031"
     },
     "prix_gagnants": {}
+  },
+  {
+    "id": 81,
+    "slug": "Pink-Run-Oran-3.5km-2026",
+    "nom": "Pink Run Oran - 3.5km 2026",
+    "description": "Le jeudi 22 octobre, on se retrouve pour 3,5 KM de course et de solidarité à l’occasion d’Octobre Rose.\nEn collaboration avec la Wilaya d’Oran, la Direction de la Santé et de la Population, la Ligue d’Athlétisme, la Direction de la Jeunesse et des Sports.\nQue tu sois runner ou que tu aies simplement envie de courir pour une belle cause, cette course est pour toi !\nOn court pour nos mamans, nos sœurs, nos amies… et pour rappeler que la prévention et le dépistage précoce peuvent sauver des vies. 💗",
+    "date": "2026-10-22T08:00:00+01:00",
+    "type": [
+      0,
+      17
+    ],
+    "distance": 3.5,
+    "wilaya": 31,
+    "commune": "Esplanade du Méridien – CCO",
+    "pays": "Algérie",
+    "organisateur_nom": "Pink moove dz x spart dz",
+    "contact_numero": "",
+    "contact_email": "",
+    "site_web": "",
+    "image": "/images/PinkRunOran.png",
+    "prix_inscription": 0,
+    "inscription_link": "https://form.typeform.com/to/P1VYIxfx?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcFpZA85MzY2MTk3NDMzOTI0NTkAAaeHlVr95eBV98O-87oAwQqCAEj5-V59fvyrHkQ6BEVq_CcVnX4TjdmDhdhkgw_aem_H-K7OyoWNg0rPNIOUnXa2A&typeform-source=l.instagram.com",
+    "conditions": [],
+    "colors": {
+      "background_color": "#FF0055",
+      "secondary_color": "",
+      "accent_color": "#700031"
+    },
+    "prix_gagnants": {}
   }
 ]
