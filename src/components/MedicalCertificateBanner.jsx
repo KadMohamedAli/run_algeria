@@ -10,7 +10,7 @@ export default function MedicalCertificateBanner() {
       rel="noopener noreferrer"
       aria-labelledby="medical-certificate-title"
       aria-label="Voir l’adresse du cabinet sur Google Maps (nouvel onglet)"
-      data-umami-event="clic_voir_medecin"
+      data-umami-event="clic_medecin"
       className="my-2 flex w-full max-w-2xl items-start gap-2 rounded-lg border border-slate-600/70 border-l-3 border-l-orange-400 bg-slate-700/60 px-3 py-2 not-italic no-underline hover:bg-slate-700/80 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-orange-300 sm:my-5 sm:gap-3 sm:px-4 sm:py-3"
     >
       <Stethoscope

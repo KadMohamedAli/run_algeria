@@ -2497,7 +2497,7 @@
     "contact_email": "",
     "site_web": "",
     "image": "/images/10k_rose_alger.png",
-    "prix_inscription": 0,
+    "prix_inscription": 1500,
     "inscription_link": "https://docs.google.com/forms/d/e/1FAIpQLSeTkBvnW8vvpD-_3cqm71tFVrPs3f1QU2fyhbqJCx4t4ly1Gg/viewform?pli=1",
     "conditions": [
       "Course réservée exclusivement aux femmes",
@@ -2510,7 +2510,7 @@
     },
     "prix_gagnants": {}
   },
-   {
+  {
     "id": 74,
     "slug": "Semi-Marathon-Ifrane-2026",
     "nom": "Semi-Marathon d'Ifrane",

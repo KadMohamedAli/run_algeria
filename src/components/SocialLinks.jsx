@@ -21,7 +21,7 @@ const SOCIALS = [
   },
   {
     name: "Facebook",
-    href: "https://www.facebook.com/profile.php?id=61594237554121",
+    href: "https://www.facebook.com/profile.php?id=61594226904569",
     Icon: Facebook,
   },
   {
